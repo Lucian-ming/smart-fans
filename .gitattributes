@@ -1,0 +1,20 @@
+# 文本文件统一 LF，二进制文件不做换行转换
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.7z binary
+*.stl binary
+*.step binary
+*.stp binary
+*.FCStd binary
+*.f3d binary
+*.kicad_pcb text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_pro text eol=lf
+*.kicad_mod text eol=lf
+*.kicad_sym text eol=lf

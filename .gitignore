@@ -1,0 +1,61 @@
+# ---------- OS / 编辑器 ----------
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+.idea/
+.vscode/
+*.code-workspace
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# ---------- Node ----------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ---------- PlatformIO ----------
+.pio/
+.pioenvs/
+.piolibdeps/
+*.pio
+
+# ---------- KiCad ----------
+*.kicad_prl
+*-backups/
+*.bak
+*.lck
+_autosave-*
+fp-info-cache
+*.gbrjob
+# 说明：Gerber / BOM / 坐标文件属于交付物，需提交到 hardware/fabrication/
+
+# ---------- 机械 ----------
+*.gcode
+*.bgcode
+*.FCStd1
+*.3mf.bak
+# 说明：STL 与 STEP 体积可控，且是交付物，正常提交
+
+# ---------- 参考例程（只提交源码与配置） ----------
+references/**/build/
+references/**/Build/
+references/**/Debug/
+references/**/Release/
+references/**/Objects/
+references/**/*.o
+references/**/*.axf
+references/**/*.elf
+references/**/*.map
+references/**/.pio/
+references/**/node_modules/
+
+# ---------- 日志 / 临时 ----------
+*.log
+tmp/
+out/
