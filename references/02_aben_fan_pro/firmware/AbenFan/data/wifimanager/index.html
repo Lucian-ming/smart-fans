@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wifi Manager</title>
+        <style>
+            body {
+                background: #333;
+                font-family: sans-serif;
+                font-size: 14px;
+                color: #777;
+            }
+            #form {
+                background: #fff;
+                max-width: 320px;
+                margin: 75px auto;
+                padding: 30px;
+                border-radius: 5px;
+                text-align: center;
+            }
+            #form input {
+                width: 260px;
+                height: 44px;
+                border-radius: 4px;
+                margin: 10px auto;
+                font-size: 15px;
+                padding: 0 15px;
+            }
+            input {
+                background: #f1f1f1;
+                border: 0;
+            }
+            #form .btn {
+                width: 290px;
+                background: #333;
+                color: #fff;
+                cursor: pointer;
+            }
+
+            #form .reset {
+                background: #900;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="form">
+            <form>
+                <input type="text" name="ssid" id="ssid" placeholder="SSID" />
+                <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Password"
+                    autocomplete
+                />
+                <input
+                    type="button"
+                    class="btn"
+                    onclick="savePassword();"
+                    value="Save"
+                />
+                <input
+                    type="reset"
+                    class="btn reset"
+                    onclick="clearPassword();"
+                    value="Clear"
+                />
+            </form>
+        </div>
+        <script>
+            function savePassword() {
+                var xhr = new XMLHttpRequest()
+                var ssid = document.getElementById('ssid').value
+                var password = document.getElementById('password').value
+                var data = JSON.stringify({ ssid, password })
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        alert('Successfully saved. Please restart the device.')
+                    }
+                    if (xhr.readyState === 4 && xhr.status !== 200) {
+                        alert('Failed!')
+                    }
+                }
+                xhr.open('POST', '/save', true)
+                xhr.setRequestHeader('Content-Type', 'application/json')
+                xhr.send(data)
+            }
+
+            function clearPassword() {
+                var xhr = new XMLHttpRequest()
+                var ssid = document.getElementById('ssid').value
+                var password = document.getElementById('password').value
+                var data = JSON.stringify({ ssid, password })
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        alert(
+                            'Successfully cleared. Please restart the device.'
+                        )
+                    }
+                    if (xhr.readyState === 4 && xhr.status !== 200) {
+                        alert('Failed!')
+                    }
+                }
+                xhr.open('POST', '/clear', true)
+                xhr.setRequestHeader('Content-Type', 'application/json')
+                xhr.send(data)
+            }
+        </script>
+    </body>
+</html>
