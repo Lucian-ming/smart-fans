@@ -1,0 +1,195 @@
+{
+    "limits_mm": {
+        "copper_edge": 0.25,
+        "drill_web": 0.25,
+        "mask_bridge": 0.1,
+        "silk_clearance": 0.1
+    },
+    "failures": [
+        "GTL_copper_edge",
+        "GBL_copper_edge",
+        "drill_web",
+        "GTS_mask_bridge",
+        "GBS_mask_bridge",
+        "silk_mask_clearance"
+    ],
+    "file_sha256": {
+        "D:\\smart_fans\\hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GKO": "be9c68ff43a9a51f760ef78b243e4cd249474053850a9085e984ba4a65ccd163",
+        "D:\\smart_fans\\hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GTL": "4d32c3c350253e2fee17959e8ea706b6b05af052588e96a4db18c6c89f14e832",
+        "D:\\smart_fans\\hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GBL": "90a34024835e72404b992e2ff2d668032570954bc7d42890635c48034cd7e6b0",
+        "D:\\smart_fans\\hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GTS": "7497fea014e2aa5cce924dd9219b8471b2d6722bd5693b02cbf735c16d129604",
+        "D:\\smart_fans\\hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GBS": "d50cd760d33a6f20110793e9c81e7901c7365b7fe1eb84865a77cc6b458a5255",
+        "D:\\smart_fans\\hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GTO": "f609420c853abac329c35f0087ae928b79885086094abd88794cd50ab72f33a9",
+        "D:\\smart_fans\\hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.DRL": "a31f1dc535d9dedbcd37ec3795115d65b70cda3517e1fd7ee5e9603f8115154a"
+    },
+    "notes": [
+        "Ideal geometry only, not drill registration/plating tolerance guarantee.",
+        "All drill pairs checked regardless of electrical net.",
+        "Merged same-net mask openings are reported as failed bridges pending explicit process waiver; not proof of an electrical short.",
+        "Gerber drill slots/arcs unsupported: fail closed rather than silently skip.",
+        "Board contour from actual GKO centerline, not stroke outer bounds."
+    ],
+    "GTL": {
+        "min_board_edge_mm": 0.17157250035104565,
+        "outside_area_mm2": 0.0,
+        "object_count": 1198
+    },
+    "GBL": {
+        "min_board_edge_mm": 0.17157250035104565,
+        "outside_area_mm2": 0.0,
+        "object_count": 1169
+    },
+    "drill": {
+        "hit_count": 184,
+        "pair_count": 16836,
+        "minimum": {
+            "a": {
+                "index": 9,
+                "x": 137.2,
+                "y": 123.9,
+                "diameter": 0.3
+            },
+            "b": {
+                "index": 19,
+                "x": 137.3,
+                "y": 124.0,
+                "diameter": 0.3
+            },
+            "edge_gap_mm": -0.15857864376267844
+        },
+        "violations": [
+            {
+                "a": {
+                    "index": 9,
+                    "x": 137.2,
+                    "y": 123.9,
+                    "diameter": 0.3
+                },
+                "b": {
+                    "index": 19,
+                    "x": 137.3,
+                    "y": 124.0,
+                    "diameter": 0.3
+                },
+                "edge_gap_mm": -0.15857864376267844
+            }
+        ]
+    },
+    "GTS": {
+        "opening_count": 234,
+        "min_bridge_mm": 0.0,
+        "violations": [
+            {
+                "a_index": 32,
+                "b_index": 172,
+                "a_xy": [
+                    170.85,
+                    109.5
+                ],
+                "b_xy": [
+                    170.3,
+                    109.4
+                ],
+                "gap_mm": 0.0,
+                "overlap_mm2": 0.19242134259750399
+            },
+            {
+                "a_index": 55,
+                "b_index": 223,
+                "a_xy": [
+                    133.15,
+                    115.0
+                ],
+                "b_xy": [
+                    133.6,
+                    115.7
+                ],
+                "gap_mm": 0.0,
+                "overlap_mm2": 0.11948583552532747
+            },
+            {
+                "a_index": 77,
+                "b_index": 201,
+                "a_xy": [
+                    103.15,
+                    134.73
+                ],
+                "b_xy": [
+                    103.6,
+                    134.7
+                ],
+                "gap_mm": 0.0,
+                "overlap_mm2": 0.26145672341296533
+            },
+            {
+                "a_index": 178,
+                "b_index": 183,
+                "a_xy": [
+                    136.8,
+                    108.0
+                ],
+                "b_xy": [
+                    137.2,
+                    107.6
+                ],
+                "gap_mm": 0.0,
+                "overlap_mm2": 0.037690679003950664
+            },
+            {
+                "a_index": 179,
+                "b_index": 189,
+                "a_xy": [
+                    137.2,
+                    123.9
+                ],
+                "b_xy": [
+                    137.3,
+                    124.0
+                ],
+                "gap_mm": 0.0,
+                "overlap_mm2": 0.28652566714915007
+            }
+        ]
+    },
+    "GBS": {
+        "opening_count": 184,
+        "min_bridge_mm": 0.0,
+        "violations": [
+            {
+                "a_index": 128,
+                "b_index": 133,
+                "a_xy": [
+                    136.8,
+                    108.0
+                ],
+                "b_xy": [
+                    137.2,
+                    107.6
+                ],
+                "gap_mm": 0.0,
+                "overlap_mm2": 0.037690679003950664
+            },
+            {
+                "a_index": 129,
+                "b_index": 139,
+                "a_xy": [
+                    137.2,
+                    123.9
+                ],
+                "b_xy": [
+                    137.3,
+                    124.0
+                ],
+                "gap_mm": 0.0,
+                "overlap_mm2": 0.28652566714915007
+            }
+        ]
+    },
+    "GTO": {
+        "overlap_mask_mm2": 7.82716729677695,
+        "objects_on_mask": 484,
+        "objects_within_clearance": 632,
+        "min_mask_distance_mm": 0.0
+    },
+    "passed": false
+}

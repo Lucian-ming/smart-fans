@@ -1,0 +1,18 @@
+{
+  "passed": false,
+  "geometry_interpretation_pass": false,
+  "failures": [
+    "ambiguous_geometry"
+  ],
+  "errors": [
+    {
+      "kind": "unsupported_or_ambiguous_geometry",
+      "source": "PCB F.Cu filled_polygon[0]",
+      "reason": "Invalid/weakly-simple contour; fill semantics not inferred: Ring Self-intersection[194 182.5]",
+      "raw_signed_area_mm2": 4903.171102759996,
+      "vertex_count": 5563,
+      "contour_sha256": "a29ab85dcda60f11355052714ae66a640f3929141fd7851c6a0f10f0e6192518"
+    }
+  ],
+  "note": "No buffer(0), make_valid, or guessed winding repair was applied; this rejection is not by itself proof of an electrical short."
+}

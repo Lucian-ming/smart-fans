@@ -1,0 +1,45 @@
+﻿序号,位号,数量,规格,封装,立创编号,型号,厂商,说明
+1,BZ1,1,5V_BUZZER,Buzzer_Beeper:Buzzer_12x9.5RM7.6,C96093,TMB12A05,Huaneng,5V 有源提示蜂鸣器
+2,C1,1,100uF/25V,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,C134665,RZW101M1EBK-0611,Lelon,受保护5V储能电解
+3,C2,1,100nF,Capacitor_SMD:C_0805_2012Metric,C49678,0805B104K500NT,FH,受保护5V 高频去耦电容
+4,C3,1,220uF/16V,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,C338177,16ZLH220MEFC6.3X11,Rubycon,5V 输出滤波电解
+5,C4,1,100nF,Capacitor_SMD:C_0805_2012Metric,C49678,0805B104K500NT,FH,5V 输出高频去耦
+6,C5,1,10uF,Capacitor_SMD:C_0805_2012Metric,C15849,0805B106K160NT,FH,3.3V 输入去耦 (直连5V)
+7,C6,1,10uF,Capacitor_SMD:C_0805_2012Metric,C15849,0805B106K160NT,FH,3.3V 输出滤波
+8,C7,1,100nF,Capacitor_SMD:C_0805_2012Metric,C49678,0805B104K500NT,FH,3.3V 输出高频去耦
+9,C_VM,1,220uF/16V,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,C338177,16ZLH220MEFC6.3X11,Rubycon,TB6612 VM电机就近储能电解
+10,C_VM_MLCC,1,100nF,Capacitor_SMD:C_0805_2012Metric,C49678,0805B104K500NT,FH,TB6612 VM就近去耦
+11,D3,1,1N4148W,SmartFan:D_SOD-123_R180,C81598,1N4148W,ST,蜂鸣器反向钳位二极管
+12,D4,1,LED_GREEN,LED_SMD:LED_0805_2012Metric,C2292,KT-0805YG,KENTO,5V 供电指示灯
+13,D5,1,LED_BLUE,LED_SMD:LED_0805_2012Metric,C2293,KT-0805B,KENTO,3.3V 逻辑指示灯
+14,DC1,1,"5V_ONLY_MKDSN_1,5/2-5.08",SmartFan:Phoenix_1729128_MKDSN_1x02_P5.08mm,,1729128,Phoenix Contact,"唯一稳压5V输入; 1=+5V 2=GND; 禁接12V; 1729128 MKDSN 1,5/2-5,08; 壳10.16x8.15板上高10mm; 壳相对针排偏置待核; 库存未核"
+15,F1,1,3A_FAST_NOT_CURRENT_LIMIT,Fuse:Fuse_Littelfuse-NANO2-451_453,,0451003.MRL,Littelfuse,3A快断保险; 不是3A硬限流; 整板连续目标<=2A须热测/启动I2t验证; 库存未核
+16,JP_ASR,1,REMOVE_BEFORE_ASR_USB,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,M20-9990245 + M7566-05,Harwin,ASR供电隔离跳帽; USB前与TX/RX三帽一起拔掉; 非自动电源隔离
+17,JP_ASR_RX,1,REMOVE_BEFORE_ASR_USB,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,M20-9990245 + M7566-05,Harwin,ASR TX1(PA2)到MCU RX隔离; USB前拔帽
+18,JP_ASR_TX,1,REMOVE_BEFORE_ASR_USB,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,M20-9990245 + M7566-05,Harwin,MCU TX到ASR RX1(PA3)隔离; USB前拔帽
+19,JP_USB,1,REMOVE_BEFORE_USB,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,M20-9990245 + M7566-05,Harwin,2.54跳帽供蓝板; 任何USB插入前必须拔帽; USB不能供母板; 两边电源独立开启后才接信号; 不允许单侧带电
+20,J_DHT11,1,DHT11_SOCK,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,C2718487,2.54-1*3P母,BOOMELE,DHT11 温湿度传感器母座
+21,J_ENC,1,EC11_ENCODER_2P_3P,SmartFan:EC11_Module_2P_3P_Row21mm,,2.54-1x2P + 1x3P female sockets,Generic,"用户实测2+3编码器: 上1=3V3/2=GND, 下3=A/4=C(GND)/5=B; 组距21mm; 无SW"
+22,J_GESTURE,1,PAJ7620_GEST,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,C50950,2.54-1*5P母,BOOMELE,PAJ7620 手势识别母座
+23,J_KEY1,1,KEY1_POWER,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,C2718487,2.54-1*3P母,BOOMELE,按键1【电源开关】直插母座
+24,J_KEY2,1,KEY2_SWING,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,C2718487,2.54-1*3P母,BOOMELE,按键2【摇头模式】直插母座
+25,J_MCU_L,1,BLUEPILL_L,Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical,C50984,2.54-1*20P母,BOOMELE,"STM32 核心板P4左排母 (本地PcbDoc/PDF核验; 1=3V3隔离, 2=GND, 3=5V; pin20端朝低Y)"
+26,J_MCU_R,1,BLUEPILL_R,Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical,C50984,2.54-1*20P母,BOOMELE,"STM32 核心板P3右排母 (本地PcbDoc/PDF核验; 1=VBAT, 18=3V3隔离, 19/20=GND; pin20端朝低Y)"
+27,J_OLED,1,OLED_12864,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical,C2718488,2.54-1*4P母,BOOMELE,OLED安装要求:屏体朝-Y; 顶视左到右SDA/SCL/VCC/GND; 实物核序前禁止上电
+28,J_TB_L,1,TB6612_CTRL,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,C27438,2.54-1*8P母,BOOMELE,TB6612 控制排母
+29,J_TB_R,1,TB6612_PWR,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,C27438,2.54-1*8P母,BOOMELE,TB6612 动力排母
+30,J_VOICE_L,1,ASR_PRO_L_8P,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,,1x08 female P2.54 (verify procurement),TBD,ASR左8P母座; 顶=GND; 用户确认排距25.40; UART1固件必配; 料号待采购核验
+31,J_VOICE_R,1,ASR_PRO_R_8P,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,,1x08 female P2.54 (verify procurement),TBD,ASR右8P母座; 顶=PA4/底=SPK+; 3V3输出隔离; 料号待采购核验
+32,MOTO1,1,130_MOTOR,SmartFan:ZHOURI_XH-2PA_P2.50mm_Y,C5258883,XH-2PA,ZHOURI,直流电机接口 XH-2PA P2.50; 1.0mm孔为设计选取非厂家推荐; 针0.6+/-0.02mm
+33,Q1,1,2N3904-TA(RANGE:200-300),SmartFan:TO-92_EBC_Wide_P2.54mm_Y_LeadFormed,C2081,2N3904-TA(RANGE:200-300),JSCJ,NPN蜂鸣器驱动; 1=E 2=B 3=C; 宽脚成形P2.54mm非原厂直脚间距; 安装前核成形与方向
+34,Q_PWR,1,AO4409_REVERSE_POLARITY,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,,AO4409,Alpha & Omega Semiconductor,P-MOS反接保护: D=熔断后输入 S=5V负载 G=GND; 不隔离反向供电; 库存未核
+35,R1,1,1k,Resistor_SMD:R_0805_2012Metric,C17513,0805W8F1001T5E,UNI-ROYAL,5V LED 限流电阻
+36,R10,1,1k,Resistor_SMD:R_0805_2012Metric,C17513,0805W8F1001T5E,UNI-ROYAL,蜂鸣器基极限流电阻
+37,R2,1,1k,Resistor_SMD:R_0805_2012Metric,C17513,0805W8F1001T5E,UNI-ROYAL,3.3V LED 限流电阻
+38,R_DHT,1,4.7k,Resistor_SMD:R_0805_2012Metric,C17673,0805W8F4701T5E,UNI-ROYAL,DHT11 单总线上拉电阻
+39,R_SCL,1,4.7k,Resistor_SMD:R_0805_2012Metric,C17673,0805W8F4701T5E,UNI-ROYAL,I2C1 SCL 上拉电阻
+40,R_SDA,1,4.7k,Resistor_SMD:R_0805_2012Metric,C17673,0805W8F4701T5E,UNI-ROYAL,I2C1 SDA 上拉电阻
+41,R_STBY,1,10k,Resistor_SMD:R_0805_2012Metric,C17414,0805W8F1002T5E,UNI-ROYAL,TB6612 STBY下拉电阻
+42,SERVO1,1,MG90S_SERVO,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,C2718487,2.54-1*3P弯针,BOOMELE,"MG90S 舵机插针 (GND, 5V, PWM)"
+43,SPK1,1,SPEAKER,SmartFan:ZHOURI_XH-2PA_P2.50mm_Y,C5258883,XH-2PA,ZHOURI,喇叭接口 XH-2PA P2.50; 1.0mm孔为设计选取非厂家推荐; 针0.6+/-0.02mm
+44,U3,1,AMS1117-3.3,SmartFan:SOT-223-3_TabPin2_R90,C6186,AMS1117-3.3,Advanced Monolithic Systems,3.3V 稳压芯片 (1A)

@@ -1,0 +1,1616 @@
+{
+  "passed": false,
+  "errors": [
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C_VM.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C_VM.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C1.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C1.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "R_SDA.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "R_SDA.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "H4.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "DC1.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "DC1.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.3",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.4",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.5",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.6",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.7",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.8",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.9",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.10",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.11",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.12",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.13",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.14",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.15",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.16",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.17",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.18",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.19",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_R.20",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "R10.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "R10.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "JP_USB.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "JP_USB.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "U3.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "U3.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "U3.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "U3.3",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_KEY1.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_KEY1.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_KEY1.3",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C5.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C5.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_ENC.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_ENC.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_ENC.3",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_ENC.4",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_ENC.5",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "JP_ASR.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "JP_ASR.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "Q1.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "Q1.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "Q1.3",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C3.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C3.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "JP_ASR_RX.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "JP_ASR_RX.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C_VM_MLCC.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C_VM_MLCC.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "D4.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "D4.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "BZ1.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "BZ1.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "R_DHT.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "R_DHT.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "D3.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "D3.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.3",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.4",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.5",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.6",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.7",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.8",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.9",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.10",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.11",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.12",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.13",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.14",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.15",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.16",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.17",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.18",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.19",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_MCU_L.20",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C4.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C4.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "R_SCL.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "R_SCL.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_KEY2.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_KEY2.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_KEY2.3",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "F1.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "F1.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C6.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C6.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "SPK1.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "SPK1.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "R2.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "R2.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "MOTO1.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "MOTO1.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "R1.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "R1.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "D5.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "D5.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_VOICE_R.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_VOICE_R.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_VOICE_R.3",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_VOICE_R.4",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_VOICE_R.5",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_VOICE_R.6",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_VOICE_R.7",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_VOICE_R.8",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "H3.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C2.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C2.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_TB_R.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_TB_R.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_TB_R.3",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_TB_R.4",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_TB_R.5",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_TB_R.6",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_TB_R.7",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_TB_R.8",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "H1.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_OLED.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_OLED.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_OLED.3",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_OLED.4",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "H2.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_DHT11.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_DHT11.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_DHT11.3",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "SERVO1.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "SERVO1.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "SERVO1.3",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "R_STBY.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "R_STBY.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "Q_PWR.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "Q_PWR.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "Q_PWR.3",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "Q_PWR.4",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "Q_PWR.5",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "Q_PWR.6",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "Q_PWR.7",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "Q_PWR.8",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "JP_ASR_TX.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "JP_ASR_TX.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_TB_L.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_TB_L.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_TB_L.3",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_TB_L.4",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_TB_L.5",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_TB_L.6",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_TB_L.7",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_TB_L.8",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_GESTURE.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_GESTURE.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_GESTURE.3",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_GESTURE.4",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_GESTURE.5",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C7.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "C7.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_VOICE_L.1",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_VOICE_L.2",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_VOICE_L.3",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_VOICE_L.4",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_VOICE_L.5",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_VOICE_L.6",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_VOICE_L.7",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "J_VOICE_L.8",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "pad_via_aperture_mismatch",
+      "layer": "F.Cu",
+      "owner": "via",
+      "matching": 0
+    },
+    {
+      "kind": "track_mismatch",
+      "layer": "F.Cu",
+      "missing": 1747,
+      "extra": 1747
+    },
+    {
+      "kind": "copper_board_edge",
+      "layer": "F.Cu",
+      "gap_mm": 201.0
+    }
+  ],
+  "metrics": {
+    "board_bounds_gerber": [
+      100.0,
+      -195.0,
+      195.0,
+      -100.0
+    ],
+    "F.Cu": {
+      "objects": 2011,
+      "regions": 10,
+      "min_board_edge_mm": 201.0,
+      "zone_net": "GND"
+    },
+    "B.Cu": {
+      "objects": 1192,
+      "regions": 2,
+      "min_board_edge_mm": 0.9999708710133542,
+      "zone_net": "GND"
+    },
+    "PTH": {
+      "drill_hits": 208
+    },
+    "NPTH": {
+      "drill_hits": 0
+    },
+    "min_drill_web_mm": 0.6055385138137326,
+    "F.Mask": {
+      "openings": 173,
+      "min_bridge_mm": 0.5699999999999932,
+      "silk_gap_mm": 0.1599999999999966
+    },
+    "B.Mask": {
+      "openings": 127,
+      "min_bridge_mm": 0.7017140000000097,
+      "silk_gap_mm": null
+    },
+    "F.Paste": {
+      "objects": 46,
+      "area_mm2": 75.30799999999984
+    },
+    "B.Paste": {
+      "objects": 0,
+      "area_mm2": 0.0
+    }
+  },
+  "coordinate_contract": "Gerber X=KiCad X; Gerber Y=-KiCad Y; no fitted offset/mirror",
+  "thresholds_mm": {
+    "copper_clearance": 0.25,
+    "copper_edge": 0.25,
+    "drill_web": 0.25,
+    "hole_copper": 0.25,
+    "mask_bridge": 0.1,
+    "silk_mask": 0.1,
+    "silk_edge": 0.1,
+    "numerical_tolerance": 0.003
+  },
+  "file_sha256": {
+    "artifacts\\native_pcb_review\\candidate_precision_001\\fan_ctrl_revB.kicad_pcb": "1e8d34ebfc47bd7fc0493ca261a1e2f9b1ccc19e2401f840794b15050e704b45",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\wrong_y_mirror\\fan_ctrl_revB-F_Cu.gtl": "a45aa797f4f05737c60da25cda07778fa7cd1e65dbb26d26bc6d10ce3d4903c2",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\wrong_y_mirror\\fan_ctrl_revB-B_Cu.gbl": "23aa4dcaf1eeaad7d7e0c778b33ada29478fb1cccfb26e8b7644f62b49ca4f13",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\wrong_y_mirror\\fan_ctrl_revB-F_Paste.gtp": "ad9bcd7a00417354f328455ea145a96565a7159a7d02be76794b84242522d0ce",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\wrong_y_mirror\\fan_ctrl_revB-B_Paste.gbp": "169a4683c16322d94ae2f44f0ec4e49028ae9f83fcc29d3d77fede0d05dab574",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\wrong_y_mirror\\fan_ctrl_revB-F_Mask.gts": "5507d2c4c90a1c1538100ca334456480ecd992942657a959a69c020d4eda2b39",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\wrong_y_mirror\\fan_ctrl_revB-B_Mask.gbs": "e13c75743a3554b26734c2bc75eb4313099aee21aa8b96c96b9e10e387f874d9",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\wrong_y_mirror\\fan_ctrl_revB-F_Silkscreen.gto": "bbe19501ec1ae1c5723b497b4c6844393cab02c6845da6cd57621e5c683fddfe",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\wrong_y_mirror\\fan_ctrl_revB-B_Silkscreen.gbo": "6fdc6abfd86861de775ef73b9e0b52eefa5219525b0112b55a8b1787b8bc44da",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\wrong_y_mirror\\fan_ctrl_revB-Edge_Cuts.gm1": "7490099e58c1adc49cf058ba1bdf2fdfa8b0f6b597fb27c39ccb817e296492e1",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\wrong_y_mirror\\fan_ctrl_revB-PTH.drl": "ebf1eef433feafc9871d8288408a90b4a5396ee526373a16c5e2f8bc7b47e0af",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\wrong_y_mirror\\fan_ctrl_revB-NPTH.drl": "1adb2e1b646a40cfcb468f464ba20443d8953a9ad416168daaad97fb5b9e4ead"
+  },
+  "limitations": [
+    "Supported rect/circle pads and circular drills only; unsupported geometry fails closed.",
+    "Region topology interpreted by strict Ucamco parser, no buffer(0)/make_valid.",
+    "Not a full PCB fill equivalence proof: plane-to-conductor distances checked independently; native DRC/netlist parity also required.",
+    "Nominal geometry not plating, registration, thermal or complete module fit certification."
+  ]
+}

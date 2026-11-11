@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "case": "baseline",
+      "test_passed": true,
+      "audit_passed": true,
+      "error_kinds": []
+    },
+    {
+      "case": "copper_intrusion",
+      "test_passed": true,
+      "audit_passed": false,
+      "error_kinds": [
+        "different_net_clearance",
+        "hole_copper_clearance",
+        "mask_to_foreign_copper",
+        "plane_clearance"
+      ]
+    },
+    {
+      "case": "shifted_drill",
+      "test_passed": true,
+      "audit_passed": false,
+      "error_kinds": [
+        "drill_mismatch"
+      ]
+    },
+    {
+      "case": "wrong_y_mirror",
+      "test_passed": true,
+      "audit_passed": false,
+      "error_kinds": [
+        "copper_board_edge",
+        "pad_via_aperture_mismatch",
+        "track_mismatch"
+      ]
+    }
+  ]
+}

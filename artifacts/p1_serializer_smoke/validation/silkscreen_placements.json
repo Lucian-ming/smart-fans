@@ -1,0 +1,1052 @@
+[
+  {
+    "ref": "DC1",
+    "kind": "TEXT",
+    "text": "DC1",
+    "width": 0.15,
+    "center_mm": [
+      112.46000000000001,
+      105.470515625
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -2.5294843749999956
+    ]
+  },
+  {
+    "ref": "F1",
+    "kind": "TEXT",
+    "text": "F1",
+    "width": 0.15,
+    "center_mm": [
+      123.0,
+      104.21465624999999
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -2.7853437500000098
+    ]
+  },
+  {
+    "ref": "C1",
+    "kind": "TEXT",
+    "text": "C1",
+    "width": 0.15,
+    "center_mm": [
+      129.5,
+      104.970515625
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -2.0294843749999956
+    ]
+  },
+  {
+    "ref": "C2",
+    "kind": "TEXT",
+    "text": "C2",
+    "width": 0.15,
+    "center_mm": [
+      129.5,
+      110.145515625
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -1.8544843749999984
+    ]
+  },
+  {
+    "ref": "Q_PWR",
+    "kind": "TEXT",
+    "text": "Q_PWR",
+    "width": 0.15,
+    "center_mm": [
+      136.0,
+      103.410421875
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -3.5895781250000027
+    ]
+  },
+  {
+    "ref": "JP_USB",
+    "kind": "TEXT",
+    "text": "JP_USB",
+    "width": 0.15,
+    "center_mm": [
+      147.0,
+      104.765421875
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -2.2345781249999987
+    ]
+  },
+  {
+    "ref": "C3",
+    "kind": "TEXT",
+    "text": "C3",
+    "width": 0.15,
+    "center_mm": [
+      156.5,
+      104.970515625
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -2.0294843749999956
+    ]
+  },
+  {
+    "ref": "C4",
+    "kind": "TEXT",
+    "text": "C4",
+    "width": 0.15,
+    "center_mm": [
+      156.5,
+      110.145515625
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -1.8544843749999984
+    ]
+  },
+  {
+    "ref": "U3",
+    "kind": "TEXT",
+    "text": "U3",
+    "width": 0.15,
+    "center_mm": [
+      164.0,
+      101.620515625
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -5.379484375000004
+    ]
+  },
+  {
+    "ref": "C5",
+    "kind": "TEXT",
+    "text": "C5",
+    "width": 0.15,
+    "center_mm": [
+      170.0,
+      105.145515625
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -1.8544843749999984
+    ]
+  },
+  {
+    "ref": "C6",
+    "kind": "TEXT",
+    "text": "C6",
+    "width": 0.15,
+    "center_mm": [
+      172.978265625,
+      109.5
+    ],
+    "offset_from_component_mm": [
+      2.978265625000006,
+      0.0
+    ]
+  },
+  {
+    "ref": "C7",
+    "kind": "TEXT",
+    "text": "C7",
+    "width": 0.15,
+    "center_mm": [
+      170.0,
+      113.854484375
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      1.8544843749999984
+    ]
+  },
+  {
+    "ref": "D4",
+    "kind": "TEXT",
+    "text": "D4",
+    "width": 0.15,
+    "center_mm": [
+      175.0,
+      112.66465625
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -1.835343750000007
+    ]
+  },
+  {
+    "ref": "R1",
+    "kind": "TEXT",
+    "text": "R1",
+    "width": 0.15,
+    "center_mm": [
+      179.0,
+      112.66465625
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -1.835343750000007
+    ]
+  },
+  {
+    "ref": "D5",
+    "kind": "TEXT",
+    "text": "D5",
+    "width": 0.15,
+    "center_mm": [
+      175.0,
+      119.345296875
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      1.8452968750000025
+    ]
+  },
+  {
+    "ref": "R2",
+    "kind": "TEXT",
+    "text": "R2",
+    "width": 0.15,
+    "center_mm": [
+      179.0,
+      119.34453125
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      1.8445312500000028
+    ]
+  },
+  {
+    "ref": "MOTO1",
+    "kind": "TEXT",
+    "text": "MOTO1",
+    "width": 0.15,
+    "center_mm": [
+      110.0,
+      116.17051562500001
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -3.3294843749999927
+    ]
+  },
+  {
+    "ref": "SERVO1",
+    "kind": "TEXT",
+    "text": "SERVO1",
+    "width": 0.15,
+    "center_mm": [
+      118.0,
+      114.880515625
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -4.619484374999999
+    ]
+  },
+  {
+    "ref": "BZ1",
+    "kind": "TEXT",
+    "text": "BZ1",
+    "width": 0.15,
+    "center_mm": [
+      127.5,
+      117.38965624999999
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -2.1103437500000126
+    ]
+  },
+  {
+    "ref": "Q1",
+    "kind": "TEXT",
+    "text": "Q1",
+    "width": 0.15,
+    "center_mm": [
+      136.399140625,
+      119.5
+    ],
+    "offset_from_component_mm": [
+      2.399140625000001,
+      0.0
+    ]
+  },
+  {
+    "ref": "D3",
+    "kind": "TEXT",
+    "text": "D3",
+    "width": 0.15,
+    "center_mm": [
+      134.0,
+      125.82948437499999
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      1.8294843749999927
+    ]
+  },
+  {
+    "ref": "R10",
+    "kind": "TEXT",
+    "text": "R10",
+    "width": 0.15,
+    "center_mm": [
+      134.0,
+      113.145515625
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -1.8544843749999984
+    ]
+  },
+  {
+    "ref": "J_TB_L",
+    "kind": "TEXT",
+    "text": "J_TB_L",
+    "width": 0.15,
+    "center_mm": [
+      107.88,
+      124.884609375
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -11.115390625000003
+    ]
+  },
+  {
+    "ref": "J_TB_R",
+    "kind": "TEXT",
+    "text": "J_TB_R",
+    "width": 0.15,
+    "center_mm": [
+      122.88,
+      147.115390625
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      11.115390625000003
+    ]
+  },
+  {
+    "ref": "C_VM",
+    "kind": "TEXT",
+    "text": "C_VM",
+    "width": 0.15,
+    "center_mm": [
+      128.252546875,
+      123.5
+    ],
+    "offset_from_component_mm": [
+      4.752546875000007,
+      0.0
+    ]
+  },
+  {
+    "ref": "C_VM_MLCC",
+    "kind": "TEXT",
+    "text": "C_VM_MLCC",
+    "width": 0.15,
+    "center_mm": [
+      117.0,
+      127.5
+    ],
+    "offset_from_component_mm": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "ref": "R_STBY",
+    "kind": "TEXT",
+    "text": "R_STBY",
+    "width": 0.15,
+    "center_mm": [
+      103.5,
+      133.0
+    ],
+    "offset_from_component_mm": [
+      -0.5,
+      -1.7299999999999898
+    ]
+  },
+  {
+    "ref": "J_DHT11",
+    "kind": "TEXT",
+    "text": "J_DHT11",
+    "width": 0.15,
+    "center_mm": [
+      115.5,
+      152.77460937499998
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -2.225390625000017
+    ]
+  },
+  {
+    "ref": "R_DHT",
+    "kind": "TEXT",
+    "text": "R_DHT",
+    "width": 0.15,
+    "center_mm": [
+      122.5,
+      152.99960937499998
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -2.0003906250000227
+    ]
+  },
+  {
+    "ref": "J_MCU_L",
+    "kind": "TEXT",
+    "text": "J_MCU_L",
+    "width": 0.15,
+    "center_mm": [
+      139.88,
+      113.635421875
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -26.364578124999994
+    ]
+  },
+  {
+    "ref": "J_MCU_R",
+    "kind": "TEXT",
+    "text": "J_MCU_R",
+    "width": 0.15,
+    "center_mm": [
+      155.12,
+      166.364578125
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      26.36457812500001
+    ]
+  },
+  {
+    "ref": "R_SCL",
+    "kind": "TEXT",
+    "text": "R_SCL",
+    "width": 0.15,
+    "center_mm": [
+      134.0,
+      133.00957812500002
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      2.0095781250000186
+    ]
+  },
+  {
+    "ref": "R_SDA",
+    "kind": "TEXT",
+    "text": "R_SDA",
+    "width": 0.15,
+    "center_mm": [
+      129.50175,
+      128.5
+    ],
+    "offset_from_component_mm": [
+      -4.498250000000013,
+      0.0
+    ]
+  },
+  {
+    "ref": "J_VOICE_L",
+    "kind": "TEXT",
+    "text": "J_VOICE_L",
+    "width": 0.15,
+    "center_mm": [
+      165.8,
+      132.875421875
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -11.124578125
+    ]
+  },
+  {
+    "ref": "J_VOICE_R",
+    "kind": "TEXT",
+    "text": "J_VOICE_R",
+    "width": 0.15,
+    "center_mm": [
+      185.74837499999998,
+      144.0
+    ],
+    "offset_from_component_mm": [
+      -5.451625000000007,
+      0.0
+    ]
+  },
+  {
+    "ref": "JP_ASR",
+    "kind": "TEXT",
+    "text": "JP_ASR",
+    "width": 0.15,
+    "center_mm": [
+      129.0,
+      148.565421875
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -2.234578125000013
+    ]
+  },
+  {
+    "ref": "JP_ASR_TX",
+    "kind": "TEXT",
+    "text": "JP_ASR_TX",
+    "width": 0.15,
+    "center_mm": [
+      129.0,
+      156.765421875
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -2.234578125000013
+    ]
+  },
+  {
+    "ref": "JP_ASR_RX",
+    "kind": "TEXT",
+    "text": "JP_ASR_RX",
+    "width": 0.15,
+    "center_mm": [
+      129.0,
+      164.96542187499998
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -2.234578125000013
+    ]
+  },
+  {
+    "ref": "SPK1",
+    "kind": "TEXT",
+    "text": "SPK1",
+    "width": 0.15,
+    "center_mm": [
+      190.0,
+      111.17051562500001
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -3.3294843749999927
+    ]
+  },
+  {
+    "ref": "J_OLED",
+    "kind": "TEXT",
+    "text": "J_OLED",
+    "width": 0.15,
+    "center_mm": [
+      178.5,
+      124.265421875
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -2.2345781249999987
+    ]
+  },
+  {
+    "ref": "J_GESTURE",
+    "kind": "TEXT",
+    "text": "J_GESTURE",
+    "width": 0.15,
+    "center_mm": [
+      116.0,
+      171.765421875
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -2.234578125000013
+    ]
+  },
+  {
+    "ref": "J_KEY1",
+    "kind": "TEXT",
+    "text": "J_KEY1",
+    "width": 0.15,
+    "center_mm": [
+      134.0,
+      180.27460937499998
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -2.225390625000017
+    ]
+  },
+  {
+    "ref": "J_KEY2",
+    "kind": "TEXT",
+    "text": "J_KEY2",
+    "width": 0.15,
+    "center_mm": [
+      149.5,
+      180.265421875
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -2.234578125000013
+    ]
+  },
+  {
+    "ref": "J_ENC",
+    "kind": "TEXT",
+    "text": "J_ENC",
+    "width": 0.15,
+    "center_mm": [
+      171.0,
+      159.265421875
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -23.234578125000013
+    ]
+  },
+  {
+    "ref": "H1",
+    "kind": "TEXT",
+    "text": "H1",
+    "width": 0.15,
+    "center_mm": [
+      105.0,
+      109.21034375
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      4.210343750000007
+    ]
+  },
+  {
+    "ref": "H2",
+    "kind": "TEXT",
+    "text": "H2",
+    "width": 0.15,
+    "center_mm": [
+      190.0,
+      109.21953125
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      4.219531250000003
+    ]
+  },
+  {
+    "ref": "H3",
+    "kind": "TEXT",
+    "text": "H3",
+    "width": 0.15,
+    "center_mm": [
+      105.0,
+      185.77051562499997
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -4.229484375000027
+    ]
+  },
+  {
+    "ref": "H4",
+    "kind": "TEXT",
+    "text": "H4",
+    "width": 0.15,
+    "center_mm": [
+      190.0,
+      185.78965624999998
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      -4.210343750000021
+    ]
+  },
+  {
+    "ref": "DC1",
+    "kind": "NOTICE",
+    "text": "5V ONLY",
+    "width": 0.15,
+    "center_mm": [
+      112.5,
+      111.0
+    ],
+    "offset_from_component_mm": [
+      0.03999999999999204,
+      3.0
+    ]
+  },
+  {
+    "ref": "DC1",
+    "kind": "NOTICE",
+    "text": "DC1 1:+ 2:GND",
+    "width": 0.15,
+    "center_mm": [
+      112.5,
+      112.5
+    ],
+    "offset_from_component_mm": [
+      0.03999999999999204,
+      4.5
+    ]
+  },
+  {
+    "ref": "JP_USB",
+    "kind": "NOTICE",
+    "text": "JP_USB OPEN BEFORE USB",
+    "width": 0.15,
+    "center_mm": [
+      149.5,
+      103.0
+    ],
+    "offset_from_component_mm": [
+      2.5,
+      -4.0
+    ]
+  },
+  {
+    "ref": "JP_USB",
+    "kind": "NOTICE",
+    "text": "JP_USB P1 TOP",
+    "width": 0.15,
+    "center_mm": [
+      139.5,
+      111.0
+    ],
+    "offset_from_component_mm": [
+      -7.5,
+      4.0
+    ]
+  },
+  {
+    "ref": "D4",
+    "kind": "NOTICE",
+    "text": "D4 K=1 RIGHT",
+    "width": 0.15,
+    "center_mm": [
+      178.0,
+      111.0
+    ],
+    "offset_from_component_mm": [
+      3.0,
+      -3.5
+    ]
+  },
+  {
+    "ref": "D5",
+    "kind": "NOTICE",
+    "text": "D5 K=1 RIGHT",
+    "width": 0.15,
+    "center_mm": [
+      167.40928125,
+      117.5
+    ],
+    "offset_from_component_mm": [
+      -7.590718750000008,
+      0.0
+    ]
+  },
+  {
+    "ref": "MOTO1",
+    "kind": "NOTICE",
+    "text": "MOTO1 P1 TOP",
+    "width": 0.15,
+    "center_mm": [
+      110.0,
+      123.0
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      3.5
+    ]
+  },
+  {
+    "ref": "SERVO1",
+    "kind": "NOTICE",
+    "text": "SERVO1 P1 TOP",
+    "width": 0.15,
+    "center_mm": [
+      108.5,
+      114.5
+    ],
+    "offset_from_component_mm": [
+      -9.5,
+      -5.0
+    ]
+  },
+  {
+    "ref": "D3",
+    "kind": "NOTICE",
+    "text": "D3 K=1 RIGHT",
+    "width": 0.15,
+    "center_mm": [
+      132.5,
+      135.0
+    ],
+    "offset_from_component_mm": [
+      -1.5,
+      11.0
+    ]
+  },
+  {
+    "ref": "J_TB_L",
+    "kind": "NOTICE",
+    "text": "J_TB_L P1 TOP",
+    "width": 0.15,
+    "center_mm": [
+      107.88,
+      147.124578125
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      11.124578125
+    ]
+  },
+  {
+    "ref": "J_TB_R",
+    "kind": "NOTICE",
+    "text": "J_TB_R P1 TOP",
+    "width": 0.15,
+    "center_mm": [
+      115.5,
+      136.0
+    ],
+    "offset_from_component_mm": [
+      -7.3799999999999955,
+      0.0
+    ]
+  },
+  {
+    "ref": "J_DHT11",
+    "kind": "NOTICE",
+    "text": "J_DHT11 P1 LEFT",
+    "width": 0.15,
+    "center_mm": [
+      115.5,
+      157.22539062500002
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      2.225390625000017
+    ]
+  },
+  {
+    "ref": "J_MCU_L",
+    "kind": "NOTICE",
+    "text": "J_MCU_L P1 BOTTOM",
+    "width": 0.15,
+    "center_mm": [
+      119.0,
+      150.5
+    ],
+    "offset_from_component_mm": [
+      -20.879999999999995,
+      10.5
+    ]
+  },
+  {
+    "ref": "J_MCU_R",
+    "kind": "NOTICE",
+    "text": "J_MCU_R P1 BOTTOM",
+    "width": 0.15,
+    "center_mm": [
+      165.0,
+      131.0
+    ],
+    "offset_from_component_mm": [
+      9.879999999999995,
+      -9.0
+    ]
+  },
+  {
+    "ref": "J_VOICE_L",
+    "kind": "NOTICE",
+    "text": "J_VOICE_L P1 TOP",
+    "width": 0.15,
+    "center_mm": [
+      165.8,
+      155.124578125
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      11.124578125
+    ]
+  },
+  {
+    "ref": "J_VOICE_R",
+    "kind": "NOTICE",
+    "text": "J_VOICE_R P1 TOP",
+    "width": 0.15,
+    "center_mm": [
+      182.5,
+      142.0
+    ],
+    "offset_from_component_mm": [
+      -8.699999999999989,
+      -2.0
+    ]
+  },
+  {
+    "ref": "JP_ASR",
+    "kind": "NOTICE",
+    "text": "USB: OPEN PWR TX RX",
+    "width": 0.15,
+    "center_mm": [
+      118.5,
+      159.0
+    ],
+    "offset_from_component_mm": [
+      -10.5,
+      8.199999999999989
+    ]
+  },
+  {
+    "ref": "JP_ASR",
+    "kind": "NOTICE",
+    "text": "JP_ASR P1 TOP",
+    "width": 0.15,
+    "center_mm": [
+      132.0,
+      146.5
+    ],
+    "offset_from_component_mm": [
+      3.0,
+      -4.300000000000011
+    ]
+  },
+  {
+    "ref": "JP_ASR_TX",
+    "kind": "NOTICE",
+    "text": "JP_ASR_TX P1 TOP",
+    "width": 0.15,
+    "center_mm": [
+      120.0,
+      161.0
+    ],
+    "offset_from_component_mm": [
+      -9.0,
+      2.0
+    ]
+  },
+  {
+    "ref": "JP_ASR_RX",
+    "kind": "NOTICE",
+    "text": "JP_ASR_RX P1 TOP",
+    "width": 0.15,
+    "center_mm": [
+      137.77071875000001,
+      167.2
+    ],
+    "offset_from_component_mm": [
+      8.770718750000015,
+      0.0
+    ]
+  },
+  {
+    "ref": "SPK1",
+    "kind": "NOTICE",
+    "text": "SPK1 P1 TOP",
+    "width": 0.15,
+    "center_mm": [
+      189.5,
+      118.0
+    ],
+    "offset_from_component_mm": [
+      -0.5,
+      3.5
+    ]
+  },
+  {
+    "ref": "J_OLED",
+    "kind": "NOTICE",
+    "text": "OLED L>R: SDA SCL VCC GND",
+    "width": 0.15,
+    "center_mm": [
+      178.5,
+      128.57948437500002
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      2.079484375000021
+    ]
+  },
+  {
+    "ref": "J_OLED",
+    "kind": "NOTICE",
+    "text": "J_OLED P1 RIGHT",
+    "width": 0.15,
+    "center_mm": [
+      166.468890625,
+      126.5
+    ],
+    "offset_from_component_mm": [
+      -12.031109375,
+      0.0
+    ]
+  },
+  {
+    "ref": "J_GESTURE",
+    "kind": "NOTICE",
+    "text": "J_GESTURE P1 LEFT",
+    "width": 0.15,
+    "center_mm": [
+      116.0,
+      176.234578125
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      2.234578125000013
+    ]
+  },
+  {
+    "ref": "J_KEY1",
+    "kind": "NOTICE",
+    "text": "J_KEY1 P1 LEFT",
+    "width": 0.15,
+    "center_mm": [
+      134.0,
+      184.72539062500002
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      2.225390625000017
+    ]
+  },
+  {
+    "ref": "J_KEY2",
+    "kind": "NOTICE",
+    "text": "J_KEY2 P1 LEFT",
+    "width": 0.15,
+    "center_mm": [
+      149.5,
+      184.734578125
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      2.234578125000013
+    ]
+  },
+  {
+    "ref": "J_ENC",
+    "kind": "NOTICE",
+    "text": "J_ENC P1 TOP",
+    "width": 0.15,
+    "center_mm": [
+      171.0,
+      184.734578125
+    ],
+    "offset_from_component_mm": [
+      0.0,
+      2.234578125000013
+    ]
+  }
+]

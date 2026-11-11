@@ -1,0 +1,38 @@
+* Smart Fan RevA - Buzzer Driver & Flyback Clamp Simulation
+* Demonstrates S8050 saturation and inductive spike clamping with 1N4148
+
+* Power Supplies
+VCC 5V 0 DC 5.0
+
+* MCU PB14 Pulse: 0V -> 3.3V, 50us ON, then turn OFF
+VPB14 PB14 0 PULSE(0 3.3 0 10n 10n 50u 100u)
+
+* ========================================================
+* Circuit 1: PROTECTED (With 1N4148 Diode)
+* ========================================================
+RB1 PB14 BASE1 1k
+RPD1 BASE1 0 10k
+Q1 COLL_PROT BASE1 0 S8050
+RBUZ1 5V N_BUZ1 100
+LBUZ1 N_BUZ1 COLL_PROT 5m
+D_CLAMP COLL_PROT 5V 1N4148
+
+* ========================================================
+* Circuit 2: UNPROTECTED (Without Diode - Dangerous Kickback)
+* ========================================================
+RB2 PB14 BASE2 1k
+RPD2 BASE2 0 10k
+Q2 COLL_UNPROT BASE2 0 S8050
+RBUZ2 5V N_BUZ2 100
+LBUZ2 N_BUZ2 COLL_UNPROT 5m
+CPAR2 COLL_UNPROT 0 35p
+
+* Device Models
+.model S8050 NPN(IS=1e-14 BF=150 VAF=50 IKF=0.3 ISE=1e-12 NE=1.5 BR=4 CJC=10p CJE=25p TF=400p TR=50n)
+.model 1N4148 D(IS=2.52n RS=0.568 N=1.752 CJO=4p TT=4n BV=100)
+
+* Simulation Command: 120us transient with 10ns max timestep
+.tran 0.1u 120u 0 10n
+
+.backanno
+.end

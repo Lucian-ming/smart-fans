@@ -1,0 +1,939 @@
+{
+  "pcb_sha256": "c9cb106cdc48e9b3e44ff9b6d379062e31b24f2d6fec1b29f22d64fc3b3264a1",
+  "component_count": 48,
+  "parts": {
+    "DC1": {
+      "value": "5V_ONLY_MKDSN_1,5/2-5.08",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V_RAW"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    "F1": {
+      "value": "3A_FAST_NOT_CURRENT_LIMIT",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V_RAW"
+        },
+        {
+          "pin": "2",
+          "net": "+5V_FUSED"
+        }
+      ]
+    },
+    "C1": {
+      "value": "100uF/25V",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    "C2": {
+      "value": "100nF",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    "Q_PWR": {
+      "value": "AO4409_REVERSE_POLARITY",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V"
+        },
+        {
+          "pin": "2",
+          "net": "+5V"
+        },
+        {
+          "pin": "3",
+          "net": "+5V"
+        },
+        {
+          "pin": "4",
+          "net": "GND"
+        },
+        {
+          "pin": "5",
+          "net": "+5V_FUSED"
+        },
+        {
+          "pin": "6",
+          "net": "+5V_FUSED"
+        },
+        {
+          "pin": "7",
+          "net": "+5V_FUSED"
+        },
+        {
+          "pin": "8",
+          "net": "+5V_FUSED"
+        }
+      ]
+    },
+    "JP_USB": {
+      "value": "REMOVE_BEFORE_USB",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V"
+        },
+        {
+          "pin": "2",
+          "net": "+5V_MCU"
+        }
+      ]
+    },
+    "C3": {
+      "value": "220uF/16V",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    "C4": {
+      "value": "100nF",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    "U3": {
+      "value": "AMS1117-3.3",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND"
+        },
+        {
+          "pin": "2",
+          "net": "+3.3V"
+        },
+        {
+          "pin": "3",
+          "net": "+5V"
+        },
+        {
+          "pin": "2",
+          "net": "+3.3V"
+        }
+      ]
+    },
+    "C5": {
+      "value": "10uF",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    "C6": {
+      "value": "10uF",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+3.3V"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    "C7": {
+      "value": "100nF",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+3.3V"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    "D4": {
+      "value": "LED_GREEN",
+      "pads": [
+        {
+          "pin": "2",
+          "net": "+5V"
+        },
+        {
+          "pin": "1",
+          "net": "LED_5V_K"
+        }
+      ]
+    },
+    "R1": {
+      "value": "1k",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "LED_5V_K"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    "D5": {
+      "value": "LED_BLUE",
+      "pads": [
+        {
+          "pin": "2",
+          "net": "+3.3V"
+        },
+        {
+          "pin": "1",
+          "net": "LED_3V3_K"
+        }
+      ]
+    },
+    "R2": {
+      "value": "1k",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "LED_3V3_K"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    "MOTO1": {
+      "value": "130_MOTOR",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "TB_AO1"
+        },
+        {
+          "pin": "2",
+          "net": "TB_AO2"
+        }
+      ]
+    },
+    "SERVO1": {
+      "value": "MG90S_SERVO",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND"
+        },
+        {
+          "pin": "2",
+          "net": "+5V"
+        },
+        {
+          "pin": "3",
+          "net": "SERVO_PWM"
+        }
+      ]
+    },
+    "BZ1": {
+      "value": "5V_BUZZER",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V"
+        },
+        {
+          "pin": "2",
+          "net": "BUZ_DRV"
+        }
+      ]
+    },
+    "Q1": {
+      "value": "2N3904-TA(RANGE:200-300)",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND"
+        },
+        {
+          "pin": "2",
+          "net": "BUZ_BASE"
+        },
+        {
+          "pin": "3",
+          "net": "BUZ_DRV"
+        }
+      ]
+    },
+    "D3": {
+      "value": "1N4148W",
+      "pads": [
+        {
+          "pin": "2",
+          "net": "BUZ_DRV"
+        },
+        {
+          "pin": "1",
+          "net": "+5V"
+        }
+      ]
+    },
+    "R10": {
+      "value": "1k",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "BUZZER_CTRL"
+        },
+        {
+          "pin": "2",
+          "net": "BUZ_BASE"
+        }
+      ]
+    },
+    "J_TB_L": {
+      "value": "TB6612_CTRL",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "TB_PWMA"
+        },
+        {
+          "pin": "2",
+          "net": "TB_AIN2"
+        },
+        {
+          "pin": "3",
+          "net": "TB_AIN1"
+        },
+        {
+          "pin": "4",
+          "net": "TB_STBY"
+        },
+        {
+          "pin": "5",
+          "net": "GND"
+        },
+        {
+          "pin": "6",
+          "net": "GND"
+        },
+        {
+          "pin": "7",
+          "net": "GND"
+        },
+        {
+          "pin": "8",
+          "net": "GND"
+        }
+      ]
+    },
+    "J_TB_R": {
+      "value": "TB6612_PWR",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V"
+        },
+        {
+          "pin": "2",
+          "net": "+3.3V"
+        },
+        {
+          "pin": "3",
+          "net": "GND"
+        },
+        {
+          "pin": "4",
+          "net": "TB_AO1"
+        },
+        {
+          "pin": "5",
+          "net": "TB_AO2"
+        },
+        {
+          "pin": "6",
+          "net": "NC"
+        },
+        {
+          "pin": "7",
+          "net": "NC"
+        },
+        {
+          "pin": "8",
+          "net": "GND"
+        }
+      ]
+    },
+    "C_VM": {
+      "value": "220uF/16V",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    "C_VM_MLCC": {
+      "value": "100nF",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    "R_STBY": {
+      "value": "10k",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "TB_STBY"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        }
+      ]
+    },
+    "J_DHT11": {
+      "value": "DHT11_SOCK",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+3.3V"
+        },
+        {
+          "pin": "2",
+          "net": "DHT11_DATA"
+        },
+        {
+          "pin": "3",
+          "net": "GND"
+        }
+      ]
+    },
+    "R_DHT": {
+      "value": "4.7k",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+3.3V"
+        },
+        {
+          "pin": "2",
+          "net": "DHT11_DATA"
+        }
+      ]
+    },
+    "J_MCU_L": {
+      "value": "BLUEPILL_L",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "NC"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "3",
+          "net": "+5V_MCU"
+        },
+        {
+          "pin": "4",
+          "net": "DHT11_DATA"
+        },
+        {
+          "pin": "5",
+          "net": "SERVO_PWM"
+        },
+        {
+          "pin": "6",
+          "net": "I2C1_SDA"
+        },
+        {
+          "pin": "7",
+          "net": "I2C1_SCL"
+        },
+        {
+          "pin": "8",
+          "net": "NC"
+        },
+        {
+          "pin": "9",
+          "net": "NC"
+        },
+        {
+          "pin": "10",
+          "net": "NC"
+        },
+        {
+          "pin": "11",
+          "net": "NC"
+        },
+        {
+          "pin": "12",
+          "net": "NC"
+        },
+        {
+          "pin": "13",
+          "net": "NC"
+        },
+        {
+          "pin": "14",
+          "net": "NC"
+        },
+        {
+          "pin": "15",
+          "net": "NC"
+        },
+        {
+          "pin": "16",
+          "net": "NC"
+        },
+        {
+          "pin": "17",
+          "net": "BUZZER_CTRL"
+        },
+        {
+          "pin": "18",
+          "net": "KEY2_SIG"
+        },
+        {
+          "pin": "19",
+          "net": "KEY1_SIG"
+        },
+        {
+          "pin": "20",
+          "net": "NC"
+        }
+      ]
+    },
+    "J_MCU_R": {
+      "value": "BLUEPILL_R",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "NC"
+        },
+        {
+          "pin": "2",
+          "net": "NC"
+        },
+        {
+          "pin": "3",
+          "net": "NC"
+        },
+        {
+          "pin": "4",
+          "net": "NC"
+        },
+        {
+          "pin": "5",
+          "net": "TB_PWMA"
+        },
+        {
+          "pin": "6",
+          "net": "TB_AIN1"
+        },
+        {
+          "pin": "7",
+          "net": "VOICE_TX"
+        },
+        {
+          "pin": "8",
+          "net": "VOICE_RX"
+        },
+        {
+          "pin": "9",
+          "net": "GEST_INT"
+        },
+        {
+          "pin": "10",
+          "net": "TB_AIN2"
+        },
+        {
+          "pin": "11",
+          "net": "ENC_A"
+        },
+        {
+          "pin": "12",
+          "net": "ENC_B"
+        },
+        {
+          "pin": "13",
+          "net": "TB_STBY"
+        },
+        {
+          "pin": "14",
+          "net": "NC"
+        },
+        {
+          "pin": "15",
+          "net": "NC"
+        },
+        {
+          "pin": "16",
+          "net": "NC"
+        },
+        {
+          "pin": "17",
+          "net": "NC"
+        },
+        {
+          "pin": "18",
+          "net": "NC"
+        },
+        {
+          "pin": "19",
+          "net": "GND"
+        },
+        {
+          "pin": "20",
+          "net": "GND"
+        }
+      ]
+    },
+    "R_SCL": {
+      "value": "4.7k",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+3.3V"
+        },
+        {
+          "pin": "2",
+          "net": "I2C1_SCL"
+        }
+      ]
+    },
+    "R_SDA": {
+      "value": "4.7k",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+3.3V"
+        },
+        {
+          "pin": "2",
+          "net": "I2C1_SDA"
+        }
+      ]
+    },
+    "J_VOICE_L": {
+      "value": "ASR_PRO_L_8P",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND"
+        },
+        {
+          "pin": "2",
+          "net": "+5V_ASR"
+        },
+        {
+          "pin": "3",
+          "net": "NC"
+        },
+        {
+          "pin": "4",
+          "net": "NC"
+        },
+        {
+          "pin": "5",
+          "net": "ASR_TX1"
+        },
+        {
+          "pin": "6",
+          "net": "ASR_RX1"
+        },
+        {
+          "pin": "7",
+          "net": "NC"
+        },
+        {
+          "pin": "8",
+          "net": "NC"
+        }
+      ]
+    },
+    "J_VOICE_R": {
+      "value": "ASR_PRO_R_8P",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "NC"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "3",
+          "net": "NC"
+        },
+        {
+          "pin": "4",
+          "net": "NC"
+        },
+        {
+          "pin": "5",
+          "net": "NC"
+        },
+        {
+          "pin": "6",
+          "net": "NC"
+        },
+        {
+          "pin": "7",
+          "net": "VOICE_SPK_N"
+        },
+        {
+          "pin": "8",
+          "net": "VOICE_SPK_P"
+        }
+      ]
+    },
+    "JP_ASR": {
+      "value": "REMOVE_BEFORE_ASR_USB",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V"
+        },
+        {
+          "pin": "2",
+          "net": "+5V_ASR"
+        }
+      ]
+    },
+    "JP_ASR_TX": {
+      "value": "REMOVE_BEFORE_ASR_USB",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VOICE_TX"
+        },
+        {
+          "pin": "2",
+          "net": "ASR_RX1"
+        }
+      ]
+    },
+    "JP_ASR_RX": {
+      "value": "REMOVE_BEFORE_ASR_USB",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VOICE_RX"
+        },
+        {
+          "pin": "2",
+          "net": "ASR_TX1"
+        }
+      ]
+    },
+    "SPK1": {
+      "value": "SPEAKER",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VOICE_SPK_P"
+        },
+        {
+          "pin": "2",
+          "net": "VOICE_SPK_N"
+        }
+      ]
+    },
+    "J_OLED": {
+      "value": "OLED_12864",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND"
+        },
+        {
+          "pin": "2",
+          "net": "+3.3V"
+        },
+        {
+          "pin": "3",
+          "net": "I2C1_SCL"
+        },
+        {
+          "pin": "4",
+          "net": "I2C1_SDA"
+        }
+      ]
+    },
+    "J_GESTURE": {
+      "value": "PAJ7620_GEST",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+3.3V"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "3",
+          "net": "I2C1_SCL"
+        },
+        {
+          "pin": "4",
+          "net": "I2C1_SDA"
+        },
+        {
+          "pin": "5",
+          "net": "GEST_INT"
+        }
+      ]
+    },
+    "J_KEY1": {
+      "value": "KEY1_POWER",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND"
+        },
+        {
+          "pin": "2",
+          "net": "KEY1_SIG"
+        },
+        {
+          "pin": "3",
+          "net": "+3.3V"
+        }
+      ]
+    },
+    "J_KEY2": {
+      "value": "KEY2_SWING",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND"
+        },
+        {
+          "pin": "2",
+          "net": "KEY2_SIG"
+        },
+        {
+          "pin": "3",
+          "net": "+3.3V"
+        }
+      ]
+    },
+    "J_ENC": {
+      "value": "EC11_ENCODER_2P_3P",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+3.3V"
+        },
+        {
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "pin": "3",
+          "net": "ENC_A"
+        },
+        {
+          "pin": "4",
+          "net": "GND"
+        },
+        {
+          "pin": "5",
+          "net": "ENC_B"
+        }
+      ]
+    },
+    "H1": {
+      "value": "MountingHole_M3",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND"
+        }
+      ]
+    },
+    "H2": {
+      "value": "MountingHole_M3",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND"
+        }
+      ]
+    },
+    "H3": {
+      "value": "MountingHole_M3",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND"
+        }
+      ]
+    },
+    "H4": {
+      "value": "MountingHole_M3",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND"
+        }
+      ]
+    }
+  },
+  "scope": "Net assignments extracted from final PCB; not a new connectivity or circuit simulation PASS"
+}

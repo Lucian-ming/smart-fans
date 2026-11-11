@@ -1,0 +1,600 @@
+{
+  "status": "routed",
+  "grid_mm": 0.1,
+  "clearance_mm": 0.25,
+  "hole_clearance_mm": 0.25,
+  "via_drill_to_pad_mask_clearance_mm": 0.1,
+  "pad_mask_expansion_mm": 0.05,
+  "via_center_to_pad_copper_mm": 0.30000000000000004,
+  "unique_vias": true,
+  "guard_mm": 0.055,
+  "net_count": 33,
+  "pad_count": 142,
+  "tracks": 2729,
+  "vias": 81,
+  "attempts": 5,
+  "prior_failures": [
+    {
+      "attempt": 1,
+      "net": 26,
+      "source": "J_MCU_L.6",
+      "target": "R_SDA.2",
+      "source_xy": [
+        139.88,
+        151.43
+      ],
+      "target_xy": [
+        134.85,
+        128.5
+      ],
+      "source_blocked": false,
+      "target_blocked": false
+    },
+    {
+      "attempt": 2,
+      "net": 29,
+      "source": "J_MCU_L.18",
+      "target": "J_KEY2.2",
+      "source_xy": [
+        139.88,
+        120.95
+      ],
+      "target_xy": [
+        149.5,
+        182.5
+      ],
+      "source_blocked": false,
+      "target_blocked": false
+    },
+    {
+      "attempt": 3,
+      "net": 35,
+      "source": "J_VOICE_L.5",
+      "target": "JP_ASR_RX.2",
+      "source_xy": [
+        165.8,
+        145.27
+      ],
+      "target_xy": [
+        129.0,
+        169.74
+      ],
+      "source_blocked": false,
+      "target_blocked": false
+    },
+    {
+      "attempt": 4,
+      "net": 20,
+      "source": "J_MCU_R.8",
+      "target": "JP_ASR_RX.1",
+      "source_xy": [
+        155.12,
+        146.35
+      ],
+      "target_xy": [
+        129.0,
+        167.2
+      ],
+      "source_blocked": false,
+      "target_blocked": false
+    }
+  ],
+  "widths_mm": {
+    "1": 0.5,
+    "2": 0.5,
+    "3": 0.5,
+    "4": 0.5,
+    "5": 0.5,
+    "6": 0.5,
+    "7": 0.25,
+    "8": 0.25,
+    "9": 0.25,
+    "10": 0.25,
+    "11": 0.25,
+    "12": 0.25,
+    "13": 0.5,
+    "14": 0.5,
+    "15": 0.25,
+    "16": 0.25,
+    "17": 0.25,
+    "18": 0.5,
+    "19": 0.25,
+    "20": 0.25,
+    "21": 0.5,
+    "22": 0.5,
+    "24": 0.25,
+    "25": 0.25,
+    "26": 0.25,
+    "27": 0.25,
+    "28": 0.25,
+    "29": 0.25,
+    "30": 0.25,
+    "31": 0.25,
+    "33": 0.25,
+    "34": 0.25,
+    "35": 0.25
+  },
+  "power_rules": {
+    "design_target_a": 2.0,
+    "thermal_certified": false,
+    "widths_mm": {
+      "+5V_RAW": 2.0,
+      "+5V_FUSED": 2.0,
+      "+5V": 2.0,
+      "GND": 2.0,
+      "TB_AO1": 1.0,
+      "TB_AO2": 1.0,
+      "+5V_ASR": 1.0
+    },
+    "layers_by_net": {
+      "+5V_RAW": "F.Cu",
+      "+5V_FUSED": "F.Cu",
+      "+5V": "F.Cu",
+      "GND": "B.Cu",
+      "TB_AO1": "F.Cu",
+      "TB_AO2": "F.Cu",
+      "+5V_ASR": "F.Cu"
+    },
+    "via_count": 0,
+    "max_escape_length_mm": 2.0,
+    "terminals": [
+      {
+        "ref": "DC1",
+        "pad": "1",
+        "net": "+5V_RAW",
+        "terminal": [
+          112.46,
+          108.0
+        ],
+        "port": [
+          112.5,
+          108.0
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.04000000000000625
+      },
+      {
+        "ref": "F1",
+        "pad": "1",
+        "net": "+5V_RAW",
+        "terminal": [
+          120.545,
+          107.0
+        ],
+        "port": [
+          120.5,
+          107.0
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.045000000000001705
+      },
+      {
+        "ref": "DC1",
+        "pad": "2",
+        "net": "GND",
+        "terminal": [
+          117.54,
+          108.0
+        ],
+        "port": [
+          117.5,
+          108.0
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.04000000000000625
+      },
+      {
+        "ref": "C1",
+        "pad": "2",
+        "net": "GND",
+        "terminal": [
+          130.75,
+          107.0
+        ],
+        "port": [
+          130.7,
+          107.0
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.05000000000001137
+      },
+      {
+        "ref": "C3",
+        "pad": "2",
+        "net": "GND",
+        "terminal": [
+          157.75,
+          107.0
+        ],
+        "port": [
+          157.7,
+          107.0
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.05000000000001137
+      },
+      {
+        "ref": "SERVO1",
+        "pad": "1",
+        "net": "GND",
+        "terminal": [
+          118.0,
+          116.96
+        ],
+        "port": [
+          118.0,
+          117.0
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.04000000000000625
+      },
+      {
+        "ref": "J_TB_R",
+        "pad": "3",
+        "net": "GND",
+        "terminal": [
+          122.88,
+          132.19
+        ],
+        "port": [
+          122.9,
+          132.2
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.02236067977500298
+      },
+      {
+        "ref": "J_TB_R",
+        "pad": "8",
+        "net": "GND",
+        "terminal": [
+          122.88,
+          144.89
+        ],
+        "port": [
+          122.9,
+          144.9
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.022360679775015692
+      },
+      {
+        "ref": "C_VM",
+        "pad": "2",
+        "net": "GND",
+        "terminal": [
+          124.75,
+          123.5
+        ],
+        "port": [
+          124.7,
+          123.5
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.04999999999999716
+      },
+      {
+        "ref": "F1",
+        "pad": "2",
+        "net": "+5V_FUSED",
+        "terminal": [
+          125.455,
+          107.0
+        ],
+        "port": [
+          125.5,
+          107.0
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.045000000000001705
+      },
+      {
+        "ref": "Q_PWR",
+        "pad": "5",
+        "net": "+5V_FUSED",
+        "terminal": [
+          138.6,
+          108.905
+        ],
+        "port": [
+          138.6,
+          108.9
+        ],
+        "escape_width_mm": 0.5,
+        "escape_length_mm": 0.0049999999999954525
+      },
+      {
+        "ref": "Q_PWR",
+        "pad": "6",
+        "net": "+5V_FUSED",
+        "terminal": [
+          138.6,
+          107.635
+        ],
+        "port": [
+          138.6,
+          107.6
+        ],
+        "escape_width_mm": 0.5,
+        "escape_length_mm": 0.0350000000000108
+      },
+      {
+        "ref": "Q_PWR",
+        "pad": "7",
+        "net": "+5V_FUSED",
+        "terminal": [
+          138.6,
+          106.365
+        ],
+        "port": [
+          138.6,
+          106.4
+        ],
+        "escape_width_mm": 0.5,
+        "escape_length_mm": 0.0350000000000108
+      },
+      {
+        "ref": "Q_PWR",
+        "pad": "8",
+        "net": "+5V_FUSED",
+        "terminal": [
+          138.6,
+          105.095
+        ],
+        "port": [
+          138.6,
+          105.1
+        ],
+        "escape_width_mm": 0.5,
+        "escape_length_mm": 0.0049999999999954525
+      },
+      {
+        "ref": "C1",
+        "pad": "1",
+        "net": "+5V",
+        "terminal": [
+          128.25,
+          107.0
+        ],
+        "port": [
+          128.2,
+          107.0
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.05000000000001137
+      },
+      {
+        "ref": "Q_PWR",
+        "pad": "1",
+        "net": "+5V",
+        "terminal": [
+          133.4,
+          105.095
+        ],
+        "port": [
+          133.4,
+          105.1
+        ],
+        "escape_width_mm": 0.5,
+        "escape_length_mm": 0.0049999999999954525
+      },
+      {
+        "ref": "Q_PWR",
+        "pad": "2",
+        "net": "+5V",
+        "terminal": [
+          133.4,
+          106.365
+        ],
+        "port": [
+          133.4,
+          106.4
+        ],
+        "escape_width_mm": 0.5,
+        "escape_length_mm": 0.0350000000000108
+      },
+      {
+        "ref": "Q_PWR",
+        "pad": "3",
+        "net": "+5V",
+        "terminal": [
+          133.4,
+          107.635
+        ],
+        "port": [
+          133.4,
+          107.2
+        ],
+        "escape_width_mm": 0.5,
+        "escape_length_mm": 0.4350000000000023
+      },
+      {
+        "ref": "C3",
+        "pad": "1",
+        "net": "+5V",
+        "terminal": [
+          155.25,
+          107.0
+        ],
+        "port": [
+          155.2,
+          107.0
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.05000000000001137
+      },
+      {
+        "ref": "SERVO1",
+        "pad": "2",
+        "net": "+5V",
+        "terminal": [
+          118.0,
+          119.5
+        ],
+        "port": [
+          118.0,
+          119.5
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.0
+      },
+      {
+        "ref": "J_TB_R",
+        "pad": "1",
+        "net": "+5V",
+        "terminal": [
+          122.88,
+          127.11
+        ],
+        "port": [
+          122.9,
+          127.1
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.022360679775009336
+      },
+      {
+        "ref": "C_VM",
+        "pad": "1",
+        "net": "+5V",
+        "terminal": [
+          122.25,
+          123.5
+        ],
+        "port": [
+          122.2,
+          123.5
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.04999999999999716
+      },
+      {
+        "ref": "JP_ASR",
+        "pad": "1",
+        "net": "+5V",
+        "terminal": [
+          129.0,
+          150.8
+        ],
+        "port": [
+          129.0,
+          150.8
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.0
+      },
+      {
+        "ref": "MOTO1",
+        "pad": "1",
+        "net": "TB_AO1",
+        "terminal": [
+          110.0,
+          118.25
+        ],
+        "port": [
+          110.0,
+          118.2
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.04999999999999716
+      },
+      {
+        "ref": "J_TB_R",
+        "pad": "4",
+        "net": "TB_AO1",
+        "terminal": [
+          122.88,
+          134.73
+        ],
+        "port": [
+          122.9,
+          134.7
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.03605551275464652
+      },
+      {
+        "ref": "MOTO1",
+        "pad": "2",
+        "net": "TB_AO2",
+        "terminal": [
+          110.0,
+          120.75
+        ],
+        "port": [
+          110.0,
+          120.7
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.04999999999999716
+      },
+      {
+        "ref": "J_TB_R",
+        "pad": "5",
+        "net": "TB_AO2",
+        "terminal": [
+          122.88,
+          137.27
+        ],
+        "port": [
+          122.9,
+          137.3
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.03605551275464652
+      },
+      {
+        "ref": "J_VOICE_L",
+        "pad": "2",
+        "net": "+5V_ASR",
+        "terminal": [
+          165.8,
+          137.65
+        ],
+        "port": [
+          165.8,
+          137.7
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.04999999999998295
+      },
+      {
+        "ref": "JP_ASR",
+        "pad": "2",
+        "net": "+5V_ASR",
+        "terminal": [
+          129.0,
+          153.34
+        ],
+        "port": [
+          129.0,
+          153.3
+        ],
+        "escape_width_mm": 1.0,
+        "escape_length_mm": 0.03999999999999204
+      }
+    ],
+    "limitations": [
+      "2A is a design target, not thermal certification.",
+      "SO8 parallel-pin current sharing, connector ratings, copper thickness, startup/stall and temperature rise require validation.",
+      "Default .3mm vias may serve low-current branches only; the independent wide-tree path never uses them."
+    ],
+    "independent_audit": {
+      "passed": true,
+      "errors": [],
+      "checked_nets": [
+        "+5V_RAW",
+        "GND",
+        "+5V_FUSED",
+        "+5V",
+        "TB_AO1",
+        "TB_AO2",
+        "+5V_ASR"
+      ],
+      "design_target_a": 2.0,
+      "thermal_certified": false,
+      "via_current_assumed_a": 0.0,
+      "note": "Assigned-layer wide trees only: GND on back through existing >=0.8mm plated THT, others front. Thermal, hole-wall current, startup/stall, pin sharing and connector capability unverified."
+    }
+  }
+}

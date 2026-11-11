@@ -1,0 +1,74 @@
+[
+  {
+    "file": "solid_local-B_Cu.gbl",
+    "index": 1190,
+    "supported": true,
+    "area_mm2": 104.51487349553972
+  },
+  {
+    "file": "solid_local-B_Cu.gbl",
+    "index": 1191,
+    "supported": true,
+    "area_mm2": 7096.619534522927
+  },
+  {
+    "file": "solid_local-F_Cu.gtl",
+    "index": 2001,
+    "supported": true,
+    "area_mm2": 4986.5046990623005
+  },
+  {
+    "file": "solid_local-F_Cu.gtl",
+    "index": 2002,
+    "supported": true,
+    "area_mm2": 610.6164915577864
+  },
+  {
+    "file": "solid_local-F_Cu.gtl",
+    "index": 2003,
+    "supported": true,
+    "area_mm2": 538.5030789859511
+  },
+  {
+    "file": "solid_local-F_Cu.gtl",
+    "index": 2004,
+    "supported": true,
+    "area_mm2": 4.2818276281735335
+  },
+  {
+    "file": "solid_local-F_Cu.gtl",
+    "index": 2005,
+    "supported": true,
+    "area_mm2": 109.0022792981514
+  },
+  {
+    "file": "solid_local-F_Cu.gtl",
+    "index": 2006,
+    "supported": true,
+    "area_mm2": 136.3203368713108
+  },
+  {
+    "file": "solid_local-F_Cu.gtl",
+    "index": 2007,
+    "supported": true,
+    "area_mm2": 4.817143761731031
+  },
+  {
+    "file": "solid_local-F_Cu.gtl",
+    "index": 2008,
+    "supported": true,
+    "area_mm2": 21.54565789434756
+  },
+  {
+    "file": "solid_local-F_Cu.gtl",
+    "index": 2009,
+    "supported": true,
+    "area_mm2": 50.46776379284099
+  },
+  {
+    "file": "solid_local-F_Cu.gtl",
+    "index": 2010,
+    "supported": true,
+    "area_mm2": 7.815160077269506
+  }
+]

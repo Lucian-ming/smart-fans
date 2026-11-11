@@ -1,0 +1,740 @@
+{
+  "min_drill": 0.3,
+  "GTL": {
+    "objects": 1198,
+    "edge_clearance": 0.17157206779917153,
+    "outside_area": 0.0
+  },
+  "GBL": {
+    "objects": 1169,
+    "edge_clearance": 0.17157206779917153,
+    "outside_area": 0.0
+  },
+  "GTS": {
+    "objects": 234,
+    "edge_clearance": 1.9499999999999886,
+    "outside_area": 0.0,
+    "min_mask_gap": [
+      0.0,
+      32,
+      172,
+      0.19241772032010843
+    ],
+    "pairs_under_0_1": [
+      [
+        0.0,
+        32,
+        172,
+        0.19241772032010843
+      ],
+      [
+        0.0,
+        55,
+        223,
+        0.1194837731083631
+      ],
+      [
+        0.0,
+        77,
+        201,
+        0.26145243050767064
+      ],
+      [
+        0.0,
+        178,
+        183,
+        0.03768778070785827
+      ],
+      [
+        0.0,
+        179,
+        189,
+        0.28651936452712995
+      ]
+    ],
+    "pair_details": [
+      {
+        "gap": 0.0,
+        "a": {
+          "id": "C6.2",
+          "xy": [
+            170.85,
+            109.5
+          ],
+          "net": "GND"
+        },
+        "b": {
+          "id": "via2",
+          "xy": [
+            170.3,
+            109.4
+          ],
+          "net": 1
+        }
+      },
+      {
+        "gap": 0.0,
+        "a": {
+          "id": "R10.1",
+          "xy": [
+            133.15,
+            115.0
+          ],
+          "net": "BUZZER_CTRL"
+        },
+        "b": {
+          "id": "via53",
+          "xy": [
+            133.6,
+            115.7
+          ],
+          "net": 16
+        }
+      },
+      {
+        "gap": 0.0,
+        "a": {
+          "id": "R_STBY.1",
+          "xy": [
+            103.15,
+            134.73
+          ],
+          "net": "TB_STBY"
+        },
+        "b": {
+          "id": "via31",
+          "xy": [
+            103.6,
+            134.7
+          ],
+          "net": 12
+        }
+      },
+      {
+        "gap": 0.0,
+        "a": {
+          "id": "via8",
+          "xy": [
+            136.8,
+            108.0
+          ],
+          "net": 4
+        },
+        "b": {
+          "id": "via13",
+          "xy": [
+            137.2,
+            107.6
+          ],
+          "net": 4
+        }
+      },
+      {
+        "gap": 0.0,
+        "a": {
+          "id": "via9",
+          "xy": [
+            137.2,
+            123.9
+          ],
+          "net": 4
+        },
+        "b": {
+          "id": "via19",
+          "xy": [
+            137.3,
+            124.0
+          ],
+          "net": 4
+        }
+      }
+    ]
+  },
+  "GBS": {
+    "objects": 184,
+    "edge_clearance": 1.9499999999999886,
+    "outside_area": 0.0,
+    "min_mask_gap": [
+      0.0,
+      128,
+      133,
+      0.03768778070785827
+    ],
+    "pairs_under_0_1": [
+      [
+        0.0,
+        128,
+        133,
+        0.03768778070785827
+      ],
+      [
+        0.0,
+        129,
+        139,
+        0.28651936452712995
+      ]
+    ],
+    "pair_details": [
+      {
+        "gap": 0.0,
+        "a": {
+          "id": "via8",
+          "xy": [
+            136.8,
+            108.0
+          ],
+          "net": 4
+        },
+        "b": {
+          "id": "via13",
+          "xy": [
+            137.2,
+            107.6
+          ],
+          "net": 4
+        }
+      },
+      {
+        "gap": 0.0,
+        "a": {
+          "id": "via9",
+          "xy": [
+            137.2,
+            123.9
+          ],
+          "net": 4
+        },
+        "b": {
+          "id": "via19",
+          "xy": [
+            137.3,
+            124.0
+          ],
+          "net": 4
+        }
+      }
+    ]
+  },
+  "GTO": {
+    "objects": 3985,
+    "edge_clearance": 0.3215036830738143,
+    "outside_area": 0.0,
+    "overlap_mask_area": 7.826599194975781,
+    "objects_on_mask": 484
+  },
+  "Package_TO_SOT_SMD.pretty/SOT-223-3_TabPin2.kicad_mod": {
+    "url": "https://api.github.com/repos/KiCad/kicad-footprints/contents/Package_TO_SOT_SMD.pretty/SOT-223-3_TabPin2.kicad_mod",
+    "status": 200,
+    "sha": "28ac67f6eb19e6c53b74061cf3ab014f2920ecaa",
+    "pads": [
+      "[Symbol('pad'), 2, Symbol('smd'), Symbol('rect'), [Symbol('at'), 3.15, 0], [Symbol('size'), 2, 3.8], [Symbol('layers'), Symbol('F.Cu'), Symbol('F.Paste'), Symbol('F.Mask')]]",
+      "[Symbol('pad'), 2, Symbol('smd'), Symbol('rect'), [Symbol('at'), -3.15, 0], [Symbol('size'), 2, 1.5], [Symbol('layers'), Symbol('F.Cu'), Symbol('F.Paste'), Symbol('F.Mask')]]",
+      "[Symbol('pad'), 3, Symbol('smd'), Symbol('rect'), [Symbol('at'), -3.15, 2.3], [Symbol('size'), 2, 1.5], [Symbol('layers'), Symbol('F.Cu'), Symbol('F.Paste'), Symbol('F.Mask')]]",
+      "[Symbol('pad'), 1, Symbol('smd'), Symbol('rect'), [Symbol('at'), -3.15, -2.3], [Symbol('size'), 2, 1.5], [Symbol('layers'), Symbol('F.Cu'), Symbol('F.Paste'), Symbol('F.Mask')]]"
+    ],
+    "descr": "[[Symbol('descr'), 'module CMS SOT223 4 pins']]"
+  },
+  "Diode_SMD.pretty/D_SMA.kicad_mod": {
+    "url": "https://api.github.com/repos/KiCad/kicad-footprints/contents/Diode_SMD.pretty/D_SMA.kicad_mod",
+    "status": 200,
+    "sha": "c71caaa1b9a90d7eb2d069b5c8ebf7ee362817e7",
+    "pads": [
+      "[Symbol('pad'), 1, Symbol('smd'), Symbol('rect'), [Symbol('at'), -2, 0], [Symbol('size'), 2.5, 1.8], [Symbol('layers'), Symbol('F.Cu'), Symbol('F.Paste'), Symbol('F.Mask')]]",
+      "[Symbol('pad'), 2, Symbol('smd'), Symbol('rect'), [Symbol('at'), 2, 0], [Symbol('size'), 2.5, 1.8], [Symbol('layers'), Symbol('F.Cu'), Symbol('F.Paste'), Symbol('F.Mask')]]"
+    ],
+    "descr": "[[Symbol('descr'), 'Diode SMA (DO-214AC)']]"
+  },
+  "Diode_SMD.pretty/D_SOD-123.kicad_mod": {
+    "url": "https://api.github.com/repos/KiCad/kicad-footprints/contents/Diode_SMD.pretty/D_SOD-123.kicad_mod",
+    "status": 200,
+    "sha": "804e6bf82d28b8c7ba6bf902eb9601714d3b63be",
+    "pads": [
+      "[Symbol('pad'), 1, Symbol('smd'), Symbol('rect'), [Symbol('at'), -1.65, 0], [Symbol('size'), 0.9, 1.2], [Symbol('layers'), Symbol('F.Cu'), Symbol('F.Paste'), Symbol('F.Mask')]]",
+      "[Symbol('pad'), 2, Symbol('smd'), Symbol('rect'), [Symbol('at'), 1.65, 0], [Symbol('size'), 0.9, 1.2], [Symbol('layers'), Symbol('F.Cu'), Symbol('F.Paste'), Symbol('F.Mask')]]"
+    ],
+    "descr": "[[Symbol('descr'), Symbol('SOD-123')]]"
+  },
+  "Connector_BarrelJack.pretty/BarrelJack_Horizontal.kicad_mod": {
+    "url": "https://api.github.com/repos/KiCad/kicad-footprints/contents/Connector_BarrelJack.pretty/BarrelJack_Horizontal.kicad_mod",
+    "status": 200,
+    "sha": "e95351650ef8ea5b5848d13a87360ffa5e27abb2",
+    "pads": [
+      "[Symbol('pad'), 1, Symbol('thru_hole'), Symbol('rect'), [Symbol('at'), 0, 0], [Symbol('size'), 3.5, 3.5], [Symbol('drill'), Symbol('oval'), 1, 3], [Symbol('layers'), Symbol('*.Cu'), Symbol('*.Mask')]]",
+      "[Symbol('pad'), 2, Symbol('thru_hole'), Symbol('roundrect'), [Symbol('at'), -6, 0], [Symbol('size'), 3, 3.5], [Symbol('drill'), Symbol('oval'), 1, 3], [Symbol('layers'), Symbol('*.Cu'), Symbol('*.Mask')], [Symbol('roundrect_rratio'), 0.25]]",
+      "[Symbol('pad'), 3, Symbol('thru_hole'), Symbol('roundrect'), [Symbol('at'), -3, 4.7], [Symbol('size'), 3.5, 3.5], [Symbol('drill'), Symbol('oval'), 3, 1], [Symbol('layers'), Symbol('*.Cu'), Symbol('*.Mask')], [Symbol('roundrect_rratio'), 0.25]]"
+    ],
+    "descr": "[[Symbol('descr'), 'DC Barrel Jack']]"
+  },
+  "min_pad_ring": 0.29999999999999993,
+  "silk_on_mask_details": [
+    {
+      "nearest": {
+        "id": "C5.1",
+        "xy": [
+          169.15,
+          107.0
+        ],
+        "net": "+5V"
+      },
+      "area": 0.14173770486148268
+    },
+    {
+      "nearest": {
+        "id": "C5.2",
+        "xy": [
+          170.85,
+          107.0
+        ],
+        "net": "GND"
+      },
+      "area": 0.2318680352956283
+    },
+    {
+      "nearest": {
+        "id": "C6.1",
+        "xy": [
+          169.15,
+          109.5
+        ],
+        "net": "+3.3V"
+      },
+      "area": 0.13721263376928303
+    },
+    {
+      "nearest": {
+        "id": "C6.2",
+        "xy": [
+          170.85,
+          109.5
+        ],
+        "net": "GND"
+      },
+      "area": 0.21297104472168737
+    },
+    {
+      "nearest": {
+        "id": "Q1.3",
+        "xy": [
+          134.0,
+          122.04
+        ],
+        "net": "BUZ_DRV"
+      },
+      "area": 0.901171225970477
+    },
+    {
+      "nearest": {
+        "id": "R10.1",
+        "xy": [
+          133.15,
+          115.0
+        ],
+        "net": "BUZZER_CTRL"
+      },
+      "area": 0.34446778831286395
+    },
+    {
+      "nearest": {
+        "id": "R10.2",
+        "xy": [
+          134.85,
+          115.0
+        ],
+        "net": "BUZ_BASE"
+      },
+      "area": 0.42712897700607033
+    },
+    {
+      "nearest": {
+        "id": "C_VM.1",
+        "xy": [
+          122.25,
+          123.5
+        ],
+        "net": "+5V"
+      },
+      "area": 0.8851437611997798
+    },
+    {
+      "nearest": {
+        "id": "R_SDA.1",
+        "xy": [
+          133.15,
+          128.5
+        ],
+        "net": "+3.3V"
+      },
+      "area": 0.1553033803035972
+    },
+    {
+      "nearest": {
+        "id": "R_SDA.2",
+        "xy": [
+          134.85,
+          128.5
+        ],
+        "net": "I2C1_SDA"
+      },
+      "area": 0.32446895843239354
+    },
+    {
+      "nearest": {
+        "id": "SPK1.2",
+        "xy": [
+          190.0,
+          115.77
+        ],
+        "net": "VOICE_SPK_N"
+      },
+      "area": 0.4410968731903954
+    },
+    {
+      "nearest": {
+        "id": "via1",
+        "xy": [
+          162.9,
+          109.4
+        ],
+        "net": 1
+      },
+      "area": 0.08465665191191159
+    },
+    {
+      "nearest": {
+        "id": "via2",
+        "xy": [
+          170.3,
+          109.4
+        ],
+        "net": 1
+      },
+      "area": 0.008208417097094866
+    },
+    {
+      "nearest": {
+        "id": "via3",
+        "xy": [
+          169.8,
+          115.7
+        ],
+        "net": 5
+      },
+      "area": 0.27441501330837376
+    },
+    {
+      "nearest": {
+        "id": "via4",
+        "xy": [
+          171.8,
+          116.4
+        ],
+        "net": 5
+      },
+      "area": 0.20298466604431037
+    },
+    {
+      "nearest": {
+        "id": "via6",
+        "xy": [
+          121.7,
+          145.8
+        ],
+        "net": 5
+      },
+      "area": 0.07981070282414587
+    },
+    {
+      "nearest": {
+        "id": "via7",
+        "xy": [
+          117.6,
+          156.5
+        ],
+        "net": 5
+      },
+      "area": 0.046566212152946033
+    },
+    {
+      "nearest": {
+        "id": "via11",
+        "xy": [
+          126.1,
+          124.1
+        ],
+        "net": 4
+      },
+      "area": 0.08465665191191205
+    },
+    {
+      "nearest": {
+        "id": "via12",
+        "xy": [
+          118.8,
+          120.8
+        ],
+        "net": 4
+      },
+      "area": 0.004360864712868927
+    },
+    {
+      "nearest": {
+        "id": "via16",
+        "xy": [
+          169.8,
+          108.2
+        ],
+        "net": 4
+      },
+      "area": 0.19890534931404227
+    },
+    {
+      "nearest": {
+        "id": "via18",
+        "xy": [
+          172.7,
+          115.7
+        ],
+        "net": 4
+      },
+      "area": 0.13236309322980075
+    },
+    {
+      "nearest": {
+        "id": "via23",
+        "xy": [
+          117.1,
+          115.8
+        ],
+        "net": 14
+      },
+      "area": 0.12233786702653096
+    },
+    {
+      "nearest": {
+        "id": "via27",
+        "xy": [
+          179.60000000000002,
+          152.6
+        ],
+        "net": 25
+      },
+      "area": 0.23405464732765002
+    },
+    {
+      "nearest": {
+        "id": "via28",
+        "xy": [
+          134.1,
+          129.8
+        ],
+        "net": 26
+      },
+      "area": 0.18676503821333523
+    },
+    {
+      "nearest": {
+        "id": "via34",
+        "xy": [
+          120.8,
+          153.8
+        ],
+        "net": 27
+      },
+      "area": 0.1390479873148597
+    },
+    {
+      "nearest": {
+        "id": "via35",
+        "xy": [
+          122.7,
+          153.8
+        ],
+        "net": 27
+      },
+      "area": 0.14895261143795802
+    },
+    {
+      "nearest": {
+        "id": "via37",
+        "xy": [
+          133.2,
+          126.7
+        ],
+        "net": 27
+      },
+      "area": 0.0159385987713621
+    },
+    {
+      "nearest": {
+        "id": "via39",
+        "xy": [
+          135.9,
+          114.1
+        ],
+        "net": 9
+      },
+      "area": 0.07320880154584757
+    },
+    {
+      "nearest": {
+        "id": "via42",
+        "xy": [
+          108.7,
+          116.5
+        ],
+        "net": 10
+      },
+      "area": 0.23502169241850682
+    },
+    {
+      "nearest": {
+        "id": "via43",
+        "xy": [
+          134.1,
+          113.8
+        ],
+        "net": 10
+      },
+      "area": 0.19272291272312636
+    },
+    {
+      "nearest": {
+        "id": "via49",
+        "xy": [
+          134.7,
+          113.0
+        ],
+        "net": 11
+      },
+      "area": 0.21912301908386148
+    },
+    {
+      "nearest": {
+        "id": "via53",
+        "xy": [
+          133.6,
+          115.7
+        ],
+        "net": 16
+      },
+      "area": 0.2309755433707029
+    },
+    {
+      "nearest": {
+        "id": "via54",
+        "xy": [
+          135.9,
+          115.9
+        ],
+        "net": 16
+      },
+      "area": 0.0732088015458476
+    },
+    {
+      "nearest": {
+        "id": "via55",
+        "xy": [
+          138.4,
+          115.9
+        ],
+        "net": 16
+      },
+      "area": 0.057609278602569626
+    },
+    {
+      "nearest": {
+        "id": "via56",
+        "xy": [
+          141.2,
+          120.3
+        ],
+        "net": 16
+      },
+      "area": 0.09765181942341228
+    },
+    {
+      "nearest": {
+        "id": "via57",
+        "xy": [
+          141.2,
+          127.8
+        ],
+        "net": 16
+      },
+      "area": 0.09765181942341192
+    },
+    {
+      "nearest": {
+        "id": "via58",
+        "xy": [
+          135.3,
+          117.1
+        ],
+        "net": 17
+      },
+      "area": 0.07087356233342999
+    },
+    {
+      "nearest": {
+        "id": "via59",
+        "xy": [
+          169.60000000000002,
+          129.0
+        ],
+        "net": 20
+      },
+      "area": 0.10133977551188314
+    },
+    {
+      "nearest": {
+        "id": "via60",
+        "xy": [
+          141.4,
+          164.3
+        ],
+        "net": 24
+      },
+      "area": 0.03619615874891261
+    },
+    {
+      "nearest": {
+        "id": "via62",
+        "xy": [
+          134.2,
+          180.10000000000002
+        ],
+        "net": 28
+      },
+      "area": 0.2452030239012946
+    }
+  ],
+  "min_drill_web": {
+    "a": "via9",
+    "b": "via19",
+    "hole_edge_gap": -0.15857864376267844,
+    "a_xy": [
+      137.2,
+      123.9
+    ],
+    "b_xy": [
+      137.3,
+      124.0
+    ]
+  },
+  "drill_web_under_025": [
+    {
+      "a": "via9",
+      "b": "via19",
+      "hole_edge_gap": -0.15857864376267844,
+      "a_xy": [
+        137.2,
+        123.9
+      ],
+      "b_xy": [
+        137.3,
+        124.0
+      ]
+    }
+  ]
+}
+minimum rings [{'id': 'via0', 'ring': 0.15, 'drill': 0.3}, {'id': 'via1', 'ring': 0.15, 'drill': 0.3}, {'id': 'via2', 'ring': 0.15, 'drill': 0.3}, {'id': 'via3', 'ring': 0.15, 'drill': 0.3}, {'id': 'via4', 'ring': 0.15, 'drill': 0.3}]

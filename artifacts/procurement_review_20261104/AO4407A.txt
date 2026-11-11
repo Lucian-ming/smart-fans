@@ -1,0 +1,503 @@
+PAGE 1
+Symbol
+10 Sec
+Steady State
+VDS
+VGS
+-12
+-9.2
+-10
+-7.4
+IDM
+IAR
+EAR
+3.1
+1.7
+2.0
+1.1
+TJ, TSTG
+Parameter
+Symbol
+Typ
+Max
+t  ≤ 10s
+32
+40
+Steady State
+60
+75
+Steady State
+RθJL
+17
+24
+°C
+-55 to 150
+W
+±25
+-60
+26
+101
+A
+mJ
+V
+V
+Maximum Junction-to-Lead C
+°C/W
+Thermal Characteristics
+Units
+Maximum Junction-to-Ambient A
+°C/W
+Maximum Junction-to-Ambient A
+°C/W
+RθJA
+Drain-Source Voltage
+Pulsed Drain Current B
+-30
+Absolute Maximum Ratings  TA=25°C unless otherwise noted
+Continuous Drain 
+Current A 
+Units
+Parameter
+TA=25°C  
+TA=70°C
+Junction and Storage Temperature Range
+TA=70°C
+ID
+Gate-Source Voltage
+PD
+Avalanche Current G
+Repetitive avalanche energy L=0.3mH G
+Power Dissipation A 
+TA=25°C
+G
+S
+S
+S
+D
+D
+D
+D
+AO4407A
+P-Channel Enhancement Mode Field Effect Transistor
+Features
+VDS  = -30V
+ID = -12A           (VGS = -10V)
+RDS(ON) < 11mΩ (VGS = -20V)
+RDS(ON) < 13mΩ (VGS = -10V)
+RDS(ON) < 38mΩ (VGS = -10V)
+                               UIS TESTED!
+RG, CISS, COSS, CRSS TESTED!
+General Description
+The AO4407A uses advanced trench technology to 
+provide excellent RDS(ON), and ultra-low low gate charge 
+with a 25V gate rating. This device is suitable for use as 
+a load switch or in PWM applications. Standard Product 
+AO4407A is Pb-free (meets ROHS & Sony 259 
+specifications). 
+G 
+D 
+S 
+SOIC-8
+Top View
+Alpha & Omega Semiconductor, Ltd.
+www.aosmd.com
+
+PAGE 2
+AO4407A
+Symbol
+Min
+Typ
+Max
+Units
+BVDSS
+-30
+V
+-10
+TJ = 55°C
+-50
+IGSS
+±100
+nA
+VGS(th)
+-1.7
+-2.3
+-3
+V
+ID(ON)
+-60
+A
+8.5
+11
+TJ=125°C
+11.5
+15
+10
+13
+27
+38
+gFS
+21
+S
+VSD
+-0.7
+-1
+V
+IS
+-3
+A
+Ciss
+2060
+2600
+pF
+Coss
+370
+pF
+Crss
+295
+pF
+Rg
+2.4
+3.6
+Ω
+Qg 
+30
+39
+nC
+Qgs
+4.6
+nC
+Qgd
+10
+nC
+tD(on)
+11
+ns
+tr
+9.4
+ns
+tD(off)
+24
+ns
+tf
+12
+ns
+trr
+30
+40
+ns
+Qrr
+22
+nC
+THIS PRODUCT HAS BEEN DESIGNED AND QUALIFIED FOR THE CONSUMER MARKET. APPLICATIONS OR USES AS CRITICAL 
+COMPONENTS IN LIFE SUPPORT DEVICES OR SYSTEMS ARE NOT AUTHORIZED. AOS DOES NOT ASSUME ANY LIABILITY ARISING
+OUT OF SUCH APPLICATIONS OR USES OF ITS PRODUCTS.  AOS RESERVES THE RIGHT TO IMPROVE PRODUCT DESIGN,
+FUNCTIONS AND RELIABILITY WITHOUT NOTICE.
+VGS=0V, VDS=-15V, f=1MHz
+Input Capacitance
+Output Capacitance
+Turn-On Rise Time
+Turn-Off DelayTime
+VGS=-10V, VDS=-15V, RL=1.25Ω, 
+RGEN=3Ω
+Turn-Off Fall Time
+Turn-On DelayTime
+mΩ
+SWITCHING PARAMETERS
+Gate Source Charge
+Gate Drain Charge
+Total Gate Charge
+VGS=-10V, VDS=-15V, ID=-12A
+DYNAMIC PARAMETERS
+Maximum Body-Diode Continuous Current
+Gate resistance
+VGS=0V, VDS=0V, f=1MHz
+VGS = -5V, ID = -10A  
+IS = -1A,VGS = 0V
+VDS = -5V, ID = -10A
+VGS = -10V, ID = -12A  
+RDS(ON)
+Static Drain-Source On-Resistance
+Forward Transconductance
+Diode Forward Voltage
+IDSS
+µA
+Gate Threshold Voltage
+VDS = VGS  ID = -250µA
+VDS = -30V, VGS = 0V  
+VDS = 0V, VGS = ±25V
+Zero Gate Voltage Drain Current
+Gate-Body leakage current
+Electrical Characteristics (TJ=25°C unless otherwise noted)
+STATIC PARAMETERS
+Parameter
+Conditions
+Body Diode Reverse Recovery Time
+Body Diode Reverse Recovery Charge IF=-12A, dI/dt=100A/µs
+Drain-Source Breakdown Voltage
+On state drain current
+ID = -250µA, VGS = 0V  
+VGS = -10V, VDS = -5V
+VGS = -20V, ID = -12A  
+Reverse Transfer Capacitance
+IF=-12A, dI/dt=100A/µs
+A: The value of R θJA is measured with the device mounted on 1 in 2 FR-4 board with 2oz. Copper, in a still air environment with T A = 25°C. The 
+value in any given application depends on the user's specific board design. The current rating is based on the t   ≤ 10s thermal resistance 
+rating.
+B: Repetitive rating, pulse width limited by junction temperature.
+C. The R θJA is the sum of the thermal impedence from junction to lead R  θJL and lead to ambient.
+D. The static characteristics in Figures 1 to 6 are obtained using < 300 µs pulses, duty cycle 0.5% max.
+E. These tests are performed with the device mounted on 1 in   2 FR-4 board with 2oz. Copper, in a still air environment with T A=25°C. The SOA 
+curve provides a single pulse rating. 
+F. The current rating is based on the t ≤ 10s thermal resistance rating.
+G. EAR and IAR ratings are based on low frequency and duty cycles to keep Tj=25C.
+Rev3: Jan 2008
+Alpha & Omega Semiconductor, Ltd.
+www.aosmd.com
+
+PAGE 3
+AO4407A
+TYPICAL ELECTRICAL AND THERMAL CHARACTERISTICS
+IF=-6.5A, dI/dt=100A/µs
+THIS PRODUCT HAS BEEN DESIGNED AND QUALIFIED FOR THE CONSUMER MARKET. APPLICATIONS OR USES AS CRITICAL 
+COMPONENTS IN LIFE SUPPORT DEVICES OR SYSTEMS ARE NOT AUTHORIZED. AOS DOES NOT ASSUME ANY LIABILITY ARISING
+OUT OF SUCH APPLICATIONS OR USES OF ITS PRODUCTS.  AOS RESERVES THE RIGHT TO IMPROVE PRODUCT DESIGN,
+FUNCTIONS AND RELIABILITY WITHOUT NOTICE.
+0
+20
+40
+60
+80
+0
+1
+2
+3
+4
+5
+-VDS (Volts)
+Figure 1: On-Region Characteristics
+-ID (A)
+-5V
+-6V
+-10V
+-4.5V
+-4V
+0
+20
+40
+60
+80
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+-VGS(Volts)
+Figure 2: Transfer Characteristics
+-ID(A)
+25°C
+125°C
+VDS= -5V
+0
+10
+20
+30
+40
+0
+4
+8
+12
+16
+20
+-ID (A)
+Figure 3: On-Resistance vs. Drain Current and 
+Gate Voltage
+RDS(ON) (mΩ)
+VGS=-10V
+VGS=-5V
+VGS=-20V
+1E-06
+1E-05
+1E-04
+1E-03
+1E-02
+1E-01
+1E+00
+1E+01
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+-VSD (Volts)
+Figure 6: Body-Diode Characteristics
+-IS (A)
+25°C
+125°C
+0.8
+1.0
+1.2
+1.4
+1.6
+0
+25
+50
+75
+100
+125
+150
+175
+Temperature (°C)
+Figure 4: On-Resistance vs. Junction 
+Temperature
+Normalized On-Resistance
+5
+10
+15
+20
+25
+30
+3
+4
+5
+6
+7
+8
+9
+10
+-VGS (Volts)
+Figure 5: On-Resistance vs. Gate-Source Voltage
+RDS(ON) (mΩ)
+ID=-12A
+25°C
+125°C
+VGS= -3.5V
+VGS=-20V
+ID=-12A
+VGS=-10V
+ID=-12A
+VGS=-5V
+ID=-10A
+Alpha & Omega Semiconductor, Ltd.
+www.aosmd.com
+
+PAGE 4
+AO4407A
+TYPICAL ELECTRICAL AND THERMAL CHARACTERISTICS
+IF=-6.5A, dI/dt=100A/µs
+THIS PRODUCT HAS BEEN DESIGNED AND QUALIFIED FOR THE CONSUMER MARKET. APPLICATIONS OR USES AS CRITICAL 
+COMPONENTS IN LIFE SUPPORT DEVICES OR SYSTEMS ARE NOT AUTHORIZED. AOS DOES NOT ASSUME ANY LIABILITY ARISING
+OUT OF SUCH APPLICATIONS OR USES OF ITS PRODUCTS.  AOS RESERVES THE RIGHT TO IMPROVE PRODUCT DESIGN,
+FUNCTIONS AND RELIABILITY WITHOUT NOTICE.
+0
+2
+4
+6
+8
+10
+0
+5
+10
+15
+20
+25
+30
+Qg (nC)
+Figure 7: Gate-Charge Characteristics
+-VGS (Volts)
+0
+500
+1000
+1500
+2000
+2500
+3000
+0
+5
+10
+15
+20
+25
+30
+-VDS (Volts)
+Figure 8: Capacitance Characteristics
+Capacitance (pF)
+Ciss
+Coss
+Crss
+1
+10
+100
+1000
+0.00001
+0.001
+0.1
+10
+1000
+Pulse Width (s)
+Figure 10: Single Pulse Power Rating Junction-
+to-Ambient (Note E)
+Power (W)
+0.001
+0.01
+0.1
+1
+10
+0.00001
+0.0001
+0.001
+0.01
+0.1
+1
+10
+100
+1000
+Pulse Width (s)
+Figure 11: Normalized Maximum Transient Thermal Impedance(Note E)
+ZθJA Normalized Transient 
+Thermal Resistance
+0.01
+0.1
+1
+10
+100
+0.1
+1
+10
+100
+-VDS (Volts)
+-ID (Amps)
+Figure 9: Maximum Forward Biased Safe 
+Operating Area (Note E)
+100µs
+10ms
+1ms
+100ms
+10s
+DC
+RDS(ON) limited
+TJ(Max)=150°C
+TA=25°C
+10µs
+VDS=-15V
+ID=-12A
+Single Pulse
+D=Ton/T
+TJ,PK=TA+PDM.ZθJA.RθJA
+RθJA=75°C/W
+Ton
+T
+PD
+In descending order
+D=0.5, 0.3, 0.1, 0.05, 0.02, 0.01, single pulse
+TJ(Max)=150°C
+TA=25°C
+Alpha & Omega Semiconductor, Ltd.
+www.aosmd.com

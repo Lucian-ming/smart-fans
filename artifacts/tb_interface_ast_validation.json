@@ -1,0 +1,42 @@
+{
+  "pass": true,
+  "evidence": "User measurement and pin order 2026-11-04; coarse 15 mm, not precision metrology",
+  "row_spacing_mm": 15.0,
+  "same_row_pitch_mm": 2.54,
+  "VM": "+5V",
+  "VCC": "+3.3V",
+  "motor": [
+    "TB_AO1",
+    "TB_AO2"
+  ],
+  "negative_cases": {
+    "assumed_15_24": {
+      "rejected": true,
+      "reason": "row spacing must be user 15.00 mm"
+    },
+    "VM_12V": {
+      "rejected": true,
+      "reason": "pin function / net mismatch"
+    },
+    "VCC_5V": {
+      "rejected": true,
+      "reason": "pin function / net mismatch"
+    },
+    "reversed_AO": {
+      "rejected": true,
+      "reason": "pin function / net mismatch"
+    },
+    "B_output_grounded": {
+      "rejected": true,
+      "reason": "pin function / net mismatch"
+    },
+    "vertical_mirror": {
+      "rejected": true,
+      "reason": "top to bottom numbering"
+    }
+  },
+  "limitations": [
+    "AST only; no routing/manufacturing/full assembly verification",
+    "Module outline dimensions remain unverified; dry-fit before soldering"
+  ]
+}

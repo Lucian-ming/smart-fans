@@ -1,0 +1,1740 @@
+﻿[
+    {
+        "path":  "D:\\smart_fans\\artifacts\\user_module_sources\\ec_0.png",
+        "lines":  [
+                      {
+                          "text":  "24mm",
+                          "words":  [
+                                        {
+                                            "y":  119,
+                                            "height":  52,
+                                            "width":  190,
+                                            "text":  "24mm",
+                                            "x":  415
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "VCC 0 0 GND",
+                          "words":  [
+                                        {
+                                            "y":  343,
+                                            "height":  54,
+                                            "width":  122,
+                                            "text":  "VCC",
+                                            "x":  252
+                                        },
+                                        {
+                                            "y":  346,
+                                            "height":  68,
+                                            "width":  69,
+                                            "text":  "0",
+                                            "x":  417
+                                        },
+                                        {
+                                            "y":  338,
+                                            "height":  74,
+                                            "width":  75,
+                                            "text":  "0",
+                                            "x":  528
+                                        },
+                                        {
+                                            "y":  342,
+                                            "height":  54,
+                                            "width":  122,
+                                            "text":  "GND",
+                                            "x":  634
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "0 0 0",
+                          "words":  [
+                                        {
+                                            "y":  1343,
+                                            "height":  76,
+                                            "width":  79,
+                                            "text":  "0",
+                                            "x":  347
+                                        },
+                                        {
+                                            "y":  1344,
+                                            "height":  73,
+                                            "width":  72,
+                                            "text":  "0",
+                                            "x":  471
+                                        },
+                                        {
+                                            "y":  1345,
+                                            "height":  73,
+                                            "width":  70,
+                                            "text":  "0",
+                                            "x":  589
+                                        }
+                                    ]
+                      }
+                  ],
+        "text":  "24mm VCC 0 0 GND 0 0 0"
+    },
+    {
+        "path":  "D:\\smart_fans\\artifacts\\user_module_sources\\ec_180.png",
+        "lines":  [
+                      {
+                          "text":  "0N9 卩 0 00 自",
+                          "words":  [
+                                        {
+                                            "y":  1284,
+                                            "height":  54,
+                                            "width":  122,
+                                            "text":  "0N9",
+                                            "x":  444
+                                        },
+                                        {
+                                            "y":  1268,
+                                            "height":  74,
+                                            "width":  75,
+                                            "text":  "卩",
+                                            "x":  597
+                                        },
+                                        {
+                                            "y":  1266,
+                                            "height":  68,
+                                            "width":  69,
+                                            "text":  "0",
+                                            "x":  714
+                                        },
+                                        {
+                                            "y":  1283,
+                                            "height":  53,
+                                            "width":  79,
+                                            "text":  "00",
+                                            "x":  826
+                                        },
+                                        {
+                                            "y":  1285,
+                                            "height":  52,
+                                            "width":  39,
+                                            "text":  "自",
+                                            "x":  909
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "山 山 乙",
+                          "words":  [
+                                        {
+                                            "y":  1509,
+                                            "height":  37,
+                                            "width":  48,
+                                            "text":  "山",
+                                            "x":  595
+                                        },
+                                        {
+                                            "y":  1509,
+                                            "height":  37,
+                                            "width":  48,
+                                            "text":  "山",
+                                            "x":  650
+                                        },
+                                        {
+                                            "y":  1510,
+                                            "height":  51,
+                                            "width":  33,
+                                            "text":  "乙",
+                                            "x":  752
+                                        }
+                                    ]
+                      }
+                  ],
+        "text":  "0N9 卩 0 00 自 山 山 乙"
+    },
+    {
+        "path":  "D:\\smart_fans\\artifacts\\user_module_sources\\ec_270.png",
+        "lines":  [
+
+                  ],
+        "text":  ""
+    },
+    {
+        "path":  "D:\\smart_fans\\artifacts\\user_module_sources\\ec_90.png",
+        "lines":  [
+                      {
+                          "text":  "0 0",
+                          "words":  [
+                                        {
+                                            "y":  588,
+                                            "height":  57,
+                                            "width":  81,
+                                            "text":  "0",
+                                            "x":  1122
+                                        },
+                                        {
+                                            "y":  562,
+                                            "height":  71,
+                                            "width":  73,
+                                            "text":  "0",
+                                            "x":  1345
+                                        }
+                                    ]
+                      }
+                  ],
+        "text":  "0 0"
+    },
+    {
+        "path":  "D:\\smart_fans\\artifacts\\user_module_sources\\oled_0.png",
+        "lines":  [
+                      {
+                          "text":  "B 长 27 ， 3",
+                          "words":  [
+                                        {
+                                            "y":  125,
+                                            "height":  37,
+                                            "width":  24,
+                                            "text":  "B",
+                                            "x":  924
+                                        },
+                                        {
+                                            "y":  120,
+                                            "height":  45,
+                                            "width":  36,
+                                            "text":  "长",
+                                            "x":  951
+                                        },
+                                        {
+                                            "y":  125,
+                                            "height":  38,
+                                            "width":  43,
+                                            "text":  "27",
+                                            "x":  988
+                                        },
+                                        {
+                                            "y":  155,
+                                            "height":  8,
+                                            "width":  9,
+                                            "text":  "，",
+                                            "x":  1032
+                                        },
+                                        {
+                                            "y":  125,
+                                            "height":  38,
+                                            "width":  20,
+                                            "text":  "3",
+                                            "x":  1043
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "LED 玻 璃 长 26700",
+                          "words":  [
+                                        {
+                                            "y":  173,
+                                            "height":  38,
+                                            "width":  73,
+                                            "text":  "LED",
+                                            "x":  848
+                                        },
+                                        {
+                                            "y":  168,
+                                            "height":  48,
+                                            "width":  37,
+                                            "text":  "玻",
+                                            "x":  924
+                                        },
+                                        {
+                                            "y":  168,
+                                            "height":  48,
+                                            "width":  36,
+                                            "text":  "璃",
+                                            "x":  963
+                                        },
+                                        {
+                                            "y":  168,
+                                            "height":  46,
+                                            "width":  36,
+                                            "text":  "长",
+                                            "x":  1003
+                                        },
+                                        {
+                                            "y":  173,
+                                            "height":  38,
+                                            "width":  120,
+                                            "text":  "26700",
+                                            "x":  1040
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "4 显 示 区 域 长 21 ， 7",
+                          "words":  [
+                                        {
+                                            "y":  230,
+                                            "height":  26,
+                                            "width":  15,
+                                            "text":  "4",
+                                            "x":  695
+                                        },
+                                        {
+                                            "y":  219,
+                                            "height":  43,
+                                            "width":  36,
+                                            "text":  "显",
+                                            "x":  831
+                                        },
+                                        {
+                                            "y":  219,
+                                            "height":  46,
+                                            "width":  38,
+                                            "text":  "示",
+                                            "x":  870
+                                        },
+                                        {
+                                            "y":  219,
+                                            "height":  44,
+                                            "width":  34,
+                                            "text":  "区",
+                                            "x":  912
+                                        },
+                                        {
+                                            "y":  217,
+                                            "height":  47,
+                                            "width":  38,
+                                            "text":  "域",
+                                            "x":  949
+                                        },
+                                        {
+                                            "y":  218,
+                                            "height":  46,
+                                            "width":  37,
+                                            "text":  "长",
+                                            "x":  990
+                                        },
+                                        {
+                                            "y":  222,
+                                            "height":  39,
+                                            "width":  38,
+                                            "text":  "21",
+                                            "x":  1028
+                                        },
+                                        {
+                                            "y":  252,
+                                            "height":  9,
+                                            "width":  7,
+                                            "text":  "，",
+                                            "x":  1073
+                                        },
+                                        {
+                                            "y":  222,
+                                            "height":  39,
+                                            "width":  21,
+                                            "text":  "7",
+                                            "x":  1082
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "1 弱 0",
+                          "words":  [
+                                        {
+                                            "y":  278,
+                                            "height":  40,
+                                            "width":  13,
+                                            "text":  "1",
+                                            "x":  1365
+                                        },
+                                        {
+                                            "y":  279,
+                                            "height":  38,
+                                            "width":  43,
+                                            "text":  "弱",
+                                            "x":  1395
+                                        },
+                                        {
+                                            "y":  279,
+                                            "height":  39,
+                                            "width":  20,
+                                            "text":  "0",
+                                            "x":  1439
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "． P2 ， 古 3",
+                          "words":  [
+                                        {
+                                            "y":  331,
+                                            "height":  7,
+                                            "width":  6,
+                                            "text":  "．",
+                                            "x":  761
+                                        },
+                                        {
+                                            "y":  301,
+                                            "height":  38,
+                                            "width":  46,
+                                            "text":  "P2",
+                                            "x":  920
+                                        },
+                                        {
+                                            "y":  332,
+                                            "height":  7,
+                                            "width":  6,
+                                            "text":  "，",
+                                            "x":  969
+                                        },
+                                        {
+                                            "y":  300,
+                                            "height":  18,
+                                            "width":  15,
+                                            "text":  "古",
+                                            "x":  1020
+                                        },
+                                        {
+                                            "y":  301,
+                                            "height":  38,
+                                            "width":  21,
+                                            "text":  "3",
+                                            "x":  1035
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "0 0",
+                          "words":  [
+                                        {
+                                            "y":  360,
+                                            "height":  39,
+                                            "width":  39,
+                                            "text":  "0",
+                                            "x":  939
+                                        },
+                                        {
+                                            "y":  360,
+                                            "height":  40,
+                                            "width":  40,
+                                            "text":  "0",
+                                            "x":  998
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "2 ． IW",
+                          "words":  [
+                                        {
+                                            "y":  455,
+                                            "height":  26,
+                                            "width":  17,
+                                            "text":  "2",
+                                            "x":  524
+                                        },
+                                        {
+                                            "y":  474,
+                                            "height":  7,
+                                            "width":  5,
+                                            "text":  "．",
+                                            "x":  542
+                                        },
+                                        {
+                                            "y":  456,
+                                            "height":  24,
+                                            "width":  42,
+                                            "text":  "IW",
+                                            "x":  549
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "B 宽 0 D 玻 璃 宽 显 示 域 宽 一",
+                          "words":  [
+                                        {
+                                            "y":  560,
+                                            "height":  38,
+                                            "width":  22,
+                                            "text":  "B",
+                                            "x":  117
+                                        },
+                                        {
+                                            "y":  554,
+                                            "height":  49,
+                                            "width":  35,
+                                            "text":  "宽",
+                                            "x":  143
+                                        },
+                                        {
+                                            "y":  568,
+                                            "height":  39,
+                                            "width":  29,
+                                            "text":  "0",
+                                            "x":  199
+                                        },
+                                        {
+                                            "y":  569,
+                                            "height":  38,
+                                            "width":  25,
+                                            "text":  "D",
+                                            "x":  279
+                                        },
+                                        {
+                                            "y":  563,
+                                            "height":  48,
+                                            "width":  37,
+                                            "text":  "玻",
+                                            "x":  306
+                                        },
+                                        {
+                                            "y":  563,
+                                            "height":  48,
+                                            "width":  38,
+                                            "text":  "璃",
+                                            "x":  345
+                                        },
+                                        {
+                                            "y":  563,
+                                            "height":  49,
+                                            "width":  36,
+                                            "text":  "宽",
+                                            "x":  387
+                                        },
+                                        {
+                                            "y":  567,
+                                            "height":  43,
+                                            "width":  36,
+                                            "text":  "显",
+                                            "x":  461
+                                        },
+                                        {
+                                            "y":  567,
+                                            "height":  46,
+                                            "width":  37,
+                                            "text":  "示",
+                                            "x":  500
+                                        },
+                                        {
+                                            "y":  566,
+                                            "height":  47,
+                                            "width":  39,
+                                            "text":  "域",
+                                            "x":  579
+                                        },
+                                        {
+                                            "y":  565,
+                                            "height":  48,
+                                            "width":  34,
+                                            "text":  "宽",
+                                            "x":  621
+                                        },
+                                        {
+                                            "y":  554,
+                                            "height":  87,
+                                            "width":  503,
+                                            "text":  "一",
+                                            "x":  737
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "27 ， 19 68",
+                          "words":  [
+                                        {
+                                            "y":  621,
+                                            "height":  38,
+                                            "width":  45,
+                                            "text":  "27",
+                                            "x":  60
+                                        },
+                                        {
+                                            "y":  651,
+                                            "height":  8,
+                                            "width":  6,
+                                            "text":  "，",
+                                            "x":  107
+                                        },
+                                        {
+                                            "y":  630,
+                                            "height":  39,
+                                            "width":  41,
+                                            "text":  "19",
+                                            "x":  252
+                                        },
+                                        {
+                                            "y":  630,
+                                            "height":  39,
+                                            "width":  42,
+                                            "text":  "68",
+                                            "x":  327
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "内 径 2mm ， 外 径 3 ， 5m",
+                          "words":  [
+                                        {
+                                            "y":  1034,
+                                            "height":  48,
+                                            "width":  31,
+                                            "text":  "内",
+                                            "x":  234
+                                        },
+                                        {
+                                            "y":  1034,
+                                            "height":  48,
+                                            "width":  37,
+                                            "text":  "径",
+                                            "x":  271
+                                        },
+                                        {
+                                            "y":  1039,
+                                            "height":  39,
+                                            "width":  85,
+                                            "text":  "2mm",
+                                            "x":  309
+                                        },
+                                        {
+                                            "y":  1062,
+                                            "height":  16,
+                                            "width":  9,
+                                            "text":  "，",
+                                            "x":  400
+                                        },
+                                        {
+                                            "y":  1034,
+                                            "height":  47,
+                                            "width":  37,
+                                            "text":  "外",
+                                            "x":  437
+                                        },
+                                        {
+                                            "y":  1034,
+                                            "height":  48,
+                                            "width":  36,
+                                            "text":  "径",
+                                            "x":  477
+                                        },
+                                        {
+                                            "y":  1039,
+                                            "height":  39,
+                                            "width":  22,
+                                            "text":  "3",
+                                            "x":  515
+                                        },
+                                        {
+                                            "y":  1069,
+                                            "height":  9,
+                                            "width":  7,
+                                            "text":  "，",
+                                            "x":  539
+                                        },
+                                        {
+                                            "y":  1040,
+                                            "height":  38,
+                                            "width":  52,
+                                            "text":  "5m",
+                                            "x":  548
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "， 65",
+                          "words":  [
+                                        {
+                                            "y":  1068,
+                                            "height":  9,
+                                            "width":  7,
+                                            "text":  "，",
+                                            "x":  723
+                                        },
+                                        {
+                                            "y":  1038,
+                                            "height":  39,
+                                            "width":  42,
+                                            "text":  "65",
+                                            "x":  732
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "14 ． 00",
+                          "words":  [
+                                        {
+                                            "y":  1037,
+                                            "height":  40,
+                                            "width":  40,
+                                            "text":  "14",
+                                            "x":  930
+                                        },
+                                        {
+                                            "y":  1068,
+                                            "height":  9,
+                                            "width":  8,
+                                            "text":  "．",
+                                            "x":  972
+                                        },
+                                        {
+                                            "y":  1038,
+                                            "height":  39,
+                                            "width":  41,
+                                            "text":  "00",
+                                            "x":  982
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "2",
+                          "words":  [
+                                        {
+                                            "y":  1007,
+                                            "height":  38,
+                                            "width":  21,
+                                            "text":  "2",
+                                            "x":  1353
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "， 65",
+                          "words":  [
+                                        {
+                                            "y":  1068,
+                                            "height":  8,
+                                            "width":  7,
+                                            "text":  "，",
+                                            "x":  1203
+                                        },
+                                        {
+                                            "y":  1038,
+                                            "height":  39,
+                                            "width":  43,
+                                            "text":  "65",
+                                            "x":  1212
+                                        }
+                                    ]
+                      }
+                  ],
+        "text":  "B 长 27 ， 3 LED 玻 璃 长 26700 4 显 示 区 域 长 21 ， 7 1 弱 0 ． P2 ， 古 3 0 0 2 ． IW B 宽 0 D 玻 璃 宽 显 示 域 宽 一 27 ， 19 68 内 径 2mm ， 外 径 3 ， 5m ， 65 14 ． 00 2 ， 65"
+    },
+    {
+        "path":  "D:\\smart_fans\\artifacts\\user_module_sources\\oled_180.png",
+        "lines":  [
+                      {
+                          "text":  "00 协",
+                          "words":  [
+                                        {
+                                            "y":  93,
+                                            "height":  39,
+                                            "width":  42,
+                                            "text":  "00",
+                                            "x":  626
+                                        },
+                                        {
+                                            "y":  93,
+                                            "height":  40,
+                                            "width":  50,
+                                            "text":  "协",
+                                            "x":  670
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "89 61 佣 \u0027LZ",
+                          "words":  [
+                                        {
+                                            "y":  501,
+                                            "height":  40,
+                                            "width":  42,
+                                            "text":  "89",
+                                            "x":  1281
+                                        },
+                                        {
+                                            "y":  501,
+                                            "height":  40,
+                                            "width":  41,
+                                            "text":  "61",
+                                            "x":  1357
+                                        },
+                                        {
+                                            "y":  510,
+                                            "height":  39,
+                                            "width":  43,
+                                            "text":  "佣",
+                                            "x":  1470
+                                        },
+                                        {
+                                            "y":  511,
+                                            "height":  38,
+                                            "width":  53,
+                                            "text":  "\u0027LZ",
+                                            "x":  1537
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "一 晉 引 0 師",
+                          "words":  [
+                                        {
+                                            "y":  529,
+                                            "height":  87,
+                                            "width":  503,
+                                            "text":  "一",
+                                            "x":  410
+                                        },
+                                        {
+                                            "y":  560,
+                                            "height":  43,
+                                            "width":  37,
+                                            "text":  "晉",
+                                            "x":  1152
+                                        },
+                                        {
+                                            "y":  563,
+                                            "height":  38,
+                                            "width":  46,
+                                            "text":  "引",
+                                            "x":  1374
+                                        },
+                                        {
+                                            "y":  563,
+                                            "height":  39,
+                                            "width":  29,
+                                            "text":  "0",
+                                            "x":  1422
+                                        },
+                                        {
+                                            "y":  567,
+                                            "height":  49,
+                                            "width":  62,
+                                            "text":  "師",
+                                            "x":  1472
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "0 0",
+                          "words":  [
+                                        {
+                                            "y":  770,
+                                            "height":  40,
+                                            "width":  41,
+                                            "text":  "0",
+                                            "x":  612
+                                        },
+                                        {
+                                            "y":  770,
+                                            "height":  40,
+                                            "width":  40,
+                                            "text":  "0",
+                                            "x":  671
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "0 醪 冈 晉",
+                          "words":  [
+                                        {
+                                            "y":  909,
+                                            "height":  39,
+                                            "width":  50,
+                                            "text":  "0",
+                                            "x":  547
+                                        },
+                                        {
+                                            "y":  906,
+                                            "height":  46,
+                                            "width":  58,
+                                            "text":  "醪",
+                                            "x":  602
+                                        },
+                                        {
+                                            "y":  907,
+                                            "height":  44,
+                                            "width":  33,
+                                            "text":  "冈",
+                                            "x":  705
+                                        },
+                                        {
+                                            "y":  909,
+                                            "height":  42,
+                                            "width":  36,
+                                            "text":  "晉",
+                                            "x":  783
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "9 醪 a 引",
+                          "words":  [
+                                        {
+                                            "y":  959,
+                                            "height":  38,
+                                            "width":  20,
+                                            "text":  "9",
+                                            "x":  566
+                                        },
+                                        {
+                                            "y":  956,
+                                            "height":  46,
+                                            "width":  59,
+                                            "text":  "醪",
+                                            "x":  588
+                                        },
+                                        {
+                                            "y":  959,
+                                            "height":  38,
+                                            "width":  25,
+                                            "text":  "a",
+                                            "x":  729
+                                        },
+                                        {
+                                            "y":  959,
+                                            "height":  38,
+                                            "width":  46,
+                                            "text":  "引",
+                                            "x":  756
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "0 £ 乙 〗 8",
+                          "words":  [
+                                        {
+                                            "y":  1008,
+                                            "height":  37,
+                                            "width":  19,
+                                            "text":  "0",
+                                            "x":  566
+                                        },
+                                        {
+                                            "y":  1007,
+                                            "height":  38,
+                                            "width":  20,
+                                            "text":  "£",
+                                            "x":  587
+                                        },
+                                        {
+                                            "y":  1008,
+                                            "height":  37,
+                                            "width":  21,
+                                            "text":  "乙",
+                                            "x":  641
+                                        },
+                                        {
+                                            "y":  1005,
+                                            "height":  45,
+                                            "width":  36,
+                                            "text":  "〗",
+                                            "x":  663
+                                        },
+                                        {
+                                            "y":  1008,
+                                            "height":  37,
+                                            "width":  24,
+                                            "text":  "8",
+                                            "x":  702
+                                        }
+                                    ]
+                      }
+                  ],
+        "text":  "00 协 89 61 佣 \u0027LZ 一 晉 引 0 師 0 0 0 醪 冈 晉 9 醪 a 引 0 £ 乙 〗 8"
+    },
+    {
+        "path":  "D:\\smart_fans\\artifacts\\user_module_sources\\oled_270.png",
+        "lines":  [
+                      {
+                          "text":  "8",
+                          "words":  [
+                                        {
+                                            "y":  137,
+                                            "height":  43,
+                                            "width":  39,
+                                            "text":  "8",
+                                            "x":  510
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "00 〕 《",
+                          "words":  [
+                                        {
+                                            "y":  674,
+                                            "height":  59,
+                                            "width":  120,
+                                            "text":  "00",
+                                            "x":  681
+                                        },
+                                        {
+                                            "y":  681,
+                                            "height":  52,
+                                            "width":  25,
+                                            "text":  "〕",
+                                            "x":  798
+                                        },
+                                        {
+                                            "y":  681,
+                                            "height":  51,
+                                            "width":  19,
+                                            "text":  "《",
+                                            "x":  828
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "《 ： go 呻",
+                          "words":  [
+                                        {
+                                            "y":  958,
+                                            "height":  24,
+                                            "width":  7,
+                                            "text":  "《",
+                                            "x":  627
+                                        },
+                                        {
+                                            "y":  930,
+                                            "height":  51,
+                                            "width":  7,
+                                            "text":  "：",
+                                            "x":  665
+                                        },
+                                        {
+                                            "y":  938,
+                                            "height":  45,
+                                            "width":  75,
+                                            "text":  "go",
+                                            "x":  735
+                                        },
+                                        {
+                                            "y":  944,
+                                            "height":  31,
+                                            "width":  38,
+                                            "text":  "呻",
+                                            "x":  831
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "： ！ 一 0 态",
+                          "words":  [
+                                        {
+                                            "y":  986,
+                                            "height":  51,
+                                            "width":  7,
+                                            "text":  "：",
+                                            "x":  627
+                                        },
+                                        {
+                                            "y":  1013,
+                                            "height":  24,
+                                            "width":  7,
+                                            "text":  "！",
+                                            "x":  665
+                                        },
+                                        {
+                                            "y":  985,
+                                            "height":  7,
+                                            "width":  47,
+                                            "text":  "一",
+                                            "x":  677
+                                        },
+                                        {
+                                            "y":  998,
+                                            "height":  40,
+                                            "width":  40,
+                                            "text":  "0",
+                                            "x":  770
+                                        },
+                                        {
+                                            "y":  1003,
+                                            "height":  59,
+                                            "width":  46,
+                                            "text":  "态",
+                                            "x":  956
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "0 0",
+                          "words":  [
+                                        {
+                                            "y":  1064,
+                                            "height":  20,
+                                            "width":  37,
+                                            "text":  "0",
+                                            "x":  959
+                                        },
+                                        {
+                                            "y":  1065,
+                                            "height":  19,
+                                            "width":  37,
+                                            "text":  "0",
+                                            "x":  1008
+                                        }
+                                    ]
+                      }
+                  ],
+        "text":  "8 00 〕 《 《 ： go 呻 ： ！ 一 0 态 0 0"
+    },
+    {
+        "path":  "D:\\smart_fans\\artifacts\\user_module_sources\\oled_90.png",
+        "lines":  [
+                      {
+                          "text":  "cn \u0027 凶",
+                          "words":  [
+                                        {
+                                            "y":  702,
+                                            "height":  24,
+                                            "width":  37,
+                                            "text":  "cn",
+                                            "x":  125
+                                        },
+                                        {
+                                            "y":  699,
+                                            "height":  6,
+                                            "width":  5,
+                                            "text":  "\u0027",
+                                            "x":  168
+                                        },
+                                        {
+                                            "y":  705,
+                                            "height":  33,
+                                            "width":  44,
+                                            "text":  "凶",
+                                            "x":  219
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "8",
+                          "words":  [
+                                        {
+                                            "y":  1470,
+                                            "height":  43,
+                                            "width":  39,
+                                            "text":  "8",
+                                            "x":  621
+                                        }
+                                    ]
+                      }
+                  ],
+        "text":  "cn \u0027 凶 8"
+    },
+    {
+        "path":  "D:\\smart_fans\\artifacts\\user_module_sources\\tb_0.png",
+        "lines":  [
+                      {
+                          "text":  "万 PUMPI",
+                          "words":  [
+                                        {
+                                            "y":  60,
+                                            "height":  102,
+                                            "width":  199,
+                                            "text":  "万",
+                                            "x":  114
+                                        },
+                                        {
+                                            "y":  81,
+                                            "height":  67,
+                                            "width":  206,
+                                            "text":  "PUMPI",
+                                            "x":  337
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "、 、 雒 N2",
+                          "words":  [
+                                        {
+                                            "y":  200,
+                                            "height":  12,
+                                            "width":  10,
+                                            "text":  "、",
+                                            "x":  293
+                                        },
+                                        {
+                                            "y":  209,
+                                            "height":  15,
+                                            "width":  10,
+                                            "text":  "、",
+                                            "x":  302
+                                        },
+                                        {
+                                            "y":  213,
+                                            "height":  65,
+                                            "width":  83,
+                                            "text":  "雒",
+                                            "x":  337
+                                        },
+                                        {
+                                            "y":  212,
+                                            "height":  67,
+                                            "width":  100,
+                                            "text":  "N2",
+                                            "x":  433
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "0 ， STB",
+                          "words":  [
+                                        {
+                                            "y":  453,
+                                            "height":  98,
+                                            "width":  160,
+                                            "text":  "0",
+                                            "x":  118
+                                        },
+                                        {
+                                            "y":  453,
+                                            "height":  80,
+                                            "width":  34,
+                                            "text":  "，",
+                                            "x":  277
+                                        },
+                                        {
+                                            "y":  471,
+                                            "height":  68,
+                                            "width":  152,
+                                            "text":  "STB",
+                                            "x":  338
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "BIN",
+                          "words":  [
+                                        {
+                                            "y":  601,
+                                            "height":  69,
+                                            "width":  144,
+                                            "text":  "BIN",
+                                            "x":  337
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "0 的 I N2",
+                          "words":  [
+                                        {
+                                            "y":  713,
+                                            "height":  97,
+                                            "width":  153,
+                                            "text":  "0",
+                                            "x":  117
+                                        },
+                                        {
+                                            "y":  713,
+                                            "height":  64,
+                                            "width":  40,
+                                            "text":  "的",
+                                            "x":  271
+                                        },
+                                        {
+                                            "y":  734,
+                                            "height":  64,
+                                            "width":  29,
+                                            "text":  "I",
+                                            "x":  390
+                                        },
+                                        {
+                                            "y":  732,
+                                            "height":  67,
+                                            "width":  102,
+                                            "text":  "N2",
+                                            "x":  431
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "0 PUMB",
+                          "words":  [
+                                        {
+                                            "y":  842,
+                                            "height":  99,
+                                            "width":  193,
+                                            "text":  "0",
+                                            "x":  117
+                                        },
+                                        {
+                                            "y":  863,
+                                            "height":  65,
+                                            "width":  205,
+                                            "text":  "PUMB",
+                                            "x":  336
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "0 》 GND",
+                          "words":  [
+                                        {
+                                            "y":  975,
+                                            "height":  91,
+                                            "width":  85,
+                                            "text":  "0",
+                                            "x":  188
+                                        },
+                                        {
+                                            "y":  966,
+                                            "height":  100,
+                                            "width":  43,
+                                            "text":  "》",
+                                            "x":  272
+                                        },
+                                        {
+                                            "y":  993,
+                                            "height":  65,
+                                            "width":  152,
+                                            "text":  "GND",
+                                            "x":  336
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "IJCC(O",
+                          "words":  [
+                                        {
+                                            "y":  192,
+                                            "height":  100,
+                                            "width":  316,
+                                            "text":  "IJCC(O",
+                                            "x":  734
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "台 01 [",
+                          "words":  [
+                                        {
+                                            "y":  470,
+                                            "height":  66,
+                                            "width":  49,
+                                            "text":  "台",
+                                            "x":  731
+                                        },
+                                        {
+                                            "y":  471,
+                                            "height":  66,
+                                            "width":  80,
+                                            "text":  "01",
+                                            "x":  785
+                                        },
+                                        {
+                                            "y":  460,
+                                            "height":  82,
+                                            "width":  8,
+                                            "text":  "[",
+                                            "x":  876
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "台 02 ÅO",
+                          "words":  [
+                                        {
+                                            "y":  601,
+                                            "height":  66,
+                                            "width":  49,
+                                            "text":  "台",
+                                            "x":  731
+                                        },
+                                        {
+                                            "y":  601,
+                                            "height":  67,
+                                            "width":  99,
+                                            "text":  "02",
+                                            "x":  786
+                                        },
+                                        {
+                                            "y":  597,
+                                            "height":  85,
+                                            "width":  117,
+                                            "text":  "ÅO",
+                                            "x":  925
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "B02",
+                          "words":  [
+                                        {
+                                            "y":  730,
+                                            "height":  68,
+                                            "width":  154,
+                                            "text":  "B02",
+                                            "x":  731
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "GND€",
+                          "words":  [
+                                        {
+                                            "y":  991,
+                                            "height":  67,
+                                            "width":  178,
+                                            "text":  "GND€",
+                                            "x":  731
+                                        }
+                                    ]
+                      }
+                  ],
+        "text":  "万 PUMPI 、 、 雒 N2 0 ， STB BIN 0 的 I N2 0 PUMB 0 》 GND IJCC(O 台 01 [ 台 02 ÅO B02 GND€"
+    },
+    {
+        "path":  "D:\\smart_fans\\artifacts\\user_module_sources\\tb_180.png",
+        "lines":  [
+                      {
+                          "text":  "0 ON9",
+                          "words":  [
+                                        {
+                                            "y":  41,
+                                            "height":  81,
+                                            "width":  94,
+                                            "text":  "0",
+                                            "x":  8
+                                        },
+                                        {
+                                            "y":  51,
+                                            "height":  68,
+                                            "width":  153,
+                                            "text":  "ON9",
+                                            "x":  166
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "8",
+                          "words":  [
+                                        {
+                                            "y":  185,
+                                            "height":  65,
+                                            "width":  50,
+                                            "text":  "8",
+                                            "x":  269
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "， 乙 08",
+                          "words":  [
+                                        {
+                                            "y":  327,
+                                            "height":  23,
+                                            "width":  14,
+                                            "text":  "，",
+                                            "x":  116
+                                        },
+                                        {
+                                            "y":  311,
+                                            "height":  67,
+                                            "width":  50,
+                                            "text":  "乙",
+                                            "x":  165
+                                        },
+                                        {
+                                            "y":  312,
+                                            "height":  68,
+                                            "width":  100,
+                                            "text":  "08",
+                                            "x":  219
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "ZOV",
+                          "words":  [
+                                        {
+                                            "y":  442,
+                                            "height":  67,
+                                            "width":  154,
+                                            "text":  "ZOV",
+                                            "x":  165
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "0 《 \\ON9",
+                          "words":  [
+                                        {
+                                            "y":  690,
+                                            "height":  81,
+                                            "width":  97,
+                                            "text":  "0",
+                                            "x":  9
+                                        },
+                                        {
+                                            "y":  704,
+                                            "height":  48,
+                                            "width":  11,
+                                            "text":  "《",
+                                            "x":  116
+                                        },
+                                        {
+                                            "y":  704,
+                                            "height":  67,
+                                            "width":  182,
+                                            "text":  "\\ON9",
+                                            "x":  136
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "0 啪",
+                          "words":  [
+                                        {
+                                            "y":  948,
+                                            "height":  103,
+                                            "width":  153,
+                                            "text":  "0",
+                                            "x":  0
+                                        },
+                                        {
+                                            "y":  963,
+                                            "height":  68,
+                                            "width":  100,
+                                            "text":  "啪",
+                                            "x":  216
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "一 0N9 《0？@",
+                          "words":  [
+                                        {
+                                            "y":  50,
+                                            "height":  2,
+                                            "width":  43,
+                                            "text":  "一",
+                                            "x":  513
+                                        },
+                                        {
+                                            "y":  51,
+                                            "height":  66,
+                                            "width":  152,
+                                            "text":  "0N9",
+                                            "x":  562
+                                        },
+                                        {
+                                            "y":  42,
+                                            "height":  128,
+                                            "width":  184,
+                                            "text":  "《0？@",
+                                            "x":  759
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "8 貝 d 0",
+                          "words":  [
+                                        {
+                                            "y":  182,
+                                            "height":  65,
+                                            "width":  49,
+                                            "text":  "8",
+                                            "x":  509
+                                        },
+                                        {
+                                            "y":  183,
+                                            "height":  64,
+                                            "width":  47,
+                                            "text":  "貝",
+                                            "x":  562
+                                        },
+                                        {
+                                            "y":  182,
+                                            "height":  67,
+                                            "width":  50,
+                                            "text":  "d",
+                                            "x":  665
+                                        },
+                                        {
+                                            "y":  170,
+                                            "height":  97,
+                                            "width":  191,
+                                            "text":  "0",
+                                            "x":  742
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "ZN 旧 《 0",
+                          "words":  [
+                                        {
+                                            "y":  311,
+                                            "height":  67,
+                                            "width":  101,
+                                            "text":  "ZN",
+                                            "x":  517
+                                        },
+                                        {
+                                            "y":  312,
+                                            "height":  66,
+                                            "width":  83,
+                                            "text":  "旧",
+                                            "x":  630
+                                        },
+                                        {
+                                            "y":  313,
+                                            "height":  78,
+                                            "width":  18,
+                                            "text":  "《",
+                                            "x":  741
+                                        },
+                                        {
+                                            "y":  299,
+                                            "height":  98,
+                                            "width":  173,
+                                            "text":  "0",
+                                            "x":  760
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "N18",
+                          "words":  [
+                                        {
+                                            "y":  441,
+                                            "height":  67,
+                                            "width":  145,
+                                            "text":  "N18",
+                                            "x":  569
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "81s ； 0",
+                          "words":  [
+                                        {
+                                            "y":  570,
+                                            "height":  69,
+                                            "width":  152,
+                                            "text":  "81s",
+                                            "x":  560
+                                        },
+                                        {
+                                            "y":  577,
+                                            "height":  80,
+                                            "width":  34,
+                                            "text":  "；",
+                                            "x":  739
+                                        },
+                                        {
+                                            "y":  559,
+                                            "height":  99,
+                                            "width":  160,
+                                            "text":  "0",
+                                            "x":  773
+                                        }
+                                    ]
+                      },
+                      {
+                          "text":  "ZN ！ ： 、 0",
+                          "words":  [
+                                        {
+                                            "y":  831,
+                                            "height":  67,
+                                            "width":  99,
+                                            "text":  "ZN",
+                                            "x":  517
+                                        },
+                                        {
+                                            "y":  876,
+                                            "height":  27,
+                                            "width":  7,
+                                            "text":  "！",
+                                            "x":  716
+                                        },
+                                        {
+                                            "y":  836,
+                                            "height":  68,
+                                            "width":  14,
+                                            "text":  "：",
+                                            "x":  738
+                                        },
+                                        {
+                                            "y":  901,
+                                            "height":  8,
+                                            "width":  7,
+                                            "text":  "、",
+                                            "x":  750
+                                        },
+                                        {
+                                            "y":  818,
+                                            "height":  99,
+                                            "width":  175,
+                                            "text":  "0",
+                                            "x":  756
+                                        }
+                                    ]
+                      }
+                  ],
+        "text":  "0 ON9 8 ， 乙 08 ZOV 0 《 \\ON9 0 啪 一 0N9 《0？@ 8 貝 d 0 ZN 旧 《 0 N18 81s ； 0 ZN ！ ： 、 0"
+    },
+    {
+        "path":  "D:\\smart_fans\\artifacts\\user_module_sources\\tb_270.png",
+        "lines":  [
+                      {
+                          "text":  "0",
+                          "words":  [
+                                        {
+                                            "y":  481,
+                                            "height":  223,
+                                            "width":  296,
+                                            "text":  "0",
+                                            "x":  412
+                                        }
+                                    ]
+                      }
+                  ],
+        "text":  "0"
+    },
+    {
+        "path":  "D:\\smart_fans\\artifacts\\user_module_sources\\tb_90.png",
+        "lines":  [
+                      {
+                          "text":  "C N - \u0027 批 (N",
+                          "words":  [
+                                        {
+                                            "y":  507,
+                                            "height":  48,
+                                            "width":  61,
+                                            "text":  "C",
+                                            "x":  86
+                                        },
+                                        {
+                                            "y":  517,
+                                            "height":  46,
+                                            "width":  68,
+                                            "text":  "N",
+                                            "x":  211
+                                        },
+                                        {
+                                            "y":  534,
+                                            "height":  32,
+                                            "width":  67,
+                                            "text":  "-",
+                                            "x":  342
+                                        },
+                                        {
+                                            "y":  520,
+                                            "height":  27,
+                                            "width":  28,
+                                            "text":  "\u0027",
+                                            "x":  432
+                                        },
+                                        {
+                                            "y":  508,
+                                            "height":  60,
+                                            "width":  84,
+                                            "text":  "批",
+                                            "x":  471
+                                        },
+                                        {
+                                            "y":  517,
+                                            "height":  48,
+                                            "width":  65,
+                                            "text":  "(N",
+                                            "x":  732
+                                        }
+                                    ]
+                      }
+                  ],
+        "text":  "C N - \u0027 批 (N"
+    }
+]

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "errors": [],
+  "checked_nets": [
+    "+5V_RAW",
+    "GND",
+    "+5V_FUSED",
+    "+5V",
+    "TB_AO1",
+    "TB_AO2",
+    "+5V_ASR"
+  ],
+  "design_target_a": 2.0,
+  "thermal_certified": false,
+  "via_current_assumed_a": 0.0,
+  "note": "Assigned-layer wide trees only: GND on back through existing >=0.8mm plated THT, others front. Thermal, hole-wall current, startup/stall, pin sharing and connector capability unverified."
+}

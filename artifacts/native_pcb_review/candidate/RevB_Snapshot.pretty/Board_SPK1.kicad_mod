@@ -1,0 +1,83 @@
+(footprint "Board_SPK1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "喇叭接口 XH-2PA P2.50; 1.0mm孔为设计选取非厂家推荐; 针0.6+/-0.02mm")
+	(property "Reference" "SPK1"
+		(at 0 -2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4ab0673-c9c2-45f6-b7e6-f7a5a5e89ac4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SPEAKER"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ca01ad6-5799-4473-bdd2-a70c2de67125")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "527b82c8-cfc0-4355-9d8d-04ca958b3f9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "喇叭接口 XH-2PA P2.50; 1.0mm孔为设计选取非厂家推荐; 针0.6+/-0.02mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79d52cf4-3d07-415b-8414-17e3fb4c9c63")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C5258883"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "fc9fbfcc-4231-4329-b536-b3f6459e566e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 -1.25)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e1cf41be-0ea5-462d-a826-7a7dd89efe14")
+	)
+	(pad "2" thru_hole circle
+		(at 0 1.25)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4b725899-98f3-4bf2-b057-bcf9cf39e765")
+	)
+	(embedded_fonts no)
+)

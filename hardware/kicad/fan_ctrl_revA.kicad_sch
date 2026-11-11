@@ -1,0 +1,22 @@
+(kicad_sch
+	(version 20240108)
+	(generator "antigravity")
+	(generator_version "8.0")
+	(uuid "e1000000-0001-0001-0001-000000000001")
+	(paper "A3")
+	(title_block
+		(title "Smart Fan Controller RevA Schematic")
+		(date "2026-11-03")
+		(rev "revA")
+		(company "Smart Fan Project")
+		(comment 1 "STM32 BluePill + 12025 PWM Fan + MG90S + ASR-PRO + PAJ7620 + OLED")
+		(comment 2 "Total Budget <= 200 CNY | JLC Free Coupon Compatible")
+	)
+	(lib_symbols
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

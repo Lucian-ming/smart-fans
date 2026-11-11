@@ -1,0 +1,1884 @@
+{
+  "non_ground_pads": 134,
+  "pad_layer_checks": 233,
+  "min_x_mm": 0.3,
+  "min_y_mm": 0.3,
+  "min_euclidean_mm": 0.298073,
+  "zone_short_pad_count": 0,
+  "zone_failures": [],
+  "all_checks": [
+    {
+      "pad": "DC1.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298073,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "DC1.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298073,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "F1.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "F1.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.9,
+      "y_gap_mm": 1.05,
+      "distance_mm": 0.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "C1.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 3.875,
+      "y_gap_mm": 4.576184,
+      "distance_mm": 2.608997,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "C1.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298646,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "C2.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 1.25,
+      "y_gap_mm": 9.925861,
+      "distance_mm": 1.25,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "Q_PWR.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 7.647455,
+      "y_gap_mm": 3.695,
+      "distance_mm": 3.054936,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "Q_PWR.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 9.075,
+      "y_gap_mm": 4.965,
+      "distance_mm": 3.94765,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "Q_PWR.3",
+      "layer": "F.Cu",
+      "x_gap_mm": 9.075,
+      "y_gap_mm": 6.235,
+      "distance_mm": 4.900961,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "Q_PWR.5",
+      "layer": "F.Cu",
+      "x_gap_mm": 14.27476,
+      "y_gap_mm": 4.805,
+      "distance_mm": 3.72042,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "Q_PWR.6",
+      "layer": "F.Cu",
+      "x_gap_mm": 14.275,
+      "y_gap_mm": 3.535,
+      "distance_mm": 2.547199,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "Q_PWR.7",
+      "layer": "F.Cu",
+      "x_gap_mm": 14.275,
+      "y_gap_mm": 2.265,
+      "distance_mm": 1.536465,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "Q_PWR.8",
+      "layer": "F.Cu",
+      "x_gap_mm": 12.847455,
+      "y_gap_mm": 0.995,
+      "distance_mm": 0.599764,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "JP_USB.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 11.575,
+      "y_gap_mm": 1.075,
+      "distance_mm": 1.075,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "JP_USB.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298589,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "JP_USB.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 11.275,
+      "y_gap_mm": 3.615,
+      "distance_mm": 3.615,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "JP_USB.2",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.29859,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "C3.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 3.375,
+      "y_gap_mm": 1.125,
+      "distance_mm": 1.098602,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "C3.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298646,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "C4.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 13.826668,
+      "y_gap_mm": 2.515674,
+      "distance_mm": 2.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "U3.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.6,
+      "y_gap_mm": 6.6,
+      "distance_mm": 0.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "U3.3",
+      "layer": "F.Cu",
+      "x_gap_mm": 2.9,
+      "y_gap_mm": 2.6,
+      "distance_mm": 0.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "U3.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "C5.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "C6.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "C7.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.326668,
+      "y_gap_mm": 2.8,
+      "distance_mm": 0.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "D4.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 1.275,
+      "distance_mm": 0.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "D4.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "R1.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "D5.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 4.275,
+      "distance_mm": 0.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "D5.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "R2.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "MOTO1.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.875,
+      "y_gap_mm": 0.925,
+      "distance_mm": 0.875,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "MOTO1.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "MOTO1.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.875,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "MOTO1.2",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "SERVO1.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 8.875,
+      "y_gap_mm": 4.675,
+      "distance_mm": 3.585997,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "SERVO1.2",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "SERVO1.3",
+      "layer": "F.Cu",
+      "x_gap_mm": 3.55,
+      "y_gap_mm": 6.71,
+      "distance_mm": 3.55,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "SERVO1.3",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.2986,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "BZ1.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 14.425,
+      "y_gap_mm": 4.625,
+      "distance_mm": 4.625,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "BZ1.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298514,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "BZ1.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 6.825,
+      "y_gap_mm": 17.5,
+      "distance_mm": 6.475749,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "BZ1.2",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298514,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "Q1.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 4.325,
+      "y_gap_mm": 17.7,
+      "distance_mm": 4.325,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "Q1.2",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298786,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "Q1.3",
+      "layer": "F.Cu",
+      "x_gap_mm": 6.825059,
+      "y_gap_mm": 20.24,
+      "distance_mm": 4.657153,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "Q1.3",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298786,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "D3.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 8.925,
+      "y_gap_mm": 22.3,
+      "distance_mm": 7.007119,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "D3.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 5.625,
+      "y_gap_mm": 21.481956,
+      "distance_mm": 4.347955,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "R10.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 6.980555,
+      "y_gap_mm": 13.275,
+      "distance_mm": 5.46944,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "R10.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 5.280555,
+      "y_gap_mm": 13.151184,
+      "distance_mm": 3.811793,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_L.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_L.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_L.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_L.2",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298579,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_L.3",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_L.3",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_L.4",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298606,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_L.4",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298606,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_R.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 7.93,
+      "y_gap_mm": 12.285,
+      "distance_mm": 3.844731,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_R.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_R.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 3.13,
+      "y_gap_mm": 14.825,
+      "distance_mm": 3.13,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_R.2",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_R.4",
+      "layer": "F.Cu",
+      "x_gap_mm": 3.287,
+      "y_gap_mm": 19.905,
+      "distance_mm": 2.41712,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_R.4",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_R.5",
+      "layer": "F.Cu",
+      "x_gap_mm": 2.055,
+      "y_gap_mm": 22.445,
+      "distance_mm": 1.918089,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_R.5",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_R.6",
+      "layer": "F.Cu",
+      "x_gap_mm": 1.755,
+      "y_gap_mm": 24.985,
+      "distance_mm": 1.755,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_R.6",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_R.7",
+      "layer": "F.Cu",
+      "x_gap_mm": 1.755,
+      "y_gap_mm": 27.525,
+      "distance_mm": 1.755,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_TB_R.7",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "C_VM.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 7.85,
+      "y_gap_mm": 8.725,
+      "distance_mm": 6.159347,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "C_VM.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298646,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "C_VM_MLCC.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 3.55,
+      "y_gap_mm": 3.475,
+      "distance_mm": 3.475,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "R_STBY.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_DHT11.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 1.56,
+      "y_gap_mm": 1.181225,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_DHT11.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_DHT11.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 4.1,
+      "y_gap_mm": 1.2,
+      "distance_mm": 1.2,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_DHT11.2",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "R_DHT.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 10.6,
+      "y_gap_mm": 20.525,
+      "distance_mm": 0.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "R_DHT.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 12.3,
+      "y_gap_mm": 20.525,
+      "distance_mm": 1.726268,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 9.9596,
+      "y_gap_mm": 18.07,
+      "distance_mm": 9.127603,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 1.495,
+      "y_gap_mm": 3.045,
+      "distance_mm": 1.495,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.3",
+      "layer": "F.Cu",
+      "x_gap_mm": 9.895,
+      "y_gap_mm": 23.15,
+      "distance_mm": 9.895,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.3",
+      "layer": "B.Cu",
+      "x_gap_mm": 1.813068,
+      "y_gap_mm": 8.125,
+      "distance_mm": 1.007563,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.4",
+      "layer": "F.Cu",
+      "x_gap_mm": 9.895,
+      "y_gap_mm": 25.69,
+      "distance_mm": 9.895,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.4",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.895,
+      "y_gap_mm": 10.46,
+      "distance_mm": 0.895,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.5",
+      "layer": "F.Cu",
+      "x_gap_mm": 9.895,
+      "y_gap_mm": 28.23,
+      "distance_mm": 9.895,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.5",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.895,
+      "y_gap_mm": 7.92,
+      "distance_mm": 0.895,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.6",
+      "layer": "F.Cu",
+      "x_gap_mm": 9.895,
+      "y_gap_mm": 30.77,
+      "distance_mm": 9.895,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.6",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.895,
+      "y_gap_mm": 5.38,
+      "distance_mm": 0.895,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.7",
+      "layer": "F.Cu",
+      "x_gap_mm": 9.895,
+      "y_gap_mm": 28.24,
+      "distance_mm": 9.895,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.7",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.895,
+      "y_gap_mm": 2.84,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.8",
+      "layer": "F.Cu",
+      "x_gap_mm": 9.895,
+      "y_gap_mm": 25.7,
+      "distance_mm": 9.468213,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.8",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.9",
+      "layer": "F.Cu",
+      "x_gap_mm": 15.54,
+      "y_gap_mm": 23.16,
+      "distance_mm": 9.09722,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.9",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.10",
+      "layer": "F.Cu",
+      "x_gap_mm": 9.095,
+      "y_gap_mm": 20.62,
+      "distance_mm": 9.095,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.10",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.11",
+      "layer": "F.Cu",
+      "x_gap_mm": 9.095,
+      "y_gap_mm": 18.08,
+      "distance_mm": 9.095,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.11",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.12",
+      "layer": "F.Cu",
+      "x_gap_mm": 9.095,
+      "y_gap_mm": 15.54,
+      "distance_mm": 8.065474,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.12",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.13",
+      "layer": "F.Cu",
+      "x_gap_mm": 9.095,
+      "y_gap_mm": 13.0,
+      "distance_mm": 5.604846,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.13",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.14",
+      "layer": "F.Cu",
+      "x_gap_mm": 9.095,
+      "y_gap_mm": 10.46,
+      "distance_mm": 3.242387,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.14",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.15",
+      "layer": "F.Cu",
+      "x_gap_mm": 9.095,
+      "y_gap_mm": 7.92,
+      "distance_mm": 1.32063,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.15",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.16",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.995,
+      "y_gap_mm": 5.38,
+      "distance_mm": 0.995,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.16",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298604,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.17",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.995,
+      "y_gap_mm": 2.84,
+      "distance_mm": 0.995,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.17",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.785029,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298604,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.18",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298589,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.18",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.855,
+      "y_gap_mm": 2.84,
+      "distance_mm": 0.855,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.19",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298604,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.19",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.855,
+      "y_gap_mm": 4.685,
+      "distance_mm": 0.855,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.20",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298604,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_L.20",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.855,
+      "y_gap_mm": 2.145,
+      "distance_mm": 0.855,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298604,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298604,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.2",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.3",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298604,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.3",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.4",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298604,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.4",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.5",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298604,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.5",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.6",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.6",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298606,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.7",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.7",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.8",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.8",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298584,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.9",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.9",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.10",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298606,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.10",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.11",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298593,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.11",
+      "layer": "B.Cu",
+      "x_gap_mm": 8.548741,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.12",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298604,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.12",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.13",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.13",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.14",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.14",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.15",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.15",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.16",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298604,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.16",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.17",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298604,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.17",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298604,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.18",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298604,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_MCU_R.18",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298604,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "R_SCL.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 13.75,
+      "y_gap_mm": 29.275,
+      "distance_mm": 8.596469,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "R_SCL.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 14.475,
+      "y_gap_mm": 29.151184,
+      "distance_mm": 7.023836,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "R_SDA.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 16.175,
+      "y_gap_mm": 26.775,
+      "distance_mm": 8.087446,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "R_SDA.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 14.475,
+      "y_gap_mm": 26.651184,
+      "distance_mm": 6.390757,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_L.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_L.2",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_L.3",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_L.3",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_L.4",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_L.4",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_L.5",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_L.5",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_L.6",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_L.6",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_L.7",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_L.7",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_L.8",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_L.8",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_R.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_R.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298591,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_R.3",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_R.3",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_R.4",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_R.4",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_R.5",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_R.5",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_R.6",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_R.6",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_R.7",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_R.7",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298608,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_R.8",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_VOICE_R.8",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "JP_ASR.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 7.875,
+      "y_gap_mm": 24.5,
+      "distance_mm": 7.059654,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "JP_ASR.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 2.475,
+      "distance_mm": 0.298625,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "JP_ASR.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 7.0,
+      "y_gap_mm": 21.96,
+      "distance_mm": 7.0,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "JP_ASR.2",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.875,
+      "y_gap_mm": 5.015,
+      "distance_mm": 0.875,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "JP_ASR_TX.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 17.6,
+      "y_gap_mm": 16.3,
+      "distance_mm": 8.417047,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "JP_ASR_TX.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.875,
+      "y_gap_mm": 8.5,
+      "distance_mm": 0.875,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "JP_ASR_TX.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 17.6,
+      "y_gap_mm": 13.76,
+      "distance_mm": 9.952344,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "JP_ASR_TX.2",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.875,
+      "y_gap_mm": 5.96,
+      "distance_mm": 0.875,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "JP_ASR_RX.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 17.6,
+      "y_gap_mm": 8.1,
+      "distance_mm": 8.1,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "JP_ASR_RX.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "JP_ASR_RX.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 17.6,
+      "y_gap_mm": 5.56,
+      "distance_mm": 5.56,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "JP_ASR_RX.2",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "SPK1.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "SPK1.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "SPK1.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298591,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "SPK1.2",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298592,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_OLED.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_OLED.2",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_OLED.3",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298601,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_OLED.3",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_OLED.4",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298601,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_OLED.4",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_GESTURE.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298597,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_GESTURE.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_GESTURE.3",
+      "layer": "F.Cu",
+      "x_gap_mm": 5.38,
+      "y_gap_mm": 1.3,
+      "distance_mm": 1.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_GESTURE.3",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_GESTURE.4",
+      "layer": "F.Cu",
+      "x_gap_mm": 7.92,
+      "y_gap_mm": 1.3,
+      "distance_mm": 1.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_GESTURE.4",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298598,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_GESTURE.5",
+      "layer": "F.Cu",
+      "x_gap_mm": 10.46,
+      "y_gap_mm": 1.3,
+      "distance_mm": 1.3,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_GESTURE.5",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.2986,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_KEY1.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_KEY1.2",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_KEY1.3",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_KEY1.3",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_KEY2.2",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298591,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_KEY2.2",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_KEY2.3",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_KEY2.3",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_ENC.1",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_ENC.1",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_ENC.3",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_ENC.3",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_ENC.5",
+      "layer": "F.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "pad": "J_ENC.5",
+      "layer": "B.Cu",
+      "x_gap_mm": 0.3,
+      "y_gap_mm": 0.3,
+      "distance_mm": 0.298612,
+      "overlap_mm2": 0.0
+    }
+  ],
+  "other_copper_collision_count": 0,
+  "other_copper_collisions": [],
+  "clearance_mm": 0.25,
+  "clearance_violation_count": 0,
+  "clearance_violations": [],
+  "disconnected_net_count": 0,
+  "disconnected_nets": [],
+  "explicit_route_disconnected_net_count": 0,
+  "explicit_route_disconnected_nets": []
+}

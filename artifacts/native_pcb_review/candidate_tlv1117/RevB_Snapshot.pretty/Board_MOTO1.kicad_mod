@@ -1,0 +1,83 @@
+(footprint "Board_MOTO1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "直流电机接口 XH-2PA P2.50; 1.0mm孔为设计选取非厂家推荐; 针0.6+/-0.02mm")
+	(property "Reference" "MOTO1"
+		(at 0 -2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c806c75b-a265-41f7-9a08-7a0c10e1342d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "130_MOTOR"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90c61011-ee35-4e0e-b949-a3669004cc29")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "070e7ab4-33ab-4f7f-8f19-9eef4234e64a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "直流电机接口 XH-2PA P2.50; 1.0mm孔为设计选取非厂家推荐; 针0.6+/-0.02mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f1cfb69-9cc1-422e-846c-423781e882a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C5258883"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "8e001903-9a67-4c68-9f1c-ef390b9b959c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 -1.25)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "20fa8160-70d2-4d40-90f8-abe17fab0ae2")
+	)
+	(pad "2" thru_hole circle
+		(at 0 1.25)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "10946a4a-1ebf-446a-abf2-03a86e535971")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,99 @@
+(footprint "Board_J_OLED"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "OLED安装要求:屏体朝-Y; 顶视左到右SDA/SCL/VCC/GND; 实物核序前禁止上电")
+	(property "Reference" "J_OLED"
+		(at 0 -2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ce72059-30f3-4c3e-b684-24d0723af774")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OLED_12864"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42aecbad-a5fe-40cb-aece-7370c49bc8c9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20252c0e-72aa-4787-905f-c3558c171153")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "OLED安装要求:屏体朝-Y; 顶视左到右SDA/SCL/VCC/GND; 实物核序前禁止上电"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38059a71-ff5a-4255-b504-7851b83e9a75")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C2718488"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "1b8efbae-30f8-468b-a613-f328d486204e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 3.81 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1bd35e66-3aff-4a54-b059-4ee541c86226")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8ba167a1-b167-4ba0-bc70-23c269cb5857")
+	)
+	(pad "3" thru_hole circle
+		(at -1.27 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5d830010-58a3-44df-94d6-f13faf87b98e")
+	)
+	(pad "4" thru_hole circle
+		(at -3.81 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "62b78a4e-e296-436d-8aec-9d42ac157055")
+	)
+	(embedded_fonts no)
+)

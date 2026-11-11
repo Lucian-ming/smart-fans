@@ -1,0 +1,290 @@
+[
+  {
+    "reference": "J_KEY2",
+    "original_id": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "local_id": "RevB_Snapshot:Board_J_KEY2",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "R_SDA",
+    "original_id": "Resistor_SMD:R_0805_2012Metric",
+    "local_id": "RevB_Snapshot:Board_R_SDA",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "J_VOICE_R",
+    "original_id": "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical",
+    "local_id": "RevB_Snapshot:Board_J_VOICE_R",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "R2",
+    "original_id": "Resistor_SMD:R_0805_2012Metric",
+    "local_id": "RevB_Snapshot:Board_R2",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "J_GESTURE",
+    "original_id": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+    "local_id": "RevB_Snapshot:Board_J_GESTURE",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "C3",
+    "original_id": "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
+    "local_id": "RevB_Snapshot:Board_C3",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "J_TB_L",
+    "original_id": "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical",
+    "local_id": "RevB_Snapshot:Board_J_TB_L",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "J_MCU_L",
+    "original_id": "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical",
+    "local_id": "RevB_Snapshot:Board_J_MCU_L",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "R10",
+    "original_id": "Resistor_SMD:R_0805_2012Metric",
+    "local_id": "RevB_Snapshot:Board_R10",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "H2",
+    "original_id": "MountingHole:MountingHole_3.2mm_M3_Pad_Via",
+    "local_id": "RevB_Snapshot:Board_H2",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "C5",
+    "original_id": "Capacitor_SMD:C_0805_2012Metric",
+    "local_id": "RevB_Snapshot:Board_C5",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "J_KEY1",
+    "original_id": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "local_id": "RevB_Snapshot:Board_J_KEY1",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "C_VM_MLCC",
+    "original_id": "Capacitor_SMD:C_0805_2012Metric",
+    "local_id": "RevB_Snapshot:Board_C_VM_MLCC",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "R_DHT",
+    "original_id": "Resistor_SMD:R_0805_2012Metric",
+    "local_id": "RevB_Snapshot:Board_R_DHT",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "R1",
+    "original_id": "Resistor_SMD:R_0805_2012Metric",
+    "local_id": "RevB_Snapshot:Board_R1",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "C2",
+    "original_id": "Capacitor_SMD:C_0805_2012Metric",
+    "local_id": "RevB_Snapshot:Board_C2",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "J_MCU_R",
+    "original_id": "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical",
+    "local_id": "RevB_Snapshot:Board_J_MCU_R",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "F1",
+    "original_id": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+    "local_id": "RevB_Snapshot:Board_F1",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "D3",
+    "original_id": "SmartFan:D_SOD-123_R180",
+    "local_id": "RevB_Snapshot:Board_D3",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "H3",
+    "original_id": "MountingHole:MountingHole_3.2mm_M3_Pad_Via",
+    "local_id": "RevB_Snapshot:Board_H3",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "SPK1",
+    "original_id": "SmartFan:ZHOURI_XH-2PA_P2.50mm_Y",
+    "local_id": "RevB_Snapshot:Board_SPK1",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "J_TB_R",
+    "original_id": "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical",
+    "local_id": "RevB_Snapshot:Board_J_TB_R",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "Q_PWR",
+    "original_id": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+    "local_id": "RevB_Snapshot:Board_Q_PWR",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "C1",
+    "original_id": "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
+    "local_id": "RevB_Snapshot:Board_C1",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "R_STBY",
+    "original_id": "Resistor_SMD:R_0805_2012Metric",
+    "local_id": "RevB_Snapshot:Board_R_STBY",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "C7",
+    "original_id": "Capacitor_SMD:C_0805_2012Metric",
+    "local_id": "RevB_Snapshot:Board_C7",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "H1",
+    "original_id": "MountingHole:MountingHole_3.2mm_M3_Pad_Via",
+    "local_id": "RevB_Snapshot:Board_H1",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "J_OLED",
+    "original_id": "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical",
+    "local_id": "RevB_Snapshot:Board_J_OLED",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "SERVO1",
+    "original_id": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "local_id": "RevB_Snapshot:Board_SERVO1",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "JP_ASR",
+    "original_id": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "local_id": "RevB_Snapshot:Board_JP_ASR",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "C_VM",
+    "original_id": "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
+    "local_id": "RevB_Snapshot:Board_C_VM",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "J_DHT11",
+    "original_id": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "local_id": "RevB_Snapshot:Board_J_DHT11",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "U3",
+    "original_id": "SmartFan:SOT-223-3_TabPin2_R90",
+    "local_id": "RevB_Snapshot:Board_U3",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "DC1",
+    "original_id": "SmartFan:Phoenix_1729128_MKDSN_1x02_P5.08mm",
+    "local_id": "RevB_Snapshot:Board_DC1",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "C4",
+    "original_id": "Capacitor_SMD:C_0805_2012Metric",
+    "local_id": "RevB_Snapshot:Board_C4",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "JP_ASR_RX",
+    "original_id": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "local_id": "RevB_Snapshot:Board_JP_ASR_RX",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "BZ1",
+    "original_id": "Buzzer_Beeper:Buzzer_12x9.5RM7.6",
+    "local_id": "RevB_Snapshot:Board_BZ1",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "JP_ASR_TX",
+    "original_id": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "local_id": "RevB_Snapshot:Board_JP_ASR_TX",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "C6",
+    "original_id": "Capacitor_SMD:C_0805_2012Metric",
+    "local_id": "RevB_Snapshot:Board_C6",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "D4",
+    "original_id": "LED_SMD:LED_0805_2012Metric",
+    "local_id": "RevB_Snapshot:Board_D4",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "MOTO1",
+    "original_id": "SmartFan:ZHOURI_XH-2PA_P2.50mm_Y",
+    "local_id": "RevB_Snapshot:Board_MOTO1",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "J_VOICE_L",
+    "original_id": "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical",
+    "local_id": "RevB_Snapshot:Board_J_VOICE_L",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "J_ENC",
+    "original_id": "SmartFan:EC11_Module_2P_3P_Row21mm",
+    "local_id": "RevB_Snapshot:Board_J_ENC",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "Q1",
+    "original_id": "SmartFan:TO-92_EBC_Wide_P2.54mm_Y_LeadFormed",
+    "local_id": "RevB_Snapshot:Board_Q1",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "D5",
+    "original_id": "LED_SMD:LED_0805_2012Metric",
+    "local_id": "RevB_Snapshot:Board_D5",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "H4",
+    "original_id": "MountingHole:MountingHole_3.2mm_M3_Pad_Via",
+    "local_id": "RevB_Snapshot:Board_H4",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "JP_USB",
+    "original_id": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "local_id": "RevB_Snapshot:Board_JP_USB",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  },
+  {
+    "reference": "R_SCL",
+    "original_id": "Resistor_SMD:R_0805_2012Metric",
+    "local_id": "RevB_Snapshot:Board_R_SCL",
+    "provenance": "Exact board snapshot, NOT independent footprint dimension certification"
+  }
+]

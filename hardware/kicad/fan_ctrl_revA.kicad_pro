@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "filename": "fan_ctrl_revA.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.2,
+        "trace_width": 0.25,
+        "via_dia": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "name": "Power_12V",
+        "clearance": 0.3,
+        "trace_width": 1.5,
+        "via_dia": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "name": "Power_5V",
+        "clearance": 0.25,
+        "trace_width": 1.0,
+        "via_dia": 0.8,
+        "via_drill": 0.4
+      }
+    ]
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gerber": "../fabrication/gerber"
+    }
+  }
+}

@@ -1,0 +1,125 @@
+(footprint "Board_Q_PWR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "P-MOS反接保护: D=熔断后输入 S=5V负载 G=GND; 不隔离反向供电; 库存未核")
+	(property "Reference" "Q_PWR"
+		(at 0 -2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48b07494-52cd-4763-a194-b460ce6b3f59")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AO4409_REVERSE_POLARITY"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dedff3d8-6770-4c56-8f57-99f985344642")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a331bfdb-e56e-45c6-9b8f-d57117e5e994")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "P-MOS反接保护: D=熔断后输入 S=5V负载 G=GND; 不隔离反向供电; 库存未核"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f649a47-a12d-4da0-abcb-c1ebe14f90c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "-"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ea3740f3-1ee3-455f-97a1-c86ff9a47194")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" smd rect
+		(at -2.6 -1.905)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0d29aee3-30f6-4adf-b105-44c9108beeeb")
+	)
+	(pad "2" smd rect
+		(at -2.6 -0.635)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "75e6a8c0-b256-49df-9e2a-4539ef4a07a4")
+	)
+	(pad "3" smd rect
+		(at -2.6 0.635)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "654c688e-0a51-406b-9e48-d0ab940918de")
+	)
+	(pad "4" smd rect
+		(at -2.6 1.905)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c8b9dc49-039b-45b7-8a22-22ad157dea81")
+	)
+	(pad "5" smd rect
+		(at 2.6 1.905)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d1995831-bc60-457b-9700-2a1624309a6d")
+	)
+	(pad "6" smd rect
+		(at 2.6 0.635)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "03a137d3-e949-469b-b2fd-e2c5a2e37e80")
+	)
+	(pad "7" smd rect
+		(at 2.6 -0.635)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "54eda1c2-b862-4461-912f-8b75e177a37b")
+	)
+	(pad "8" smd rect
+		(at 2.6 -1.905)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1bd0961e-459c-4bf0-ac2d-8f510e4f7813")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

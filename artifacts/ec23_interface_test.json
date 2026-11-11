@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "negative_cases_rejected": [
+    "swaps_A_C",
+    "old_row_spacing",
+    "reverse_power",
+    "wrong_middle"
+  ],
+  "pad_clearance_to_other_components": [
+    {
+      "ec_pin": "1",
+      "nearest_ref": "J_VOICE_L",
+      "nearest_pin": "8",
+      "copper_gap_mm": 7.764632512466565
+    },
+    {
+      "ec_pin": "2",
+      "nearest_ref": "J_VOICE_L",
+      "nearest_pin": "8",
+      "copper_gap_mm": 9.070044620794931
+    },
+    {
+      "ec_pin": "3",
+      "nearest_ref": "J_KEY2",
+      "nearest_pin": "3",
+      "copper_gap_mm": 14.719999999999999
+    },
+    {
+      "ec_pin": "4",
+      "nearest_ref": "H4",
+      "nearest_pin": "1",
+      "copper_gap_mm": 16.576842738307626
+    },
+    {
+      "ec_pin": "5",
+      "nearest_ref": "H4",
+      "nearest_pin": "1",
+      "copper_gap_mm": 14.238416600321571
+    }
+  ],
+  "scope": "AST pads only; not routed copper or module-body assembly approval",
+  "confirmed_by_user": "21mm group-center distance; top VCC/GND, bottom A/C/B",
+  "body_warning": "OLED module extension direction/Z is not proven; positive-Y OLED body could overlap encoder module."
+}

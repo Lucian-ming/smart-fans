@@ -1,0 +1,24 @@
+* RevB 5V conditional lumped supply-loop study; no semiconductor certification
+* Rloop includes BOTH supply and return cable/connector/fuse/PCB/MOS resistance.
+* Rloop, Lloop, ESR and dynamic source response are assumptions, not measured.
+* Real C1+C3+C_VM = 100u+220u+220u; lumped (distribution not represented).
+.param VIN=5
+.param Rloop=0.15
+.param CF=1
+Vsource source 0 {VIN}
+Rtotal source line {Rloop}
+Ltotal line bus 1u Rser=0
+Resr bus cap 0.05
+Cbulk cap 0 {540u*CF}
+Iload bus 0 PULSE(0.25 2 5m 10u 10u 15m 40m)
+.step param VIN list 4.75 5 5.25
+.step param Rloop list 0.05 0.15 0.30
+.step param CF list 0.8 1
+.tran 0 35m 0 1u
+.options plotwinsize=0
+.meas tran v_idle AVG V(bus) FROM=3m TO=4m
+.meas tran v_min MIN V(bus) FROM=5m TO=20m
+.meas tran v_loaded AVG V(bus) FROM=15m TO=19m
+.meas tran v_release_max MAX V(bus) FROM=20m TO=24m
+.meas tran max_source_current MAX I(Rtotal) FROM=0 TO=35m
+.end

@@ -1,0 +1,177 @@
+#include "asr.h"
+extern "C"{ void * __dso_handle = 0 ;}
+#include "setup.h"
+#include "myLib/asr_event.h"
+
+uint32_t snid;
+void Serial_available();
+void Serial1_available();
+void hardware_init();
+
+//{ID:250,keyword:"命令词",ASR:"最大音量",ASRTO:"音量调整到最大"}
+//{ID:251,keyword:"命令词",ASR:"中等音量",ASRTO:"音量调整到中等"}
+//{ID:252,keyword:"命令词",ASR:"最小音量",ASRTO:"音量调整到最小"}
+//{speak:小美-娇美女声,vol:20,speed:10,platform:haohaodada}
+//{playid:10001,voice:我是智能语音助手哈宝，你可以用哈宝，哈宝唤醒我。}
+//{playid:10002,voice:我退下了，用哈宝唤醒我}
+void sys_power_on_hook(void){
+  vol_set(7);
+}
+
+void Serial1_available(){
+  while (1) {
+    if(Serial1.available() > 0){
+      String _ss = Serial1.readString();
+      if(_ss == "Fyes"){
+        digital_write(6,!digitalRead(6));
+        delay(200);
+        enter_wakeup(5000);
+        delay(200);
+        //{ID:500,keyword:"命令词",ASR:"耍接官",ASRTO:"风扇开启成功"}
+        play_audio(500);
+      }
+      if(_ss == "Lyes"){
+        digital_write(6,!digitalRead(6));
+        delay(200);
+        enter_wakeup(5000);
+        delay(200);
+        //{ID:499,keyword:"命令词",ASR:"官耍接",ASRTO:"照明开启成功"}
+        play_audio(499);
+      }
+      if(_ss == "Loff"){
+        digital_write(6,!digitalRead(6));
+        delay(200);
+        enter_wakeup(5000);
+        delay(200);
+        //{ID:498,keyword:"命令词",ASR:"耍官接",ASRTO:"照明已关闭"}
+        play_audio(498);
+      }
+      if(_ss == "Foff"){
+        digital_write(6,!digitalRead(6));
+        delay(200);
+        enter_wakeup(5000);
+        delay(200);
+        //{ID:497,keyword:"命令词",ASR:"接官耍",ASRTO:"风扇已关闭"}
+        play_audio(497);
+      }
+    }
+    delay(1);
+  }
+  vTaskDelete(NULL);
+}
+
+void ASR_CODE()
+{
+  //{ID:501,keyword:"唤醒词",ASR:"哈宝",ASRTO:"我在呢"}
+  //{ID:516,keyword:"唤醒词",ASR:"你好哈宝",ASRTO:"我在"}
+  if(snid == 501 || snid == 516){
+    set_pulse(6,0,500,1);
+    Serial1.println("INIT");
+  }
+  //{ID:502,keyword:"命令词",ASR:"开启风扇",ASRTO:"准备开启风扇中"}
+  if(snid == 502){
+    set_pulse(6,0,500,2);
+    Serial1.println("FON");
+  }
+  //{ID:503,keyword:"命令词",ASR:"提高风速",ASRTO:"风速已提高百分之十"}
+  if(snid == 503){
+    set_pulse(6,0,500,3);
+    Serial1.println("F+");
+  }
+  //{ID:504,keyword:"命令词",ASR:"降低风速",ASRTO:"风速已降低百分之十"}
+  if(snid == 504){
+    set_pulse(6,0,500,4);
+    Serial1.println("F-");
+  }
+  //{ID:505,keyword:"命令词",ASR:"最高风速",ASRTO:"风速已提至最高，担心着凉，宝！"}
+  if(snid == 505){
+    set_pulse(6,0,500,5);
+    Serial1.println("FMAX");
+  }
+  //{ID:506,keyword:"命令词",ASR:"中等风速",ASRTO:"风速已设置为百分之五十"}
+  if(snid == 506){
+    set_pulse(6,0,500,6);
+    Serial1.println("FMOD");
+  }
+  //{ID:507,keyword:"命令词",ASR:"最低风速",ASRTO:"风速已降至最低速度"}
+  if(snid == 507){
+    set_pulse(6,0,500,7);
+    Serial1.println("FMIN");
+  }
+   //{ID:508,keyword:"命令词",ASR:"关闭风扇",ASRTO:"正在关闭风扇"}
+  if(snid == 508){
+    set_pulse(6,0,500,8);
+    Serial1.println("FOFF");
+  }
+  //{ID:509,keyword:"命令词",ASR:"开启照明",ASRTO:"准备开启照明中"}
+  if(snid == 509){
+    set_pulse(6,0,500,9);
+    Serial1.println("LON");
+  }
+  //{ID:510,keyword:"命令词",ASR:"提高亮度",ASRTO:"亮度已提高百分之十！"}
+  if(snid == 510){
+    set_pulse(6,0,500,10);
+    Serial1.println("L+");
+  }
+  //{ID:511,keyword:"命令词",ASR:"降低亮度",ASRTO:"亮度已降低百分之十！"}
+  if(snid == 511){
+    set_pulse(6,0,500,11);
+    Serial1.println("L-");
+  }
+  //{ID:512,keyword:"命令词",ASR:"最高亮度",ASRTO:"亮度已提至最高，小心强光伤眼！"}
+  if(snid == 512){
+    set_pulse(6,0,500,12);
+    Serial1.println("LMAX");
+  }
+  //{ID:513,keyword:"命令词",ASR:"中等亮度",ASRTO:"亮度已设置为百分之五十！"}
+  if(snid == 513){
+    set_pulse(6,0,500,13);
+    Serial1.println("LMOD");
+  }
+  //{ID:514,keyword:"命令词",ASR:"最低亮度",ASRTO:"亮度已降至最低亮度"}
+  if(snid == 514){
+    set_pulse(6,0,500,14);
+    Serial1.println("LMIN");    
+  }
+  //{ID:515,keyword:"命令词",ASR:"关闭照明",ASRTO:"正在关闭照明，请留意灯光变化！"}
+  if(snid == 515){
+    set_pulse(6,0,500,15);
+    Serial1.println("LOFF");
+  }
+  set_state_enter_wakeup(50000);
+}
+
+void hardware_init(){
+  xTaskCreate(Serial1_available,"Serial1_available",512,NULL,4,NULL);
+  vTaskDelete(NULL);
+}
+
+void setup()
+{
+  digital_write(0, 0);
+  digital_write(1, 0);
+  set_gpio_input(2);
+  set_gpio_input(3);
+  digital_write(29, 0);
+  digital_write(6, 1);
+  set_gpio_input(29);
+  setPinFun(13,SECOND_FUNCTION);
+  setPinFun(14,SECOND_FUNCTION);
+  Serial.begin(115200);
+  setPinFun(2,FORTH_FUNCTION);
+  setPinFun(3,FORTH_FUNCTION);
+  Serial1.begin(115200);
+  pulse_init();
+  xTaskCreate(hardware_init,"hardware_init",256,NULL,100,NULL);
+}
+
+
+
+
+
+
+
+
+
+
+/** edittype="asr_procode" */

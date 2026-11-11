@@ -1,0 +1,442 @@
+{
+  "scope": "conditional_lumped_models_only",
+  "numerical_consistency_pass": true,
+  "board_release_approved": false,
+  "actual_pcb_sha256": "c9cb106cdc48e9b3e44ff9b6d379062e31b24f2d6fec1b29f22d64fc3b3264a1",
+  "bound_component_values": {
+    "R_SCL": {
+      "value": "4.7k",
+      "nets": [
+        "+3.3V",
+        "I2C1_SCL"
+      ]
+    },
+    "R_SDA": {
+      "value": "4.7k",
+      "nets": [
+        "+3.3V",
+        "I2C1_SDA"
+      ]
+    },
+    "C1": {
+      "value": "100uF/25V",
+      "nets": [
+        "+5V",
+        "GND"
+      ]
+    },
+    "C3": {
+      "value": "220uF/16V",
+      "nets": [
+        "+5V",
+        "GND"
+      ]
+    },
+    "C_VM": {
+      "value": "220uF/16V",
+      "nets": [
+        "+5V",
+        "GND"
+      ]
+    }
+  },
+  "i2c_cases": [
+    {
+      "rpull": 1566.666667,
+      "cbus": 5e-11,
+      "tr_30_70_s": 6.63280817153e-08,
+      "analytic_tr_s": 6.637166574445258e-08,
+      "rise_only_standard_mode_pass": true,
+      "rise_only_fast_mode_pass": true,
+      "ideal_switch_vol_V": 0.00210503931157,
+      "ideal_sink_current_A": 0.00210503931157
+    },
+    {
+      "rpull": 2350.0,
+      "cbus": 5e-11,
+      "tr_30_70_s": 9.95396880432e-08,
+      "analytic_tr_s": 9.955749859549643e-08,
+      "rise_only_standard_mode_pass": true,
+      "rise_only_fast_mode_pass": true,
+      "ideal_switch_vol_V": 0.00140365806874,
+      "ideal_sink_current_A": 0.00140365806874
+    },
+    {
+      "rpull": 4700.0,
+      "cbus": 5e-11,
+      "tr_30_70_s": 1.99111175745e-07,
+      "analytic_tr_s": 1.9911499719099286e-07,
+      "rise_only_standard_mode_pass": true,
+      "rise_only_fast_mode_pass": true,
+      "ideal_switch_vol_V": 0.000701978278812,
+      "ideal_sink_current_A": 0.000701978278812
+    },
+    {
+      "rpull": 1566.666667,
+      "cbus": 1e-10,
+      "tr_30_70_s": 1.32740027838e-07,
+      "analytic_tr_s": 1.3274333148890516e-07,
+      "rise_only_standard_mode_pass": true,
+      "rise_only_fast_mode_pass": true,
+      "ideal_switch_vol_V": 0.00210503931157,
+      "ideal_sink_current_A": 0.00210503931157
+    },
+    {
+      "rpull": 2350.0,
+      "cbus": 1e-10,
+      "tr_30_70_s": 1.99110007111e-07,
+      "analytic_tr_s": 1.9911499719099286e-07,
+      "rise_only_standard_mode_pass": true,
+      "rise_only_fast_mode_pass": true,
+      "ideal_switch_vol_V": 0.00140365806874,
+      "ideal_sink_current_A": 0.00140365806874
+    },
+    {
+      "rpull": 4700.0,
+      "cbus": 1e-10,
+      "tr_30_70_s": 3.98222649137e-07,
+      "analytic_tr_s": 3.982299943819857e-07,
+      "rise_only_standard_mode_pass": true,
+      "rise_only_fast_mode_pass": false,
+      "ideal_switch_vol_V": 0.000701978278812,
+      "ideal_sink_current_A": 0.000701978278812
+    },
+    {
+      "rpull": 1566.666667,
+      "cbus": 2e-10,
+      "tr_30_70_s": 2.65482864489e-07,
+      "analytic_tr_s": 2.654866629778103e-07,
+      "rise_only_standard_mode_pass": true,
+      "rise_only_fast_mode_pass": true,
+      "ideal_switch_vol_V": 0.00210503931157,
+      "ideal_sink_current_A": 0.00210503931157
+    },
+    {
+      "rpull": 2350.0,
+      "cbus": 2e-10,
+      "tr_30_70_s": 3.98220771776e-07,
+      "analytic_tr_s": 3.982299943819857e-07,
+      "rise_only_standard_mode_pass": true,
+      "rise_only_fast_mode_pass": false,
+      "ideal_switch_vol_V": 0.00140365806874,
+      "ideal_sink_current_A": 0.00140365806874
+    },
+    {
+      "rpull": 4700.0,
+      "cbus": 2e-10,
+      "tr_30_70_s": 7.96459256718e-07,
+      "analytic_tr_s": 7.964599887639714e-07,
+      "rise_only_standard_mode_pass": true,
+      "rise_only_fast_mode_pass": false,
+      "ideal_switch_vol_V": 0.000701978278812,
+      "ideal_sink_current_A": 0.000701978278812
+    },
+    {
+      "rpull": 1566.666667,
+      "cbus": 2.5e-10,
+      "tr_30_70_s": 3.31851962891e-07,
+      "analytic_tr_s": 3.318583287222629e-07,
+      "rise_only_standard_mode_pass": true,
+      "rise_only_fast_mode_pass": false,
+      "ideal_switch_vol_V": 0.00210503931157,
+      "ideal_sink_current_A": 0.00210503931157
+    },
+    {
+      "rpull": 2350.0,
+      "cbus": 2.5e-10,
+      "tr_30_70_s": 4.97784802755e-07,
+      "analytic_tr_s": 4.977874929774821e-07,
+      "rise_only_standard_mode_pass": true,
+      "rise_only_fast_mode_pass": false,
+      "ideal_switch_vol_V": 0.00140365806874,
+      "ideal_sink_current_A": 0.00140365806874
+    },
+    {
+      "rpull": 4700.0,
+      "cbus": 2.5e-10,
+      "tr_30_70_s": 9.95573073709e-07,
+      "analytic_tr_s": 9.955749859549643e-07,
+      "rise_only_standard_mode_pass": true,
+      "rise_only_fast_mode_pass": false,
+      "ideal_switch_vol_V": 0.000701978278812,
+      "ideal_sink_current_A": 0.000701978278812
+    },
+    {
+      "rpull": 1566.666667,
+      "cbus": 4e-10,
+      "tr_30_70_s": 5.30969867918e-07,
+      "analytic_tr_s": 5.309733259556207e-07,
+      "rise_only_standard_mode_pass": true,
+      "rise_only_fast_mode_pass": false,
+      "ideal_switch_vol_V": 0.00210503931157,
+      "ideal_sink_current_A": 0.00210503931157
+    },
+    {
+      "rpull": 2350.0,
+      "cbus": 4e-10,
+      "tr_30_70_s": 7.9645776415e-07,
+      "analytic_tr_s": 7.964599887639714e-07,
+      "rise_only_standard_mode_pass": true,
+      "rise_only_fast_mode_pass": false,
+      "ideal_switch_vol_V": 0.00140365806874,
+      "ideal_sink_current_A": 0.00140365806874
+    },
+    {
+      "rpull": 4700.0,
+      "cbus": 4e-10,
+      "tr_30_70_s": 1.59292007477e-06,
+      "analytic_tr_s": 1.592919977527943e-06,
+      "rise_only_standard_mode_pass": false,
+      "rise_only_fast_mode_pass": false,
+      "ideal_switch_vol_V": 0.000701978278812,
+      "ideal_sink_current_A": 0.000701978278812
+    },
+    {
+      "rpull": 1566.666667,
+      "cbus": 8e-10,
+      "tr_30_70_s": 1.06194751095e-06,
+      "analytic_tr_s": 1.0619466519112413e-06,
+      "rise_only_standard_mode_pass": false,
+      "rise_only_fast_mode_pass": false,
+      "ideal_switch_vol_V": 0.00210503931157,
+      "ideal_sink_current_A": 0.00210503931157
+    },
+    {
+      "rpull": 2350.0,
+      "cbus": 8e-10,
+      "tr_30_70_s": 1.59291907126e-06,
+      "analytic_tr_s": 1.592919977527943e-06,
+      "rise_only_standard_mode_pass": false,
+      "rise_only_fast_mode_pass": false,
+      "ideal_switch_vol_V": 0.00140365806874,
+      "ideal_sink_current_A": 0.00140365806874
+    },
+    {
+      "rpull": 4700.0,
+      "cbus": 8e-10,
+      "tr_30_70_s": 3.18583944051e-06,
+      "analytic_tr_s": 3.185839955055886e-06,
+      "rise_only_standard_mode_pass": false,
+      "rise_only_fast_mode_pass": false,
+      "ideal_switch_vol_V": 0.000701978278812,
+      "ideal_sink_current_A": 0.000701978278812
+    }
+  ],
+  "supply_cases": [
+    {
+      "vin": 4.75,
+      "rloop": 0.05,
+      "cf": 0.8,
+      "v_idle": 4.73750019073,
+      "v_min": 4.65000009537,
+      "v_loaded": 4.65000009536,
+      "v_release_max": 4.73750019073,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": true
+    },
+    {
+      "vin": 5.0,
+      "rloop": 0.05,
+      "cf": 0.8,
+      "v_idle": 4.98750019073,
+      "v_min": 4.90000009537,
+      "v_loaded": 4.90000009537,
+      "v_release_max": 4.98750019073,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": true
+    },
+    {
+      "vin": 5.25,
+      "rloop": 0.05,
+      "cf": 0.8,
+      "v_idle": 5.23750019073,
+      "v_min": 5.15000009537,
+      "v_loaded": 5.15000009536,
+      "v_release_max": 5.23750019073,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": true
+    },
+    {
+      "vin": 4.75,
+      "rloop": 0.15,
+      "cf": 0.8,
+      "v_idle": 4.71250009537,
+      "v_min": 4.44999980927,
+      "v_loaded": 4.44999980926,
+      "v_release_max": 4.71250009537,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": false
+    },
+    {
+      "vin": 5.0,
+      "rloop": 0.15,
+      "cf": 0.8,
+      "v_idle": 4.96250009537,
+      "v_min": 4.69999980927,
+      "v_loaded": 4.69999980926,
+      "v_release_max": 4.96250009537,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": true
+    },
+    {
+      "vin": 5.25,
+      "rloop": 0.15,
+      "cf": 0.8,
+      "v_idle": 5.21250009537,
+      "v_min": 4.94999980927,
+      "v_loaded": 4.94999980926,
+      "v_release_max": 5.21250009537,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": true
+    },
+    {
+      "vin": 4.75,
+      "rloop": 0.3,
+      "cf": 0.8,
+      "v_idle": 4.67500019073,
+      "v_min": 4.15000009537,
+      "v_loaded": 4.15000009537,
+      "v_release_max": 4.67500019073,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": false
+    },
+    {
+      "vin": 5.0,
+      "rloop": 0.3,
+      "cf": 0.8,
+      "v_idle": 4.92500019073,
+      "v_min": 4.40000009537,
+      "v_loaded": 4.40000009536,
+      "v_release_max": 4.92500019073,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": false
+    },
+    {
+      "vin": 5.25,
+      "rloop": 0.3,
+      "cf": 0.8,
+      "v_idle": 5.17500019073,
+      "v_min": 4.65000009537,
+      "v_loaded": 4.65000009536,
+      "v_release_max": 5.17500019073,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": true
+    },
+    {
+      "vin": 4.75,
+      "rloop": 0.05,
+      "cf": 1.0,
+      "v_idle": 4.73750019073,
+      "v_min": 4.65000009537,
+      "v_loaded": 4.65000009536,
+      "v_release_max": 4.73750019073,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": true
+    },
+    {
+      "vin": 5.0,
+      "rloop": 0.05,
+      "cf": 1.0,
+      "v_idle": 4.98750019073,
+      "v_min": 4.90000009537,
+      "v_loaded": 4.90000009537,
+      "v_release_max": 4.98750019073,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": true
+    },
+    {
+      "vin": 5.25,
+      "rloop": 0.05,
+      "cf": 1.0,
+      "v_idle": 5.23750019073,
+      "v_min": 5.15000009537,
+      "v_loaded": 5.15000009536,
+      "v_release_max": 5.23750019073,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": true
+    },
+    {
+      "vin": 4.75,
+      "rloop": 0.15,
+      "cf": 1.0,
+      "v_idle": 4.71250009537,
+      "v_min": 4.44999980927,
+      "v_loaded": 4.44999980926,
+      "v_release_max": 4.71250009537,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": false
+    },
+    {
+      "vin": 5.0,
+      "rloop": 0.15,
+      "cf": 1.0,
+      "v_idle": 4.96250009537,
+      "v_min": 4.69999980927,
+      "v_loaded": 4.69999980926,
+      "v_release_max": 4.96250009537,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": true
+    },
+    {
+      "vin": 5.25,
+      "rloop": 0.15,
+      "cf": 1.0,
+      "v_idle": 5.21250009537,
+      "v_min": 4.94999980927,
+      "v_loaded": 4.94999980926,
+      "v_release_max": 5.21250009537,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": true
+    },
+    {
+      "vin": 4.75,
+      "rloop": 0.3,
+      "cf": 1.0,
+      "v_idle": 4.67500019073,
+      "v_min": 4.15000009537,
+      "v_loaded": 4.15000009537,
+      "v_release_max": 4.67500019073,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": false
+    },
+    {
+      "vin": 5.0,
+      "rloop": 0.3,
+      "cf": 1.0,
+      "v_idle": 4.92500019073,
+      "v_min": 4.40000009537,
+      "v_loaded": 4.40000009536,
+      "v_release_max": 4.92500019073,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": false
+    },
+    {
+      "vin": 5.25,
+      "rloop": 0.3,
+      "cf": 1.0,
+      "v_idle": 5.17500019073,
+      "v_min": 4.65000009537,
+      "v_loaded": 4.65000009536,
+      "v_release_max": 5.17500019073,
+      "max_source_current": 2.0,
+      "assumed_bus_meets_TB6612_VM_4V5": true
+    }
+  ],
+  "assumptions": [
+    "I2C bus capacitance is unknown; 50..800pF is a sweep, not measured parasitics.",
+    "Additional 4.7k module pullups are hypothetical; 2350/1566.67 ohms model two/three parallel resistors.",
+    "Ideal switch is not a vendor GPIO model; low level/current results do not certify IO sink capability.",
+    "Power total loop R=.05/.15/.30 ohms includes supply and return; all are assumed, not extracted or measured.",
+    "L=1uH, ESR=.05ohm, ideal input source and .25->2A loads are assumptions, not measured motor/servo behavior.",
+    "Bulk capacitance is lumped and scaled .8/1; distribution, ceramic DC bias, adapter current limit, fuse I2t and MOS switching are not modeled.",
+    "No AMS1117 closed-loop model, thermal model, reverse protection or firmware/system proof."
+  ],
+  "source_hashes": {
+    "artifacts\\simulation_review\\revb_i2c_rc_sweep.cir": "fea2ef57ca21c87dffac1b613e59a3bfa557869ad78038239f93cd2238674273",
+    "artifacts\\simulation_review\\revb_i2c_rc_sweep.log": "c4ff0936ea384b1e24c43067705307632c02dfa1359bc595b1bffa01915433a7",
+    "artifacts\\simulation_review\\revb_i2c_rc_sweep.raw": "aa8ac8f400855327a20bffd26afb32c045ea5ff28f5bba60dabc844b14c4a825",
+    "artifacts\\simulation_review\\revb_supply_loop_sweep.cir": "79798cd48b04607f51205eb58e1bf7676e52c4af12fe20d8c8b0d2ba4454f4f7",
+    "artifacts\\simulation_review\\revb_supply_loop_sweep.log": "d2b2ce1e6dcfc46c8a98a0bbcc9f7923dfa67ec91093dc6ef2ae3333a825c88b",
+    "artifacts\\simulation_review\\revb_supply_loop_sweep.raw": "c4a362021353ac5e8d6259f6e110ea5bcd4aa3d4ab6a3045b7c4ebd2909cb24d"
+  }
+}

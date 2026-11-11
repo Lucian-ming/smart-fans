@@ -1,0 +1,72 @@
+{
+  "limits_mm": {
+    "copper_edge": 0.25,
+    "drill_web": 0.25,
+    "mask_bridge": 0.1,
+    "silk_clearance": 0.1
+  },
+  "failures": [],
+  "file_sha256": {
+    "D:\\smart_fans\\hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GKO": "be9c68ff43a9a51f760ef78b243e4cd249474053850a9085e984ba4a65ccd163",
+    "D:\\smart_fans\\hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GTL": "a256e3e3277a3714e85c60f0abb31cf3641b4fe4f1ffb2e401cce3944292f985",
+    "D:\\smart_fans\\hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GBL": "324c13779ecb0888437a37c9c915988ad53ab23b5106f9418260997ee9a5f3c0",
+    "D:\\smart_fans\\hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GTS": "dc8036f4720ffdee172992a25ffb37d40d98a8beb964d89a3371fdd843bcf5e5",
+    "D:\\smart_fans\\hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GBS": "4ef07010f1a814a7e6b2e4b5d94dbff0ad0b70a9b4c7cc6c1c02333f8cbfa022",
+    "D:\\smart_fans\\hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GTO": "db4494f93ce9ca0ab77e4ea97b1f6fa7fd0d0fbf32478343dcec933777bbaa3c",
+    "D:\\smart_fans\\hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.DRL": "8c9361591725512c6ce99e4892a7e7d502856090ffe5add96af233008740fae0"
+  },
+  "notes": [
+    "Ideal geometry only, not drill registration/plating tolerance guarantee.",
+    "All drill pairs checked regardless of electrical net.",
+    "Merged same-net mask openings are reported as failed bridges pending explicit process waiver; not proof of an electrical short.",
+    "Gerber drill slots/arcs unsupported: fail closed rather than silently skip.",
+    "Board contour from actual GKO centerline, not stroke outer bounds."
+  ],
+  "GTL": {
+    "min_board_edge_mm": 0.9999946603761324,
+    "outside_area_mm2": 0.0,
+    "object_count": 2002
+  },
+  "GBL": {
+    "min_board_edge_mm": 0.9999946603761324,
+    "outside_area_mm2": 0.0,
+    "object_count": 1191
+  },
+  "drill": {
+    "hit_count": 208,
+    "pair_count": 21528,
+    "minimum": {
+      "a": {
+        "index": 8,
+        "x": 163.2,
+        "y": 108.8,
+        "diameter": 0.3
+      },
+      "b": {
+        "index": 76,
+        "x": 163.1,
+        "y": 107.9,
+        "diameter": 0.3
+      },
+      "edge_gap_mm": 0.6055385138137326
+    },
+    "violations": []
+  },
+  "GTS": {
+    "opening_count": 173,
+    "min_bridge_mm": 0.5695580153953714,
+    "violations": []
+  },
+  "GBS": {
+    "opening_count": 127,
+    "min_bridge_mm": 0.6999999999999886,
+    "violations": []
+  },
+  "GTO": {
+    "overlap_mask_mm2": 0.0,
+    "objects_on_mask": 0,
+    "objects_within_clearance": 0,
+    "min_mask_distance_mm": 0.1599999999999966
+  },
+  "passed": true
+}

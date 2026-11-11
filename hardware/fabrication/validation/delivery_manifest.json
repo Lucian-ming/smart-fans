@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-11-04T14:21:55.236363+08:00",
+  "file_count": 6,
+  "all_hashes_match": true,
+  "files": [
+    {
+      "source": "D:\\smart_fans\\hardware\\kicad\\fan_ctrl_revB.kicad_pcb",
+      "target": "D:\\下载\\fan_ctrl_revB.kicad_pcb",
+      "bytes": 547674,
+      "sha256": "c7dd72e4d86175207afbc7f67fda22e82e22f41ed5defc73ac9fb6a33b2bae07",
+      "previous_sha256": null,
+      "backup": null
+    },
+    {
+      "source": "D:\\smart_fans\\hardware\\kicad\\fan_ctrl_revB.kicad_sch",
+      "target": "D:\\下载\\fan_ctrl_revB.kicad_sch",
+      "bytes": 119337,
+      "sha256": "4c07bb5c7fb0adcdbd345e3c058d292d2510a875a7b41bffb661c05b452398ca",
+      "previous_sha256": null,
+      "backup": null
+    },
+    {
+      "source": "D:\\smart_fans\\hardware\\fabrication\\Gerber_fan_ctrl_revB_2026-11-04.zip",
+      "target": "D:\\下载\\Gerber_fan_ctrl_revB_2026-11-04.zip",
+      "bytes": 96055,
+      "sha256": "4a90c128c9efbe73671f3483c578ff528e59a7f9183d902c92f461f808ae08a3",
+      "previous_sha256": "d8587cb3449ad4d495965dc3cd8e80da33244fb8bebdac879d9c4c6ecfe75e1c",
+      "backup": "D:\\下载\\RevB_backup_20261104_142155\\Gerber_fan_ctrl_revB_2026-11-04.zip"
+    },
+    {
+      "source": "D:\\smart_fans\\hardware\\fabrication\\BOM_SmartFan_RevB.xlsx",
+      "target": "D:\\下载\\BOM_SmartFan_RevB.xlsx",
+      "bytes": 8889,
+      "sha256": "2fb078143d27290515224c48182e3333ef4cd9830d697142d09f10a45bb0aec6",
+      "previous_sha256": "ff73f57fa4b0b4b825d3c6162a9bb568953a9776a1994178925abbe0f9fca784",
+      "backup": "D:\\下载\\RevB_backup_20261104_142155\\BOM_SmartFan_RevB.xlsx"
+    },
+    {
+      "source": "D:\\smart_fans\\mechanical\\stl\\print\\SmartFan_P2_Print_Kit.zip",
+      "target": "D:\\下载\\SmartFan_Sanweihou_3D_Print_Kit_2026-11-04.zip",
+      "bytes": 138656,
+      "sha256": "4178bc2b8fef198638c8667f2ceb08f5e7e780d71b72d494ad7b3e84526735f8",
+      "previous_sha256": "865660b398d957ce533e7110b15bb50e9015e4ac0f4134f0beadbbe75c80441a",
+      "backup": "D:\\下载\\RevB_backup_20261104_142155\\SmartFan_Sanweihou_3D_Print_Kit_2026-11-04.zip"
+    },
+    {
+      "source": "D:\\smart_fans\\hardware\\fabrication\\RevB_Validation_Report.md",
+      "target": "D:\\下载\\RevB_Validation_Report.md",
+      "bytes": 8156,
+      "sha256": "eabc05f6fec479b4e884f8375832a6025f098e34ad65169fd753ea314d249627",
+      "previous_sha256": null,
+      "backup": null
+    }
+  ],
+  "obsolete_note": "Old standalone two-piece STL files were not deleted. Use the new three-STL ZIP only."
+}

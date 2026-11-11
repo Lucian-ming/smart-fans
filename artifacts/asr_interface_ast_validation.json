@@ -1,0 +1,24 @@
+{
+  "min_affected_pad_clearance_mm": 3.960000000000001,
+  "closest_pair": [
+    "JP_ASR",
+    "2",
+    "JP_ASR_TX",
+    "1"
+  ],
+  "pass_": true,
+  "negative_cases_rejected": [
+    "power_bypass",
+    "uart_bypass",
+    "swapped_uart",
+    "ldo_tied"
+  ],
+  "physical_row_pitch_mm": 25.4,
+  "pin_pitch_mm": 2.54,
+  "dimensional_evidence": "user confirmation; not agent visual measurement",
+  "limitations": [
+    "AST pad/access checks only; reroute/final manufacturing validation required",
+    "External microphone is not provided; unsupported MIC1 and net23 removed",
+    "socket procurement and full module/USB envelope still require verification"
+  ]
+}

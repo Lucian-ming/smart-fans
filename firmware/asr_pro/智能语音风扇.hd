@@ -1,0 +1,890 @@
+#include "asr.h"
+extern "C"{ void * __dso_handle = 0 ;}
+#include "setup.h"
+#include "myLib/asr_event.h"
+#include "asrpro_dpmu.h"
+
+/* =========================================================================
+ * 8x8 双点阵表情屏驱动配置 (两块 MAX7219 级联，一只点阵显示一只眼睛)
+ * 硬件接线参考（三根信号线连在一起，最方便插线）：
+ *   点阵1 VCC  -> ASR-PRO 5V / VIN (必须接 5V，严禁接 3.3V)
+ *   点阵1 GND  -> ASR-PRO GND
+ *   点阵1 CLK  -> ASR-PRO PA0 (P2 排针从上往下第 5 脚，纯净 GPIO)
+ *   点阵1 DIN  -> ASR-PRO PA5 (引脚 5，数据线)
+ *   点阵1 CS   -> ASR-PRO PA6 (引脚 6，片选线)
+ * 级联接线（串联）：
+ *   点阵1 DOUT -> 点阵2 DIN (必须接在点阵2输入端 DIN，不能接点阵2的 DOUT)
+ *   点阵1 CLK  -> 点阵2 CLK
+ *   点阵1 CS   -> 点阵2 CS
+ *   点阵1 VCC  -> 点阵2 VCC
+ *   点阵1 GND  -> 点阵2 GND
+ * ========================================================================= */
+#define MATRIX_CLK_PIN        0   /* ASR-PRO PA0 (P2排针从上往下第5脚)，时钟线（已实测） */
+#define MATRIX_DIN_PIN        5   /* ASR-PRO PA5 (P1排针从上往下第2脚，数据线) */
+#define MATRIX_CS_PIN         6   /* ASR-PRO PA6 (P1排针最上方第1脚，片选线) */
+/* PA4 已彻底弃用：它是 PG_EN 烧录使能脚，板载 D4 红 LED + 3.3k 上拉 + CH340 DTR 三极管 Q2，
+   任何高电平翻转都可能触发编程模式，因此本文件不再引用 PA4。 */
+#define MATRIX_CLK_PIN_PC4    20  /* ASR-PRO PC4 (P2排针从上往下第3脚，时钟备用) */
+
+#define EYE_LEFT_IS_MODULE_1  1   /* 1: 点阵1显示左眼，点阵2显示右眼; 0: 反之 */
+#define EYE_ROTATE_180        0   /* 1: 点阵上下倒置修正 (旋转180度); 0: 正常方向 */
+
+typedef enum {
+    EYE_EMOTION_NORMAL = 0,    /* 常态：明亮大眼，带高光，每 3 秒自然眨眼一次 */
+    EYE_EMOTION_HAPPY,         /* 欢喜笑眼 ^^ (开机、清凉吹风、收到指令) */
+    EYE_EMOTION_SLEEP,         /* 安睡闭眼 -- (关机、睡眠模式) */
+    EYE_EMOTION_WINK,          /* 俏皮眨单眼 ^_- (唤醒反馈、小提示) */
+    EYE_EMOTION_LOOK_LEFT,     /* 向左看 (摆头向左) */
+    EYE_EMOTION_LOOK_RIGHT,    /* 向右看 (摆头向右) */
+    EYE_EMOTION_SURPRISED,     /* 惊讶圆眼 OO (极速劲风、高温提醒) */
+    EYE_EMOTION_HEART,         /* 爱心萌眼 <3 (表扬夸奖) */
+    EYE_EMOTION_DIZZY          /* 眩晕旋转眼 @ @ (调速切换) */
+} eye_emotion_t;
+
+volatile eye_emotion_t g_eye_emotion = EYE_EMOTION_NORMAL;
+volatile uint32_t g_emotion_expire_time = 0;
+volatile bool g_fan_swinging = false;
+
+/* ---- 8x8 眼睛字模数据定义 ---- */
+
+/* 常态大眼 (带眼神高光与瞳孔) */
+static const uint8_t s_eye_normal_l[8] = {
+    0x3C, // . . 1 1 1 1 . .
+    0x7E, // . 1 1 1 1 1 1 .
+    0xE7, // 1 1 1 . . 1 1 1
+    0xC3, // 1 1 . . . . 1 1
+    0xC3, // 1 1 . . . . 1 1
+    0xE7, // 1 1 1 . . 1 1 1
+    0x7E, // . 1 1 1 1 1 1 .
+    0x3C  // . . 1 1 1 1 . .
+};
+
+static const uint8_t s_eye_normal_r[8] = {
+    0x3C, // . . 1 1 1 1 . .
+    0x7E, // . 1 1 1 1 1 1 .
+    0xE7, // 1 1 1 . . 1 1 1
+    0xC3, // 1 1 . . . . 1 1
+    0xC3, // 1 1 . . . . 1 1
+    0xE7, // 1 1 1 . . 1 1 1
+    0x7E, // . 1 1 1 1 1 1 .
+    0x3C  // . . 1 1 1 1 . .
+};
+
+/* 瞳孔偏左 (眼珠向左望) */
+static const uint8_t s_eye_look_left[8] = {
+    0x3C, // . . 1 1 1 1 . .
+    0x7E, // . 1 1 1 1 1 1 .
+    0x1F, // . . . 1 1 1 1 1
+    0x0F, // . . . . 1 1 1 1
+    0x0F, // . . . . 1 1 1 1
+    0x1F, // . . . 1 1 1 1 1
+    0x7E, // . 1 1 1 1 1 1 .
+    0x3C  // . . 1 1 1 1 . .
+};
+
+/* 瞳孔偏右 (眼珠向右望) */
+static const uint8_t s_eye_look_right[8] = {
+    0x3C, // . . 1 1 1 1 . .
+    0x7E, // . 1 1 1 1 1 1 .
+    0xF8, // 1 1 1 1 1 . . .
+    0xF0, // 1 1 1 1 . . . .
+    0xF0, // 1 1 1 1 . . . .
+    0xF8, // 1 1 1 1 1 . . .
+    0x7E, // . 1 1 1 1 1 1 .
+    0x3C  // . . 1 1 1 1 . .
+};
+
+/* 半闭眼 (自然眨眼过渡帧) */
+static const uint8_t s_eye_half[8] = {
+    0x00, // . . . . . . . .
+    0x00, // . . . . . . . .
+    0x3C, // . . 1 1 1 1 . .
+    0x7E, // . 1 1 1 1 1 1 .
+    0x7E, // . 1 1 1 1 1 1 .
+    0x3C, // . . 1 1 1 1 . .
+    0x00, // . . . . . . . .
+    0x00  // . . . . . . . .
+};
+
+/* 全闭眼 (睡眠安睡/完全闭眼) */
+static const uint8_t s_eye_closed[8] = {
+    0x00, // . . . . . . . .
+    0x00, // . . . . . . . .
+    0x00, // . . . . . . . .
+    0x7E, // . 1 1 1 1 1 1 .
+    0x7E, // . 1 1 1 1 1 1 .
+    0x00, // . . . . . . . .
+    0x00, // . . . . . . . .
+    0x00  // . . . . . . . .
+};
+
+/* 欢喜月牙笑眼 (^^) */
+static const uint8_t s_eye_happy[8] = {
+    0x00, // . . . . . . . .
+    0x3C, // . . 1 1 1 1 . .
+    0x7E, // . 1 1 1 1 1 1 .
+    0xE7, // 1 1 1 . . 1 1 1
+    0xC3, // 1 1 . . . . 1 1
+    0x81, // 1 . . . . . . 1
+    0x00, // . . . . . . . .
+    0x00  // . . . . . . . .
+};
+
+/* 爱心萌眼 (<3) */
+static const uint8_t s_eye_heart[8] = {
+    0x00, // . . . . . . . .
+    0x66, // . 1 1 . . 1 1 .
+    0xFF, // 1 1 1 1 1 1 1 1
+    0xFF, // 1 1 1 1 1 1 1 1
+    0x7E, // . 1 1 1 1 1 1 .
+    0x3C, // . . 1 1 1 1 . .
+    0x18, // . . . 1 1 . . .
+    0x00  // . . . . . . . .
+};
+
+/* 惊讶大圆眼 (OO) */
+static const uint8_t s_eye_surprised[8] = {
+    0x3C, // . . 1 1 1 1 . .
+    0x42, // . 1 . . . . 1 .
+    0x81, // 1 . . . . . . 1
+    0x81, // 1 . . . . . . 1
+    0x81, // 1 . . . . . . 1
+    0x81, // 1 . . . . . . 1
+    0x42, // . 1 . . . . 1 .
+    0x3C  // . . 1 1 1 1 . .
+};
+
+/* 眩晕旋转眼 (@ @) */
+static const uint8_t s_eye_dizzy[8] = {
+    0x3C, // . . 1 1 1 1 . .
+    0x42, // . 1 . . . . 1 .
+    0x99, // 1 . . 1 1 . . 1
+    0xA5, // 1 . 1 . . 1 . 1
+    0xA5, // 1 . 1 . . 1 . 1
+    0x99, // 1 . . 1 1 . . 1
+    0x42, // . 1 . . . . 1 .
+    0x3C  // . . 1 1 1 1 . .
+};
+
+/* ---- MAX7219 级联 SPI 底层驱动函数 ---- */
+
+/* 采用轻量微秒级循环延时，避免调用 SDK delay5us() 产生的高频中断临界区开关开销 */
+static inline void max7219_delay(void)
+{
+    for (volatile int i = 0; i < 30; i++) {
+        __asm__ volatile("nop");
+    }
+}
+
+static inline void clk_low(void)
+{
+    digitalWrite(MATRIX_CLK_PIN, 0);     /* PA0：纯净 GPIO，无板载 LED/上拉干扰 */
+}
+
+static inline void clk_high(void)
+{
+    digitalWrite(MATRIX_CLK_PIN, 1);
+}
+
+static inline void din_set(uint8_t bit)
+{
+    digitalWrite(MATRIX_DIN_PIN, bit ? 1 : 0);
+}
+
+static inline void cs_low(void)
+{
+    digitalWrite(MATRIX_CS_PIN, 0);
+}
+
+static inline void cs_high(void)
+{
+    digitalWrite(MATRIX_CS_PIN, 1);
+}
+
+static void max7219_send_byte(uint8_t b)
+{
+    for (int i = 7; i >= 0; i--) {
+        clk_low();
+        din_set((b >> i) & 1);
+        max7219_delay();
+        clk_high();
+        max7219_delay();
+    }
+}
+
+static void max7219_write_word(uint8_t addr1, uint8_t data1, uint8_t addr2, uint8_t data2)
+{
+    cs_low();
+    max7219_delay();
+
+    /* 级联发送：先发的16位溢出进入第2块(右眼)，后发的16位停留在第1块(左眼) */
+    max7219_send_byte(addr2);
+    max7219_send_byte(data2);
+
+    max7219_send_byte(addr1);
+    max7219_send_byte(data1);
+
+    clk_low(); /* 保证上升沿锁存前时钟为低电平，符合 MAX7219 规范 */
+    max7219_delay();
+    cs_high();
+    max7219_delay();
+}
+
+static void max7219_write_all(uint8_t reg, uint8_t val)
+{
+    max7219_write_word(reg, val, reg, val);
+}
+
+static inline uint8_t reverse_bits(uint8_t b)
+{
+    b = ((b & 0xF0) >> 4) | ((b & 0x0F) << 4);
+    b = ((b & 0xCC) >> 2) | ((b & 0x33) << 2);
+    b = ((b & 0xAA) >> 1) | ((b & 0x55) << 1);
+    return b;
+}
+
+static void max7219_render_eyes(const uint8_t left_eye[8], const uint8_t right_eye[8])
+{
+    for (uint8_t r = 0; r < 8; r++) {
+        uint8_t d_left, d_right;
+#if EYE_ROTATE_180
+        uint8_t row_addr = 8 - r;
+        d_left = reverse_bits(left_eye[r]);
+        d_right = reverse_bits(right_eye[r]);
+#else
+        uint8_t row_addr = r + 1;
+        d_left = left_eye[r];
+        d_right = right_eye[r];
+#endif
+
+#if EYE_LEFT_IS_MODULE_1
+        max7219_write_word(row_addr, d_left, row_addr, d_right);
+#else
+        max7219_write_word(row_addr, d_right, row_addr, d_left);
+#endif
+    }
+}
+
+/* =========================================================================
+ * 引脚底层配置：把 PA0/PA5/PA6 真正配置成数字推挽输出
+ *   - set_pin_to_gpio_mode() : PAD 复用功能切回 GPIO 第一功能(PA_x)
+ *   - pinMode(output)        : 使能 GPIOA 时钟 + 置 OE 为输出
+ *   - dpmu_set_io_direction(): dpmu 层方向寄存器必须显式置为输出
+ *   - dpmu_set_io_pull()     : 关闭内部上下拉，保证方波边沿干净
+ * 说明: PA0/PA1 是 OSC_IN/OSC_OUT，SDK main.c 在 USE_EXTERNAL_CRYSTAL_OSC=0 时
+ *       已调用 dpmu_osc_pad_for_gpio(ENABLE) 释放晶振脚，因此 PA0 可作 CLK。
+ * ========================================================================= */
+static void max7219_pin_setup(void)
+{
+    /* 1. 复用功能切回 GPIO 第一功能 */
+    set_pin_to_gpio_mode(MATRIX_CLK_PIN);     /* PA0 时钟 */
+    set_pin_to_gpio_mode(MATRIX_DIN_PIN);     /* PA5 数据 */
+    set_pin_to_gpio_mode(MATRIX_CS_PIN);      /* PA6 片选 */
+
+    /* 2. GPIO 控制器层：开时钟 + 置输出 */
+    pinMode(MATRIX_CLK_PIN,     output);
+    pinMode(MATRIX_DIN_PIN,     output);
+    pinMode(MATRIX_CS_PIN,      output);
+
+    /* 3. dpmu 层：显式方向=输出，禁止内部上下拉 */
+    dpmu_set_io_direction(PA0, DPMU_IO_DIRECTION_OUTPUT);
+    dpmu_set_io_pull(PA0,      DPMU_IO_PULL_DISABLE);
+    dpmu_set_io_direction(PA5, DPMU_IO_DIRECTION_OUTPUT);
+    dpmu_set_io_pull(PA5,      DPMU_IO_PULL_DISABLE);
+    dpmu_set_io_direction(PA6, DPMU_IO_DIRECTION_OUTPUT);
+    dpmu_set_io_pull(PA6,      DPMU_IO_PULL_DISABLE);
+
+    /* 4. 静态电平：CS 高(不锁存)、CLK 低、DIN 低 */
+    cs_high();
+    clk_low();
+    din_set(0);
+}
+
+/* MAX7219 寄存器初始化序列(纯忙等，无 RTOS 延时，调度器启动前也能调用) */
+static void max7219_reg_init(void)
+{
+    max7219_write_all(0x0C, 0x01); /* 退出关断模式 */
+    max7219_write_all(0x09, 0x00); /* 关闭 BCD 译码，8x8 位图 */
+    max7219_write_all(0x0B, 0x07); /* 扫描全部 8 行 */
+    max7219_write_all(0x0A, 0x0F); /* 亮度最高 */
+    max7219_write_all(0x0F, 0x00); /* 关闭全亮测试模式 */
+    for (uint8_t r = 1; r <= 8; r++) {
+        max7219_write_all(r, 0x00); /* 清屏 */
+    }
+}
+
+/* 全部点亮：两块点阵 128 颗 LED 常亮，作为"驱动链路是否通"的最直观判据 */
+static void max7219_all_on(void)
+{
+    for (uint8_t r = 1; r <= 8; r++) {
+        max7219_write_all(r, 0xFF);
+    }
+}
+
+/* 完整初始化(在 FreeRTOS 任务上下文中调用，可用 delay) */
+static void max7219_init(void)
+{
+    max7219_pin_setup();
+    delay(10);
+    max7219_reg_init();
+}
+
+/* ===== 任务本地软件毫秒时钟 =====
+   不用 millis()：实测 TIMER_MTIME 在这块板子上不递增，导致所有基于时间的动画
+   （眨眼、摆头、表情超时恢复）全部失效，画面看起来就是"圆眼一直不动"。
+   由 eye_animation_task 每轮循环（50ms）自增，不依赖任何硬件计时器。 */
+volatile uint32_t g_soft_ms = 0;
+
+static inline uint32_t get_time_ms(void) {
+    return (uint32_t)g_soft_ms;
+}
+
+void set_eye_emotion(eye_emotion_t emotion, uint32_t duration_ms)
+{
+    g_eye_emotion = emotion;
+    if (duration_ms > 0) {
+        g_emotion_expire_time = get_time_ms() + duration_ms;
+    } else {
+        g_emotion_expire_time = 0xFFFFFFFF;
+    }
+}
+
+/* 眼睛动画与自然眨眼/张望独立后台任务 */
+/* NOP 忙等：不依赖 FreeRTOS tick，调度器启动前后都能用 */
+static inline void busy_wait_nop(uint32_t n) {
+    for (volatile uint32_t w = 0; w < n; w++) {
+        __asm__ volatile("nop");
+    }
+}
+
+void eye_animation_task(void *pvParameters)
+{
+    Serial.println("EYE_TASK_START");
+    (void)pvParameters;
+
+    /* MAX7219 驱动在此初始化 (此时 FreeRTOS 调度器已启动，delay/vTaskDelay 可正常工作并执行 400ms 自检) */
+    max7219_init();
+    max7219_render_eyes(s_eye_happy, s_eye_happy); /* 启动即刻渲染欢喜笑眼 */
+
+    uint32_t blink_cnt = 0;
+    bool swing_look_left = true;
+
+    while (1) {
+        uint32_t now = get_time_ms();
+
+        /* 临时情绪自动恢复至常态 */
+        if (g_eye_emotion != EYE_EMOTION_NORMAL && g_eye_emotion != EYE_EMOTION_SLEEP) {
+            if (now >= g_emotion_expire_time) {
+                g_eye_emotion = EYE_EMOTION_NORMAL;
+            }
+        }
+
+        switch (g_eye_emotion) {
+        case EYE_EMOTION_NORMAL:
+            ++blink_cnt;
+            if (blink_cnt >= 20) {
+                /* 眨眼：三段式，每段用长忙等拉长到肉眼一定看得见 */
+                blink_cnt = 0;
+                max7219_render_eyes(s_eye_half, s_eye_half);
+                delay(60);
+                max7219_render_eyes(s_eye_closed, s_eye_closed);
+                delay(180);
+                max7219_render_eyes(s_eye_half, s_eye_half);
+                delay(60);
+                max7219_render_eyes(s_eye_normal_l, s_eye_normal_r);
+            } else {
+                max7219_render_eyes(s_eye_normal_l, s_eye_normal_r);
+            }
+            break;
+
+        case EYE_EMOTION_HAPPY:
+            max7219_render_eyes(s_eye_happy, s_eye_happy);
+            break;
+
+        case EYE_EMOTION_SLEEP:
+            max7219_render_eyes(s_eye_closed, s_eye_closed);
+            break;
+
+        case EYE_EMOTION_WINK:
+            /* 眨单眼：左眼笑眯眯，右眼睁大 */
+            max7219_render_eyes(s_eye_happy, s_eye_normal_r);
+            break;
+
+        case EYE_EMOTION_LOOK_LEFT:
+            max7219_render_eyes(s_eye_look_left, s_eye_look_left);
+            break;
+
+        case EYE_EMOTION_LOOK_RIGHT:
+            max7219_render_eyes(s_eye_look_right, s_eye_look_right);
+            break;
+
+        case EYE_EMOTION_SURPRISED:
+            max7219_render_eyes(s_eye_surprised, s_eye_surprised);
+            break;
+
+        case EYE_EMOTION_HEART:
+            max7219_render_eyes(s_eye_heart, s_eye_heart);
+            break;
+
+        case EYE_EMOTION_DIZZY:
+            max7219_render_eyes(s_eye_dizzy, s_eye_dizzy);
+            break;
+
+        default:
+            max7219_render_eyes(s_eye_normal_l, s_eye_normal_r);
+            break;
+        }
+
+        /* 串口心跳：每秒输出一次任务存活与表情状态，便于串口助手观察 */
+
+        g_soft_ms += 50;   /* 任务本地软时钟：每轮推进 50ms */
+        /* 诊断：不用 vTaskDelay（delay 内部就是它），改纯忙等。
+           若这样眨眼能恢复，说明这块板子的 FreeRTOS tick / vTaskDelay 不可靠。 */
+        delay(50);
+    }
+    vTaskDelete(NULL);
+}
+
+/* =========================================================================
+ * 语音识别业务与交互逻辑
+ * ========================================================================= */
+uint32_t snid;
+uint8_t g_vol = 1; /* 初始默认音量 1 (范围 1 ~ 7) */
+
+void Serial_available();
+void Serial1_available();
+void hardware_init();
+
+/* 发音人音色设置：小蝶-清新女声，语速正常 */
+//{speak:小蝶-清新女声,vol:20,speed:10,platform:haohaodada}
+
+/* 开机欢迎词与待机休眠词 (唤醒词为“风扇风扇”) */
+//{playid:10001,voice:小蝶已就绪，叫我风扇风扇就可以唤醒我哦。}
+//{playid:10002,voice:小蝶先退下啦，有事叫风扇风扇唤醒我。}
+
+void sys_power_on_hook(void){
+  vol_set(g_vol);
+}
+
+/* 接收单片机返回的确认与传感器温湿度反馈，实现双向互动播报与双眼联动 */
+void Serial1_available(){
+  while (1) {
+    if(Serial1.available() > 0){
+      String _ss = Serial1.readString();
+      if(_ss.indexOf("Fyes") >= 0){
+        enter_wakeup(10000);
+        set_eye_emotion(EYE_EMOTION_HAPPY, 3000); /* 开机欢喜笑眼 */
+        //{ID:490,keyword:"命令词",ASR:"耍接官",ASRTO:"风扇已开启"}
+        play_audio(490);
+      }
+      else if(_ss.indexOf("Foff") >= 0){
+        enter_wakeup(10000);
+        g_fan_swinging = false;
+        set_eye_emotion(EYE_EMOTION_SLEEP, 0); /* 关机闭眼休息 */
+        //{ID:491,keyword:"命令词",ASR:"接官耍",ASRTO:"风扇已关闭"}
+        play_audio(491);
+      }
+      else if(_ss.indexOf("AUTO") >= 0){
+        enter_wakeup(10000);
+        set_eye_emotion(EYE_EMOTION_HAPPY, 2500);
+        //{ID:492,keyword:"命令词",ASR:"官耍接",ASRTO:"已切换为智能温控模式"}
+        play_audio(492);
+      }
+      else if(_ss.indexOf("MANU") >= 0){
+        enter_wakeup(10000);
+        set_eye_emotion(EYE_EMOTION_WINK, 2000);
+        //{ID:493,keyword:"命令词",ASR:"接耍官",ASRTO:"已切换为手动模式"}
+        play_audio(493);
+      }
+      else if(_ss.indexOf("SWON") >= 0){
+        enter_wakeup(10000);
+        g_fan_swinging = true;
+        set_eye_emotion(EYE_EMOTION_HAPPY, 1500); /* 开启摆头眼睛张望 */
+        //{ID:494,keyword:"命令词",ASR:"官接耍",ASRTO:"已开启摆头"}
+        play_audio(494);
+      }
+      else if(_ss.indexOf("SWOFF") >= 0){
+        enter_wakeup(10000);
+        g_fan_swinging = false;
+        set_eye_emotion(EYE_EMOTION_NORMAL, 0); /* 停止摆头眼珠回正 */
+        //{ID:495,keyword:"命令词",ASR:"耍官接",ASRTO:"已停止摆头"}
+        play_audio(495);
+      }
+      else if(_ss.indexOf("FSLEEP_OK") >= 0){
+        enter_wakeup(10000);
+        g_fan_swinging = false;
+        set_eye_emotion(EYE_EMOTION_SLEEP, 0); /* 睡眠闭眼 */
+        //{ID:460,keyword:"命令词",ASR:"睡好觉",ASRTO:"已开启静音微风，祝主人好梦，晚安"}
+        play_audio(460);
+      }
+      else if(_ss.indexOf("T_COOL") >= 0){
+        enter_wakeup(10000);
+        set_eye_emotion(EYE_EMOTION_NORMAL, 2500);
+        //{ID:470,keyword:"命令词",ASR:"天冷吗",ASRTO:"当前室内偏凉，约二十三度左右，建议调至微风哦"}
+        play_audio(470);
+      }
+      else if(_ss.indexOf("T_COMF") >= 0){
+        enter_wakeup(10000);
+        set_eye_emotion(EYE_EMOTION_HAPPY, 2500);
+        //{ID:471,keyword:"命令词",ASR:"天好吗",ASRTO:"当前室温约二十六度，体感非常舒适宜人"}
+        play_audio(471);
+      }
+      else if(_ss.indexOf("T_WARM") >= 0){
+        enter_wakeup(10000);
+        set_eye_emotion(EYE_EMOTION_HAPPY, 2500);
+        //{ID:472,keyword:"命令词",ASR:"天暖吗",ASRTO:"当前室温偏高，约二十九度，建议加大风速或开启温控模式"}
+        play_audio(472);
+      }
+      else if(_ss.indexOf("T_HOT") >= 0){
+        enter_wakeup(10000);
+        set_eye_emotion(EYE_EMOTION_SURPRISED, 3000); /* 天热惊讶大眼 */
+        //{ID:473,keyword:"命令词",ASR:"天热吗",ASRTO:"室内超过三十度啦，天气炎热，注意防暑降温哦"}
+        play_audio(473);
+      }
+      else if(_ss.indexOf("S_RUN") >= 0){
+        enter_wakeup(10000);
+        set_eye_emotion(EYE_EMOTION_NORMAL, 0);
+        //{ID:450,keyword:"命令词",ASR:"在转吗",ASRTO:"风扇正在正常送风中"}
+        play_audio(450);
+      }
+      else if(_ss.indexOf("S_AUTO") >= 0){
+        enter_wakeup(10000);
+        set_eye_emotion(EYE_EMOTION_HAPPY, 2000);
+        //{ID:451,keyword:"命令词",ASR:"自转吗",ASRTO:"风扇正处于智能温控巡航模式"}
+        play_audio(451);
+      }
+      else if(_ss.indexOf("S_OFF") >= 0){
+        enter_wakeup(10000);
+        set_eye_emotion(EYE_EMOTION_SLEEP, 0);
+        //{ID:452,keyword:"命令词",ASR:"停机吗",ASRTO:"风扇当前处于休眠关机状态"}
+        play_audio(452);
+      }
+    }
+    delay(2);
+  }
+  vTaskDelete(NULL);
+}
+
+/* 语音识别触发事件处理 */
+void ASR_CODE()
+{
+  /* ---- 1. 唤醒词设置 (主唤醒词为“风扇风扇”，兼顾兼容“小风扇”) ---- */
+  //{ID:501,keyword:"唤醒词",ASR:"风扇风扇",ASRTO:"小蝶在呢"}
+  //{ID:502,keyword:"唤醒词",ASR:"小风扇",ASRTO:"小蝶在呢"}
+  if(snid == 501 || snid == 502){
+    set_eye_emotion(EYE_EMOTION_WINK, 2500); /* 唤醒时眨眼卖萌 */
+    Serial1.println("INIT");
+  }
+
+  /* ---- 2. 拟人化生活场景口语 (感到热/冷/暴汗) ---- */
+  //{ID:601,keyword:"命令词",ASR:"好热啊",ASRTO:"小蝶这就给您送上清凉"}
+  //{ID:602,keyword:"命令词",ASR:"有点热",ASRTO:"小蝶这就给您送上清凉"}
+  //{ID:603,keyword:"命令词",ASR:"来点风",ASRTO:"小蝶这就给您送上清凉"}
+  //{ID:604,keyword:"命令词",ASR:"吹吹风",ASRTO:"小蝶这就给您送上清凉"}
+  if(snid == 601 || snid == 602 || snid == 603 || snid == 604){
+    set_eye_emotion(EYE_EMOTION_HAPPY, 2500);
+    Serial1.println("F+");
+  }
+
+  //{ID:610,keyword:"命令词",ASR:"快热死了",ASRTO:"极速劲风已启动，瞬间降温！"}
+  //{ID:611,keyword:"命令词",ASR:"极速降温",ASRTO:"极速劲风已启动，瞬间降温！"}
+  //{ID:612,keyword:"命令词",ASR:"最强风力",ASRTO:"极速劲风已启动，瞬间降温！"}
+  //{ID:613,keyword:"命令词",ASR:"全力开动",ASRTO:"极速劲风已启动，瞬间降温！"}
+  if(snid == 610 || snid == 611 || snid == 612 || snid == 613){
+    set_eye_emotion(EYE_EMOTION_SURPRISED, 3500); /* 极速劲风惊讶瞪大眼 */
+    Serial1.println("FMAX");
+  }
+
+  //{ID:620,keyword:"命令词",ASR:"好冷啊",ASRTO:"收到，已经为您减小风速啦"}
+  //{ID:621,keyword:"命令词",ASR:"有点冷",ASRTO:"收到，已经为您减小风速啦"}
+  //{ID:622,keyword:"命令词",ASR:"太吹了",ASRTO:"收到，已经为您减小风速啦"}
+  //{ID:623,keyword:"命令词",ASR:"风太大了",ASRTO:"收到，已经为您减小风速啦"}
+  //{ID:624,keyword:"命令词",ASR:"吹得头疼",ASRTO:"收到，已经为您减小风速啦"}
+  if(snid == 620 || snid == 621 || snid == 622 || snid == 623 || snid == 624){
+    set_eye_emotion(EYE_EMOTION_NORMAL, 2000);
+    Serial1.println("F-");
+  }
+
+  /* ---- 3. 睡眠休息场景 ---- */
+  //{ID:630,keyword:"命令词",ASR:"我要睡觉了",ASRTO:"已开启静音微风，祝主人好梦，晚安"}
+  //{ID:631,keyword:"命令词",ASR:"晚安",ASRTO:"已开启静音微风，祝主人好梦，晚安"}
+  //{ID:632,keyword:"命令词",ASR:"睡眠模式",ASRTO:"已开启静音微风，祝主人好梦，晚安"}
+  //{ID:633,keyword:"命令词",ASR:"准备睡觉",ASRTO:"已开启静音微风，祝主人好梦，晚安"}
+  if(snid == 630 || snid == 631 || snid == 632 || snid == 633){
+    g_fan_swinging = false;
+    set_eye_emotion(EYE_EMOTION_SLEEP, 0); /* 闭眼安睡 */
+    Serial1.println("FSLEEP");
+  }
+
+  /* ---- 4. 出门与离线休眠交互 (礼貌退下) ---- */
+  //{ID:640,keyword:"命令词",ASR:"退下吧",ASRTO:"好的，小蝶退下了，随时叫我哦"}
+  //{ID:641,keyword:"命令词",ASR:"闭嘴",ASRTO:"好的，小蝶退下了，随时叫我哦"}
+  //{ID:642,keyword:"命令词",ASR:"没事了",ASRTO:"好的，小蝶退下了，随时叫我哦"}
+  //{ID:643,keyword:"命令词",ASR:"你先走吧",ASRTO:"好的，小蝶退下了，随时叫我哦"}
+  //{ID:644,keyword:"命令词",ASR:"再见",ASRTO:"好的，小蝶退下了，随时叫我哦"}
+  if(snid >= 640 && snid <= 644){
+    set_eye_emotion(EYE_EMOTION_NORMAL, 0);
+    set_state_enter_wakeup(0);
+    return;
+  }
+
+  //{ID:650,keyword:"命令词",ASR:"我出门了",ASRTO:"好的主人，风扇已关闭，出门注意安全"}
+  //{ID:651,keyword:"命令词",ASR:"我走啦",ASRTO:"好的主人，风扇已关闭，出门注意安全"}
+  if(snid == 650 || snid == 651){
+    g_fan_swinging = false;
+    set_eye_emotion(EYE_EMOTION_SLEEP, 0);
+    Serial1.println("FOFF");
+    set_state_enter_wakeup(0);
+    return;
+  }
+
+  /* ---- 5. 温湿度与风扇状态智能问答 ---- */
+  //{ID:660,keyword:"命令词",ASR:"现在多少度",ASRTO:"正在检测室内环境"}
+  //{ID:661,keyword:"命令词",ASR:"室内温度",ASRTO:"正在检测室内环境"}
+  //{ID:662,keyword:"命令词",ASR:"几度了",ASRTO:"正在检测室内环境"}
+  //{ID:663,keyword:"命令词",ASR:"冷不冷",ASRTO:"正在检测室内环境"}
+  //{ID:664,keyword:"命令词",ASR:"热不热",ASRTO:"正在检测室内环境"}
+  if(snid >= 660 && snid <= 664){
+    set_eye_emotion(EYE_EMOTION_WINK, 2000);
+    Serial1.println("QTEMP");
+  }
+
+  //{ID:670,keyword:"命令词",ASR:"风扇状态",ASRTO:"正在查询风扇状态"}
+  //{ID:671,keyword:"命令词",ASR:"当前档位",ASRTO:"正在查询风扇状态"}
+  //{ID:672,keyword:"命令词",ASR:"在转吗",ASRTO:"正在查询风扇状态"}
+  if(snid >= 670 && snid <= 672){
+    set_eye_emotion(EYE_EMOTION_NORMAL, 2000);
+    Serial1.println("QSTAT");
+  }
+
+  /* ---- 6. 基础开关机控制 ---- */
+  //{ID:510,keyword:"命令词",ASR:"开启风扇",ASRTO:"正在打开风扇"}
+  //{ID:511,keyword:"命令词",ASR:"打开风扇",ASRTO:"正在打开风扇"}
+  if(snid == 510 || snid == 511){
+    set_eye_emotion(EYE_EMOTION_HAPPY, 3000);
+    Serial1.println("FON");
+  }
+
+  //{ID:512,keyword:"命令词",ASR:"关闭风扇",ASRTO:"正在关闭风扇"}
+  //{ID:513,keyword:"命令词",ASR:"停止风扇",ASRTO:"正在关闭风扇"}
+  if(snid == 512 || snid == 513){
+    g_fan_swinging = false;
+    set_eye_emotion(EYE_EMOTION_SLEEP, 0);
+    Serial1.println("FOFF");
+  }
+
+  /* ---- 7. 档位调节与微风/劲风 ---- */
+  //{ID:520,keyword:"命令词",ASR:"提高风速",ASRTO:"风速已提高"}
+  //{ID:521,keyword:"命令词",ASR:"增大风速",ASRTO:"风速已提高"}
+  //{ID:522,keyword:"命令词",ASR:"风大一点",ASRTO:"风速已提高"}
+  if(snid == 520 || snid == 521 || snid == 522){
+    set_eye_emotion(EYE_EMOTION_HAPPY, 2000);
+    Serial1.println("F+");
+  }
+
+  //{ID:523,keyword:"命令词",ASR:"降低风速",ASRTO:"风速已降低"}
+  //{ID:524,keyword:"命令词",ASR:"减小风速",ASRTO:"风速已降低"}
+  //{ID:525,keyword:"命令词",ASR:"风小一点",ASRTO:"风速已降低"}
+  if(snid == 523 || snid == 524 || snid == 525){
+    set_eye_emotion(EYE_EMOTION_NORMAL, 2000);
+    Serial1.println("F-");
+  }
+
+  //{ID:526,keyword:"命令词",ASR:"最高风速",ASRTO:"风速已调至最高"}
+  //{ID:527,keyword:"命令词",ASR:"最大风速",ASRTO:"风速已调至最高"}
+  if(snid == 526 || snid == 527){
+    set_eye_emotion(EYE_EMOTION_SURPRISED, 3000);
+    Serial1.println("FMAX");
+  }
+
+  //{ID:528,keyword:"命令词",ASR:"中等风速",ASRTO:"风速已调至中等"}
+  if(snid == 528){
+    set_eye_emotion(EYE_EMOTION_HAPPY, 2000);
+    Serial1.println("FMOD");
+  }
+
+  //{ID:529,keyword:"命令词",ASR:"最低风速",ASRTO:"风速已调至最低"}
+  if(snid == 529){
+    set_eye_emotion(EYE_EMOTION_NORMAL, 2000);
+    Serial1.println("FMIN");
+  }
+
+  /* ---- 8. 模式切换：智能温控与手动模式 ---- */
+  //{ID:540,keyword:"命令词",ASR:"切换模式",ASRTO:"已切换模式"}
+  if(snid == 540){
+    set_eye_emotion(EYE_EMOTION_DIZZY, 1500);
+    Serial1.println("FMODE");
+  }
+
+  //{ID:541,keyword:"命令词",ASR:"自动模式",ASRTO:"已切换至智能温控模式"}
+  //{ID:542,keyword:"命令词",ASR:"温控模式",ASRTO:"已切换至智能温控模式"}
+  //{ID:681,keyword:"命令词",ASR:"自然风",ASRTO:"已切换至智能温控模式"}
+  //{ID:682,keyword:"命令词",ASR:"舒适模式",ASRTO:"已切换至智能温控模式"}
+  //{ID:683,keyword:"命令词",ASR:"智能模式",ASRTO:"已切换至智能温控模式"}
+  //{ID:684,keyword:"命令词",ASR:"自动调节",ASRTO:"已切换至智能温控模式"}
+  if(snid == 541 || snid == 542 || (snid >= 681 && snid <= 684)){
+    set_eye_emotion(EYE_EMOTION_HAPPY, 2000);
+    Serial1.println("FAUTO");
+  }
+
+  //{ID:543,keyword:"命令词",ASR:"手动模式",ASRTO:"已切换至手动模式"}
+  //{ID:685,keyword:"命令词",ASR:"常规模式",ASRTO:"已切换至手动模式"}
+  if(snid == 543 || snid == 685){
+    set_eye_emotion(EYE_EMOTION_WINK, 2000);
+    Serial1.println("FMANU");
+  }
+
+  /* ---- 9. 摆头(摇头)控制与自然口语 ---- */
+  //{ID:550,keyword:"命令词",ASR:"开启摆头",ASRTO:"正在开启摆头"}
+  //{ID:551,keyword:"命令词",ASR:"开始摇头",ASRTO:"正在开启摆头"}
+  //{ID:552,keyword:"命令词",ASR:"风扇摆头",ASRTO:"正在开启摆头"}
+  //{ID:691,keyword:"命令词",ASR:"左右吹吹",ASRTO:"已开启摆头，全方位送风"}
+  //{ID:692,keyword:"命令词",ASR:"别只对着我吹",ASRTO:"已开启摆头，全方位送风"}
+  //{ID:693,keyword:"命令词",ASR:"到处吹吹",ASRTO:"已开启摆头，全方位送风"}
+  if(snid == 550 || snid == 551 || snid == 552 || snid == 691 || snid == 692 || snid == 693){
+    g_fan_swinging = true;
+    set_eye_emotion(EYE_EMOTION_HAPPY, 1500);
+    Serial1.println("SWON");
+  }
+
+  //{ID:553,keyword:"命令词",ASR:"关闭摆头",ASRTO:"正在关闭摆头"}
+  //{ID:554,keyword:"命令词",ASR:"停止摇头",ASRTO:"正在关闭摆头"}
+  //{ID:555,keyword:"命令词",ASR:"停止摆头",ASRTO:"正在关闭摆头"}
+  //{ID:694,keyword:"命令词",ASR:"对着我吹",ASRTO:"已固定风向，对着主人吹"}
+  //{ID:695,keyword:"命令词",ASR:"定住别动",ASRTO:"已固定风向，对着主人吹"}
+  //{ID:696,keyword:"命令词",ASR:"不要摇头了",ASRTO:"已停止摆头，固定风向"}
+  if(snid == 553 || snid == 554 || snid == 555 || snid == 694 || snid == 695 || snid == 696){
+    g_fan_swinging = false;
+    set_eye_emotion(EYE_EMOTION_NORMAL, 0);
+    Serial1.println("SWOFF");
+  }
+
+  //{ID:556,keyword:"命令词",ASR:"摆头加快",ASRTO:"摆头速度已加快"}
+  //{ID:557,keyword:"命令词",ASR:"摇头快点",ASRTO:"摆头速度已加快"}
+  if(snid == 556 || snid == 557){
+    set_eye_emotion(EYE_EMOTION_HAPPY, 1500);
+    Serial1.println("SW+");
+  }
+
+  //{ID:558,keyword:"命令词",ASR:"摆头减慢",ASRTO:"摆头速度已减慢"}
+  //{ID:559,keyword:"命令词",ASR:"摇头慢点",ASRTO:"摆头速度已减慢"}
+  if(snid == 558 || snid == 559){
+    set_eye_emotion(EYE_EMOTION_NORMAL, 1500);
+    Serial1.println("SW-");
+  }
+
+  /* ---- 10. 语音模块音量控制 (范围 1 ~ 7 级动态可调) ---- */
+  //{ID:560,keyword:"命令词",ASR:"增大音量",ASRTO:""}
+  //{ID:561,keyword:"命令词",ASR:"大声一点",ASRTO:""}
+  //{ID:562,keyword:"命令词",ASR:"声音大点",ASRTO:""}
+  if(snid == 560 || snid == 561 || snid == 562){
+    set_eye_emotion(EYE_EMOTION_WINK, 1500);
+    if(g_vol >= 7){
+      g_vol = 7;
+      //{ID:480,keyword:"命令词",ASR:"大声极啦",ASRTO:"已调至最大音量"}
+      play_audio(480);
+    } else {
+      g_vol++;
+      vol_set(g_vol);
+      //{ID:481,keyword:"命令词",ASR:"增大好啦",ASRTO:"已增大音量"}
+      play_audio(481);
+    }
+  }
+
+  //{ID:563,keyword:"命令词",ASR:"减小音量",ASRTO:""}
+  //{ID:564,keyword:"命令词",ASR:"小声一点",ASRTO:""}
+  //{ID:565,keyword:"命令词",ASR:"声音小点",ASRTO:""}
+  if(snid == 563 || snid == 564 || snid == 565){
+    set_eye_emotion(EYE_EMOTION_WINK, 1500);
+    if(g_vol <= 1){
+      g_vol = 1;
+      //{ID:482,keyword:"命令词",ASR:"小声极啦",ASRTO:"已调至最小音量"}
+      play_audio(482);
+    } else {
+      g_vol--;
+      vol_set(g_vol);
+      //{ID:483,keyword:"命令词",ASR:"减小好啦",ASRTO:"已减小音量"}
+      play_audio(483);
+    }
+  }
+
+  //{ID:566,keyword:"命令词",ASR:"最大音量",ASRTO:"音量已调至最大"}
+  if(snid == 566){
+    g_vol = 7;
+    vol_set(g_vol);
+    set_eye_emotion(EYE_EMOTION_SURPRISED, 2000);
+  }
+
+  //{ID:567,keyword:"命令词",ASR:"中等音量",ASRTO:"音量已调至中等"}
+  if(snid == 567){
+    g_vol = 4;
+    vol_set(g_vol);
+    set_eye_emotion(EYE_EMOTION_HAPPY, 2000);
+  }
+
+  //{ID:568,keyword:"命令词",ASR:"最小音量",ASRTO:"音量已调至最小"}
+  if(snid == 568){
+    g_vol = 1;
+    vol_set(g_vol);
+    set_eye_emotion(EYE_EMOTION_NORMAL, 2000);
+  }
+
+  /* ---- 11. 趣味萌宠表情互动指令 ---- */
+  //{ID:701,keyword:"命令词",ASR:"眨眨眼",ASRTO:"给主人眨眨大眼睛"}
+  if(snid == 701){
+    set_eye_emotion(EYE_EMOTION_WINK, 3000);
+  }
+
+  //{ID:702,keyword:"命令词",ASR:"爱心发射",ASRTO:"爱你哟，主人"}
+  //{ID:703,keyword:"命令词",ASR:"喜欢你",ASRTO:"爱你哟，主人"}
+  //{ID:704,keyword:"命令词",ASR:"你好棒",ASRTO:"谢谢夸奖，小蝶会继续努力"}
+  if(snid == 702 || snid == 703 || snid == 704){
+    set_eye_emotion(EYE_EMOTION_HEART, 4000); /* 亮起双爱心眼 */
+  }
+
+  /* 保持唤醒时间 10 秒，10 秒无语音后自动休眠 */
+  set_state_enter_wakeup(10000);
+}
+
+void hardware_init(){
+  xTaskCreate(Serial1_available,"Serial1_available",512,NULL,4,NULL);
+  /* eye_animation_task 已在 setup() 里创建，不再放这里：
+     hardware_init 挂在 SYS_MSG_TYPE_AUDIO_IN_STARTED 分支上，实测一直没执行到 */
+  vTaskDelete(NULL);
+}
+
+void setup()
+{
+  set_gpio_input(2);
+  set_gpio_input(3);
+  setPinFun(13,SECOND_FUNCTION);
+  setPinFun(14,SECOND_FUNCTION);
+  Serial.begin(115200);
+  /* 配置 ASR-PRO PA2 为 TX1，PA3 为 RX1，波特率 115200 */
+  setPinFun(2,FORTH_FUNCTION);
+  setPinFun(3,FORTH_FUNCTION);
+  Serial1.begin(115200);
+  /* ---- 点阵上电自检：不依赖任何 FreeRTOS 任务，调度器启动前直接驱动 ---- */
+  max7219_pin_setup();
+  max7219_reg_init();
+  max7219_all_on();
+  Serial.println("MATRIX_ALL_ON");
+
+  /* 自检保持约 0.5 秒(调度器未启动，只能用汇编忙等，不能调 delay/vTaskDelay) */
+  for (volatile uint32_t wait_i = 0; wait_i < 20000000UL; wait_i++) { __asm__ volatile("nop"); }
+
+  /* setup 里直接画笑眼:证明字模+渲染+级联全链路通，且与动画任务无关 */
+  max7219_reg_init();
+  max7219_render_eyes(s_eye_happy, s_eye_happy);
+  Serial.println("SETUP_HAPPY");
+
+  /* ===== 表情动画任务在 setup() 里启动 =====
+     不依赖 hardware_init()(它要等 ASR 音频采集启动，实测从未执行到)。
+     堆栈给 768 words(3KB)，比原来的 512 更宽裕，避免 Serial 打印把栈吃穿。 */
+  xTaskCreate(eye_animation_task,"eye_animation_task",1536,NULL,4,NULL);
+
+  pulse_init();
+  Serial.println("ASR_PRO_ONLINE");
+}
+
+/** edittype="asr_procode" */

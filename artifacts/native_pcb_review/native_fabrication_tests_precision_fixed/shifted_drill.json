@@ -1,0 +1,99 @@
+{
+  "passed": false,
+  "errors": [
+    {
+      "kind": "drill_mismatch",
+      "plating": "PTH",
+      "missing": [
+        [
+          115.2,
+          -116.1,
+          0.3
+        ]
+      ],
+      "extra": [
+        [
+          115.4,
+          -116.1,
+          0.3
+        ]
+      ]
+    }
+  ],
+  "metrics": {
+    "board_bounds_gerber": [
+      100.0,
+      -195.0,
+      195.0,
+      -100.0
+    ],
+    "F.Cu": {
+      "objects": 2011,
+      "regions": 10,
+      "min_board_edge_mm": 0.9999708710133542,
+      "zone_net": "GND"
+    },
+    "B.Cu": {
+      "objects": 1192,
+      "regions": 2,
+      "min_board_edge_mm": 0.9999708710133542,
+      "zone_net": "GND"
+    },
+    "PTH": {
+      "drill_hits": 208
+    },
+    "NPTH": {
+      "drill_hits": 0
+    },
+    "min_drill_web_mm": 0.6055385138137326,
+    "F.Mask": {
+      "openings": 173,
+      "min_bridge_mm": 0.5699999999999932,
+      "silk_gap_mm": 0.1599999999999966
+    },
+    "B.Mask": {
+      "openings": 127,
+      "min_bridge_mm": 0.7017140000000097,
+      "silk_gap_mm": null
+    },
+    "F.Paste": {
+      "objects": 46,
+      "area_mm2": 75.30799999999984
+    },
+    "B.Paste": {
+      "objects": 0,
+      "area_mm2": 0.0
+    }
+  },
+  "coordinate_contract": "Gerber X=KiCad X; Gerber Y=-KiCad Y; no fitted offset/mirror",
+  "thresholds_mm": {
+    "copper_clearance": 0.25,
+    "copper_edge": 0.25,
+    "drill_web": 0.25,
+    "hole_copper": 0.25,
+    "mask_bridge": 0.1,
+    "silk_mask": 0.1,
+    "silk_edge": 0.1,
+    "numerical_tolerance": 0.003
+  },
+  "file_sha256": {
+    "artifacts\\native_pcb_review\\candidate_precision_001\\fan_ctrl_revB.kicad_pcb": "1e8d34ebfc47bd7fc0493ca261a1e2f9b1ccc19e2401f840794b15050e704b45",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\shifted_drill\\fan_ctrl_revB-F_Cu.gtl": "3864bea41f51cbbe0b66d4ef95b1656beca5e99f4e93631c171bc9a01273149f",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\shifted_drill\\fan_ctrl_revB-B_Cu.gbl": "23aa4dcaf1eeaad7d7e0c778b33ada29478fb1cccfb26e8b7644f62b49ca4f13",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\shifted_drill\\fan_ctrl_revB-F_Paste.gtp": "ad9bcd7a00417354f328455ea145a96565a7159a7d02be76794b84242522d0ce",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\shifted_drill\\fan_ctrl_revB-B_Paste.gbp": "169a4683c16322d94ae2f44f0ec4e49028ae9f83fcc29d3d77fede0d05dab574",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\shifted_drill\\fan_ctrl_revB-F_Mask.gts": "5507d2c4c90a1c1538100ca334456480ecd992942657a959a69c020d4eda2b39",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\shifted_drill\\fan_ctrl_revB-B_Mask.gbs": "e13c75743a3554b26734c2bc75eb4313099aee21aa8b96c96b9e10e387f874d9",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\shifted_drill\\fan_ctrl_revB-F_Silkscreen.gto": "bbe19501ec1ae1c5723b497b4c6844393cab02c6845da6cd57621e5c683fddfe",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\shifted_drill\\fan_ctrl_revB-B_Silkscreen.gbo": "6fdc6abfd86861de775ef73b9e0b52eefa5219525b0112b55a8b1787b8bc44da",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\shifted_drill\\fan_ctrl_revB-Edge_Cuts.gm1": "7490099e58c1adc49cf058ba1bdf2fdfa8b0f6b597fb27c39ccb817e296492e1",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\shifted_drill\\fan_ctrl_revB-PTH.drl": "cde91ce432aa3dea18a52cb42d76075beb6b9a7be775c3a51346e49d9244d8d4",
+    "artifacts\\native_pcb_review\\native_fabrication_tests_precision_fixed\\shifted_drill\\fan_ctrl_revB-NPTH.drl": "1adb2e1b646a40cfcb468f464ba20443d8953a9ad416168daaad97fb5b9e4ead"
+  },
+  "limitations": [
+    "Supported rect/circle pads and circular drills only; unsupported geometry fails closed.",
+    "Region topology interpreted by strict Ucamco parser, no buffer(0)/make_valid.",
+    "Not a full PCB fill equivalence proof: plane-to-conductor distances checked independently; native DRC/netlist parity also required.",
+    "Nominal geometry not plating, registration, thermal or complete module fit certification."
+  ]
+}

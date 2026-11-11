@@ -1,0 +1,22 @@
+[
+  {
+    "name": "mcu_20P",
+    "url": "https://atta.szlcsc.com/upload/public/pdf/source/20240927/E668AFCBC52308B89CA29FFF8660355D.pdf",
+    "sha256": "08dcb2378326416c75abcbb6dc200e396a3986dbc937eed5c8b13a332f20c5da"
+  },
+  {
+    "name": "female_8P",
+    "url": "https://atta.szlcsc.com/upload/public/pdf/source/20231221/1CA800C6799ED97958773716FAA1BFFE.pdf",
+    "sha256": "45f67ca61a53de8c5bdf0a0a25caaf1daf18f0540af96c784c22ae726d8f0daa"
+  },
+  {
+    "name": "samsung_web",
+    "url": "https://weblib.samsungsem.com/cn/mlcc/mlcc-ec.do?partNumber=CL21A106KAYNNN",
+    "sha256": "ee81cc89d9d93faa93bbd7f2a1e839bacf46608f876b1497da25835ae92d0a57"
+  },
+  {
+    "name": "aos_package_web",
+    "url": "https://www.aosmd.com/packaging",
+    "sha256": "a15bfe8a025f2275d3e4c96e646df742f8645b75297f32261f209b59792b9b56"
+  }
+]

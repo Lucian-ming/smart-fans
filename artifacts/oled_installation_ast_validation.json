@@ -1,0 +1,48 @@
+{
+  "pass": true,
+  "mounting_requirement_not_measurement": true,
+  "oled_header": [
+    78.5,
+    26.5
+  ],
+  "oled_body_direction": "-Y",
+  "ASR_center": [
+    78.5,
+    44
+  ],
+  "negative_cases_rejected": [
+    "old_direction",
+    "old_y",
+    "ASR_old_y"
+  ],
+  "labels": [
+    {
+      "pin": "1",
+      "net": "GND",
+      "x": 82.31,
+      "y": 26.5
+    },
+    {
+      "pin": "2",
+      "net": "+3.3V",
+      "x": 79.77,
+      "y": 26.5
+    },
+    {
+      "pin": "3",
+      "net": "I2C1_SCL",
+      "x": 77.23,
+      "y": 26.5
+    },
+    {
+      "pin": "4",
+      "net": "I2C1_SDA",
+      "x": 74.69,
+      "y": 26.5
+    }
+  ],
+  "limitations": [
+    "OLED body outline/pin-to-edge offsets not measured; must dry-fit and verify physical net labels before power",
+    "ASR nominal 30x28 outline assumes centered headers; full populated assembly not verified"
+  ]
+}

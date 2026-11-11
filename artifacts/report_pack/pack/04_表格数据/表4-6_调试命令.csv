@@ -1,0 +1,16 @@
+﻿命令,作用
+help,列出所有命令
+status,打印状态机状态、占空比、温湿度、模式、摇头
+safe,立即停机（PWM=0、舵机回中、STBY拉低）
+test led,心跳灯闪烁
+test buz,蜂鸣器响一声
+test key,打印按键事件（短按/长按）
+test enc,打印编码器计数与方向
+test dht,读一次温湿度并打印原始字节
+test i2c,扫描I2C总线，打印在线地址
+test oled,显示测试画面
+test gest,打印手势事件与INT计数
+test voice,打印语音模块命令字
+test motor,按10%步进扫一遍占空比
+test servo,正转/停/反转各2s
+servo_cal,±200µs校准舵机死区（掉电保存）

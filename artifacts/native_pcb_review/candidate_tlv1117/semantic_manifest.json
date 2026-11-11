@@ -1,0 +1,618 @@
+{
+  "DC1": {
+    "properties": {
+      "Reference": "DC1",
+      "Value": "5V_ONLY_MKDSN_1,5/2-5.08",
+      "Footprint": "RevB_Snapshot:Board_DC1",
+      "LCSC": "-",
+      "Description": "唯一稳压5V输入; 1=+5V 2=GND; 禁接12V; 1729128 MKDSN 1,5/2-5,08; 壳10.16x8.15板上高10mm; 壳相对针排偏置待核; 库存未核"
+    },
+    "symbol_uuid": "ca958ab1-d955-5c44-8b41-a862ecf42565",
+    "translation_mm": [
+      0.3299999999999983,
+      -0.5499999999999972
+    ]
+  },
+  "F1": {
+    "properties": {
+      "Reference": "F1",
+      "Value": "3A_FAST_NOT_CURRENT_LIMIT",
+      "Footprint": "RevB_Snapshot:Board_F1",
+      "LCSC": "-",
+      "Description": "3A快断保险; 不是3A硬限流; 整板连续目标<=2A须热测/启动I2t验证; 库存未核"
+    },
+    "symbol_uuid": "b96f927a-252d-5b36-bc94-cf8f429c2f35",
+    "translation_mm": [
+      0.09999999999999432,
+      -0.5499999999999972
+    ]
+  },
+  "C1": {
+    "properties": {
+      "Reference": "C1",
+      "Value": "100uF/25V",
+      "Footprint": "RevB_Snapshot:Board_C1",
+      "LCSC": "C134665",
+      "Description": "受保护5V储能电解"
+    },
+    "symbol_uuid": "6ad5e4fe-2289-5f10-898a-bfcc10016697",
+    "translation_mm": [
+      -0.12999999999999545,
+      -0.5499999999999972
+    ]
+  },
+  "C2": {
+    "properties": {
+      "Reference": "C2",
+      "Value": "100nF",
+      "Footprint": "RevB_Snapshot:Board_C2",
+      "LCSC": "C49678",
+      "Description": "受保护5V 高频去耦电容"
+    },
+    "symbol_uuid": "7d02ca19-ebf5-51db-8dab-889a8d448e99",
+    "translation_mm": [
+      -0.36000000000001364,
+      -0.5499999999999972
+    ]
+  },
+  "Q_PWR": {
+    "properties": {
+      "Reference": "Q_PWR",
+      "Value": "AO4409_REVERSE_POLARITY",
+      "Footprint": "RevB_Snapshot:Board_Q_PWR",
+      "LCSC": "-",
+      "Description": "P-MOS反接保护: D=熔断后输入 S=5V负载 G=GND; 不隔离反向供电; 库存未核"
+    },
+    "symbol_uuid": "883eefc7-1193-5933-a901-f9ea844f28af",
+    "translation_mm": [
+      -0.589999999999975,
+      -0.5499999999999972
+    ]
+  },
+  "JP_USB": {
+    "properties": {
+      "Reference": "JP_USB",
+      "Value": "REMOVE_BEFORE_USB",
+      "Footprint": "RevB_Snapshot:Board_JP_USB",
+      "LCSC": "-",
+      "Description": "2.54跳帽供蓝板; 任何USB插入前必须拔帽; USB不能供母板; 两边电源独立开启后才接信号; 不允许单侧带电"
+    },
+    "symbol_uuid": "6ee35eab-8c74-5b32-bbff-a2c1768fb0a6",
+    "translation_mm": [
+      0.44999999999998863,
+      -0.5499999999999972
+    ]
+  },
+  "C3": {
+    "properties": {
+      "Reference": "C3",
+      "Value": "220uF/16V",
+      "Footprint": "RevB_Snapshot:Board_C3",
+      "LCSC": "C338177",
+      "Description": "5V 输出滤波电解"
+    },
+    "symbol_uuid": "1a50c871-4e55-5f23-9284-fa8d5a434c47",
+    "translation_mm": [
+      0.22000000000002728,
+      -0.5499999999999972
+    ]
+  },
+  "C4": {
+    "properties": {
+      "Reference": "C4",
+      "Value": "100nF",
+      "Footprint": "RevB_Snapshot:Board_C4",
+      "LCSC": "C49678",
+      "Description": "5V 输出高频去耦"
+    },
+    "symbol_uuid": "fd88582f-a4fe-5c30-b95d-18b61284d1d9",
+    "translation_mm": [
+      0.5600000000000023,
+      0.4899999999999949
+    ]
+  },
+  "U3": {
+    "properties": {
+      "Reference": "U3",
+      "Value": "TLV1117LV33DCYR",
+      "Footprint": "RevB_Snapshot:Board_U3",
+      "LCSC": "C15578",
+      "Description": "TI 3.3V LDO 1A; DCY rectangular land envelope, stock unverified"
+    },
+    "symbol_uuid": "f4646f8d-5a24-5e3c-9b66-fe63fc91bd66",
+    "translation_mm": [
+      0.3299999999999983,
+      0.4899999999999949
+    ]
+  },
+  "C5": {
+    "properties": {
+      "Reference": "C5",
+      "Value": "10uF",
+      "Footprint": "RevB_Snapshot:Board_C5",
+      "LCSC": "C15849",
+      "Description": "3.3V 输入去耦 (直连5V)"
+    },
+    "symbol_uuid": "5e0ea9a7-2f4a-53a7-b8fa-1cafc6467aaf",
+    "translation_mm": [
+      0.09999999999999432,
+      0.4899999999999949
+    ]
+  },
+  "C6": {
+    "properties": {
+      "Reference": "C6",
+      "Value": "10uF",
+      "Footprint": "RevB_Snapshot:Board_C6",
+      "LCSC": "C15849",
+      "Description": "3.3V 输出滤波"
+    },
+    "symbol_uuid": "e76ffe09-0948-5ab4-9e7c-fb09ba3ca607",
+    "translation_mm": [
+      -0.12999999999999545,
+      0.4899999999999949
+    ]
+  },
+  "C7": {
+    "properties": {
+      "Reference": "C7",
+      "Value": "100nF",
+      "Footprint": "RevB_Snapshot:Board_C7",
+      "LCSC": "C49678",
+      "Description": "3.3V 输出高频去耦"
+    },
+    "symbol_uuid": "c4ab824a-5817-5c2e-a4b0-9f661b4c3cd0",
+    "translation_mm": [
+      -0.36000000000001364,
+      0.4899999999999949
+    ]
+  },
+  "D4": {
+    "properties": {
+      "Reference": "D4",
+      "Value": "LED_GREEN",
+      "Footprint": "RevB_Snapshot:Board_D4",
+      "LCSC": "C2292",
+      "Description": "5V 供电指示灯"
+    },
+    "symbol_uuid": "391ce089-60a1-5989-be7d-17a7a34e326d",
+    "translation_mm": [
+      -0.589999999999975,
+      0.4899999999999949
+    ]
+  },
+  "R1": {
+    "properties": {
+      "Reference": "R1",
+      "Value": "1k",
+      "Footprint": "RevB_Snapshot:Board_R1",
+      "LCSC": "C17513",
+      "Description": "5V LED 限流电阻"
+    },
+    "symbol_uuid": "1cbc7251-d94e-5c8a-8c52-b3a1a41af9ed",
+    "translation_mm": [
+      0.44999999999998863,
+      0.4899999999999949
+    ]
+  },
+  "D5": {
+    "properties": {
+      "Reference": "D5",
+      "Value": "LED_BLUE",
+      "Footprint": "RevB_Snapshot:Board_D5",
+      "LCSC": "C2293",
+      "Description": "3.3V 逻辑指示灯"
+    },
+    "symbol_uuid": "d3a9b168-7123-5554-812c-3760865b933a",
+    "translation_mm": [
+      0.22000000000002728,
+      0.4899999999999949
+    ]
+  },
+  "R2": {
+    "properties": {
+      "Reference": "R2",
+      "Value": "1k",
+      "Footprint": "RevB_Snapshot:Board_R2",
+      "LCSC": "C17513",
+      "Description": "3.3V LED 限流电阻"
+    },
+    "symbol_uuid": "9c795394-74df-5c58-a09e-ae0c3fde64fe",
+    "translation_mm": [
+      0.5600000000000023,
+      0.2599999999999909
+    ]
+  },
+  "MOTO1": {
+    "properties": {
+      "Reference": "MOTO1",
+      "Value": "130_MOTOR",
+      "Footprint": "RevB_Snapshot:Board_MOTO1",
+      "LCSC": "C5258883",
+      "Description": "直流电机接口 XH-2PA P2.50; 1.0mm孔为设计选取非厂家推荐; 针0.6+/-0.02mm"
+    },
+    "symbol_uuid": "d810af37-d276-574f-a1e4-e3a5f6d5cf46",
+    "translation_mm": [
+      0.3299999999999983,
+      0.2599999999999909
+    ]
+  },
+  "SERVO1": {
+    "properties": {
+      "Reference": "SERVO1",
+      "Value": "MG90S_SERVO",
+      "Footprint": "RevB_Snapshot:Board_SERVO1",
+      "LCSC": "C2718487",
+      "Description": "MG90S 舵机插针 (GND, 5V, PWM)"
+    },
+    "symbol_uuid": "7a06a458-b5a4-5c64-b738-36aaa732d4cf",
+    "translation_mm": [
+      0.09999999999999432,
+      0.2599999999999909
+    ]
+  },
+  "BZ1": {
+    "properties": {
+      "Reference": "BZ1",
+      "Value": "5V_BUZZER",
+      "Footprint": "RevB_Snapshot:Board_BZ1",
+      "LCSC": "C96093",
+      "Description": "5V 有源提示蜂鸣器"
+    },
+    "symbol_uuid": "e146766d-72a6-57ff-bfa2-f4843f62a258",
+    "translation_mm": [
+      -0.12999999999999545,
+      0.2599999999999909
+    ]
+  },
+  "Q1": {
+    "properties": {
+      "Reference": "Q1",
+      "Value": "2N3904-TA(RANGE:200-300)",
+      "Footprint": "RevB_Snapshot:Board_Q1",
+      "LCSC": "C2081",
+      "Description": "NPN蜂鸣器驱动; 1=E 2=B 3=C; 宽脚成形P2.54mm非原厂直脚间距; 安装前核成形与方向"
+    },
+    "symbol_uuid": "d0a2b700-3807-5344-816c-9ab5d9ce7c44",
+    "translation_mm": [
+      -0.36000000000001364,
+      0.2599999999999909
+    ]
+  },
+  "D3": {
+    "properties": {
+      "Reference": "D3",
+      "Value": "1N4148W",
+      "Footprint": "RevB_Snapshot:Board_D3",
+      "LCSC": "C81598",
+      "Description": "蜂鸣器反向钳位二极管"
+    },
+    "symbol_uuid": "aaa1dc6f-c5d9-56f3-a694-b905f6521606",
+    "translation_mm": [
+      -0.589999999999975,
+      0.2599999999999909
+    ]
+  },
+  "R10": {
+    "properties": {
+      "Reference": "R10",
+      "Value": "1k",
+      "Footprint": "RevB_Snapshot:Board_R10",
+      "LCSC": "C17513",
+      "Description": "蜂鸣器基极限流电阻"
+    },
+    "symbol_uuid": "dd126553-80d3-58b5-ac06-b88aa9cb8f7f",
+    "translation_mm": [
+      0.44999999999998863,
+      0.2599999999999909
+    ]
+  },
+  "J_TB_L": {
+    "properties": {
+      "Reference": "J_TB_L",
+      "Value": "TB6612_CTRL",
+      "Footprint": "RevB_Snapshot:Board_J_TB_L",
+      "LCSC": "C27438",
+      "Description": "TB6612 控制排母"
+    },
+    "symbol_uuid": "c6b90a12-a99a-55a5-b028-1d4f5314f086",
+    "translation_mm": [
+      0.22000000000002728,
+      0.2599999999999909
+    ]
+  },
+  "J_TB_R": {
+    "properties": {
+      "Reference": "J_TB_R",
+      "Value": "TB6612_PWR",
+      "Footprint": "RevB_Snapshot:Board_J_TB_R",
+      "LCSC": "C27438",
+      "Description": "TB6612 动力排母"
+    },
+    "symbol_uuid": "98db7b57-fa2e-5be7-b42b-77612178bbf4",
+    "translation_mm": [
+      0.5600000000000023,
+      0.030000000000001137
+    ]
+  },
+  "C_VM": {
+    "properties": {
+      "Reference": "C_VM",
+      "Value": "220uF/16V",
+      "Footprint": "RevB_Snapshot:Board_C_VM",
+      "LCSC": "C338177",
+      "Description": "TB6612 VM电机就近储能电解"
+    },
+    "symbol_uuid": "8c5a4019-945d-56b7-92a9-9e35aa149bab",
+    "translation_mm": [
+      0.3299999999999983,
+      0.030000000000001137
+    ]
+  },
+  "C_VM_MLCC": {
+    "properties": {
+      "Reference": "C_VM_MLCC",
+      "Value": "100nF",
+      "Footprint": "RevB_Snapshot:Board_C_VM_MLCC",
+      "LCSC": "C49678",
+      "Description": "TB6612 VM就近去耦"
+    },
+    "symbol_uuid": "fd437292-b04d-5368-b9c6-c805c180f175",
+    "translation_mm": [
+      0.09999999999999432,
+      0.030000000000001137
+    ]
+  },
+  "R_STBY": {
+    "properties": {
+      "Reference": "R_STBY",
+      "Value": "10k",
+      "Footprint": "RevB_Snapshot:Board_R_STBY",
+      "LCSC": "C17414",
+      "Description": "TB6612 STBY下拉电阻"
+    },
+    "symbol_uuid": "f630a47d-707b-5140-96e3-7587e836d086",
+    "translation_mm": [
+      -0.12999999999999545,
+      0.030000000000001137
+    ]
+  },
+  "J_DHT11": {
+    "properties": {
+      "Reference": "J_DHT11",
+      "Value": "DHT11_SOCK",
+      "Footprint": "RevB_Snapshot:Board_J_DHT11",
+      "LCSC": "C2718487",
+      "Description": "DHT11 温湿度传感器母座"
+    },
+    "symbol_uuid": "3b5aa2ff-9dce-5ff6-b0a2-bfc3018eaa35",
+    "translation_mm": [
+      -0.36000000000001364,
+      0.030000000000001137
+    ]
+  },
+  "R_DHT": {
+    "properties": {
+      "Reference": "R_DHT",
+      "Value": "4.7k",
+      "Footprint": "RevB_Snapshot:Board_R_DHT",
+      "LCSC": "C17673",
+      "Description": "DHT11 单总线上拉电阻"
+    },
+    "symbol_uuid": "e186b0c6-8bbd-5292-bd5d-e2ce17c0f78d",
+    "translation_mm": [
+      -0.589999999999975,
+      0.030000000000001137
+    ]
+  },
+  "J_MCU_L": {
+    "properties": {
+      "Reference": "J_MCU_L",
+      "Value": "BLUEPILL_L",
+      "Footprint": "RevB_Snapshot:Board_J_MCU_L",
+      "LCSC": "C50984",
+      "Description": "STM32 核心板P4左排母 (本地PcbDoc/PDF核验; 1=3V3隔离, 2=GND, 3=5V; pin20端朝低Y)"
+    },
+    "symbol_uuid": "2928e19d-6f98-5563-80d3-058d5502892d",
+    "translation_mm": [
+      0.44999999999998863,
+      0.030000000000001137
+    ]
+  },
+  "J_MCU_R": {
+    "properties": {
+      "Reference": "J_MCU_R",
+      "Value": "BLUEPILL_R",
+      "Footprint": "RevB_Snapshot:Board_J_MCU_R",
+      "LCSC": "C50984",
+      "Description": "STM32 核心板P3右排母 (本地PcbDoc/PDF核验; 1=VBAT, 18=3V3隔离, 19/20=GND; pin20端朝低Y)"
+    },
+    "symbol_uuid": "d2a6cc6d-709b-5c01-a6f4-78444986f2fe",
+    "translation_mm": [
+      0.22000000000002728,
+      0.030000000000001137
+    ]
+  },
+  "R_SCL": {
+    "properties": {
+      "Reference": "R_SCL",
+      "Value": "4.7k",
+      "Footprint": "RevB_Snapshot:Board_R_SCL",
+      "LCSC": "C17673",
+      "Description": "I2C1 SCL 上拉电阻"
+    },
+    "symbol_uuid": "d1978fb0-90c4-5491-85f5-a560956cb4fc",
+    "translation_mm": [
+      0.5600000000000023,
+      -0.19999999999998863
+    ]
+  },
+  "R_SDA": {
+    "properties": {
+      "Reference": "R_SDA",
+      "Value": "4.7k",
+      "Footprint": "RevB_Snapshot:Board_R_SDA",
+      "LCSC": "C17673",
+      "Description": "I2C1 SDA 上拉电阻"
+    },
+    "symbol_uuid": "9ee99f55-eea7-5ac1-8073-cb3571844f4d",
+    "translation_mm": [
+      0.3299999999999983,
+      -0.19999999999998863
+    ]
+  },
+  "J_VOICE_L": {
+    "properties": {
+      "Reference": "J_VOICE_L",
+      "Value": "ASR_PRO_L_8P",
+      "Footprint": "RevB_Snapshot:Board_J_VOICE_L",
+      "LCSC": "-",
+      "Description": "ASR左8P母座; 顶=GND; 用户确认排距25.40; UART1固件必配; 料号待采购核验"
+    },
+    "symbol_uuid": "74ca0e97-c308-5635-a2f3-17c8bdfd197b",
+    "translation_mm": [
+      0.09999999999999432,
+      -0.19999999999998863
+    ]
+  },
+  "J_VOICE_R": {
+    "properties": {
+      "Reference": "J_VOICE_R",
+      "Value": "ASR_PRO_R_8P",
+      "Footprint": "RevB_Snapshot:Board_J_VOICE_R",
+      "LCSC": "-",
+      "Description": "ASR右8P母座; 顶=PA4/底=SPK+; 3V3输出隔离; 料号待采购核验"
+    },
+    "symbol_uuid": "b338eef1-3800-5aef-bc19-a7ed50f2c1c1",
+    "translation_mm": [
+      -0.12999999999999545,
+      -0.19999999999998863
+    ]
+  },
+  "JP_ASR": {
+    "properties": {
+      "Reference": "JP_ASR",
+      "Value": "REMOVE_BEFORE_ASR_USB",
+      "Footprint": "RevB_Snapshot:Board_JP_ASR",
+      "LCSC": "-",
+      "Description": "ASR供电隔离跳帽; USB前与TX/RX三帽一起拔掉; 非自动电源隔离"
+    },
+    "symbol_uuid": "edab3584-967e-5247-8bd6-a6101cf44f1a",
+    "translation_mm": [
+      -0.36000000000001364,
+      -0.19999999999998863
+    ]
+  },
+  "JP_ASR_TX": {
+    "properties": {
+      "Reference": "JP_ASR_TX",
+      "Value": "REMOVE_BEFORE_ASR_USB",
+      "Footprint": "RevB_Snapshot:Board_JP_ASR_TX",
+      "LCSC": "-",
+      "Description": "MCU TX到ASR RX1(PA3)隔离; USB前拔帽"
+    },
+    "symbol_uuid": "2d5d3d6f-b932-55bd-8bf8-918fe16735f4",
+    "translation_mm": [
+      -0.589999999999975,
+      -0.19999999999998863
+    ]
+  },
+  "JP_ASR_RX": {
+    "properties": {
+      "Reference": "JP_ASR_RX",
+      "Value": "REMOVE_BEFORE_ASR_USB",
+      "Footprint": "RevB_Snapshot:Board_JP_ASR_RX",
+      "LCSC": "-",
+      "Description": "ASR TX1(PA2)到MCU RX隔离; USB前拔帽"
+    },
+    "symbol_uuid": "4e768bb2-e57a-5450-9545-39d65eb98051",
+    "translation_mm": [
+      0.44999999999998863,
+      -0.19999999999998863
+    ]
+  },
+  "SPK1": {
+    "properties": {
+      "Reference": "SPK1",
+      "Value": "SPEAKER",
+      "Footprint": "RevB_Snapshot:Board_SPK1",
+      "LCSC": "C5258883",
+      "Description": "喇叭接口 XH-2PA P2.50; 1.0mm孔为设计选取非厂家推荐; 针0.6+/-0.02mm"
+    },
+    "symbol_uuid": "2879eba8-0695-5363-91c1-94b3067e0297",
+    "translation_mm": [
+      0.22000000000002728,
+      -0.19999999999998863
+    ]
+  },
+  "J_OLED": {
+    "properties": {
+      "Reference": "J_OLED",
+      "Value": "OLED_12864",
+      "Footprint": "RevB_Snapshot:Board_J_OLED",
+      "LCSC": "C2718488",
+      "Description": "OLED安装要求:屏体朝-Y; 顶视左到右SDA/SCL/VCC/GND; 实物核序前禁止上电"
+    },
+    "symbol_uuid": "c18a8829-0dcc-5ee6-b2a1-d67e025e884b",
+    "translation_mm": [
+      0.5600000000000023,
+      -0.4300000000000068
+    ]
+  },
+  "J_GESTURE": {
+    "properties": {
+      "Reference": "J_GESTURE",
+      "Value": "PAJ7620_GEST",
+      "Footprint": "RevB_Snapshot:Board_J_GESTURE",
+      "LCSC": "C50950",
+      "Description": "PAJ7620 手势识别母座"
+    },
+    "symbol_uuid": "a135c615-0c3e-5951-aed0-5af99ec16310",
+    "translation_mm": [
+      0.3299999999999983,
+      -0.4300000000000068
+    ]
+  },
+  "J_KEY1": {
+    "properties": {
+      "Reference": "J_KEY1",
+      "Value": "KEY1_POWER",
+      "Footprint": "RevB_Snapshot:Board_J_KEY1",
+      "LCSC": "C2718487",
+      "Description": "按键1【电源开关】直插母座"
+    },
+    "symbol_uuid": "e7c19705-4c9d-5aca-837a-70338920d979",
+    "translation_mm": [
+      0.09999999999999432,
+      -0.4300000000000068
+    ]
+  },
+  "J_KEY2": {
+    "properties": {
+      "Reference": "J_KEY2",
+      "Value": "KEY2_SWING",
+      "Footprint": "RevB_Snapshot:Board_J_KEY2",
+      "LCSC": "C2718487",
+      "Description": "按键2【摇头模式】直插母座"
+    },
+    "symbol_uuid": "dec43889-f968-553a-8df9-fc2efd55b1d6",
+    "translation_mm": [
+      -0.12999999999999545,
+      -0.4300000000000068
+    ]
+  },
+  "J_ENC": {
+    "properties": {
+      "Reference": "J_ENC",
+      "Value": "EC11_ENCODER_2P_3P",
+      "Footprint": "RevB_Snapshot:Board_J_ENC",
+      "LCSC": "-",
+      "Description": "用户实测2+3编码器: 上1=3V3/2=GND, 下3=A/4=C(GND)/5=B; 组距21mm; 无SW"
+    },
+    "symbol_uuid": "e33e9c77-d781-5ab9-a079-cd18e262b72f",
+    "translation_mm": [
+      -0.36000000000001364,
+      -0.4300000000000068
+    ]
+  }
+}

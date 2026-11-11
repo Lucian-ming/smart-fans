@@ -1,0 +1,6 @@
+# Additional connector evidence — 2026-11-04
+
+- LCSC C5258883, ZHOURI XH-2PA: [product](https://item.szlcsc.com/5978914.html), [supplier drawing](https://atta.szlcsc.com/upload/public/pdf/source/20221111/941C48A64A881023E1ECD9BB647261A0.pdf). Product page explicitly specifies pitch **2.5 mm**, 1x2P, through-hole, 3 A catalogue rating, body 7.5 mm along pitch x 5.7 mm, height 7 mm. No real-time stock confirmation. Drawing tolerances/drill not yet independently extracted.
+- Existing MOTO1/SPK1/MIC1 in generator incorrectly call this 2.54 mm/JST-branded footprint. Need change true pitch to 2.5 mm and retain ZHOURI—not claim genuine JST. MIC1 additionally has no actual ASR header microphone connection; remove unsupported motherboard microphone connector and connect microphone to ASR module's own microphone input.
+- Requests to lcsc.com returned HTTP403; web_fetch got large navigation truncated before specifications. szlcsc product page provided complete useful specification section. No 403 response treated as successful evidence.
+- LCSC C2081 search identifies JSCJ 2N3904-TA(RANGE:200-300), not stated CJT manufacturer; exact drawing still to be verified. Existing TO-92_Inline geometry uses spread 2.54 mm pitch, not unformed 1.27 mm, so footprint name/forming instructions must match verified part geometry.

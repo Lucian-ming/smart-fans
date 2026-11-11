@@ -1,0 +1,102 @@
+(footprint "Board_Q1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "NPN蜂鸣器驱动; 1=E 2=B 3=C; 宽脚成形P2.54mm非原厂直脚间距; 安装前核成形与方向")
+	(property "Reference" "Q1"
+		(at 0 -2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "877f52a7-cec4-4e1d-bcd8-2675183b6d2e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2N3904-TA(RANGE:200-300)"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4edcb304-9e90-4682-b363-7b16ae82147f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30784bfa-eb97-490a-9d82-d3d9553af75c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "NPN蜂鸣器驱动; 1=E 2=B 3=C; 宽脚成形P2.54mm非原厂直脚间距; 安装前核成形与方向"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bda02d48-12e9-4d1d-9497-b251c71d5a68")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C2081"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "fcd7ebd0-a11d-46e8-bd43-d57417f2f4a3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 -2.54)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5cbb92a8-9e74-4d39-9d58-63c66f2503b8")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "024c8ef0-c96a-4c94-ad32-a8efaa88cb3f")
+	)
+	(pad "3" thru_hole circle
+		(at 0 2.54)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "edeb6fa5-4a8d-449a-a3e1-c3e244f0cb5f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,78 @@
+(footprint "Board_F1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "3A快断保险; 不是3A硬限流; 整板连续目标<=2A须热测/启动I2t验证; 库存未核")
+	(property "Reference" "F1"
+		(at 0 -2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60d7921c-cd56-4973-a7da-45bdd3b35a46")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3A_FAST_NOT_CURRENT_LIMIT"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0af77110-eada-4197-aea7-7187c4952c6f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "185c1637-2df8-48bf-b952-b060693fbdcf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "3A快断保险; 不是3A硬限流; 整板连续目标<=2A须热测/启动I2t验证; 库存未核"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5ba3b05-9077-4699-8eb5-57716cff8e24")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "-"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fc597ce6-21f6-43a5-ac27-342a889f0efc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" smd rect
+		(at -2.455 0)
+		(size 1.96 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "532b9871-49d2-4334-970c-e9d9e6bb42a6")
+	)
+	(pad "2" smd rect
+		(at 2.455 0)
+		(size 1.96 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7433ef1c-54b5-4063-9a07-5f04faebcd2b")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,21 @@
+{
+  "native_parse_pass": true,
+  "cache_unit_count": 40,
+  "geometry_and_connections_unchanged": true,
+  "native_named_nets": 33,
+  "native_connected_pins": 137,
+  "native_nc_pins": 31,
+  "netlist_exit": 0,
+  "negative_prefix_exit": 3,
+  "erc_exit": 5,
+  "erc_pass": false,
+  "erc_violation_count": 271,
+  "erc_types": {
+    "power_pin_not_driven": 2,
+    "endpoint_off_grid": 181,
+    "footprint_link_issues": 44,
+    "lib_symbol_issues": 44
+  },
+  "baseline_sha256": "ae4bb467b5398b3d5482221e21dfbe591e0b5d7721703dc5707e78e901f56ada",
+  "kicad_version": "10.0.7"
+}

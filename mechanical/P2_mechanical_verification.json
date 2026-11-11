@@ -1,0 +1,415 @@
+{
+  "method": "Independent exported-STL topology, planar boundary extraction, segment distance and Boolean blank-board sweep; never imports CAD.",
+  "parts": [
+    {
+      "path": "mechanical\\stl\\print\\SmartFan_Piece1_Base_Enclosure.stl",
+      "sha256": "44e2ba970e724351a7d663fb991a02d118c34bb0e5129172216db301e41575e1",
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          99.0,
+          99.0,
+          9.0
+        ]
+      ],
+      "dimensions_mm": [
+        99.0,
+        99.0,
+        9.0
+      ],
+      "volume_cm3": 24.369847393778716,
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_signed_volume": true,
+      "bad_edges": 0,
+      "duplicate_directed_edges": 0,
+      "connected_shells": 1,
+      "degenerate_faces": 0,
+      "faces": 1738,
+      "pass": true
+    },
+    {
+      "path": "mechanical\\stl\\print\\SmartFan_Piece3_Removable_Lid.stl",
+      "sha256": "20c44f4adb3e901a2c4617fd3ae5e2ec36d2bf68f8c5dc35fcd80dd9622d1813",
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          8.100000381469727
+        ],
+        [
+          99.0,
+          99.0,
+          32.0
+        ]
+      ],
+      "dimensions_mm": [
+        99.0,
+        99.0,
+        23.899999618530273
+      ],
+      "volume_cm3": 27.97915874539786,
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_signed_volume": true,
+      "bad_edges": 0,
+      "duplicate_directed_edges": 0,
+      "connected_shells": 1,
+      "degenerate_faces": 0,
+      "faces": 7492,
+      "pass": true
+    },
+    {
+      "path": "mechanical\\stl\\print\\SmartFan_Piece2_Fan_Gimbal_Bracket.stl",
+      "sha256": "f452270947c1ea0c987f63960612935d7a96bb128105a47718e7091dd686a08b",
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          84.0,
+          30.0,
+          24.0
+        ]
+      ],
+      "dimensions_mm": [
+        84.0,
+        30.0,
+        24.0
+      ],
+      "volume_cm3": 16.62190945587395,
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_signed_volume": true,
+      "bad_edges": 0,
+      "duplicate_directed_edges": 0,
+      "connected_shells": 1,
+      "degenerate_faces": 0,
+      "faces": 562,
+      "pass": true
+    }
+  ],
+  "total_volume_cm3": 68.97091559505053,
+  "volume_limit_cm3": 70,
+  "panel": {
+    "normal": [
+      -1.4567435418277192e-09,
+      0.42261827252818185,
+      0.9063077820063643
+    ],
+    "plane_constant_mm": 51.339545593960565,
+    "angle_degrees": 25.00000068197274,
+    "measured_normal_thickness_mm": 1.9999988808193123,
+    "openings": {
+      "OLED": {
+        "center_xyz_mm": [
+          80.5,
+          63.99999809265137,
+          26.803231239318848
+        ],
+        "size_surface_mm": [
+          28.0,
+          16.499996090195914
+        ]
+      },
+      "EC11": {
+        "center_xyz_mm": [
+          73.0,
+          88.0,
+          15.611847400665283
+        ],
+        "size_surface_mm": [
+          9.0,
+          8.999999118858028
+        ]
+      },
+      "PAJ7620": {
+        "center_xyz_mm": [
+          18.0,
+          76.0,
+          21.207539558410645
+        ],
+        "size_surface_mm": [
+          10.0,
+          10.000001914970909
+        ]
+      },
+      "MIC": {
+        "center_xyz_mm": [
+          92.0,
+          88.0,
+          15.611846923828125
+        ],
+        "size_surface_mm": [
+          2.5,
+          2.4999933626429964
+        ]
+      },
+      "KEY1": {
+        "center_xyz_mm": [
+          36.0,
+          86.0,
+          21.75
+        ],
+        "size_surface_mm": [
+          7.0,
+          7.723644976212711
+        ]
+      },
+      "KEY2": {
+        "center_xyz_mm": [
+          51.5,
+          86.0,
+          21.75
+        ],
+        "size_surface_mm": [
+          7.0,
+          7.723644976212711
+        ]
+      }
+    }
+  },
+  "top_deck": {
+    "probe_xy_mm": [
+      20.123,
+      30.321
+    ],
+    "measured_intersections_z_mm": [
+      30.0,
+      32.0
+    ],
+    "measured_thickness_mm": 2.0,
+    "bottom_intersections_z_mm": [
+      0.0,
+      2.0
+    ],
+    "measured_flat_region_cavity_height_mm": 28.0
+  },
+  "oled_ec11": {
+    "measured_surface_edge_gap_mm": 13.731074197362261,
+    "meets_13mm": true,
+    "meets_16mm": false,
+    "analytic_crosscheck_mm": 13.731070202077849,
+    "fixed_centres_can_reach_16mm": false,
+    "minimum_ec11_y_for_16_if_oled_y64_mm": 90.05634873268298
+  },
+  "buttons": {
+    "KEY1": {
+      "measured_panel_center_xyz_mm": [
+        36.0,
+        86.0,
+        21.75
+      ],
+      "measured_surface_bore_size_mm": [
+        7.0,
+        7.723644976212711
+      ],
+      "assumed_module_bottom_z_mm": 8.1,
+      "user_supplied_module_bottom_to_cap_top_mm": 15,
+      "assumed_axis": "vertical Z; cap top compared to surface at centre, not normal offset",
+      "conditional_cap_top_z_mm": 23.1,
+      "conditional_vertical_protrusion_mm": 1.3500000000000014,
+      "actual_protrusion_mm": null,
+      "status": "CONDITIONAL ONLY: module PCB bottom must be at Z8.1; real body/cap/axis/travel absent"
+    },
+    "KEY2": {
+      "measured_panel_center_xyz_mm": [
+        51.5,
+        86.0,
+        21.75
+      ],
+      "measured_surface_bore_size_mm": [
+        7.0,
+        7.723644976212711
+      ],
+      "assumed_module_bottom_z_mm": 8.1,
+      "user_supplied_module_bottom_to_cap_top_mm": 15,
+      "assumed_axis": "vertical Z; cap top compared to surface at centre, not normal offset",
+      "conditional_cap_top_z_mm": 23.1,
+      "conditional_vertical_protrusion_mm": 1.3500000000000014,
+      "actual_protrusion_mm": null,
+      "status": "CONDITIONAL ONLY: module PCB bottom must be at Z8.1; real body/cap/axis/travel absent"
+    }
+  },
+  "pcb_access": {
+    "measured_split_z_mm": 9.0,
+    "measured_inner_x_walls_mm": [
+      1.600000023841858,
+      97.4000015258789
+    ],
+    "measured_clear_width_mm": 95.80000150203705,
+    "assumed_board_bounds_mm": [
+      [
+        2,
+        2,
+        6.5
+      ],
+      [
+        97,
+        97,
+        8.1
+      ]
+    ],
+    "measured_boss_probe_hits_z_mm": [
+      0.0,
+      6.5
+    ],
+    "bare_board_base_intersection_mm3": 0.0,
+    "bare_board_closed_lid_intersection_mm3": 0.0,
+    "vertical_insertion_sweep_intersection_mm3": 0.0,
+    "base_lid_intersection_mm3": 0.0,
+    "result": "Bare 95x95x1.6 PCB only; populated PCB and cable/module envelopes NOT verified"
+  },
+  "lid_screws": [
+    {
+      "xy_mm": [
+        7,
+        7
+      ],
+      "measured_lid_probe_hits_z_mm": [
+        8.1,
+        32.0
+      ],
+      "measured_boss_probe_hits_z_mm": [
+        0.0,
+        6.5
+      ],
+      "seat_z_mm": 32.0,
+      "suggested_thread": "M2.5; tap 2.1mm printed pilot after a test coupon",
+      "suggested_under_head_length_mm": 30,
+      "maximum_head_diameter_mm": 4.5,
+      "screw_tip_z_mm": 2.0,
+      "nominal_thread_engagement_mm": 4.5
+    },
+    {
+      "xy_mm": [
+        92,
+        7
+      ],
+      "measured_lid_probe_hits_z_mm": [
+        8.1,
+        32.0
+      ],
+      "measured_boss_probe_hits_z_mm": [
+        0.0,
+        6.5
+      ],
+      "seat_z_mm": 32.0,
+      "suggested_thread": "M2.5; tap 2.1mm printed pilot after a test coupon",
+      "suggested_under_head_length_mm": 30,
+      "maximum_head_diameter_mm": 4.5,
+      "screw_tip_z_mm": 2.0,
+      "nominal_thread_engagement_mm": 4.5
+    },
+    {
+      "xy_mm": [
+        7,
+        92
+      ],
+      "measured_lid_probe_hits_z_mm": [
+        8.1,
+        14.912386
+      ],
+      "measured_boss_probe_hits_z_mm": [
+        0.0,
+        6.5
+      ],
+      "seat_z_mm": 14.912386,
+      "suggested_thread": "M2.5; tap 2.1mm printed pilot after a test coupon",
+      "suggested_under_head_length_mm": 12,
+      "maximum_head_diameter_mm": 4.5,
+      "screw_tip_z_mm": 2.9123859999999997,
+      "nominal_thread_engagement_mm": 3.5876140000000003
+    },
+    {
+      "xy_mm": [
+        92,
+        92
+      ],
+      "measured_lid_probe_hits_z_mm": [
+        8.1,
+        14.912386
+      ],
+      "measured_boss_probe_hits_z_mm": [
+        0.0,
+        6.5
+      ],
+      "seat_z_mm": 14.912386,
+      "suggested_thread": "M2.5; tap 2.1mm printed pilot after a test coupon",
+      "suggested_under_head_length_mm": 12,
+      "maximum_head_diameter_mm": 4.5,
+      "screw_tip_z_mm": 2.9123859999999997,
+      "nominal_thread_engagement_mm": 3.5876140000000003
+    }
+  ],
+  "front_right_head_seat_circle_to_mic_boundary_distance_mm": 0.6404225865990775,
+  "front_right_head_projected_xy_clearance_to_mic_mm": 0.6171188354492188,
+  "capacitor_envelopes": [
+    {
+      "reference": "C3",
+      "case_xy_mm": [
+        58.5,
+        9
+      ],
+      "pcb_top_z_mm": 8.1,
+      "nominal_diameter_mm": 6.3,
+      "checked_body_height_mm": 12.5,
+      "body_top_z_mm": 20.6,
+      "measured_roof_z_mm": 30.0,
+      "centre_vertical_roof_clearance_mm": 9.399999999999999,
+      "base_overlap_mm3": 0.0,
+      "lid_overlap_mm3": 0.0,
+      "scope": "Nominal D6.3 vertical cylinder only; Rubycon max L12.5, C1 nominal L11; leads/standoff/diameter tolerance NOT verified"
+    },
+    {
+      "reference": "C_VM",
+      "case_xy_mm": [
+        25.5,
+        25.5
+      ],
+      "pcb_top_z_mm": 8.1,
+      "nominal_diameter_mm": 6.3,
+      "checked_body_height_mm": 12.5,
+      "body_top_z_mm": 20.6,
+      "measured_roof_z_mm": 30.0,
+      "centre_vertical_roof_clearance_mm": 9.399999999999999,
+      "base_overlap_mm3": 0.0,
+      "lid_overlap_mm3": 0.0,
+      "scope": "Nominal D6.3 vertical cylinder only; Rubycon max L12.5, C1 nominal L11; leads/standoff/diameter tolerance NOT verified"
+    },
+    {
+      "reference": "C1",
+      "case_xy_mm": [
+        31.5,
+        9
+      ],
+      "pcb_top_z_mm": 8.1,
+      "nominal_diameter_mm": 6.3,
+      "checked_body_height_mm": 11.0,
+      "body_top_z_mm": 19.1,
+      "measured_roof_z_mm": 30.0,
+      "centre_vertical_roof_clearance_mm": 10.899999999999999,
+      "base_overlap_mm3": 0.0,
+      "lid_overlap_mm3": 0.0,
+      "scope": "Nominal D6.3 vertical cylinder only; Rubycon max L12.5, C1 nominal L11; leads/standoff/diameter tolerance NOT verified"
+    }
+  ],
+  "section_evidence": "mechanical\\P2_mechanical_sections.png",
+  "assembly_release": false,
+  "limitations": [
+    "Only bare-board access is tested; real populated board and module bodies were not supplied.",
+    "Button protrusion is at hole centre ONLY, conditional on module PCB bottom Z8.1 and vertical 15mm stack. Whole-cap edge protrusion, module support/fixings and cap size/travel are unknown.",
+    "Buttons have local raised 25-degree faces; 7mm vertical bores have elliptical outlines. Main slope is not raised.",
+    "M2.5 lid screws share PCB mount locations. Verify actual PCB holes, keepout and thickness; front-right head <=4.5mm without washer near MIC.",
+    "Tapped resin pilots and long screws need coupon tests; no gasket, alignment tongue or strength/thermal/vibration validation.",
+    "OLED/EC11/PAJ/MIC bodies, servo spline/retention, motor holding, wiring, supports and shrinkage remain unverified.",
+    "Gimbal saddle is 3mm, non-load-rated wing floors 2mm; slot residual floor 0.5mm is not strength-rated."
+  ],
+  "geometry_acceptance_pass": true
+}

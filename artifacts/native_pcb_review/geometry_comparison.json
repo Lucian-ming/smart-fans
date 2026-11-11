@@ -1,0 +1,358 @@
+{
+  "zones": {
+    "F.Cu": {
+      "valid": false,
+      "validity": "Ring Self-intersection[194 182.5]",
+      "area": 4903.171102759968,
+      "fixed_area": 4945.429331355015,
+      "fixed_type": "Polygon",
+      "points": {
+        "BUZ_BASE_Q1": {
+          "distance": 5.025000000000006,
+          "contains": false
+        },
+        "BUZ_BASE_R10": {
+          "distance": 4.484461394638167,
+          "contains": false
+        },
+        "MCU_NC8": {
+          "distance": 10.318213265871172,
+          "contains": false
+        },
+        "MCU_NC15": {
+          "distance": 2.1706260041748258,
+          "contains": false
+        },
+        "BUZZER_CTRL_via": {
+          "distance": 2.7629579240372117,
+          "contains": false
+        }
+      }
+    },
+    "B.Cu": {
+      "valid": false,
+      "validity": "Ring Self-intersection[194 182.5]",
+      "area": 7024.634682590014,
+      "fixed_area": 7024.634682590009,
+      "fixed_type": "Polygon",
+      "points": {
+        "BUZ_BASE_Q1": {
+          "distance": 0.9987859370532576,
+          "contains": false
+        },
+        "BUZ_BASE_R10": {
+          "distance": 1.0250000000000057,
+          "contains": false
+        },
+        "MCU_NC8": {
+          "distance": 1.1486118849484792,
+          "contains": false
+        },
+        "MCU_NC15": {
+          "distance": 1.1486118849484759,
+          "contains": false
+        },
+        "BUZZER_CTRL_via": {
+          "distance": 0.5795447178604952,
+          "contains": false
+        }
+      }
+    }
+  },
+  "gerbers": {
+    "hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GBL": {
+      "region_count": 1,
+      "invalid_count": 1,
+      "regions": [
+        {
+          "vertices": 7376,
+          "valid": false,
+          "validity": "Ring Self-intersection[194 182.5]",
+          "area": 7024.643108464561,
+          "polarity_dark": true
+        }
+      ],
+      "points": {
+        "BUZ_BASE_Q1": {
+          "distance_to_regions": 0.9987931648585906,
+          "inside_region": false
+        },
+        "BUZ_BASE_R10": {
+          "distance_to_regions": 1.0250000000000055,
+          "inside_region": false
+        },
+        "MCU_NC8": {
+          "distance_to_regions": 1.148611284870187,
+          "inside_region": false
+        },
+        "MCU_NC15": {
+          "distance_to_regions": 1.1486112848701917,
+          "inside_region": false
+        },
+        "BUZZER_CTRL_via": {
+          "distance_to_regions": 0.5795577935259126,
+          "inside_region": false
+        }
+      }
+    },
+    "hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GTL": {
+      "region_count": 1,
+      "invalid_count": 1,
+      "regions": [
+        {
+          "vertices": 5564,
+          "valid": false,
+          "validity": "Ring Self-intersection[194 182.5]",
+          "area": 4903.177398648643,
+          "polarity_dark": true
+        }
+      ],
+      "points": {
+        "BUZ_BASE_Q1": {
+          "distance_to_regions": 5.025000000000006,
+          "inside_region": false
+        },
+        "BUZ_BASE_R10": {
+          "distance_to_regions": 4.484468695442094,
+          "inside_region": false
+        },
+        "MCU_NC8": {
+          "distance_to_regions": 10.318202605182735,
+          "inside_region": false
+        },
+        "MCU_NC15": {
+          "distance_to_regions": 2.170631272256985,
+          "inside_region": false
+        },
+        "BUZZER_CTRL_via": {
+          "distance_to_regions": 2.762928165714795,
+          "inside_region": false
+        }
+      }
+    },
+    "artifacts\\native_pcb_review\\original_native_gerbers\\fan_ctrl_revB-B_Cu.gbl": {
+      "region_count": 1,
+      "invalid_count": 1,
+      "regions": [
+        {
+          "vertices": 7368,
+          "valid": false,
+          "validity": "Ring Self-intersection[194 -104.5]",
+          "area": 7024.634682590014,
+          "polarity_dark": true
+        }
+      ],
+      "points": {
+        "BUZ_BASE_Q1": {
+          "distance_to_regions": 0.9987859370532576,
+          "inside_region": false
+        },
+        "BUZ_BASE_R10": {
+          "distance_to_regions": 1.0250000000000057,
+          "inside_region": false
+        },
+        "MCU_NC8": {
+          "distance_to_regions": 1.1486118849484792,
+          "inside_region": false
+        },
+        "MCU_NC15": {
+          "distance_to_regions": 1.1486118849484759,
+          "inside_region": false
+        },
+        "BUZZER_CTRL_via": {
+          "distance_to_regions": 0.5795447178604952,
+          "inside_region": false
+        }
+      }
+    },
+    "artifacts\\native_pcb_review\\original_native_gerbers\\fan_ctrl_revB-F_Cu.gtl": {
+      "region_count": 1,
+      "invalid_count": 1,
+      "regions": [
+        {
+          "vertices": 5561,
+          "valid": false,
+          "validity": "Ring Self-intersection[187.9792 -115.425]",
+          "area": 4903.171102759968,
+          "polarity_dark": true
+        }
+      ],
+      "points": {
+        "BUZ_BASE_Q1": {
+          "distance_to_regions": 5.025000000000006,
+          "inside_region": false
+        },
+        "BUZ_BASE_R10": {
+          "distance_to_regions": 4.484461394638167,
+          "inside_region": false
+        },
+        "MCU_NC8": {
+          "distance_to_regions": 10.318213265871172,
+          "inside_region": false
+        },
+        "MCU_NC15": {
+          "distance_to_regions": 2.1706260041748258,
+          "inside_region": false
+        },
+        "BUZZER_CTRL_via": {
+          "distance_to_regions": 2.7629579240372117,
+          "inside_region": false
+        }
+      }
+    },
+    "artifacts\\native_pcb_review\\refilled_native_gerbers\\refilled-B_Cu.gbl": {
+      "region_count": 2,
+      "invalid_count": 1,
+      "regions": [
+        {
+          "vertices": 548,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area": 101.5874292070567,
+          "polarity_dark": true
+        },
+        {
+          "vertices": 10902,
+          "valid": false,
+          "validity": "Ring Self-intersection[190.0995 -152.803385]",
+          "area": 6896.823903177517,
+          "polarity_dark": true
+        }
+      ],
+      "points": {
+        "BUZ_BASE_Q1": {
+          "distance_to_regions": 0.9504993039866654,
+          "inside_region": false
+        },
+        "BUZ_BASE_R10": {
+          "distance_to_regions": 0.9754999999999967,
+          "inside_region": false
+        },
+        "MCU_NC8": {
+          "distance_to_regions": 1.1004998472035417,
+          "inside_region": false
+        },
+        "MCU_NC15": {
+          "distance_to_regions": 1.1004998193153397,
+          "inside_region": false
+        },
+        "BUZZER_CTRL_via": {
+          "distance_to_regions": 0.5504994803256631,
+          "inside_region": false
+        }
+      }
+    },
+    "artifacts\\native_pcb_review\\refilled_native_gerbers\\refilled-F_Cu.gtl": {
+      "region_count": 12,
+      "invalid_count": 4,
+      "regions": [
+        {
+          "vertices": 7652,
+          "valid": false,
+          "validity": "Ring Self-intersection[186.7 -104.837883]",
+          "area": 4795.979791733964,
+          "polarity_dark": true
+        },
+        {
+          "vertices": 915,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area": 607.4658012117303,
+          "polarity_dark": true
+        },
+        {
+          "vertices": 1561,
+          "valid": false,
+          "validity": "Ring Self-intersection[138.7795 -131.023385]",
+          "area": 535.3915216893319,
+          "polarity_dark": true
+        },
+        {
+          "vertices": 505,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area": 102.9837691161714,
+          "polarity_dark": true
+        },
+        {
+          "vertices": 33,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area": 0.7529852144940096,
+          "polarity_dark": true
+        },
+        {
+          "vertices": 1076,
+          "valid": false,
+          "validity": "Ring Self-intersection[133.6 -109.105001]",
+          "area": 124.81996727761012,
+          "polarity_dark": true
+        },
+        {
+          "vertices": 68,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area": 1.9534103311995161,
+          "polarity_dark": true
+        },
+        {
+          "vertices": 56,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area": 0.8058459481469951,
+          "polarity_dark": true
+        },
+        {
+          "vertices": 58,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area": 17.81149625531055,
+          "polarity_dark": true
+        },
+        {
+          "vertices": 22,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area": 0.3692799058609998,
+          "polarity_dark": true
+        },
+        {
+          "vertices": 378,
+          "valid": false,
+          "validity": "Self-intersection[157.55 -112.200001]",
+          "area": 48.4133231347465,
+          "polarity_dark": true
+        },
+        {
+          "vertices": 86,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area": 5.183810983911501,
+          "polarity_dark": true
+        }
+      ],
+      "points": {
+        "BUZ_BASE_Q1": {
+          "distance_to_regions": 0.9504993039866654,
+          "inside_region": false
+        },
+        "BUZ_BASE_R10": {
+          "distance_to_regions": 0.7504999999999882,
+          "inside_region": false
+        },
+        "MCU_NC8": {
+          "distance_to_regions": 1.1004998193153397,
+          "inside_region": false
+        },
+        "MCU_NC15": {
+          "distance_to_regions": 1.1004998193153397,
+          "inside_region": false
+        },
+        "BUZZER_CTRL_via": {
+          "distance_to_regions": 0.5504997417832522,
+          "inside_region": false
+        }
+      }
+    }
+  }
+}

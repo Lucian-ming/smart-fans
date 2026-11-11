@@ -1,0 +1,46 @@
+{
+  "F.Cu": {
+    "BUZ_BASE_Q1": {
+      "winding": -1,
+      "even_odd_filled": true
+    },
+    "BUZ_BASE_R10": {
+      "winding": -1,
+      "even_odd_filled": true
+    },
+    "MCU_NC8": {
+      "winding": -1,
+      "even_odd_filled": true
+    },
+    "MCU_NC15": {
+      "winding": -1,
+      "even_odd_filled": true
+    },
+    "BUZZER_CTRL_via": {
+      "winding": 0,
+      "even_odd_filled": false
+    }
+  },
+  "B.Cu": {
+    "BUZ_BASE_Q1": {
+      "winding": 0,
+      "even_odd_filled": false
+    },
+    "BUZ_BASE_R10": {
+      "winding": 0,
+      "even_odd_filled": false
+    },
+    "MCU_NC8": {
+      "winding": 0,
+      "even_odd_filled": false
+    },
+    "MCU_NC15": {
+      "winding": 0,
+      "even_odd_filled": false
+    },
+    "BUZZER_CTRL_via": {
+      "winding": 0,
+      "even_odd_filled": false
+    }
+  }
+}

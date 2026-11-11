@@ -1,0 +1,2820 @@
+{
+  "pcb": "D:\\smart_fans\\hardware\\kicad\\fan_ctrl_revB.kicad_pcb",
+  "gerbers": "D:\\smart_fans\\hardware\\fabrication\\gerber_revB",
+  "pad_count": 173,
+  "non_ground_pad_count": 134,
+  "clearance_cases": 233,
+  "minimum_ground_clearance_mm": 0.29806857452352437,
+  "drill_hits": 208,
+  "outline_bounds": [
+    [
+      99.925,
+      99.925
+    ],
+    [
+      195.075,
+      195.075
+    ]
+  ],
+  "layers": {
+    "tented_masks": {
+      "F.Mask": {
+        "opening_count": 173,
+        "via_count": 81,
+        "minimum_hole_cover_mm": 0.10495097567963865,
+        "via_checks": [
+          {
+            "xy": [
+              149.4,
+              164.6
+            ],
+            "hole_edge_to_mask_mm": 4.689275344688786
+          },
+          {
+            "xy": [
+              132.8,
+              122.7
+            ],
+            "hole_edge_to_mask_mm": 0.4695220114532028
+          },
+          {
+            "xy": [
+              133.5,
+              123.9
+            ],
+            "hole_edge_to_mask_mm": 0.5000000000000057
+          },
+          {
+            "xy": [
+              136.8,
+              108.7
+            ],
+            "hole_edge_to_mask_mm": 0.8499999999999717
+          },
+          {
+            "xy": [
+              164.8,
+              108.8
+            ],
+            "hole_edge_to_mask_mm": 0.15000000000001137
+          },
+          {
+            "xy": [
+              167.8,
+              109.4
+            ],
+            "hole_edge_to_mask_mm": 0.5499999999999886
+          },
+          {
+            "xy": [
+              174.1,
+              113.2
+            ],
+            "hole_edge_to_mask_mm": 0.475
+          },
+          {
+            "xy": [
+              174.1,
+              115.9
+            ],
+            "hole_edge_to_mask_mm": 0.5750000000000085
+          },
+          {
+            "xy": [
+              163.2,
+              108.8
+            ],
+            "hole_edge_to_mask_mm": 0.15000000000001137
+          },
+          {
+            "xy": [
+              163.2,
+              112.7
+            ],
+            "hole_edge_to_mask_mm": 1.35
+          },
+          {
+            "xy": [
+              130.5,
+              129.3
+            ],
+            "hole_edge_to_mask_mm": 1.9537169486411372
+          },
+          {
+            "xy": [
+              126.8,
+              129.3
+            ],
+            "hole_edge_to_mask_mm": 2.8855939709367897
+          },
+          {
+            "xy": [
+              121.4,
+              137.3
+            ],
+            "hole_edge_to_mask_mm": 0.43030294232805
+          },
+          {
+            "xy": [
+              126.8,
+              106.2
+            ],
+            "hole_edge_to_mask_mm": 0.16499999999999773
+          },
+          {
+            "xy": [
+              137.3,
+              105.3
+            ],
+            "hole_edge_to_mask_mm": 0.34999999999997167
+          },
+          {
+            "xy": [
+              141.7,
+              145.5
+            ],
+            "hole_edge_to_mask_mm": 0.9587031458716934
+          },
+          {
+            "xy": [
+              137.4,
+              131.2
+            ],
+            "hole_edge_to_mask_mm": 1.431628498353546
+          },
+          {
+            "xy": [
+              137.3,
+              129.5
+            ],
+            "hole_edge_to_mask_mm": 1.692498164628972
+          },
+          {
+            "xy": [
+              145.8,
+              115.3
+            ],
+            "hole_edge_to_mask_mm": 4.833672249149163
+          },
+          {
+            "xy": [
+              153.7,
+              115.3
+            ],
+            "hole_edge_to_mask_mm": 0.4801283023173154
+          },
+          {
+            "xy": [
+              116.3,
+              117.3
+            ],
+            "hole_edge_to_mask_mm": 0.6836634229567203
+          },
+          {
+            "xy": [
+              126.5,
+              115.6
+            ],
+            "hole_edge_to_mask_mm": 3.18401034791435
+          },
+          {
+            "xy": [
+              136.8,
+              115.6
+            ],
+            "hole_edge_to_mask_mm": 1.2500000000000058
+          },
+          {
+            "xy": [
+              152.8,
+              112.8
+            ],
+            "hole_edge_to_mask_mm": 2.1533942346024753
+          },
+          {
+            "xy": [
+              131.6,
+              123.3
+            ],
+            "hole_edge_to_mask_mm": 0.10495097567963865
+          },
+          {
+            "xy": [
+              127.1,
+              149.0
+            ],
+            "hole_edge_to_mask_mm": 1.5672500082654357
+          },
+          {
+            "xy": [
+              137.3,
+              148.5
+            ],
+            "hole_edge_to_mask_mm": 1.559310133781785
+          },
+          {
+            "xy": [
+              126.0,
+              114.8
+            ],
+            "hole_edge_to_mask_mm": 2.837578450852793
+          },
+          {
+            "xy": [
+              145.8,
+              112.2
+            ],
+            "hole_edge_to_mask_mm": 1.8681459741988138
+          },
+          {
+            "xy": [
+              151.8,
+              112.2
+            ],
+            "hole_edge_to_mask_mm": 3.149999999999983
+          },
+          {
+            "xy": [
+              153.8,
+              145.5
+            ],
+            "hole_edge_to_mask_mm": 0.5199979754735534
+          },
+          {
+            "xy": [
+              120.8,
+              151.3
+            ],
+            "hole_edge_to_mask_mm": 2.8898396339280583
+          },
+          {
+            "xy": [
+              127.7,
+              162.7
+            ],
+            "hole_edge_to_mask_mm": 0.6922955224901258
+          },
+          {
+            "xy": [
+              153.8,
+              167.9
+            ],
+            "hole_edge_to_mask_mm": 2.9444046272510933
+          },
+          {
+            "xy": [
+              115.2,
+              116.1
+            ],
+            "hole_edge_to_mask_mm": 1.8790951836970504
+          },
+          {
+            "xy": [
+              126.5,
+              114.0
+            ],
+            "hole_edge_to_mask_mm": 1.9274082410542204
+          },
+          {
+            "xy": [
+              144.8,
+              112.2
+            ],
+            "hole_edge_to_mask_mm": 2.4018970892562455
+          },
+          {
+            "xy": [
+              150.8,
+              111.4
+            ],
+            "hole_edge_to_mask_mm": 3.1807883860012853
+          },
+          {
+            "xy": [
+              153.0,
+              141.3
+            ],
+            "hole_edge_to_mask_mm": 1.0702107527914844
+          },
+          {
+            "xy": [
+              136.3,
+              147.9
+            ],
+            "hole_edge_to_mask_mm": 2.6643597952679676
+          },
+          {
+            "xy": [
+              137.5,
+              153.8
+            ],
+            "hole_edge_to_mask_mm": 1.3360630430901412
+          },
+          {
+            "xy": [
+              130.0,
+              110.7
+            ],
+            "hole_edge_to_mask_mm": 0.475
+          },
+          {
+            "xy": [
+              126.5,
+              110.4
+            ],
+            "hole_edge_to_mask_mm": 1.62506337915017
+          },
+          {
+            "xy": [
+              124.0,
+              105.0
+            ],
+            "hole_edge_to_mask_mm": 0.41678920243772954
+          },
+          {
+            "xy": [
+              140.1,
+              104.5
+            ],
+            "hole_edge_to_mask_mm": 0.591636703514589
+          },
+          {
+            "xy": [
+              156.2,
+              109.9
+            ],
+            "hole_edge_to_mask_mm": 1.2749999999999972
+          },
+          {
+            "xy": [
+              147.6,
+              120.2
+            ],
+            "hole_edge_to_mask_mm": 6.507304259617205
+          },
+          {
+            "xy": [
+              141.2,
+              120.3
+            ],
+            "hole_edge_to_mask_mm": 0.42135977120676515
+          },
+          {
+            "xy": [
+              127.3,
+              171.1
+            ],
+            "hole_edge_to_mask_mm": 1.1270580391617542
+          },
+          {
+            "xy": [
+              150.2,
+              163.8
+            ],
+            "hole_edge_to_mask_mm": 3.8810505684997056
+          },
+          {
+            "xy": [
+              145.8,
+              127.1
+            ],
+            "hole_edge_to_mask_mm": 4.965916710536958
+          },
+          {
+            "xy": [
+              147.6,
+              127.1
+            ],
+            "hole_edge_to_mask_mm": 6.545738015790249
+          },
+          {
+            "xy": [
+              143.6,
+              145.5
+            ],
+            "hole_edge_to_mask_mm": 2.7658738614764475
+          },
+          {
+            "xy": [
+              143.6,
+              164.6
+            ],
+            "hole_edge_to_mask_mm": 2.6995732870923805
+          },
+          {
+            "xy": [
+              156.0,
+              139.9
+            ],
+            "hole_edge_to_mask_mm": 0.41399754447718096
+          },
+          {
+            "xy": [
+              167.3,
+              181.1
+            ],
+            "hole_edge_to_mask_mm": 0.7681285153162541
+          },
+          {
+            "xy": [
+              166.0,
+              162.6
+            ],
+            "hole_edge_to_mask_mm": 2.8388145856031555
+          },
+          {
+            "xy": [
+              165.1,
+              165.9
+            ],
+            "hole_edge_to_mask_mm": 5.337241311711237
+          },
+          {
+            "xy": [
+              158.5,
+              165.9
+            ],
+            "hole_edge_to_mask_mm": 2.7654019689957594
+          },
+          {
+            "xy": [
+              126.3,
+              155.8
+            ],
+            "hole_edge_to_mask_mm": 2.2532530037430574
+          },
+          {
+            "xy": [
+              126.3,
+              152.1
+            ],
+            "hole_edge_to_mask_mm": 1.9211241583187957
+          },
+          {
+            "xy": [
+              126.3,
+              148.5
+            ],
+            "hole_edge_to_mask_mm": 2.496825336994541
+          },
+          {
+            "xy": [
+              130.5,
+              147.9
+            ],
+            "hole_edge_to_mask_mm": 2.21496228889483
+          },
+          {
+            "xy": [
+              131.5,
+              152.9
+            ],
+            "hole_edge_to_mask_mm": 1.4884241587952538
+          },
+          {
+            "xy": [
+              129.2,
+              164.1
+            ],
+            "hole_edge_to_mask_mm": 1.5177986254359919
+          },
+          {
+            "xy": [
+              121.2,
+              126.0
+            ],
+            "hole_edge_to_mask_mm": 0.6500000000000112
+          },
+          {
+            "xy": [
+              132.3,
+              111.5
+            ],
+            "hole_edge_to_mask_mm": 1.2500000000000058
+          },
+          {
+            "xy": [
+              132.3,
+              109.8
+            ],
+            "hole_edge_to_mask_mm": 0.4721133337262525
+          },
+          {
+            "xy": [
+              122.6,
+              148.8
+            ],
+            "hole_edge_to_mask_mm": 2.8700111991275365
+          },
+          {
+            "xy": [
+              132.4,
+              113.2
+            ],
+            "hole_edge_to_mask_mm": 0.9926394882026418
+          },
+          {
+            "xy": [
+              148.9,
+              116.1
+            ],
+            "hole_edge_to_mask_mm": 5.174246734437401
+          },
+          {
+            "xy": [
+              148.9,
+              110.6
+            ],
+            "hole_edge_to_mask_mm": 1.1256796861732883
+          },
+          {
+            "xy": [
+              154.4,
+              111.9
+            ],
+            "hole_edge_to_mask_mm": 0.5499999999999886
+          },
+          {
+            "xy": [
+              158.2,
+              111.9
+            ],
+            "hole_edge_to_mask_mm": 0.14999999999998295
+          },
+          {
+            "xy": [
+              159.3,
+              111.7
+            ],
+            "hole_edge_to_mask_mm": 1.2500000000000058
+          },
+          {
+            "xy": [
+              160.3,
+              109.9
+            ],
+            "hole_edge_to_mask_mm": 0.44999999999996587
+          },
+          {
+            "xy": [
+              163.1,
+              107.9
+            ],
+            "hole_edge_to_mask_mm": 1.054159457879232
+          },
+          {
+            "xy": [
+              170.1,
+              108.4
+            ],
+            "hole_edge_to_mask_mm": 0.31970735570139097
+          },
+          {
+            "xy": [
+              144.7,
+              164.6
+            ],
+            "hole_edge_to_mask_mm": 3.792857011104671
+          },
+          {
+            "xy": [
+              144.4,
+              161.7
+            ],
+            "hole_edge_to_mask_mm": 3.4713340871619187
+          },
+          {
+            "xy": [
+              142.6,
+              161.7
+            ],
+            "hole_edge_to_mask_mm": 1.6722229654766032
+          }
+        ]
+      },
+      "B.Mask": {
+        "opening_count": 127,
+        "via_count": 81,
+        "minimum_hole_cover_mm": 0.41399754447718096,
+        "via_checks": [
+          {
+            "xy": [
+              149.4,
+              164.6
+            ],
+            "hole_edge_to_mask_mm": 4.689275344688786
+          },
+          {
+            "xy": [
+              132.8,
+              122.7
+            ],
+            "hole_edge_to_mask_mm": 0.4695220114532028
+          },
+          {
+            "xy": [
+              133.5,
+              123.9
+            ],
+            "hole_edge_to_mask_mm": 1.026029598804216
+          },
+          {
+            "xy": [
+              136.8,
+              108.7
+            ],
+            "hole_edge_to_mask_mm": 5.284304202239855
+          },
+          {
+            "xy": [
+              164.8,
+              108.8
+            ],
+            "hole_edge_to_mask_mm": 6.276156924145581
+          },
+          {
+            "xy": [
+              167.8,
+              109.4
+            ],
+            "hole_edge_to_mask_mm": 9.33259078357745
+          },
+          {
+            "xy": [
+              174.1,
+              113.2
+            ],
+            "hole_edge_to_mask_mm": 12.263076718339988
+          },
+          {
+            "xy": [
+              174.1,
+              115.9
+            ],
+            "hole_edge_to_mask_mm": 9.566402948814298
+          },
+          {
+            "xy": [
+              163.2,
+              108.8
+            ],
+            "hole_edge_to_mask_mm": 4.739551734260537
+          },
+          {
+            "xy": [
+              163.2,
+              112.7
+            ],
+            "hole_edge_to_mask_mm": 6.886220315314375
+          },
+          {
+            "xy": [
+              130.5,
+              129.3
+            ],
+            "hole_edge_to_mask_mm": 6.578033767829677
+          },
+          {
+            "xy": [
+              126.8,
+              129.3
+            ],
+            "hole_edge_to_mask_mm": 2.8855939709367897
+          },
+          {
+            "xy": [
+              121.4,
+              137.3
+            ],
+            "hole_edge_to_mask_mm": 0.43030294232805
+          },
+          {
+            "xy": [
+              126.8,
+              106.2
+            ],
+            "hole_edge_to_mask_mm": 0.6560464248137274
+          },
+          {
+            "xy": [
+              137.3,
+              105.3
+            ],
+            "hole_edge_to_mask_mm": 5.767014311320407
+          },
+          {
+            "xy": [
+              141.7,
+              145.5
+            ],
+            "hole_edge_to_mask_mm": 0.9587031458716934
+          },
+          {
+            "xy": [
+              137.4,
+              131.2
+            ],
+            "hole_edge_to_mask_mm": 1.431628498353546
+          },
+          {
+            "xy": [
+              137.3,
+              129.5
+            ],
+            "hole_edge_to_mask_mm": 1.692498164628972
+          },
+          {
+            "xy": [
+              145.8,
+              115.3
+            ],
+            "hole_edge_to_mask_mm": 4.833672249149163
+          },
+          {
+            "xy": [
+              153.7,
+              115.3
+            ],
+            "hole_edge_to_mask_mm": 0.4801283023173154
+          },
+          {
+            "xy": [
+              116.3,
+              117.3
+            ],
+            "hole_edge_to_mask_mm": 0.6836634229567203
+          },
+          {
+            "xy": [
+              126.5,
+              115.6
+            ],
+            "hole_edge_to_mask_mm": 3.7010415159078507
+          },
+          {
+            "xy": [
+              136.8,
+              115.6
+            ],
+            "hole_edge_to_mask_mm": 2.0418090284215773
+          },
+          {
+            "xy": [
+              152.8,
+              112.8
+            ],
+            "hole_edge_to_mask_mm": 2.798025390309819
+          },
+          {
+            "xy": [
+              131.6,
+              123.3
+            ],
+            "hole_edge_to_mask_mm": 1.8106430138738956
+          },
+          {
+            "xy": [
+              127.1,
+              149.0
+            ],
+            "hole_edge_to_mask_mm": 1.5672500082654357
+          },
+          {
+            "xy": [
+              137.3,
+              148.5
+            ],
+            "hole_edge_to_mask_mm": 1.559310133781785
+          },
+          {
+            "xy": [
+              126.0,
+              114.8
+            ],
+            "hole_edge_to_mask_mm": 4.1325863406244965
+          },
+          {
+            "xy": [
+              145.8,
+              112.2
+            ],
+            "hole_edge_to_mask_mm": 1.8681459741988138
+          },
+          {
+            "xy": [
+              151.8,
+              112.2
+            ],
+            "hole_edge_to_mask_mm": 3.898864810421663
+          },
+          {
+            "xy": [
+              153.8,
+              145.5
+            ],
+            "hole_edge_to_mask_mm": 0.5199979754735534
+          },
+          {
+            "xy": [
+              120.8,
+              151.3
+            ],
+            "hole_edge_to_mask_mm": 3.566015386685509
+          },
+          {
+            "xy": [
+              127.7,
+              162.7
+            ],
+            "hole_edge_to_mask_mm": 0.6922955224901258
+          },
+          {
+            "xy": [
+              153.8,
+              167.9
+            ],
+            "hole_edge_to_mask_mm": 2.9444046272510933
+          },
+          {
+            "xy": [
+              115.2,
+              116.1
+            ],
+            "hole_edge_to_mask_mm": 1.8790951836970504
+          },
+          {
+            "xy": [
+              126.5,
+              114.0
+            ],
+            "hole_edge_to_mask_mm": 5.071706566551268
+          },
+          {
+            "xy": [
+              144.8,
+              112.2
+            ],
+            "hole_edge_to_mask_mm": 2.4018970892562455
+          },
+          {
+            "xy": [
+              150.8,
+              111.4
+            ],
+            "hole_edge_to_mask_mm": 3.1807883860012853
+          },
+          {
+            "xy": [
+              153.0,
+              141.3
+            ],
+            "hole_edge_to_mask_mm": 1.0702107527914844
+          },
+          {
+            "xy": [
+              136.3,
+              147.9
+            ],
+            "hole_edge_to_mask_mm": 2.6643597952679676
+          },
+          {
+            "xy": [
+              137.5,
+              153.8
+            ],
+            "hole_edge_to_mask_mm": 1.3360630430901412
+          },
+          {
+            "xy": [
+              130.0,
+              110.7
+            ],
+            "hole_edge_to_mask_mm": 2.7752477111205054
+          },
+          {
+            "xy": [
+              126.5,
+              110.4
+            ],
+            "hole_edge_to_mask_mm": 2.8239376912038954
+          },
+          {
+            "xy": [
+              124.0,
+              105.0
+            ],
+            "hole_edge_to_mask_mm": 3.6970715175129016
+          },
+          {
+            "xy": [
+              140.1,
+              104.5
+            ],
+            "hole_edge_to_mask_mm": 6.288935367722196
+          },
+          {
+            "xy": [
+              156.2,
+              109.9
+            ],
+            "hole_edge_to_mask_mm": 2.0516384095656326
+          },
+          {
+            "xy": [
+              147.6,
+              120.2
+            ],
+            "hole_edge_to_mask_mm": 6.507304259617205
+          },
+          {
+            "xy": [
+              141.2,
+              120.3
+            ],
+            "hole_edge_to_mask_mm": 0.42135977120676515
+          },
+          {
+            "xy": [
+              127.3,
+              171.1
+            ],
+            "hole_edge_to_mask_mm": 1.1270580391617542
+          },
+          {
+            "xy": [
+              150.2,
+              163.8
+            ],
+            "hole_edge_to_mask_mm": 3.8810505684997056
+          },
+          {
+            "xy": [
+              145.8,
+              127.1
+            ],
+            "hole_edge_to_mask_mm": 4.965916710536958
+          },
+          {
+            "xy": [
+              147.6,
+              127.1
+            ],
+            "hole_edge_to_mask_mm": 6.545738015790249
+          },
+          {
+            "xy": [
+              143.6,
+              145.5
+            ],
+            "hole_edge_to_mask_mm": 2.7658738614764475
+          },
+          {
+            "xy": [
+              143.6,
+              164.6
+            ],
+            "hole_edge_to_mask_mm": 2.6995732870923805
+          },
+          {
+            "xy": [
+              156.0,
+              139.9
+            ],
+            "hole_edge_to_mask_mm": 0.41399754447718096
+          },
+          {
+            "xy": [
+              167.3,
+              181.1
+            ],
+            "hole_edge_to_mask_mm": 0.7681285153162541
+          },
+          {
+            "xy": [
+              166.0,
+              162.6
+            ],
+            "hole_edge_to_mask_mm": 2.8388145856031555
+          },
+          {
+            "xy": [
+              165.1,
+              165.9
+            ],
+            "hole_edge_to_mask_mm": 5.337241311711237
+          },
+          {
+            "xy": [
+              158.5,
+              165.9
+            ],
+            "hole_edge_to_mask_mm": 2.7654019689957594
+          },
+          {
+            "xy": [
+              126.3,
+              155.8
+            ],
+            "hole_edge_to_mask_mm": 2.6026151169754126
+          },
+          {
+            "xy": [
+              126.3,
+              152.1
+            ],
+            "hole_edge_to_mask_mm": 1.9211241583187957
+          },
+          {
+            "xy": [
+              126.3,
+              148.5
+            ],
+            "hole_edge_to_mask_mm": 2.496825336994541
+          },
+          {
+            "xy": [
+              130.5,
+              147.9
+            ],
+            "hole_edge_to_mask_mm": 2.21496228889483
+          },
+          {
+            "xy": [
+              131.5,
+              152.9
+            ],
+            "hole_edge_to_mask_mm": 1.4884241587952538
+          },
+          {
+            "xy": [
+              129.2,
+              164.1
+            ],
+            "hole_edge_to_mask_mm": 1.5177986254359919
+          },
+          {
+            "xy": [
+              121.2,
+              126.0
+            ],
+            "hole_edge_to_mask_mm": 0.9635754140646858
+          },
+          {
+            "xy": [
+              132.3,
+              111.5
+            ],
+            "hole_edge_to_mask_mm": 3.7594603288819166
+          },
+          {
+            "xy": [
+              132.3,
+              109.8
+            ],
+            "hole_edge_to_mask_mm": 2.2003899607801234
+          },
+          {
+            "xy": [
+              122.6,
+              148.8
+            ],
+            "hole_edge_to_mask_mm": 2.8700111991275365
+          },
+          {
+            "xy": [
+              132.4,
+              113.2
+            ],
+            "hole_edge_to_mask_mm": 3.186269335309848
+          },
+          {
+            "xy": [
+              148.9,
+              116.1
+            ],
+            "hole_edge_to_mask_mm": 5.174246734437401
+          },
+          {
+            "xy": [
+              148.9,
+              110.6
+            ],
+            "hole_edge_to_mask_mm": 1.1256796861732883
+          },
+          {
+            "xy": [
+              154.4,
+              111.9
+            ],
+            "hole_edge_to_mask_mm": 2.984758468377888
+          },
+          {
+            "xy": [
+              158.2,
+              111.9
+            ],
+            "hole_edge_to_mask_mm": 3.920615987604348
+          },
+          {
+            "xy": [
+              159.3,
+              111.7
+            ],
+            "hole_edge_to_mask_mm": 3.9489859303140338
+          },
+          {
+            "xy": [
+              160.3,
+              109.9
+            ],
+            "hole_edge_to_mask_mm": 2.8616704548100254
+          },
+          {
+            "xy": [
+              163.1,
+              107.9
+            ],
+            "hole_edge_to_mask_mm": 4.425169305861521
+          },
+          {
+            "xy": [
+              170.1,
+              108.4
+            ],
+            "hole_edge_to_mask_mm": 11.42909761909188
+          },
+          {
+            "xy": [
+              144.7,
+              164.6
+            ],
+            "hole_edge_to_mask_mm": 3.792857011104671
+          },
+          {
+            "xy": [
+              144.4,
+              161.7
+            ],
+            "hole_edge_to_mask_mm": 3.4713340871619187
+          },
+          {
+            "xy": [
+              142.6,
+              161.7
+            ],
+            "hole_edge_to_mask_mm": 1.6722229654766032
+          }
+        ]
+      },
+      "cover_requirement_mm": 0.1,
+      "fabricator_certified": false,
+      "note": "Design gate only; board-fabricator tenting capability and registration allowance not certified."
+    },
+    "F.Cu": {
+      "region_count": 1,
+      "flash_count": 254,
+      "ground_area_mm2": 4945.434414231706,
+      "track_count": 1747
+    },
+    "B.Cu": {
+      "region_count": 1,
+      "flash_count": 208,
+      "ground_area_mm2": 7024.643108464538,
+      "track_count": 982
+    }
+  },
+  "errors": [],
+  "pad_clearances": [
+    {
+      "layer": "F.Cu",
+      "ref": "DC1",
+      "pin": "1",
+      "clearance_mm": 0.2980685745235244,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "F1",
+      "pin": "1",
+      "clearance_mm": 0.29999999999999716,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "F1",
+      "pin": "2",
+      "clearance_mm": 0.2999999999999972,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "C1",
+      "pin": "1",
+      "clearance_mm": 2.609006988672274,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "C2",
+      "pin": "1",
+      "clearance_mm": 1.25,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "Q_PWR",
+      "pin": "1",
+      "clearance_mm": 3.0549078396573477,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "Q_PWR",
+      "pin": "2",
+      "clearance_mm": 3.9476217028484233,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "Q_PWR",
+      "pin": "3",
+      "clearance_mm": 4.900987359461363,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "Q_PWR",
+      "pin": "5",
+      "clearance_mm": 3.7204200031716894,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "Q_PWR",
+      "pin": "6",
+      "clearance_mm": 2.5471994425250744,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "Q_PWR",
+      "pin": "7",
+      "clearance_mm": 1.5364650988551665,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "Q_PWR",
+      "pin": "8",
+      "clearance_mm": 0.5997491946639161,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "JP_USB",
+      "pin": "1",
+      "clearance_mm": 1.0750000000000028,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "JP_USB",
+      "pin": "2",
+      "clearance_mm": 3.6150000000000087,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "C3",
+      "pin": "1",
+      "clearance_mm": 1.0986073253272017,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "C4",
+      "pin": "1",
+      "clearance_mm": 2.299999999999997,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "U3",
+      "pin": "2",
+      "clearance_mm": 0.3000000000000113,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "U3",
+      "pin": "3",
+      "clearance_mm": 0.30000000000001137,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "U3",
+      "pin": "2",
+      "clearance_mm": 0.29999999999998295,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "C5",
+      "pin": "1",
+      "clearance_mm": 0.29999999999998295,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "C6",
+      "pin": "1",
+      "clearance_mm": 0.29999999999998295,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "C7",
+      "pin": "1",
+      "clearance_mm": 0.29999999999998295,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "D4",
+      "pin": "2",
+      "clearance_mm": 0.29999999999999716,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "D4",
+      "pin": "1",
+      "clearance_mm": 0.29999999999999716,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "R1",
+      "pin": "1",
+      "clearance_mm": 0.29999999999998295,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "D5",
+      "pin": "2",
+      "clearance_mm": 0.30000000000001137,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "D5",
+      "pin": "1",
+      "clearance_mm": 0.29999999999999716,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "R2",
+      "pin": "1",
+      "clearance_mm": 0.29999999999998295,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "MOTO1",
+      "pin": "1",
+      "clearance_mm": 0.8750000000000001,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "MOTO1",
+      "pin": "2",
+      "clearance_mm": 0.2986112848988133,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "SERVO1",
+      "pin": "2",
+      "clearance_mm": 3.5860116171333853,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "SERVO1",
+      "pin": "3",
+      "clearance_mm": 3.550000000000012,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "BZ1",
+      "pin": "1",
+      "clearance_mm": 4.625,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "BZ1",
+      "pin": "2",
+      "clearance_mm": 6.475765004330666,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "Q1",
+      "pin": "2",
+      "clearance_mm": 4.325000000000017,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "Q1",
+      "pin": "3",
+      "clearance_mm": 4.6571600456672755,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "D3",
+      "pin": "2",
+      "clearance_mm": 7.007127990867607,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "D3",
+      "pin": "1",
+      "clearance_mm": 4.347969949344188,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "R10",
+      "pin": "1",
+      "clearance_mm": 5.469443251410514,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "R10",
+      "pin": "2",
+      "clearance_mm": 3.8117987198172067,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_TB_L",
+      "pin": "1",
+      "clearance_mm": 0.29861128489880845,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_TB_L",
+      "pin": "2",
+      "clearance_mm": 0.2986112848987927,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_TB_L",
+      "pin": "3",
+      "clearance_mm": 0.2986112848987927,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_TB_L",
+      "pin": "4",
+      "clearance_mm": 0.2986112848987927,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_TB_R",
+      "pin": "1",
+      "clearance_mm": 3.8447459987957773,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_TB_R",
+      "pin": "2",
+      "clearance_mm": 3.1299999999999955,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_TB_R",
+      "pin": "4",
+      "clearance_mm": 2.4171227938894946,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_TB_R",
+      "pin": "5",
+      "clearance_mm": 1.918095383835,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_TB_R",
+      "pin": "6",
+      "clearance_mm": 1.7549999999999957,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_TB_R",
+      "pin": "7",
+      "clearance_mm": 1.7549999999999957,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "C_VM",
+      "pin": "1",
+      "clearance_mm": 6.159346626250925,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "C_VM_MLCC",
+      "pin": "1",
+      "clearance_mm": 3.4749999999999943,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "R_STBY",
+      "pin": "1",
+      "clearance_mm": 0.29999999999998295,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_DHT11",
+      "pin": "1",
+      "clearance_mm": 0.2986112848988032,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_DHT11",
+      "pin": "2",
+      "clearance_mm": 1.200000000000017,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "R_DHT",
+      "pin": "1",
+      "clearance_mm": 0.30000000000001137,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "R_DHT",
+      "pin": "2",
+      "clearance_mm": 1.7262676501631977,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "1",
+      "clearance_mm": 9.127623163602077,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "3",
+      "clearance_mm": 9.89500000000001,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "4",
+      "clearance_mm": 9.89500000000001,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "5",
+      "clearance_mm": 9.89500000000001,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "6",
+      "clearance_mm": 9.89500000000001,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "7",
+      "clearance_mm": 9.89500000000001,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "8",
+      "clearance_mm": 9.468202624601009,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "9",
+      "clearance_mm": 9.097221585381627,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "10",
+      "clearance_mm": 9.094999999999999,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "11",
+      "clearance_mm": 9.094999999999999,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "12",
+      "clearance_mm": 8.065486492073465,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "13",
+      "clearance_mm": 5.604857238091612,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "14",
+      "clearance_mm": 3.2424054852016613,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "15",
+      "clearance_mm": 1.3206360305768987,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "16",
+      "clearance_mm": 0.9950000000000045,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "17",
+      "clearance_mm": 0.9950000000000045,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "18",
+      "clearance_mm": 0.29860835232275346,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "19",
+      "clearance_mm": 0.29861128489880373,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_L",
+      "pin": "20",
+      "clearance_mm": 0.2986112848988032,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "1",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "2",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "3",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "4",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "5",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "6",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "7",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "8",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "9",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "10",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "11",
+      "clearance_mm": 0.2986108053766054,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "12",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "13",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "14",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "15",
+      "clearance_mm": 0.2986112848987927,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "16",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "17",
+      "clearance_mm": 0.2986112848988032,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_MCU_R",
+      "pin": "18",
+      "clearance_mm": 0.29861128489880373,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "R_SCL",
+      "pin": "1",
+      "clearance_mm": 8.596472312530286,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "R_SCL",
+      "pin": "2",
+      "clearance_mm": 7.023840560555172,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "R_SDA",
+      "pin": "1",
+      "clearance_mm": 8.087446211264703,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "R_SDA",
+      "pin": "2",
+      "clearance_mm": 6.390757875252355,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_VOICE_L",
+      "pin": "2",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_VOICE_L",
+      "pin": "3",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_VOICE_L",
+      "pin": "4",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_VOICE_L",
+      "pin": "5",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_VOICE_L",
+      "pin": "6",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_VOICE_L",
+      "pin": "7",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_VOICE_L",
+      "pin": "8",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_VOICE_R",
+      "pin": "1",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_VOICE_R",
+      "pin": "3",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_VOICE_R",
+      "pin": "4",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_VOICE_R",
+      "pin": "5",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_VOICE_R",
+      "pin": "6",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_VOICE_R",
+      "pin": "7",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_VOICE_R",
+      "pin": "8",
+      "clearance_mm": 0.2986112848987985,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "JP_ASR",
+      "pin": "1",
+      "clearance_mm": 7.05965632513884,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "JP_ASR",
+      "pin": "2",
+      "clearance_mm": 6.999999999999999,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "JP_ASR_TX",
+      "pin": "1",
+      "clearance_mm": 8.417053320446405,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "JP_ASR_TX",
+      "pin": "2",
+      "clearance_mm": 9.952350433718193,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "JP_ASR_RX",
+      "pin": "1",
+      "clearance_mm": 8.100000000000023,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "JP_ASR_RX",
+      "pin": "2",
+      "clearance_mm": 5.560000000000031,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "SPK1",
+      "pin": "1",
+      "clearance_mm": 0.298611284898808,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "SPK1",
+      "pin": "2",
+      "clearance_mm": 0.298611284898808,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_OLED",
+      "pin": "2",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_OLED",
+      "pin": "3",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_OLED",
+      "pin": "4",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_GESTURE",
+      "pin": "1",
+      "clearance_mm": 0.298611284898808,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_GESTURE",
+      "pin": "3",
+      "clearance_mm": 1.3000000000000114,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_GESTURE",
+      "pin": "4",
+      "clearance_mm": 1.3000000000000114,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_GESTURE",
+      "pin": "5",
+      "clearance_mm": 1.3000000000000114,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_KEY1",
+      "pin": "2",
+      "clearance_mm": 0.298611284898808,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_KEY1",
+      "pin": "3",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_KEY2",
+      "pin": "2",
+      "clearance_mm": 0.298611284898808,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_KEY2",
+      "pin": "3",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_ENC",
+      "pin": "1",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_ENC",
+      "pin": "3",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "F.Cu",
+      "ref": "J_ENC",
+      "pin": "5",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "DC1",
+      "pin": "1",
+      "clearance_mm": 0.29806857452352437,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "C1",
+      "pin": "1",
+      "clearance_mm": 0.2986707318314104,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "JP_USB",
+      "pin": "1",
+      "clearance_mm": 0.298611284898808,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "JP_USB",
+      "pin": "2",
+      "clearance_mm": 0.2986112848988032,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "C3",
+      "pin": "1",
+      "clearance_mm": 0.2986707318314104,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "MOTO1",
+      "pin": "1",
+      "clearance_mm": 0.2986112848988133,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "MOTO1",
+      "pin": "2",
+      "clearance_mm": 0.2986112848988133,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "SERVO1",
+      "pin": "2",
+      "clearance_mm": 0.2986112848988133,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "SERVO1",
+      "pin": "3",
+      "clearance_mm": 0.29861128489880845,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "BZ1",
+      "pin": "1",
+      "clearance_mm": 0.29855025332964275,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "BZ1",
+      "pin": "2",
+      "clearance_mm": 0.29855025332962565,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "Q1",
+      "pin": "2",
+      "clearance_mm": 0.2987931656211081,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "Q1",
+      "pin": "3",
+      "clearance_mm": 0.29879270369220073,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_TB_L",
+      "pin": "1",
+      "clearance_mm": 0.29861128489880845,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_TB_L",
+      "pin": "2",
+      "clearance_mm": 0.2986112848987927,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_TB_L",
+      "pin": "3",
+      "clearance_mm": 0.2986112848987927,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_TB_L",
+      "pin": "4",
+      "clearance_mm": 0.2986112848987927,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_TB_R",
+      "pin": "1",
+      "clearance_mm": 0.29861128489880845,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_TB_R",
+      "pin": "2",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_TB_R",
+      "pin": "4",
+      "clearance_mm": 0.2986112848987927,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_TB_R",
+      "pin": "5",
+      "clearance_mm": 0.2986112848987927,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_TB_R",
+      "pin": "6",
+      "clearance_mm": 0.2986112848987927,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_TB_R",
+      "pin": "7",
+      "clearance_mm": 0.2986112848987927,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "C_VM",
+      "pin": "1",
+      "clearance_mm": 0.2986707318314121,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_DHT11",
+      "pin": "1",
+      "clearance_mm": 0.2986112848988032,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_DHT11",
+      "pin": "2",
+      "clearance_mm": 0.298611284898808,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "1",
+      "clearance_mm": 1.4950000000000045,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "3",
+      "clearance_mm": 1.0075786909798974,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "4",
+      "clearance_mm": 0.8950000000000101,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "5",
+      "clearance_mm": 0.8950000000000101,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "6",
+      "clearance_mm": 0.8950000000000101,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "7",
+      "clearance_mm": 0.2986117875710613,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "8",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "9",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "10",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "11",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "12",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "13",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "14",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "15",
+      "clearance_mm": 0.2986112848987927,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "16",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "17",
+      "clearance_mm": 0.29861128489880806,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "18",
+      "clearance_mm": 0.8549999999999899,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "19",
+      "clearance_mm": 0.8549999999999898,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_L",
+      "pin": "20",
+      "clearance_mm": 0.8549999999999898,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "1",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "2",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "3",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "4",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "5",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "6",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "7",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "8",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "9",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "10",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "11",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "12",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "13",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "14",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "15",
+      "clearance_mm": 0.2986112848987927,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "16",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "17",
+      "clearance_mm": 0.2986112848988032,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_MCU_R",
+      "pin": "18",
+      "clearance_mm": 0.29861128489880373,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_VOICE_L",
+      "pin": "2",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_VOICE_L",
+      "pin": "3",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_VOICE_L",
+      "pin": "4",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_VOICE_L",
+      "pin": "5",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_VOICE_L",
+      "pin": "6",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_VOICE_L",
+      "pin": "7",
+      "clearance_mm": 0.2986112848987985,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_VOICE_L",
+      "pin": "8",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_VOICE_R",
+      "pin": "1",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_VOICE_R",
+      "pin": "3",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_VOICE_R",
+      "pin": "4",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_VOICE_R",
+      "pin": "5",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_VOICE_R",
+      "pin": "6",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_VOICE_R",
+      "pin": "7",
+      "clearance_mm": 0.2986112848987985,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_VOICE_R",
+      "pin": "8",
+      "clearance_mm": 0.2986112848987879,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "JP_ASR",
+      "pin": "1",
+      "clearance_mm": 0.29861178757106555,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "JP_ASR",
+      "pin": "2",
+      "clearance_mm": 0.8749999999999999,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "JP_ASR_TX",
+      "pin": "1",
+      "clearance_mm": 0.8749999999999999,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "JP_ASR_TX",
+      "pin": "2",
+      "clearance_mm": 0.8749999999999999,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "JP_ASR_RX",
+      "pin": "1",
+      "clearance_mm": 0.298611284898808,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "JP_ASR_RX",
+      "pin": "2",
+      "clearance_mm": 0.2986112848987869,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "SPK1",
+      "pin": "1",
+      "clearance_mm": 0.298611284898808,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "SPK1",
+      "pin": "2",
+      "clearance_mm": 0.298611284898808,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_OLED",
+      "pin": "2",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_OLED",
+      "pin": "3",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_OLED",
+      "pin": "4",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_GESTURE",
+      "pin": "1",
+      "clearance_mm": 0.298611284898808,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_GESTURE",
+      "pin": "3",
+      "clearance_mm": 0.298611284898808,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_GESTURE",
+      "pin": "4",
+      "clearance_mm": 0.2986112848988032,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_GESTURE",
+      "pin": "5",
+      "clearance_mm": 0.298611284898808,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_KEY1",
+      "pin": "2",
+      "clearance_mm": 0.298611284898808,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_KEY1",
+      "pin": "3",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_KEY2",
+      "pin": "2",
+      "clearance_mm": 0.298611284898808,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_KEY2",
+      "pin": "3",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_ENC",
+      "pin": "1",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_ENC",
+      "pin": "3",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    },
+    {
+      "layer": "B.Cu",
+      "ref": "J_ENC",
+      "pin": "5",
+      "clearance_mm": 0.29861128489879746,
+      "overlap_mm2": 0.0
+    }
+  ]
+}

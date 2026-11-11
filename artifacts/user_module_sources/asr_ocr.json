@@ -1,0 +1,669 @@
+﻿{
+    "path":  "E:\\桌面\\原理图\\ASR-PRO语音模块资料\\ASR-PRO语音模块资料\\asr-pro开发板原理图.png",
+    "lines":  [
+                  {
+                      "text":  "U 」 TO TX",
+                      "words":  [
+                                    {
+                                        "y":  186,
+                                        "height":  7,
+                                        "width":  7,
+                                        "text":  "U",
+                                        "x":  279
+                                    },
+                                    {
+                                        "y":  188,
+                                        "height":  5,
+                                        "width":  3,
+                                        "text":  "」",
+                                        "x":  286
+                                    },
+                                    {
+                                        "y":  185,
+                                        "height":  8,
+                                        "width":  12,
+                                        "text":  "TO",
+                                        "x":  299
+                                    },
+                                    {
+                                        "y":  186,
+                                        "height":  7,
+                                        "width":  15,
+                                        "text":  "TX",
+                                        "x":  315
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "U 」 TO RX",
+                      "words":  [
+                                    {
+                                        "y":  246,
+                                        "height":  7,
+                                        "width":  7,
+                                        "text":  "U",
+                                        "x":  279
+                                    },
+                                    {
+                                        "y":  248,
+                                        "height":  5,
+                                        "width":  3,
+                                        "text":  "」",
+                                        "x":  286
+                                    },
+                                    {
+                                        "y":  245,
+                                        "height":  8,
+                                        "width":  12,
+                                        "text":  "TO",
+                                        "x":  299
+                                    },
+                                    {
+                                        "y":  246,
+                                        "height":  7,
+                                        "width":  15,
+                                        "text":  "RX",
+                                        "x":  315
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "4.7uF",
+                      "words":  [
+                                    {
+                                        "y":  256,
+                                        "height":  8,
+                                        "width":  24,
+                                        "text":  "4.7uF",
+                                        "x":  602
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "、 1 〕 DII",
+                      "words":  [
+                                    {
+                                        "y":  222,
+                                        "height":  7,
+                                        "width":  5,
+                                        "text":  "、",
+                                        "x":  755
+                                    },
+                                    {
+                                        "y":  222,
+                                        "height":  7,
+                                        "width":  4,
+                                        "text":  "1",
+                                        "x":  760
+                                    },
+                                    {
+                                        "y":  222,
+                                        "height":  7,
+                                        "width":  3,
+                                        "text":  "〕",
+                                        "x":  765
+                                    },
+                                    {
+                                        "y":  222,
+                                        "height":  7,
+                                        "width":  14,
+                                        "text":  "DII",
+                                        "x":  769
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "辜 7 硭",
+                      "words":  [
+                                    {
+                                        "y":  256,
+                                        "height":  8,
+                                        "width":  7,
+                                        "text":  "辜",
+                                        "x":  650
+                                    },
+                                    {
+                                        "y":  257,
+                                        "height":  7,
+                                        "width":  5,
+                                        "text":  "7",
+                                        "x":  658
+                                    },
+                                    {
+                                        "y":  257,
+                                        "height":  7,
+                                        "width":  10,
+                                        "text":  "硭",
+                                        "x":  663
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "PA2 卜 [ 瑁 的 二 O SDMTXI/PWMO",
+                      "words":  [
+                                    {
+                                        "y":  281,
+                                        "height":  8,
+                                        "width":  18,
+                                        "text":  "PA2",
+                                        "x":  755
+                                    },
+                                    {
+                                        "y":  281,
+                                        "height":  8,
+                                        "width":  7,
+                                        "text":  "卜",
+                                        "x":  773
+                                    },
+                                    {
+                                        "y":  282,
+                                        "height":  7,
+                                        "width":  2,
+                                        "text":  "[",
+                                        "x":  781
+                                    },
+                                    {
+                                        "y":  281,
+                                        "height":  8,
+                                        "width":  9,
+                                        "text":  "瑁",
+                                        "x":  784
+                                    },
+                                    {
+                                        "y":  281,
+                                        "height":  8,
+                                        "width":  6,
+                                        "text":  "的",
+                                        "x":  794
+                                    },
+                                    {
+                                        "y":  282,
+                                        "height":  7,
+                                        "width":  5,
+                                        "text":  "二",
+                                        "x":  800
+                                    },
+                                    {
+                                        "y":  281,
+                                        "height":  8,
+                                        "width":  5,
+                                        "text":  "O",
+                                        "x":  805
+                                    },
+                                    {
+                                        "y":  281,
+                                        "height":  8,
+                                        "width":  72,
+                                        "text":  "SDMTXI/PWMO",
+                                        "x":  814
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "PA_m_RCX/lICI) SCIJR_XI/PV\"MI",
+                      "words":  [
+                                    {
+                                        "y":  293,
+                                        "height":  8,
+                                        "width":  65,
+                                        "text":  "PA_m_RCX/lICI)",
+                                        "x":  755
+                                    },
+                                    {
+                                        "y":  293,
+                                        "height":  8,
+                                        "width":  69,
+                                        "text":  "SCIJR_XI/PV\"MI",
+                                        "x":  825
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "P. 、 ` 卜 CL 刁 凹 1 ] 了 rX2 W 、 0",
+                      "words":  [
+                                    {
+                                        "y":  306,
+                                        "height":  7,
+                                        "width":  7,
+                                        "text":  "P.",
+                                        "x":  755
+                                    },
+                                    {
+                                        "y":  306,
+                                        "height":  7,
+                                        "width":  5,
+                                        "text":  "、",
+                                        "x":  762
+                                    },
+                                    {
+                                        "y":  306,
+                                        "height":  7,
+                                        "width":  5,
+                                        "text":  "`",
+                                        "x":  768
+                                    },
+                                    {
+                                        "y":  305,
+                                        "height":  8,
+                                        "width":  7,
+                                        "text":  "卜",
+                                        "x":  773
+                                    },
+                                    {
+                                        "y":  306,
+                                        "height":  7,
+                                        "width":  13,
+                                        "text":  "CL",
+                                        "x":  780
+                                    },
+                                    {
+                                        "y":  305,
+                                        "height":  8,
+                                        "width":  8,
+                                        "text":  "刁",
+                                        "x":  794
+                                    },
+                                    {
+                                        "y":  306,
+                                        "height":  7,
+                                        "width":  8,
+                                        "text":  "凹",
+                                        "x":  803
+                                    },
+                                    {
+                                        "y":  306,
+                                        "height":  7,
+                                        "width":  3,
+                                        "text":  "1",
+                                        "x":  820
+                                    },
+                                    {
+                                        "y":  306,
+                                        "height":  7,
+                                        "width":  4,
+                                        "text":  "]",
+                                        "x":  841
+                                    },
+                                    {
+                                        "y":  305,
+                                        "height":  8,
+                                        "width":  6,
+                                        "text":  "了",
+                                        "x":  846
+                                    },
+                                    {
+                                        "y":  305,
+                                        "height":  8,
+                                        "width":  17,
+                                        "text":  "rX2",
+                                        "x":  853
+                                    },
+                                    {
+                                        "y":  306,
+                                        "height":  7,
+                                        "width":  9,
+                                        "text":  "W",
+                                        "x":  878
+                                    },
+                                    {
+                                        "y":  306,
+                                        "height":  7,
+                                        "width":  5,
+                                        "text":  "、",
+                                        "x":  888
+                                    },
+                                    {
+                                        "y":  305,
+                                        "height":  9,
+                                        "width":  7,
+                                        "text":  "0",
+                                        "x":  893
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "14",
+                      "words":  [
+                                    {
+                                        "y":  300,
+                                        "height":  7,
+                                        "width":  9,
+                                        "text":  "14",
+                                        "x":  1068
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "、 ℃ SIWPV\"MI",
+                      "words":  [
+                                    {
+                                        "y":  306,
+                                        "height":  7,
+                                        "width":  8,
+                                        "text":  "、",
+                                        "x":  963
+                                    },
+                                    {
+                                        "y":  306,
+                                        "height":  7,
+                                        "width":  8,
+                                        "text":  "℃",
+                                        "x":  981
+                                    },
+                                    {
+                                        "y":  305,
+                                        "height":  8,
+                                        "width":  49,
+                                        "text":  "SIWPV\"MI",
+                                        "x":  999
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "PA 禪 、 任 1 ． 心 凹 〕 M CL 刁 R ） 2",
+                      "words":  [
+                                    {
+                                        "y":  318,
+                                        "height":  7,
+                                        "width":  13,
+                                        "text":  "PA",
+                                        "x":  933
+                                    },
+                                    {
+                                        "y":  317,
+                                        "height":  8,
+                                        "width":  7,
+                                        "text":  "禪",
+                                        "x":  946
+                                    },
+                                    {
+                                        "y":  318,
+                                        "height":  7,
+                                        "width":  5,
+                                        "text":  "、",
+                                        "x":  954
+                                    },
+                                    {
+                                        "y":  318,
+                                        "height":  7,
+                                        "width":  7,
+                                        "text":  "任",
+                                        "x":  959
+                                    },
+                                    {
+                                        "y":  318,
+                                        "height":  7,
+                                        "width":  4,
+                                        "text":  "1",
+                                        "x":  967
+                                    },
+                                    {
+                                        "y":  324,
+                                        "height":  1,
+                                        "width":  2,
+                                        "text":  "．",
+                                        "x":  972
+                                    },
+                                    {
+                                        "y":  317,
+                                        "height":  8,
+                                        "width":  9,
+                                        "text":  "心",
+                                        "x":  975
+                                    },
+                                    {
+                                        "y":  318,
+                                        "height":  7,
+                                        "width":  7,
+                                        "text":  "凹",
+                                        "x":  985
+                                    },
+                                    {
+                                        "y":  318,
+                                        "height":  7,
+                                        "width":  3,
+                                        "text":  "〕",
+                                        "x":  993
+                                    },
+                                    {
+                                        "y":  318,
+                                        "height":  7,
+                                        "width":  8,
+                                        "text":  "M",
+                                        "x":  997
+                                    },
+                                    {
+                                        "y":  318,
+                                        "height":  7,
+                                        "width":  12,
+                                        "text":  "CL",
+                                        "x":  1010
+                                    },
+                                    {
+                                        "y":  317,
+                                        "height":  8,
+                                        "width":  8,
+                                        "text":  "刁",
+                                        "x":  1023
+                                    },
+                                    {
+                                        "y":  318,
+                                        "height":  7,
+                                        "width":  6,
+                                        "text":  "R",
+                                        "x":  1032
+                                    },
+                                    {
+                                        "y":  318,
+                                        "height":  7,
+                                        "width":  4,
+                                        "text":  "）",
+                                        "x":  1039
+                                    },
+                                    {
+                                        "y":  317,
+                                        "height":  8,
+                                        "width":  6,
+                                        "text":  "2",
+                                        "x":  1043
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "QluF",
+                      "words":  [
+                                    {
+                                        "y":  591,
+                                        "height":  9,
+                                        "width":  23,
+                                        "text":  "QluF",
+                                        "x":  907
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "OluF",
+                      "words":  [
+                                    {
+                                        "y":  681,
+                                        "height":  8,
+                                        "width":  23,
+                                        "text":  "OluF",
+                                        "x":  979
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "斟 《 5",
+                      "words":  [
+                                    {
+                                        "y":  300,
+                                        "height":  7,
+                                        "width":  8,
+                                        "text":  "斟",
+                                        "x":  1100
+                                    },
+                                    {
+                                        "y":  300,
+                                        "height":  7,
+                                        "width":  3,
+                                        "text":  "《",
+                                        "x":  1109
+                                    },
+                                    {
+                                        "y":  300,
+                                        "height":  7,
+                                        "width":  5,
+                                        "text":  "5",
+                                        "x":  1112
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "MICP L",
+                      "words":  [
+                                    {
+                                        "y":  216,
+                                        "height":  7,
+                                        "width":  23,
+                                        "text":  "MICP",
+                                        "x":  1125
+                                    },
+                                    {
+                                        "y":  216,
+                                        "height":  7,
+                                        "width":  5,
+                                        "text":  "L",
+                                        "x":  1153
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "MCP R",
+                      "words":  [
+                                    {
+                                        "y":  252,
+                                        "height":  7,
+                                        "width":  24,
+                                        "text":  "MCP",
+                                        "x":  1130
+                                    },
+                                    {
+                                        "y":  252,
+                                        "height":  7,
+                                        "width":  7,
+                                        "text":  "R",
+                                        "x":  1158
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "LARTO `",
+                      "words":  [
+                                    {
+                                        "y":  288,
+                                        "height":  7,
+                                        "width":  31,
+                                        "text":  "LARTO",
+                                        "x":  1130
+                                    },
+                                    {
+                                        "y":  288,
+                                        "height":  7,
+                                        "width":  6,
+                                        "text":  "`",
+                                        "x":  1173
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "LARTO ] 乁",
+                      "words":  [
+                                    {
+                                        "y":  300,
+                                        "height":  7,
+                                        "width":  31,
+                                        "text":  "LARTO",
+                                        "x":  1130
+                                    },
+                                    {
+                                        "y":  300,
+                                        "height":  7,
+                                        "width":  4,
+                                        "text":  "]",
+                                        "x":  1166
+                                    },
+                                    {
+                                        "y":  300,
+                                        "height":  7,
+                                        "width":  8,
+                                        "text":  "乁",
+                                        "x":  1171
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "CH340K",
+                      "words":  [
+                                    {
+                                        "y":  455,
+                                        "height":  28,
+                                        "width":  134,
+                                        "text":  "CH340K",
+                                        "x":  623
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "方 C",
+                      "words":  [
+                                    {
+                                        "y":  61,
+                                        "height":  26,
+                                        "width":  26,
+                                        "text":  "方",
+                                        "x":  1397
+                                    },
+                                    {
+                                        "y":  60,
+                                        "height":  28,
+                                        "width":  25,
+                                        "text":  "C",
+                                        "x":  1424
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "SE-ILTI\"VN",
+                      "words":  [
+                                    {
+                                        "y":  981,
+                                        "height":  8,
+                                        "width":  58,
+                                        "text":  "SE-ILTI\"VN",
+                                        "x":  1443
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "〕 2",
+                      "words":  [
+                                    {
+                                        "y":  982,
+                                        "height":  7,
+                                        "width":  6,
+                                        "text":  "〕",
+                                        "x":  1525
+                                    },
+                                    {
+                                        "y":  981,
+                                        "height":  8,
+                                        "width":  5,
+                                        "text":  "2",
+                                        "x":  1530
+                                    }
+                                ]
+                  }
+              ],
+    "text":  "U 」 TO TX U 」 TO RX 4.7uF 、 1 〕 DII 辜 7 硭 PA2 卜 [ 瑁 的 二 O SDMTXI/PWMO PA_m_RCX/lICI) SCIJR_XI/PV\"MI P. 、 ` 卜 CL 刁 凹 1 ] 了 rX2 W 、 0 14 、 ℃ SIWPV\"MI PA 禪 、 任 1 ． 心 凹 〕 M CL 刁 R ） 2 QluF OluF 斟 《 5 MICP L MCP R LARTO ` LARTO ] 乁 CH340K 方 C SE-ILTI\"VN 〕 2"
+}

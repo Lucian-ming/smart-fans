@@ -1,0 +1,17820 @@
+PAGE 1
+November 2015
+1.86g
+MLCC(02A104M) 1piece
+C
+a
+r
+b
+o
+n
+ 
+E
+m
+i
+s
+s
+i
+o
+n
+
+PAGE 2
+1.86g
+MLCC(02A104M) 1piece
+1.86g
+C
+a
+r
+b
+o
+n
+ 
+E
+m
+i
+s
+s
+i
+o
+n
+We declare that all our MLCCs are produced in accordance 
+with EU ROHS and REACH Directive.
+1.RoHS Compliance and restriction of Br
+The following restricted materials are not used in packaging materials as well as products in  compliance with the law and restriction.
+- Cd, Pb, Hg, Cr6+, As, Br and the compounds, PCB, asbestos 
+2.No use of materials breaking Ozone layer
+The following ODS materials are not used in our fabrication process.
+- ODS material : Freon, Haron, 1-1-1 TCE, CCl4, HCFC
+If you want more detailed Information,Please Visit Samsung Electro-mechanics Website 
+[http://www.semlcr.com]
+Please, see the last page of this catalog for our environ mental certification list.
+
+PAGE 3
+CONTENTS
+Part Numbering System
+Standard & High Capacitors
+Medium-High Voltage Capacitors
+Array Type Capacitors
+Low ESL Capacitors
+Reliability Test Condition
+Premium Capacitors for Automotive Applications
+Packaging Specification
+Application Manual for Surface Mounting
+Part Numbering
+System
+4
+6
+Standard & 
+High Capacitors
+Super Small Size Capacitors
+30
+Super Small Size 
+Capacitors
+High-Q Capacitors
+35
+High-Q
+Capacitors
+36
+Medium-High 
+Voltage Capacitors
+47
+Array Type 
+Capacitors
+50
+Low ESL
+Capacitors
+76
+Application Manual 
+for Surface Mounting
+72
+Packaging 
+Specification
+60
+Premium Capacitors
+for Automotive
+Applications
+53
+Reliability Test 
+Condition
+
+PAGE 4
+Part Numbering 
+System
+CL    10    A    106    M   P   8     N     N    N    C
+1      2      3      4      5      6      7      8       9     10    11
+8 = Cardboard Tape, 7”Reel
+Z = Cardboard Type, 7”Reel (Chip aligned for horizontal SMT)
+Y = Cardboard Type, 7”Reel (Chip aligned for vertical SMT)
+1. SERIES CODE
+CL = Multi layer Ceramic Capacitors
+3. DIELECTRIC CODE
+ClassⅠ
+ClassⅡ
+C = C0G                       A = X5R     F = Y5V        
+B = X7R   X = X6S
+Y= X7S   Z = X7T
+6. RATED VOLTAGE CODE
+R = 4V      O = 16V        B = 50V           E = 250V       H = 630V            K = 3000V
+Q = 6.3V      A = 25V        C = 100V         F = 350V        I = 1000V
+P = 10V        L = 35V        D = 200V        G = 500V       J = 2000V
+7. THICKNESS CODE
+8. INNER ELECTRODE/TERMINATION/PLATING CODE
+A = Normal Product Pd / Ag / Ni barrier / Sn 100%
+N = Normal Product Ni / Cu / Ni barrier / Sn 100%
+G = Normal Product Cu / Cu / Ni barrier / Sn 100%
+L  = Low profile Ni / Cu / Ni barrier / Sn 100%
+S = Nomal Product Ni / Cu / Soft termination / Ni barrier / Sn100%
+9. PRODUCT CODE
+N = Normal
+A = Array(4-element)   
+B = Array(4-element)
+L = LICC
+J = SLIC
+10. CONTROL CODE
+N= Reserved for future use
+11. PACKAGING CODE
+B = Bulk                                   
+O = Cardboard Tape, 10”Reel                                  E = Embossed Type, 7”Reel                     
+P = Bulk Case                             
+D= Cardboard Tape, 13”Reel (10,000ea)               G = Embossed Type, 7”Reel (3,000ea)      
+C= Cardboard Tape, 7”Reel     
+L = Cardboard Tape, 13”Reel (15,000ea)                  F = Embossed Type, 13”Reel
+H = Cardboard Tape, 7”Reel (15,000ea)                                                                                         S = Embossed Type, 10”Reel
+2. SIZE CODE
+02 = 01005(0402)    21 = 0805(2012)      43 = 1812(4532)   
+03 = 0201(0603)     31 = 1206(3216)     55 = 2220(5750)       
+05 = 0402(1005)      32 = 1210(3225)   
+10 = 0603(1608)     42 = 1808(4520)
+4. CAPACITANCE CODE
+Capacitance expressed in . 2 significant digits plus number of zeros.
+example) 106 = 10106=10000000
+For Values
+10
+, Letter R denotes decimal point
+example) 1R5 =1.5
+㎊
+㎊
+㎊
+㎊
+★
+★★
+★★★
+5. TOLERANCE CODE
+B =
+0.1
+F =
+1
+, 1%
+K = 10%        
+C =
+0.25
+G=
+2%                     M =
+20%
+D =
+0.5
+J =
+5%                     Z =80/20%   
+*For Values ≤ 10
+, F =
+1
+Values
+10
+, F =
+
+㎊
+ ㎊
+
+
+
+㎊
+
+
+
+㎊
+
+㎊
+ ㎊
+㎊
+1%
+inch(㎜)
+*Size tolerance
+Size
+Code
+S
+Q
+R
+U
+Z
+9
+01005(0402)
+0.03
+0.05
+0.07
+0.09
+0201(0603)
+0.05
+0.07
+0.09
+0402(1005)
+0.07
+0.10
+0.15
+0.20
+0.40
+0.30
+0603(1608)
+0.07
+0.15
+0.20
+0.25
+0.30
+0805(2012)
+0.15
+0.20
+0.30
+1206(3216)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0.30
+2 = 0.20
+3 = 0.30
+5 = 0.50
+8 = 0.80
+9 = 0.90
+A = 0.65
+F = 1.25
+L = 3.20
+S = 1.35
+C = 0.85
+H = 1.60
+M = 1.15
+U = 1.80
+D = 1.00
+I = 2.00
+P = 1.15
+V = 2.50
+E = 1.10
+J = 2.50
+Q = 1.25
+Y = 1.25
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+
+
+
+PAGE 5
+4
+★★
+Class I (Temperature Compensation) 
+Symbol
+EIA Code
+Operation Temperature Range(℃)
+Temperature Coefficient Range(ppm/℃)
+Symbol
+EIA Code
+Operation Temperature Range(℃)
+Capacitance Change(△℃%)
+C0G
+C
+E-3
+E-6
+E-12
+1.0
+1.0                        1.5
+1.0         1.2          1.5         1.8          2.2         2.7          3.3         3.9          4.7         5.6         6.8          8.2
+2.2                       3.3
+4.7                        6.8
+2.2
+4.7
+Y5V
+X5R
+X7R
+X6S
+X7S
+X7T
+C0G
+55 125
+0 30
+Capacitance Step
+TC
+Series
+★★★
+01005(0402)
+0201(0603)
+0402(1005)
+0603(1608)
+0805(2012)
+1206(3216)
+2
+3
+3
+5
+5
+8
+A
+C
+C
+M
+F
+Q
+Y
+C
+C
+E
+E
+P
+M
+F
+H
+0.20
+0.30
+0.30
+0.50
+0.50
+0.80
+0.65
+0.85
+0.85
+1.15
+1.25
+1.25
+1.25
+0.85
+0.85
+1.10
+1.10
+1.15
+1.15
+1.25
+1.60
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0.02
+0.03
+0.03*
+0.05
+0.0/0.1*
+0.10
+0.10
+0.10
+0.10*
+0.10
+0.10
+0.15
+0.20
+0.15
+0.10*
+0.15
+0.10*
+0.10*
+0.15
+0.15
+0.20
+Size
+Code
+Size
+Code
+Thickness(mm)
+Thickness(mm)
+Spec(mm)
+Spec(mm)
+C
+9
+F
+S
+H
+U
+I
+J
+V
+F
+H
+I
+F
+H
+I
+J
+L
+H
+I
+J
+L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0.85
+0.90
+1.25
+1.35
+1.60
+1.80
+2.00
+2.50
+2.50
+1.25
+1.60
+2.00
+1.25
+1.60
+2.00
+2.50
+3.20
+1.60
+2.00
+2.50
+3.00
+0.10*
+0.10*
+0.20
+0.15
+0.20
+0.20*
+0.20
+0.20
+0.30
+0.20
+0.20
+0.20
+0.20
+0.20
+0.20
+0.20
+0.30
+0.20
+0.20
+0.20
+0.30
+★
+Class ll (High Dielectric Constant) 
+X5R
+X7R
+X6S
+Y5V
+X7S
+X7T
+A
+B
+X
+F
+Y
+Z
+55   85
+55 125
+55 105
+30   85
+55 125
+55 125
+15
+15
+22
+82 22
+22
+33 22
+■*Mark is only applicable to “L”code, 12    code in part number.
+th
+■Please discuss with sales person with regard to Pd products.
+1210(3225)
+1808(4520)
+1812(4532)
+2220(5750)
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+5
+
+PAGE 6
+Standard & High Capacitors
+L
+T
+BW
+W
+Size Code
+EIA Code
+L                             W                             T                 Thickness  Code               BW
+Dimension(mm)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0402
+0603
+0805
+1206
+1210
+1808
+1812
+2220
+
+
+
+
+
+
+
+05
+10
+21
+31
+32
+42
+43
+55
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0.50
+0.05
+0.500.0/0.1(*)
+0.80
+0.10
+0.85
+0.10
+1.15
+0.10
+1.25
+0.10
+1.25
+0.15
+1.25
+0.20
+0.60
+0.10(*)
+0.85
+0.15
+0.85
+0.10(*)
+1.15
+0.10(*)
+1.25
+0.15
+1.60
+0.20
+0.85
+0.10(*)
+0.90
+0.10(*)
+1.60
+0.20
+1.80
+0.20(*)
+2.00
+0.20
+2.50
+0.20
+2.50
+0.30
+1.25
+0.20
+1.40
+0.20
+2.00
+0.20
+1.25
+0.20
+2.50
+0.20
+3.20
+0.30
+2.50
+0.20
+3.20
+0.30
+5
+5
+8
+C
+M
+F
+Q
+Y
+6
+C
+C
+P
+F
+H
+C
+9
+H
+U
+I
+J
+V
+F
+G
+I
+F
+J
+L
+J
+L
+0.50
+0.05
+0.80
+0.10
+0.80
+0.10
+1.25
+0.10
+1.25
+0.10
+1.25
+0.10
+1.25
+0.15
+1.25
+0.20
+1.60
+0.20
+1.60
+0.15
+1.60
+0.20
+1.60
+0.20
+1.60
+0.15
+1.60
+0.20
+2.50
+0.20
+2.50
+0.20
+2.50
+0.20
+2.50
+0.20
+2.50
+0.20
+2.50
+0.20
+2.50
+0.30
+2.00
+0.20
+2.00
+0.20
+2.00
+0.20
+3.20
+0.30
+3.20
+0.30
+3.20
+0.30
+5.00
+0.40
+5.00
+0.40
+0.50.2/0.3
+0.25
+0.10
+0.30
+0.20
+0.50
+0.30
+0.60
+0.30
+0.80
+0.30
+0.80
+0.30
+1.00
+0.30
+1.00
+0.05
+1.60
+0.10
+1.60
+0.10
+2.00
+0.10
+2.00
+0.10
+2.00
+0.10
+2.00
+0.15
+2.00
+0.20
+3.20
+0.20
+3.20
+0.15
+3.20
+0.20
+3.20
+0.20
+3.20
+0.15
+3.20
+0.20
+3.20
+0.30
+3.20
+0.30
+3.20
+0.30
+3.20
+0.30
+3.20
+0.30
+3.20
+0.30
+3.20
+0.40
+4.50
+0.40
+4.50
+0.40
+4.50
+0.40
+4.50
+0.40
+4.50
+0.40
+4.50
+0.40
+5.70
+0.40
+5.70
+0.40
+t Wide selection of size : from 0402 to 2220
+t Highly reliable tolerance and high speed automatic chip placement on PCBs
+t Wide capacitance range
+t Wide temperature compensation and voltage range
+: from C0G to Y5V and from 6.3V to 50V
+t Highly reliable performance
+t Highly resistant termination metal
+t Tape & reel for surface mount assembly
+t HHP, DSC, DVC, LCD, TV, Memory Module, PDA, Game Machine
+t Desktop PC, Note PC, HHP, DC-DC Converter, DSC
+t Tuner (Product code C is suitable.)
+Feature
+Application
+Structure and Dimensions
+■* Mark is only applicable to “L”code, 12    code in part number.
+th
+
+PAGE 7
+6
+7
+Standard & High Capacitance (C0G)
+㎋
+Size(mm)
+0402(1005)
+0603(1608)
+0805(2012)
+1206(3216)
+1210(3225)
+1812(4532)
+2220(5750)
+㎊
+Capacitance
+Vr(V)
+25
+50
+25
+50
+25
+50
+16
+25
+50
+50
+25
+50
+50
+0.5   1    10   22   47 100 220 330 470 560
+1   2.2  3.3  4.7  6.8  10   22    27  33   47   68 100 120 150
+43nF
+130nF
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+
+PAGE 8
+Standard & High Capacitance (X5R)
+Size(mm)
+0402(1005)
+0603(1608)
+0805(2012)
+1206(3216)
+1210(3225)
+Capacitance (㎌)
+Vr(V)
+4
+6.3
+10
+16
+25
+4
+6.3
+10
+16
+25
+50
+4
+6.3
+10
+16
+25
+50
+6.3
+10
+16
+25
+50
+6.3
+10
+16
+25
+0.1        0.22        0.47           1            2.2          4.7          10           22           47          100         220
+15
+150
+
+PAGE 9
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+8
+9
+Capacitance (㎌)
+Standard & High Capacitance-Low Profile (X5R)
+Size(mm)
+Vr(V)
+Tmax
+(mm)
+1                    2.2                    4.7                    10                     22                    47
+6.3
+10
+16
+6.3
+10
+16
+25
+10
+16
+25
+25
+4
+6.3
+10
+16
+25
+10
+6.3
+10
+16
+25
+50
+100
+16
+25
+35
+50
+0.33
+0.5
+0.7
+0.85
+0.95
+0.7
+0.95
+0.95 
+2.0
+0402(1005)
+0603(1608)
+0805(2012) 
+1206(3216)
+1210(3225)
+X6S
+(Tmax=1.0)
+(Tmax=0.35)
+(Tmax=1.0)
+X6S
+X6S
+(Tmax=1.0)
+(Tmax=1.0)
+(Tmax=1.0)
+
+PAGE 10
+Capacitance (㎌)
+Size(mm)
+Vr(V)
+Standard & High Capacitance (X6S)
+4
+0402(1005)
+0603(1608)
+0805(2012)
+1206(3216)
+1210(3225)
+6.3
+10
+4
+6.3
+10
+16
+25
+4
+6.3
+10
+16
+25
+6.3
+10
+16
+25
+6.3
+10
+16
+25
+0.1         0.22          0.47           1              2.2           4.7           10              22            47           100 
+
+PAGE 11
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+10
+11
+Capacitance (㎌)
+Size(mm)
+Vr(V)
+0.1         0.22          0.47           1             2.2            4.7            10            22             47            100 
+Standard & High Capacitance (X7R)
+0402(1005)
+0603(1608)
+0805(2012)
+1206(3216)
+1210(3225)
+6.3
+10
+16
+6.3
+10
+16
+25
+50
+6.3
+10
+16
+25
+35
+50
+6.3
+10
+16
+25
+35
+50
+6.3
+10
+16
+25
+50
+X7S
+X7S
+X7T
+
+PAGE 12
+High Capacitance Table (Y5V)
+Standard & High capacitance (Y5V)
+Standard & High capacitance - Low Profile (Y5V)
+0.1           0.22           0.47              1               2.2              4.7             10               22              47
+1                         2.2                      4.7                       10
+22                        47
+0805(2012)
+6.3
+10
+(Tmax=0.95)
+(Tmax=0.95)
+0402(1005)
+0603(1608)
+0805(2012)
+1206(3216)
+1210(3225)
+6.3
+10
+16
+25
+6.3
+10
+16
+25
+50
+6.3
+10
+16
+25
+50
+10
+16
+25
+50
+6.3
+10
+16
+25
+35
+50
+(Tmax=1.2)
+(Tmax=2.7)
+(Tmax=2.0)
+(Tmax=1.8)
+(Tmax=1.5)
+(Tmax=1.4)
+(Tmax=1.6)
+(Tmax=1.45)
+(Tmax=1.35)
+Size(mm)
+Vr(V)
+Size(mm)
+Vr(V)
+Capacitance (㎌)
+Capacitance (㎌)
+
+PAGE 13
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+12
+13
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Standard & High Capacitors-C0G)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+0.5㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+0.75
+1.0
+1.2
+1.5
+1.8
+2.0
+2.2
+2.4
+2.5
+2.7
+3.0
+3.3
+3.5
+3.6
+3.9
+4.0
+4.3
+4.7
+5.0
+5.6
+6.0
+6.2
+6.8
+7.0
+8.0
+8.2
+9.0
+9.1
+10
+11
+12
+13
+15
+16
+18
+20
+22
+22
+24
+27
+27
+30
+33
+36
+39
+43
+47
+51
+56
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5 
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+50 
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+25
+50
+50
+50
+25
+50
+50
+50
+50
+50
+50
+50
+50
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+1.000.50
+CL05C0R5CB5NNN
+CL05CR75CB5NNN
+CL05C010CB5NNN
+CL05C1R2CB5NNN
+CL05C1R5CB5NNN
+CL05C1R8CB5NNN
+CL05C020CB5NNN
+CL05C2R2CB5NNN
+CL05C2R4CB5NNN
+CL05C2R5CB5NNN
+CL05C2R7CB5NNN
+CL05C030CB5NNN
+CL05C3R3CB5NNN
+CL05C3R5CB5NNN
+CL05C3R6CB5NNN
+CL05C3R9CB5NNN
+CL05C040CB5NNN
+CL05C4R3CB5NNN
+CL05C4R7CB5NNN
+CL05C050DB5NNN
+CL05C5R6DB5NNN
+CL05C060DB5NNN
+CL05C6R2DB5NNN
+CL05C6R8DB5NNN
+CL05C070DB5NNN
+CL05C080DB5NNN
+CL05C8R2DB5NNN
+CL05C090DB5NNN
+CL05C9R1DB5NNN
+CL05C100 JB5NNN
+CL05C110 JB5NNN
+CL05C120 J B5NNN
+CL05C130 J B5NNN
+CL05C150 J B5NNN
+CL05C160 J B5NNN
+CL05C180 J B5NNN
+CL05C200 J B5NNN
+CL05C220 JA5NNN
+CL05C220 J B5NNN
+CL05C240 J B5NNN
+CL05C270 J B5NNN
+CL05C270 JA5NNN
+CL05C300 J B5NNN
+CL05C330 J B5NNN
+CL05C360 J B5NNN
+CL05C390 J B5NNN
+CL05C430 J B5NNN
+CL05C470 J B5NNN
+CL05C510 J B5NNN
+CL05C560 JB5NNN
+
+PAGE 14
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+Product Lineup (Standard & High Capacitors-C0G)
+62㎊
+68㎊
+75㎊
+82㎊
+91㎊
+100㎊
+120㎊
+150㎊
+180㎊
+200㎊
+220㎊
+270㎊
+330㎊
+390㎊
+470㎊
+470㎊
+680㎊
+820㎊
+1㎋
+1㎋
+1㎋
+0.3㎊
+0.5㎊
+0.75㎊
+1.0㎊
+1.2㎊
+1.5㎊
+1.8㎊
+2.0㎊
+2.2㎊
+2.4㎊
+2.5㎊
+2.7㎊
+3.0㎊
+3.3㎊
+3.5㎊
+3.6㎊
+3.9㎊
+4.0㎊
+4.3㎊
+4.7㎊
+5.0㎊
+5.6㎊
+6.0㎊
+6.2㎊
+6.8㎊
+7.0㎊
+7.5㎊
+8.0㎊
+8.2㎊
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.5㎊
+0.5㎊
+0.5㎊
+0.5㎊
+0.5㎊
+0.5㎊
+0.5㎊
+0.5㎊
+0.5㎊
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+16
+50
+50
+50
+25
+16
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+1.000.50
+1.600.80
+CL05C620 J B5NNN
+CL05C680 J B5NNN
+CL05C750 J B5NNN
+CL05C820 J B5NNN
+CL05C910 J B5NNN
+CL05C101 J B5NNN
+CL05C121 J B5NNN
+CL05C151 J B5NNN
+CL05C181 J B5NNN
+CL05C201 J B5NNN
+CL05C221 J B5NNN
+CL05C271 J B5NNN
+CL05C331 J B5NNN
+CL05C391 J B5NNN
+CL05C471 J B5NNN
+CL05C471JO5NNN
+CL05C681 J B5NNN
+CL05C821 J B5NNN
+CL05C102 J B5NNN
+CL05C102 J A5NNN
+CL05C102 J O5NNN
+CL10C0R3CB8NNN
+CL10C0R5CB8NNN
+CL10CR75CB8NNN
+CL10C010CB8NNN
+CL10C1R2CB8NNN
+CL10C1R5CB8NNN
+CL10C1R8CB8NNN
+CL10C020CB8NNN
+CL10C2R2CB8NNN
+CL10C2R4CB8NNN
+CL10C2R5CB8NNN
+CL10C2R7CB8NNN
+CL10C030CB8NNN
+CL10C3R3CB8NNN
+CL10C3R5CB8NNN
+CL10C3R6CB8NNN
+CL10C3R9CB8NNN
+CL10C040CB8NNN
+CL10C4R3CB8NNN
+CL10C4R7CB8NNN
+CL10C050DB8NNN
+CL10C5R6DB8NNN
+CL10C060DB8NNN
+CL10C6R2DB8NNN
+CL10C6R8DB8NNN
+CL10C070DB8NNN
+CL10C7R5DB8NNN
+CL10C080DB8NNN
+CL10C8R2DB8NNN
+
+PAGE 15
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+14
+15
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+1.600.80
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+Product Lineup (Standard & High Capacitors-C0G)
+9.0
+9.1
+10
+11
+12
+13
+14
+15
+16
+18
+20
+22
+24
+25
+27
+30
+33
+36
+39
+43
+47
+51
+56
+62
+68
+75
+82
+91
+100
+110
+120
+130
+150
+160
+180
+200
+220
+240
+270
+300
+330
+360
+390
+430
+470
+510
+560
+620
+680
+750
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0.5㎊
+0.5㎊
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+CL10C090DB8NNN
+CL10C9R1DB8NNN
+CL10C100JB8NNN
+CL10C110JB8NNN
+CL10C120JB8NNN
+CL10C130JB8NNN
+CL10C140JB8NNN
+CL10C150JB8NNN
+CL10C160JB8NNN
+CL10C180JB8NNN
+CL10C200JB8NNN
+CL10C220JB8NNN
+CL10C240JB8NNN
+CL10C250JB8NNN
+CL10C270JB8NNN
+CL10C300JB8NNN
+CL10C330JB8NNN
+CL10C360JB8NNN
+CL10C390JB8NNN
+CL10C430JB8NNN
+CL10C470JB8NNN
+CL10C510JB8NNN
+CL10C560JB8NNN
+CL10C620JB8NNN
+CL10C680JB8NNN
+CL10C750JB8NNN
+CL10C820JB8NNN
+CL10C910JB8NNN
+CL10C101JB8NNN
+CL10C111JB8NNN
+CL10C121JB8NNN
+CL10C131JB8NNN
+CL10C151JB8NNN
+CL10C161JB8NNN
+CL10C181JB8NNN
+CL10C201JB8NNN
+CL10C221JB8NNN
+CL10C241JB8NNN
+CL10C271JB8NNN
+CL10C301JB8NNN
+CL10C331JB8NNN
+CL10C361JB8NNN
+CL10C391JB8NNN
+CL10C431JB8NNN
+CL10C471JB8NNN
+CL10C511JB8NNN
+CL10C561JB8NNN
+CL10C621JB8NNN
+CL10C681JB8NNN
+CL10C751JB8NNN
+
+PAGE 16
+2.001.25
+1.600.80
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+Product Lineup (Standard & High Capacitors-C0G)
+820
+1
+1.8
+2.2
+5.6
+10
+0.47
+0.5
+1.0
+1.2
+1.5
+1.8
+2.0
+2.2
+2.4
+2.5
+2.7
+3.0
+3.2
+3.3
+3.6
+3.9
+4.0
+4.7
+5.6
+6.0
+6.8
+7.0
+7.5
+8.0
+8.2
+9.0
+10
+12
+13
+14
+15
+16
+18
+20
+22
+24
+25
+27
+30
+33
+36
+39
+43
+47
+51
+㎊
+㎋
+㎋
+㎋
+㎋
+㎋
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+80
+81
+82
+83
+84
+85
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5%
+5%
+5%
+5%
+5%
+5%
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+50
+50
+50
+50
+50
+25
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+CL10C821 J B 8NNN
+CL10C102 J B 8NNN
+CL10C182 J B 8NNN
+CL10C222 J B 8NNN
+CL10C562 J B 8NNN
+CL10C103J A 8NNN
+CL21CR47CBANNN
+CL21C0R5CBANNN
+CL21C010CBANNN
+CL21C1R2CBANNN
+CL21C1R5CBANNN
+CL21C1R8CBANNN
+CL21C020CBANNN
+CL21C2R2CBANNN
+CL21C2R4CBANNN
+CL21C2R5CBANNN
+CL21C2R7CBANNN
+CL21C030CBANNN
+CL21C3R2CBANNN
+CL21C3R3CBANNN
+CL21C3R6CBANNN
+CL21C3R9CBANNN
+CL21C040CBANNN
+CL21C4R7CBANNN
+CL21C5R6DBANNN
+CL21C060DBANNN
+CL21C6R8DBANNN
+CL21C070DBANNN
+CL21C7R5DBANNN
+CL21C080DBANNN
+CL21C8R2DBANNN
+CL21C090DBANNN
+CL21C100JBANNN
+CL21C120JBANNN
+CL21C130JBANNN
+CL21C140JBANNN
+CL21C150JBANNN
+CL21C160JBANNN
+CL21C180JBANNN
+CL21C200JBANNN
+CL21C220JBANNN
+CL21C240JBANNN
+CL21C250JBANNN
+CL21C270JBANNN
+CL21C300JBANNN
+CL21C330JBANNN
+CL21C360JBANNN
+CL21C390JBANNN
+CL21C430JBANNN
+CL21C470JBANNN
+CL21C510JBANNN
+
+PAGE 17
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+16
+17
+Product Lineup (Standard & High Capacitors-C0G)
+56
+62
+68
+75
+82
+91
+100
+110
+120
+130
+150
+160
+180
+200
+220
+240
+270
+300
+330
+360
+390
+430
+470
+510
+560
+620
+680
+750
+820
+1
+1.2
+1.5
+1.8
+2.2
+3.3
+3.3
+3.9
+3.9
+4.7
+5.6
+8.2
+10
+33
+0.5
+1.0
+1.5
+1.8
+2.0
+2.2
+2.7
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+1
+2
+3
+4
+5
+6
+7
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+25
+50
+25
+50
+50
+50
+25
+50
+25
+50
+50
+50
+50
+50
+50
+50
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.95
+0.95
+0.95
+0.95
+0.95
+1.35
+1.35
+1.35
+1.35
+1.35
+1.35
+0.75
+1.35
+1.35
+1.35
+1.35
+1.35
+1.35
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+2.001.25
+3.201.60
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+CL21C560JBANNN
+CL21C620JBANNN
+CL21C680JBANNN
+CL21C750JBANNN
+CL21C820JBANNN
+CL21C910JBANNN
+CL21C101JBANNN
+CL21C111JBANNN
+CL21C121JBANNN
+CL21C131JBANNN
+CL21C151JBANNN
+CL21C161JBANNN
+CL21C181JBANNN
+CL21C201JBANNN
+CL21C221JBANNN
+CL21C241JBANNN
+CL21C271JBANNN
+CL21C301JBANNN
+CL21C331JBANNN
+CL21C361JBANNN
+CL21C391JBANNN
+CL21C431JBANNN
+CL21C471JBANNN
+CL21C511JBANNN
+CL21C561JBANNN
+CL21C621JBCNNN
+CL21C681JBCNNN
+CL21C751JBCNNN
+CL21C821JBCNNN
+CL21C102JBCNNN
+CL21C122JBFNNN
+CL21C152JBFNNN
+CL21C182JBFNNN
+CL21C222JBFNNN
+CL21C332JAFNNN
+CL21C332JBFNNN
+CL21C392JAANNN
+CL21C392JBFNNN
+CL21C472JBFNNN
+CL21C562JBFNNN
+CL21C822JAFNNN
+CL21C103JBFNNN
+CL21C333JAFNNN
+CL31C0R5CBCNNN
+CL31C010CBCNNN
+CL31C1R5CBCNNN
+CL31C1R8CBCNNN
+CL31C020CBCNNN
+CL31C2R2CBCNNN
+CL31C2R7CBCNNN
+
+PAGE 18
+Product Lineup (Standard & High Capacitors-C0G)
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+25
+50
+50
+50
+25
+25
+50
+50
+50
+50
+50
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.40 
+1.40 
+1.40 
+1.80 
+1.40 
+1.80 
+1.80 
+1.80 
+1.80 
+1.80
+1.45 
+1.45 
+1.80 
+1.80 
+1.80 
+3.201.60
+3.202.50
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+1
+2
+3
+4
+5
+3.0
+3.3
+4.0
+4.7
+10
+12
+15
+18
+20
+22
+27
+30
+33
+39
+47
+51
+56
+68
+75
+82
+100
+120
+150
+180
+220
+270
+330
+390
+470
+560
+680
+820
+1
+1.2
+1.5
+1.8
+2.2
+2.7
+3.3
+4.7
+6.8
+10
+22
+33
+47
+68
+100
+4.7
+10
+22
+33
+47
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+0.25
+0.25
+0.25
+0.25
+㎊
+㎊
+㎊
+㎊
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5%
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+CL31C030CBCNNN
+CL31C3R3CBCNNN
+CL31C040CBCNNN
+CL31C4R7CBCNNN
+CL31C100JBCNNN
+CL31C120JBCNNN
+CL31C150JBCNNN
+CL31C180JBCNNN
+CL31C200JBCNNN
+CL31C220JBCNNN
+CL31C270JBCNNN
+CL31C300JBCNNN
+CL31C330JBCNNN
+CL31C390JBCNNN
+CL31C470JBCNNN
+CL31C510JBCNNN
+CL31C560JBCNNN
+CL31C680JBCNNN
+CL31C750JBCNNN
+CL31C820JBCNNN
+CL31C101JBCNNN
+CL31C121JBCNNN
+CL31C151JBCNNN
+CL31C181JBCNNN
+CL31C221JBCNNN
+CL31C271JBCNNN
+CL31C331JBCNNN
+CL31C391JBCNNN
+CL31C471JBCNNN
+CL31C561JBCNNN
+CL31C681JBCNNN
+CL31C821JBCNNN
+CL31C102JBCNNN
+CL31C122JBCNNN
+CL31C152JBCNNN
+CL31C182JBCNNN
+CL31C222JBCNNN
+CL31C272JBFNNN
+CL31C332JBFNNN
+CL31C472JBFNNN
+CL31C682JBHNNN
+CL31C103JAFNNN
+CL31C223JBHNNN
+CL31C333JBHNNN
+CL31C473JBHNNN
+CL31C683JAHNNN
+CL31C104JAHNNN
+CL32C472JBFNNN
+CL32C103JBFNNN
+CL32C223JBHNNN
+CL32C333JBHNNN
+CL32C473JBHNNN
+
+PAGE 19
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+18
+19
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Standard & High Capacitors-X5R)
+22
+0.1
+0.1
+0.1
+0.22
+0.22
+0.33
+0.33
+0.47
+0.47
+0.47
+0.47
+0.47
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2.2
+2.2
+2.2
+2.2
+2.2
+2.2
+2.2
+2.2
+4.7
+4.7
+4.7
+4.7
+10
+10
+10
+22
+0.47
+0.47
+0.47
+0.47
+0.47
+1
+1
+1
+1
+1
+1
+1
+1
+1
+㎋
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+20%
+10%
+20%
+10%
+20%
+10%
+20%
+10%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+16
+25
+16
+10
+25
+10
+25
+10
+25
+16
+10
+6.3
+4 
+25
+16
+16
+10
+10
+6.3
+6.3
+4 
+4 
+25
+16
+10
+10
+6.3
+6.3
+4 
+4 
+16
+10
+6.3
+6.3 
+10
+6.3
+4 
+4
+50
+25
+10
+6.3
+4 
+50
+25
+25
+16
+16
+10
+10
+6.3
+6.3
+0.55 
+0.55 
+0.55 
+0.55 
+0.55 
+0.55 
+0.55 
+0.55 
+0.55 
+0.55 
+0.55 
+0.55 
+0.55 
+0.60 
+0.55 
+0.33 
+0.55 
+0.33 
+0.55 
+0.33 
+0.55 
+0.33 
+0.70
+0.60 
+0.57 
+0.33 
+0.55 
+0.33 
+0.55 
+0.33 
+0.70
+0.65 
+0.65 
+0.35 
+0.70
+0.70 
+0.65 
+0.90
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.50 
+0.90 
+0.90 
+0.50 
+0.90 
+0.50 
+0.90 
+0.50
+15㎌
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20%
+4
+0.70
+CL05A223KO5NNN
+CL05A104KA5NNN
+CL05A104KO5NNN
+CL05A104KP5NNN
+CL05A224KA5NNN
+CL05A224KP5NNN
+CL05A334KA5NNN
+CL05A334KP5NNN
+CL05A474KA5NNN
+CL05A474KO5NNN
+CL05A474KP5NNN
+CL05A474KQ5NNN
+CL05A474KR5NNN
+CL05A105KA5NQN
+CL05A105KO5NNN
+CL05A105KO3LQN
+CL05A105KP5NNN
+CL05A105KP3LNN
+CL05A105KQ5NNN
+CL05A105KQ3LNN
+CL05A105KR5NNN
+CL05A105KR3LNN
+CL05A225MA5NUN
+CL05A225KO5NQN
+CL05A225MP5NSN
+CL05A225KP3LRN
+CL05A225MQ5NNN
+CL05A225KQ3LRN
+CL05A225MR5NNN
+CL05A225KR3LRN
+CL05A475MO5NUN
+CL05A475MP5NRN
+CL05A475MQ5NRN
+CL05A475MQ3LUN
+CL05A106MP5NUN
+CL05A106MQ5NUN
+CL05A106MR5NRN
+CL05A226MR5NZN
+CL10A474KB8NNN
+CL10A474KA8NNN
+CL10A474KP8NNN
+CL10A474KQ8NNN
+CL10A474KR8NNN
+CL10A105KB8NNN
+CL10A105KA5LNN
+CL10A105KA8NNN
+CL10A105KO8NNN
+CL10A105KO5LNN
+CL10A105KP8NNN
+CL10A105KP5LNN
+CL10A105KQ8NNN
+CL10A105KQ5LNN
+CL05A156MR5NUN
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+39
+38
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+1.000.50
+1.600.80
+
+PAGE 20
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Standard & High Capacitors-X5R)
+1.600.80
+2.001.25
+1
+1
+1
+2.2
+2.2
+2.2
+2.2
+2.2
+2.2
+2.2
+2.2
+2.2
+2.2
+3.3
+3.3
+4.7
+4.7
+4.7
+4.7
+4.7
+4.7
+4.7
+4.7
+10
+10
+10
+10
+10
+10
+10
+22
+22
+22
+22
+47
+1
+1
+1
+1
+1
+1
+1
+2.2
+2.2
+2.2
+2.2
+2.2
+2.2
+2.2
+4.7
+4 
+4 
+25
+25
+25
+16
+16
+10
+10
+6.3
+6.3
+4 
+4 
+6.3
+4 
+25
+16
+10
+10
+6.3
+6.3
+4 
+4 
+4
+4
+6.3
+6.3
+10
+16
+25
+4
+6.3
+10
+10
+4
+50
+25
+25
+16
+16
+6.3
+4 
+50
+25
+16
+16
+10
+6.3
+4 
+50
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+20%
+10%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+0.90 
+0.50
+0.50 
+0.90
+0.50  
+0.90 
+0.50 
+0.90 
+0.50 
+0.90 
+0.50 
+0.90 
+0.50 
+0.90 
+0.90 
+0.95 
+0.90 
+0.90 
+0.50 
+0.50 
+0.90 
+0.50 
+0.90 
+0.90 
+0.50 
+0.90 
+0.50 
+0.90 
+0.95 
+1.00 
+1.00 
+1.00 
+1.00 
+1.05
+1.10
+1.40 
+1.35 
+0.70 
+1.35 
+0.70 
+1.35 
+1.35 
+1.40 
+1.35 
+0.70 
+1.35 
+1.35 
+1.35 
+1.35 
+1.40 
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+50
+47
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+6.3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20%
+1.10
+CL10A476MQ8CZN
+CL10A105KR8NNN
+CL10A105KR5LNN
+CL10A105KA5LNN
+CL10A225KA8NNN
+CL10A225KA5LNN
+CL10A225KO8NNN
+CL10A225KO5LNN
+CL10A225KP8NNN
+CL10A225KP5LNN
+CL10A225KQ8NNN
+CL10A225KQ5LNN
+CL10A225KR8NNN
+CL10A225KR5LNN
+CL10A335KQ8NNN
+CL10A335KR8NNN
+CL10A475KA8NQN
+CL10A475KO8NNN
+CL10A475KP8NNN
+CL10A475KP5LNN
+CL10A475KQ5LNN
+CL10A475KQ8NNN
+CL10A475KR5LNN
+CL10A475KR8NNN
+CL10A106KR8NNN
+CL10A106MR5LRN
+CL10A106KQ8NNN
+CL10A106MQ5LRN
+CL10A106MP8NNN
+CL10A106MO8NQN
+CL10A106MA8NRN
+CL10A226MR8NRN
+CL10A226MQ8NRN
+CL10A226MP8NRN
+CL10A226MP8NUN
+CL10A476MR8NZN
+CL21A105KBQNNN
+CL21A105KAFNNN
+CL21A105KA6LNN
+CL21A105KOFNNN
+CL21A105KO6LNN
+CL21A105KQFNNN
+CL21A105KRFNNN
+CL21A225KBQNNN
+CL21A225KAFNNN
+CL21A225KO6LNN
+CL21A225KOFNNN
+CL21A225KPFNNN
+CL21A225KQFNNN
+CL21A225KRFNNN
+CL21A475KBQNNN
+
+PAGE 21
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+20
+21
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+CL21A475KACLRN
+CL21A475KOFNNN
+4.7
+4.7
+4.7
+Product Lineup (Standard & High Capacitors-X5R)
+4.7
+4.7
+4.7
+4.7
+4.7
+4.7
+4.7
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+22
+22
+22
+22
+22
+22
+22
+33
+33
+33
+33
+47
+47
+47
+2.2
+4.7
+4.7
+4.7
+4.7
+4.7
+4.7
+4.7
+4.7
+4.7
+10
+10
+10
+10
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+25
+25
+16
+16
+10
+10
+6.3
+6.3
+4
+4
+25
+25
+25
+16
+16
+16
+16
+10
+10
+6.3
+6.3
+4
+4
+25
+10
+10
+6.3
+6.3
+4
+4
+6.3
+6.3
+4
+4
+6.3
+4
+6.3
+100
+50
+50
+25
+25
+16
+16
+10
+6.3
+4
+50
+25
+25
+16
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+1.40 
+0.95 
+1.35
+0.95 
+1.35
+0.95 
+1.35 
+0.95 
+1.35 
+0.95 
+1.45 
+0.95 
+0.80
+1.35 
+1.40 
+0.95 
+0.95
+1.35 
+0.95 
+1.35 
+0.95 
+1.35 
+0.95 
+1.40 
+1.40
+0.95 
+1.40 
+0.95 
+1.40 
+0.95 
+1.20 
+1.00 
+1.20 
+1.00 
+1.45 
+1.45
+1.00
+1.00
+1.80 
+1.00 
+1.80 
+0.95 
+1.80 
+0.95 
+1.80 
+1.80 
+1.80 
+1.80 
+1.80 
+0.95 
+1.80 
+2.001.25
+3.201.60
+CL21A475KOCLNN
+CL21A475KPFNNN
+CL21A475KPCLNN 
+CL21A475KQFNNN 
+CL21A475KQCLNN 
+CL21A475KRFNNN 
+CL21A475KRCLNN
+CL21A106KAYNNN 
+CL21A106KACLRN 
+CL21A106KA7LQN
+CL21A106KOFNNN 
+CL21A106KOQNNN 
+CL21A106KOCLRN 
+CL21A106KOCL3R 
+CL21A106KPFNNN 
+CL21A106KPCLQN 
+CL21A106KQFNNN 
+CL21A106KQCLNN  
+CL21A106KRFNNN 
+CL21A106KRCLNN 
+CL21A226MAQNNN
+CL21A226MPQNNN 
+CL21A226MPCLRN 
+CL21A226MQQNNN 
+CL21A226MQCLRN 
+CL21A226MRQNNN 
+CL21A226MRCLRN 
+CL21A336MQELNN 
+CL21A336MQ9LNN 
+CL21A336MRELNN 
+CL21A336MR9LNN 
+CL21A476MQYNNN 
+CL21A476MRYNNN
+CL21A476MQ9LRN
+CL31A225KC9LNN
+CL31A475KBHNNN 
+CL31A475KB9LNN 
+CL31A475KAHNNN 
+CL31A475KACLNN 
+CL31A475KOHNNN 
+CL31A475KOCLNN 
+CL31A475KPHNNN 
+CL31A475KQHNNN 
+CL31A475KRHNNN 
+CL31A106KBHNNN 
+CL31A106KAHNNN 
+CL31A106KACLNN 
+CL31A106KOHNNN 
+CL21A475KAQNNN
+
+PAGE 22
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Standard & High Capacitors-X5R)
+3.201.60
+3.202.50
+4.503.20
+15
+22
+22
+22
+22
+22
+22
+47
+47
+47
+100
+100
+100
+10
+10
+10
+10
+10
+10
+10
+22
+22
+22
+22
+22
+22
+22
+22
+47
+47
+47
+47
+100
+100
+100
+150
+220
+47
+47
+100
+100
+4 
+25
+16
+16
+10
+10
+6.3
+10
+6.3
+4 
+6.3
+4
+10
+6.3
+4
+50
+25
+25
+16
+10
+25
+16
+16
+10
+6.3
+6.3
+4 
+4 
+16
+10
+6.3
+4 
+10
+6.3
+4 
+6.3
+6.3
+6.3
+4 
+6.3
+4
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+20%
+20%
+20%
+20%
+20%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+20%
+10%
+20%
+10%
+10%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+10%
+10%
+1.80 
+1.80 
+1.80
+0.95 
+1.80 
+0.95 
+1.80 
+1.80 
+1.80 
+1.80 
+1.80 
+1.80 
+1.80
+0.95 
+0.95 
+2.00 
+2.70 
+2.00 
+2.70 
+2.70 
+2.70 
+2.70 
+0.95 
+2.70 
+2.70 
+0.95 
+2.70 
+0.95 
+2.70 
+2.70 
+2.70 
+2.70 
+2.80 
+2.80 
+2.80 
+2.80
+2.80
+2.70 
+2.70 
+3.50 
+3.50 
+10
+10
+10
+10
+10
+15
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+10%
+10%
+10%
+10%
+10%
+10%
+16
+10
+10
+6.3
+4 
+6.3
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+1
+2
+3
+4
+15
+16
+17
+18
+19
+20
+0.95 
+1.80 
+0.95 
+1.80 
+1.80 
+1.80 
+CL31A106KOCLNN 
+CL31A106KPHNNN 
+CL31A106KPCLNN 
+CL31A106KQHNNN 
+CL31A106KRHNNN 
+CL31A156KQHNNN
+CL32A107MQVNNN
+CL31A156KRHNNN 
+CL31A226KAHNNN 
+CL31A226KOHNNN 
+CL31A226KOCLNN 
+CL31A226KPHNNN 
+CL31A226KPCLNN 
+CL31A226KQHNNN 
+CL31A476KPHNNN
+CL31A476MQHNNN
+CL31A476MRHNNN
+CL31A107MQHNNN
+CL31A107MRHNNN
+CL31A107MPHNNN
+CL32A106KQCLNN 
+CL32A106KRCLNN 
+CL32A106KBULNN 
+CL32A106KAJNNN 
+CL32A106KAULNN 
+CL32A106KOJNNN 
+CL32A106KPJNNN 
+CL32A226KAJNNN 
+CL32A226KOJNNN 
+CL32A226KOCLNN 
+CL32A226KPJNNN 
+CL32A226KQJNNN 
+CL32A226MQCLNN
+CL32A226KRJNNN 
+CL32A226MRCLNN 
+CL32A476KOJNNN 
+CL32A476KPJNNN 
+CL32A476MQJNNN
+CL32A476MRJNNN 
+CL32A107MPVNNN
+CL32A107MRVNNN
+CL32A157MQVNNN
+CL32A227MQVNNN
+CL43A476MQJNNN 
+CL43A476MRJNNN 
+CL43A107KQLNNN 
+CL43A107KRLNNN
+
+PAGE 23
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+22
+23
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Standard & High Capacitors-X6S)
+0.22
+0.22
+0.47
+0.47
+0.47
+0.68
+1
+1
+1
+2.2
+4.7
+10
+0.47
+0.47
+0.47
+0.47
+0.47
+1
+1
+1
+1
+1
+2.2
+2.2
+2.2
+2.2
+4.7
+4.7
+4.7
+4.7
+4.7
+10
+10
+10
+1
+1
+1
+1
+1
+2.2
+2.2
+2.2
+2.2
+2.2
+4.7
+4.7
+4.7
+4.7
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+10%
+10%
+10%
+10%
+20%
+ 5%
+10%
+10%
+20%
+20%
+20%
+20%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+20%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10%
+10
+6.3
+10
+6.3
+4
+6.3
+25
+10
+6.3
+10
+6.3
+4
+25
+16
+10
+6.3
+4
+25
+16
+10
+6.3
+4
+16
+10
+6.3
+4
+25
+16
+10
+6.3
+4
+10
+6.3
+4
+25
+16
+10
+6.3
+4
+25
+16
+10
+6.3
+4
+25
+16
+10
+6.3
+CL05X224KP5NNN
+CL05X224KQ5NNN
+CL05X474KP5NNN
+CL05X474KQ5NNN
+CL05X474MR5NNN
+CL05X684JQ5NNN
+CL05X105KA5NQN
+CL05X105KP5NNN
+CL05X105MQ3LNN
+CL05X225MP5NUN
+CL05X475MQ5NUN
+CL05X106MR5NUN
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+0.55 
+0.55 
+0.55 
+0.55 
+0.55 
+0.55 
+0.60 
+0.55 
+0.33 
+0.70 
+0.70 
+0.70 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.95 
+0.95 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+1.35 
+1.35 
+1.35 
+1.35 
+1.35 
+1.35 
+1.35 
+1.35 
+1.35 
+1.35 
+1.40 
+1.35 
+1.35 
+1.35 
+1.600.80
+2.001.25
+1.000.50
+CL10X474KA8NNN 
+CL10X474KO8NNN 
+CL10X474KP8NNN 
+CL10X474KQ8NNN 
+CL10X474KR8NNN 
+CL10X105KA8NNN 
+CL10X105KO8NNN 
+CL10X105KP8NNN 
+CL10X105KQ8NNN 
+CL10X105KR8NNN 
+CL10X225KO8NNN 
+CL10X225KP8NNN 
+CL10X225KQ8NNN 
+CL10X225KR8NNN 
+CL10X475KA8NQN 
+CL10X475KO8NQN 
+CL10X475KP5NNN 
+CL10X475KQ8NNN 
+CL10X475KR8NNN 
+CL10X106MP8NNN 
+CL10X106KQ8NNN 
+CL10X106KR8NNN 
+CL21X105KAFNNN 
+CL21X105KOFNNN 
+CL21X105KPFNNN 
+CL21X105KQFNNN 
+CL21X105KRFNNN 
+CL21X225KAFNNN 
+CL21X225KOFNNN 
+CL21X225KPFNNN 
+CL21X225KQFNNN 
+CL21X225KRFNNN 
+CL21X475KAQNNN 
+CL21X475KOFNNN 
+CL21X475KPFNNN 
+CL21X475KQFNNN
+
+PAGE 24
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Standard & High Capacitors-X6S)
+4.7
+10
+10
+10
+10
+10
+10
+10
+10
+22
+22
+47
+4.7
+4.7
+4.7
+4.7
+4.7
+4.7
+10
+10
+10
+10
+10
+10
+22
+22
+22
+22
+100
+100
+10
+10
+10
+10
+10
+22
+22
+22
+22
+22
+47
+47
+47
+100
+100
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+20%
+20%
+20%
+10%
+10%
+10%
+10%
+20%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+20%
+20%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+20%
+10%
+10%
+20%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20%
+4
+25
+25
+16
+10
+10
+6.3
+4
+4
+6.3
+4
+4
+25
+25
+16
+10
+6.3
+4
+25
+25
+16
+10
+6.3
+4
+16
+10
+6.3
+4
+6.3
+4
+25
+16
+10
+6.3
+4
+25
+16
+10
+6.3
+4
+10
+6.3
+4
+6.3
+4
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+1.35 
+0.95
+1.45 
+1.45 
+0.95 
+1.45 
+1.40 
+1.40 
+0.95 
+1.40 
+1.40 
+1.45 
+1.80 
+0.95 
+1.80 
+1.80 
+1.80 
+1.80 
+0.95 
+1.80 
+1.80 
+1.80 
+1.80 
+1.80 
+1.80 
+1.80 
+1.80 
+1.80 
+1.80 
+1.80 
+2.00 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.80 
+2.80 
+2.001.25
+3.201.60
+3.202.50
+CL21X475KRFNNN 
+CL21X106KACLRN
+CL21X106KAYNNN 
+CL21X106KOYNNN
+CL21X106KPCLNN 
+CL21X106KPYNNN
+CL21X106KQQNNN 
+CL21X106KRQNNN
+CL21X106KRCLNN 
+CL21X226MQQNNN
+CL21X226MRQNNN
+CL21X476MRYNNN 
+CL31X475KAHNNN
+CL31X475KACLNN 
+CL31X475KOHNNN 
+CL31X475KPHNNN 
+CL31X475MQHNNN
+CL31X475KRHNNN
+CL31X106KACLNN 
+CL31X106KAHNNN 
+CL31X106KOHNNN 
+CL31X106KPHNNN 
+CL31X106KQHNNN 
+CL31X106KRHNNN
+CL31X226KOHNNN 
+CL31X226KPHNNN
+CL31X226KQHNNN 
+CL31X226KRHNNN 
+CL31X107MQHNNN 
+CL31X107MRHNNN 
+CL32X106KAUNNN 
+CL32X106KOJNNN 
+CL32X106KPJNNN 
+CL32X106KQJNNN
+CL32X106KRJNNN
+CL32X226KAJNNN 
+CL32X226KOJNNN
+CL32X226KPJNNN 
+CL32X226KQJNNN 
+CL32X226KRJNNN 
+CL32X476MPJNNN 
+CL32X476KQJNNN 
+CL32X476KRJNNN
+CL32X107MQVNNN 
+NNN
+CL32X107MRV
+
+PAGE 25
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+24
+25
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Standard & High Capacitors-X7R, X7S)
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+1
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+CL05B151KB5NNN
+CL05B181KB5NNN
+CL05B221KB5NNN
+CL05B271KB5NNN
+CL05B331KB5NNN
+CL05B391KB5NNN
+CL05B471KB5NNN
+CL05B561KB5NNN
+CL05B681KB5NNN
+CL05B102KB5NNN
+CL05B122KB5NNN
+CL05B152KB5NNN
+CL05B182KB5NNN
+CL05B222KB5NNN
+CL05B272KB5NNN
+CL05B332KB5NNN
+CL05B472KB5NNN
+CL05B562KB5NNN
+CL05B682KB5NNN
+CL05B822KB5NNN
+CL05B103KB5NNN
+CL05B123KA5NNN
+CL05B153KA5NNN
+CL05B223KA5NNN
+CL05B273KO5NNN
+CL05B333KO5NNN
+CL05B393KO5NNN
+CL05B473KO5NNN
+CL05B563KO5NNN
+CL05B683KO5NNN
+CL05B823KO5NNN
+CL05B104KO5NNN
+CL05B224KO5NNN
+CL05B474KP5NNN
+CL05B105KQ5NQN
+CL05Y474KP5NNN
+CL10B101KB8NNN
+CL10B121KB8NNN
+CL10B151KB8NNN
+CL10B181KB8NNN
+CL10B201KB8NNN
+CL10B221KB8NNN
+CL10B271KB8NNN
+CL10B331KB8NNN
+CL10B391KB8NNN
+CL10B471KB8NNN
+CL10B561KB8NNN
+CL10B681KB8NNN
+CL10B751KB8NNN
+CL10B821KB8NNN
+CL10B102KB8NNN
+CL10B122KB8NNN
+150㎊
+180㎊
+220㎊
+270㎊
+330㎊
+390㎋
+470㎊
+560㎊
+680㎊
+1㎋
+1.2㎋
+1.5㎋
+1.8㎋
+2.2㎋
+2.7㎋
+3.3㎋
+4.7㎋
+5.6㎋
+6.8㎋
+8.2㎋
+10㎋
+12㎋
+15㎋
+22㎋
+27㎋
+33㎋
+39㎋
+47㎋
+56㎋
+68㎋
+82㎋
+100㎋
+220㎋
+470㎋
+1㎌
+470㎋
+100㎊
+120㎊
+150㎊
+180㎊
+200㎊
+220㎊
+270㎊
+330㎊
+390㎊
+470㎊
+560㎊
+680㎊
+750㎊
+820㎊
+1㎋
+1.2㎋
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+25
+25
+25
+16
+16
+16
+16
+16
+16
+16
+16
+16
+10
+6.3
+10
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.60
+0.55
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+1.000.50
+1.000.50
+1.600.80
+
+PAGE 26
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Standard & High Capacitors-X7R)
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+CL10B152KB8NNN
+CL10B182KB8NNN
+CL10B202KB8NNN
+CL10B222KB8NNN
+CL10B332KB8NNN
+CL10B392KB8NNN
+CL10B472KB8NNN
+CL10B562KB8NNN
+CL10B682KB8NNN
+CL10B822KB8NNN
+CL10B103JB8NNN
+CL10B123KB8NNN
+CL10B153KB8NNN
+CL10B183KB8NNN
+CL10B223KB8NNN
+CL10B273KB8NNN
+CL10B333JB8NNN
+CL10B393KB8NNN
+CL10B473KB8NNN
+CL10B563KB8NNN
+CL10B683KB8NNN
+CL10B823KB8NNN
+CL10B104KB8NNN
+CL10B124KO8NNN
+CL10B154KA8NNN
+CL10B224KA8NNN
+CL10B474KA8NNN
+CL10B684KO8NNN
+CL10B105KA8NNN
+CL10B225KP8NNN
+CL21B151KBANNN
+CL21B181KBANNN
+CL21B221KBANNN
+CL21B331KBANNN
+CL21B391KBANNN
+CL21B471KBANNN
+CL21B511KBANNN
+CL21B561KBANNN
+CL21B681KBANNN
+CL21B821KBANNN
+CL21B102KBANNN
+CL21B122KBANNN
+CL21B152KBANNN
+CL21B182KBANNN
+CL21B202KBANNN
+CL21B222KBANNN
+CL21B272KBANNN
+CL21B332KBANNN
+CL21B472KBANNN
+CL21B562KBANNN
+CL21B682KBANNN
+1.5㎋
+1.8㎋
+2㎋
+2.2㎋
+3.3㎋
+3.9㎋
+4.7㎋
+5.6㎋
+6.8㎋
+8.2㎋
+10㎋
+12㎋
+15㎋
+18㎋
+22㎋
+27㎋
+33㎋
+39㎋
+47㎋
+56㎋
+68㎋
+82㎋
+100㎋
+120㎋
+150㎋
+220㎋
+470㎋
+680㎋
+1㎌
+2.2㎌
+150㎊
+180㎊
+220㎊
+330㎊
+390㎊
+470㎊
+510㎊
+560㎊
+680㎊
+820㎊
+1㎋
+1.2㎋
+1.5㎋
+1.8㎋
+2㎋
+2.2㎋
+2.7㎋
+3.3㎋
+4.7㎋
+5.6㎋
+6.8㎋
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+16
+25
+25
+25
+16
+25
+10
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+5%
+10%
+10%
+10%
+10%
+10%
+5%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+1.600.80
+2.001.25
+
+PAGE 27
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+26
+27
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Standard & High Capacitors-X7R)
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+CL21B103KBANNN 
+CL21B123KBANNN
+CL21B153KBANNN
+CL21B333KBANNN
+CL21B393KBANNN
+CL21B473KBANNN
+CL21B563KBCNNN
+CL21B683KAANNN
+CL21B683JBCNNN
+CL21B683KBFNNN
+CL21B823KBCNNN
+CL21B823KBFNNN
+CL21B104KACNNN
+CL21B104KBCNNN
+CL21B104KBFNNN
+CL21B124KBFNNN
+CL21B124KACNNN
+CL21B154KOANNN
+CL21B154KBFNNN
+CL21B224KBFNNN
+CL21B334KAFNNN
+CL21B474KAFNNN
+CL21B684KOFNNN
+CL21B105KBFNNN
+CL21B155KAFNNN
+CL21B225KAFNNN
+CL21B475KQQNNN
+CL21B475KAFNNN
+CL21B106KOQNNN
+CL31B221KBCNNN
+CL31B331KBCNNN
+CL31B471KBCNNN
+CL31B561KBCNNN
+CL31B152KBCNNN
+CL31B222KBCNNN
+CL31B332KBCNNN
+CL31B472KBCNNN
+CL31B473KBCNNN
+CL31B562KBCNNN
+CL31B682KBCNNN
+CL31B822KBCNNN
+CL31B103KBCNNN
+CL31B123KBCNNN
+CL31B153KBCNNN
+CL31B223KBCNNN
+CL31B333KBCNNN
+CL31B683KBCNNN
+CL31B104KBCNNN
+CL31B154KBCNNN
+CL31B224KBFNNN
+CL31B334KBFNNN
+10㎋
+12㎋
+15㎋
+33㎋
+39㎋
+47㎋
+56㎋
+68㎋
+68㎋
+68㎋
+82㎋
+82㎋
+100㎋
+100㎋
+100㎋
+120㎋
+120㎋
+150㎋
+150㎋
+220㎋
+330㎋
+470㎋
+680㎋
+1㎌
+1.5㎌
+2.2㎌
+4.7㎌
+4.7㎌
+10㎌
+220㎊
+330㎊
+470㎊
+560㎊
+1.5㎋
+2.2㎋
+3.3㎋
+4.7㎋
+47㎋
+5.6㎋
+6.8㎋
+8.2㎋
+10㎋
+12㎋
+15㎋
+22㎋
+33㎋
+68㎋
+100㎋
+150㎋
+220㎋
+330㎋
+50
+50
+50
+50
+50
+50
+50
+25
+50
+50
+50
+50
+25
+50
+50
+50
+25
+16
+50
+50
+25
+25
+16
+50
+25
+25
+6.3
+25
+16
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+5%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+0.75
+0.75
+0.75
+0.75
+0.75
+0.75
+0.95
+0.75
+0.95
+1.35
+0.95
+1.35
+0.95
+0.95
+1.35
+1.35
+0.95
+0.75
+1.35
+1.35
+1.35
+1.35
+1.35
+1.35
+1.35
+1.35
+1.40
+1.35
+1.40
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.40
+1.40
+2.001.25
+3.201.60
+
+PAGE 28
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Standard & High Capacitors-X7R)
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+CL31B334KACNNN
+CL31B474KBHNNN
+CL31B474MAFNNN
+CL31B684KOCNNN
+CL31B684KBHNNN
+CL31B105KBHNNN
+CL31B225KAHNNN
+CL31B335KAHNNN
+CL31B475KBHNNN
+CL31B106KBHNNN
+CL31B226KPHNNN
+CL32B104KBFNNN
+CL32B154KBFNNN
+CL32B224KBFNNN
+CL32B334KBFNNN
+CL32B474KBFNNN
+CL32B105KBHNNN
+CL32B225KBJNNN
+CL32B225KAINNN
+CL32B475KBJNNN
+CL32B475KBUYNN
+CL32B475KOINNN
+CL32B106KLJNNN
+CL32B106KAULNN
+CL32B106KPINNN
+CL32B226KAJNNN
+CL32B476MQJNN
+330㎋
+470㎋
+470㎋
+680㎋
+680㎋
+1㎌
+2.2㎌
+3.3㎌
+4.7㎌
+10㎌
+22㎌
+100㎋
+150㎋
+220㎋
+330㎋
+470㎋
+1㎌
+2.2㎌
+2.2㎌
+4.7㎌
+4.7㎌
+4.7㎌
+10㎌
+10㎌
+10㎌
+22㎌
+47㎌
+25
+50
+25
+16
+50
+50
+25
+25
+50
+50
+10
+50
+50
+50
+50
+50
+50
+50
+25
+50
+50
+16
+35
+25
+10
+25
+6.3
+10%
+10%
+20%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+20%
+1.00
+1.80
+1.40
+1.00
+1.80
+1.80
+1.80
+1.80
+1.80
+1.80
+1.80
+1.45
+1.45
+1.45
+1.45
+1.45
+1.80
+2.70
+2.20
+2.70
+2.00
+2.20
+2.70
+2.00
+2.20
+2.70
+2.70
+3.201.60
+3.202.50
+
+PAGE 29
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+28
+29
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Standard & High Capacitors-Y5V)
+0.22
+0.22
+0.22
+0.47
+0.47
+1
+0.47
+0.47
+0.47
+0.47
+1
+1
+2.2
+2.2
+4.7
+1
+1
+1
+2.2
+2.2
+4.7
+4.7
+4.7
+10
+10
+10
+10
+4.7
+4.7
+4.7
+10
+10
+10
+22
+22
+10
+10
+22
+22
+47
+100
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+80/20%
+16
+10
+6.3
+10
+6.3
+6.3
+50
+25
+16
+10
+16
+10
+10
+6.3
+6.3
+50
+25
+16
+25
+16
+6.3
+16
+10
+10
+10
+6.3
+6.3
+16
+10
+6.3
+16
+10
+6.3
+10
+6.3
+25
+16
+10
+10
+6.3
+6.3
+1
+2
+3
+4
+5
+6
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+7
+8
+1
+2
+3
+4
+5
+6
+0.55 
+0.55 
+0.55 
+0.55 
+0.55 
+0.55 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+1.35 
+1.35 
+1.35 
+1.35 
+1.35 
+1.35 
+1.35 
+1.35 
+1.35 
+0.95 
+1.35 
+0.95 
+1.40 
+1.40 
+1.40 
+1.80 
+1.80 
+1.80 
+1.80 
+1.80 
+1.80 
+1.20 
+2.70 
+2.70 
+2.20 
+2.70 
+1.000.50
+2.001.25
+1.600.80
+3.201.60
+3.202.50
+CL05F224ZO5NNN 
+CL05F224ZP5NNN 
+CL05F224ZQ5NNN 
+CL05F474ZP5NNN 
+CL05F474ZQ5NNN 
+CL05F105ZQ5NNN 
+CL10F474ZB8NNN 
+CL10F474ZA8NNN 
+CL10F474ZO8NNN 
+CL10F474ZP8NNN 
+CL10F105ZO8NNN 
+CL10F105ZP8NNN 
+CL10F225ZP8NNN 
+CL10F225ZQ8NNN 
+CL10F475ZQ8NNN 
+CL21F105ZBFNNN 
+CL21F105ZAFNNN 
+CL21F105ZOFNNN 
+CL21F225ZAFNNN 
+CL21F225ZOFNNN 
+CL21F475ZQFNNN 
+CL21F475ZOFNNN 
+CL21F475ZPFNNN 
+CL21F106ZPFNNN 
+CL21F106ZPCLNN 
+CL21F106ZQFNNN 
+CL21F106ZQCLNN 
+CL31F475ZOFNNN 
+CL31F475ZPFNNN 
+CL31F475ZQFNNN 
+CL31F106ZOHNNN 
+CL31F106ZPHNNN 
+CL31F106ZQHNNN 
+CL31F226ZPHNNN 
+CL31F226ZQHNNN 
+CL32F106ZAHNNN 
+CL32F106ZOELNN 
+CL32F226ZPJNNN 
+CL32F226ZPJLNN 
+CL32F476ZQINNN 
+CL32F107ZQJNNN 
+
+PAGE 30
+U Small chip size
+U 02 and 03 series (High-Q) MLCC shows very low ESR value.
+U 02 and 03 Series are suited to only reflow soldering
+U 02 and 03 Series are suited to miniature RF module,
+portable equipment and high frequency circuit
+U VCO, Tuner, RF Module
+U MCM Module
+U Mobile phone, Wireless LAN, Note PC
+Feature
+Application
+Structure and Dimensions
+L
+T
+BW
+W
+Code
+EIA
+Code
+L                                   W                                  T                                  BW
+Dimension (mm)
+0.30.03
+0.30.03
+0.60.03
+0201
+0.150.05
+0.100.03
+03
+0.20.02
+0.20.02
+0.40.02
+01005
+02
+Super Small Size
+Capacitors
+
+PAGE 31
+30
+31
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+Super Small Size Capacitance Table (C0G)
+Super Small Size Capacitance Table (High-Q)
+TC
+Capacitance (㎊)
+Vr(V)
+6.3
+16
+25
+50
+25
+25
+50
+Size
+(mm)
+01005(0402)
+0201(0603)
+01005(0402)
+0201(0603)
+C0G
+C0G
+0.5            1                10              22              47             100            220              330
+TC
+Capacitance (㎊)
+Capacitance (㎋)
+Capacitance (㎌)
+Vr(V)
+Size
+(mm)
+0.2            1                10              15              27              33              47               100
+Super Small Size Capacitance Table (X7R,X6S)
+Super Small Size Capacitance Table (X5R, Y5V)
+TC
+Vr(V)
+Size
+(mm)
+TC
+Vr(V)
+Size
+(mm)
+6.3
+10
+16
+4
+6.3
+10
+16
+25
+6.3
+01005(0402)
+0201(0603)
+0201(0603)
+X5R
+Y5V
+0.01           0.1            0.22            0.47             1               2.2             4.7                 10       
+X5R or X6S
+10
+10
+16
+25
+50
+4
+01005(0402)
+0201(0603)
+0201(0603)
+X7R
+0.1          0.22            0.47             1               2.2             3.3             4.7                  10
+X6S
+
+PAGE 32
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please  see p74.
+Product Lineup (Super Small Size Capacitors-C0G)
+CL02C0R5CO2ANN  
+CL02C010CO2ANN  
+CL02C1R2CO2ANN  
+CL02C1R5CO2ANN  
+CL02C1R8CO2ANN  
+CL02C020CO2ANN  
+CL02C2R2CO2ANN  
+CL02C2R7CO2ANN  
+CL02C030CO2ANN  
+CL02C3R3CO2ANN  
+CL02C3R9CO2ANN  
+CL02C4R7CO2ANN  
+CL02C5R6DO2ANN  
+CL02C6R8DO2ANN  
+CL02C8R2DO2ANN  
+CL02C090DO2ANN  
+CL02C100 J O2ANN  
+CL02C150J O2ANN  
+CL02C180J O2ANN  
+CL02C220J O2ANN  
+CL02C270J O2ANN  
+CL02C330J O2ANN  
+CL02C390J O2ANN  
+CL02C470J O2ANN  
+CL02C560J Q2ANN  
+CL02C680J Q2ANN  
+CL02C820 J Q2ANN  
+CL02C101J O 2ANN  
+CL02C101 J Q2ANN  
+CL02C0R5BO2GNN  
+CL02C010BO2GNN  
+CL02C1R2BO2GNN  
+CL02C1R5BO2GNN  
+CL02C1R8BO2GNN
+CL02C2R2BO2GNN
+CL02C2R7BO2GNN
+CL02C3R3BO2GNN
+CL02C3R9BO2GNN
+CL02C4R7BO2GNN
+CL02C5R6BO2GNN
+CL02C6R8BO2GNN
+CL02C8R2BO2GNN
+CL02C100JO2GNN
+CL02C120JO2GNN
+CL02C150JO2GNN
+CL02C180JO2GNN
+CL02C220JO2GNN
+CL02C270JO2GNN
+0.5
+1.0
+1.2
+1.5
+1.8
+2.0
+2.2
+2.7
+3.0
+3.3
+3.9
+4.7
+5.6
+6.8
+8.2
+9.0
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+10㎊
+15㎊
+18㎊
+22㎊
+27㎊
+33㎊
+39㎊
+47㎊
+56㎊
+68㎊
+82㎊
+100㎊
+100㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+0.5
+1.0
+1.2
+1.5
+1.8
+2.2
+2.7
+3.3
+3.9
+4.7
+5.6
+6.8
+8.2㎊
+10㎊
+12㎊
+15㎊
+18㎊
+22㎊
+27㎊
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.25
+0.5
+0.5
+0.5
+0.5
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+5%
+5%
+5%
+5%
+5%
+5%
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+6.3
+6.3
+6.3
+16
+6.3
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+16
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+0.400.20
+0.400.20
+CL03C0R5CA3GNN  
+CL03C010CA3GNN  
+CL03C1R2CA3GNN  
+CL03C1R5CA3GNN  
+0.5㎊
+1.0㎊
+1.2㎊
+1.5㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+25
+25
+25
+25
+1
+2
+3
+4
+0.33
+0.33
+0.33
+0.33
+High-Q
+High-Q
+High-Q
+High-Q
+0.600.30
+
+PAGE 33
+32
+33
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+Product Lineup (Super Small Size Capacitors-X7R,X6S)
+CL02B101KP2NNN
+CL02B221KP2NNN
+CL02B271KP2NNN
+CL02B331KP2NNN
+CL02B391KP2NNN
+CL02B471KP2NNN
+CL02B681KP2NNN
+CL03B151KA3NNN
+CL03B221KA3NNN
+CL03B271KO3NNN
+CL03B331KA3NNN
+CL03B471KA3NNN
+CL03B561KO3NNN
+CL03B681KA3NNN
+100
+150
+㎊
+220㎊
+270㎊
+330㎊
+390㎊
+470㎊
+680㎊
+1㎋
+㎊
+220㎊
+270㎊
+330㎊
+470㎊
+560㎊
+680㎊
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10
+10
+10
+10
+10
+10
+10
+25
+25
+16
+25
+25
+16
+25
+1
+2
+3
+4
+5
+6
+7
+1
+2
+3
+4
+5
+6
+7
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+CL02B102KP2NNN
+10%
+10
+8
+0.22
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.600.30
+0.400.20
+CL03B821KO3NNN
+CL03B102KA3NNN
+CL03B152KP3NNN
+CL03B332KP3NNN
+CL03B392KP3NNN
+CL03B472KP3NNN
+CL03B682KP3NNN
+820
+1
+1.5
+3.3
+3.9
+6.8
+㎊
+㎋
+㎋
+㎋
+㎋
+4.7㎋
+㎋
+10 ㎋
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+16
+25
+10
+10
+10
+10
+10
+8
+9
+10
+11
+12
+13
+14
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+CL03B103KP3NNN
+CL03X104KQ3NNN
+CL03X105MR3CSN
+CL03X105MR3NRN
+100
+1
+㎋
+10%
+20%
+20%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20%
+10
+6.3
+4
+4
+15
+1
+2
+3
+0.33
+0.33
+0.35
+0.39
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+㎌
+1㎌
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please  see p74.
+Product Lineup (Super Small Size Capacitors-C0G)
+  
+  
+  
+  
+CL03C1R8CA3GNN  
+CL03C020CA3GNN  
+CL03C2R2CA3GNN  
+CL03C2R7CA3GNN  
+CL03C030CA3GNN  
+CL03C3R3CA3GNN  
+CL03C3R9CA3GNN  
+CL03C4R7CA3GNN  
+CL03C5R6DA3GNN  
+CL03C6R8DA3GNN  
+CL03C8R2DA3GNN  
+CL03C090DA3GNN  
+CL03C100JA3GNN  
+CL03C150JA3ANN  
+CL03C180JA3ANN  
+CL03C220JA3ANN  
+CL03C270JA3ANN  
+CL03C330JA3ANN  
+CL03C390JA3ANN  
+CL03C470JA3ANN  
+CL03C101JB3ANN
+CL03C101JA3ANN  
+1.8㎊
+2.0㎊
+2.2㎊
+2.7㎊
+3.0㎊
+3.3㎊
+3.9㎊
+4.7㎊
+5.6㎊
+6.8㎊
+8.2㎊
+9.0㎊
+10㎊
+15㎊
+18㎊
+22㎊
+27㎊
+33㎊
+39㎊
+47㎊
+100㎊
+100㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.25㎊
+0.5㎊
+0.5㎊
+0.5㎊
+0.5㎊
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+25
+50
+25
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+High-Q
+0.600.30
+
+PAGE 34
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Super Small Size Capacitors-X5R)
+0.600.30
+0.400.20
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+NNN  
+CL02A151KQ2NNN  
+CL02A221KQ2NNN  
+CL02A331KQ2NNN  
+CL02A471KQ2NNN  
+CL02A681KQ2NNN  
+CL02A102KQ2NNN  
+CL02A152KQ2NNN  
+CL02A222KQ2NNN  
+CL02A332KQ2NNN  
+CL02A472KQ2NNN  
+CL02A682KQ2NNN  
+CL02A103KQ2NNN  
+CL02A104KQ2NNN  
+CL02A224MR2NNN  
+CL02A224MQ2NNN  
+CL03A103KA3NNN  
+CL03A223KQ3NNN  
+CL03A473KQ3NNN  
+CL03A104MA3
+CL03A104KO3NNN  
+CL03A104KP3NNN  
+CL03A104KQ3NNN  
+CL03A224KQ3NNN  
+CL03A224KP3NNN
+CL03A105MO3NRN  
+CL03A105MQ3CSN
+CL03A105MP3NSN
+CL03A225MR3CRN
+CL03A225MQ3CRN
+150
+220
+330
+470
+680
+1
+1.5
+2.2
+3.2
+4.7
+6.8
+10
+100
+220
+220
+10
+22
+47
+100
+100
+100
+100
+220
+220
+1
+1
+1
+2.2
+2.2
+㎊
+㎊
+㎊
+㎊
+㎊
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎌
+㎌
+㎌
+㎌
+6.3
+6.3
+6.3
+6.3
+6.3
+6.3
+6.3
+6.3
+6.3
+6.3
+6.3
+6.3
+6.3
+4
+6.3
+25
+6.3
+6.3
+25
+16
+10
+6.3
+6.3
+10
+16
+6.3
+10
+4
+6.3
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+20%
+20%
+10%
+10%
+10%
+20%
+10%
+10%
+10%
+10%
+10%
+20%
+20%
+20%
+20%
+20%
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.22
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.33
+0.39
+0.35
+0.35
+0.39
+0.39
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+
+PAGE 35
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+34
+35
+High-Q Capacitors
+L
+T
+BW
+W
+Code
+EIA
+Code
+Rated
+Voltage
+L                                  W                                 T                                  BW
+(mm)
+Dimension
+0.500.05
+0.800.10
+0.650.10
+0.850.15
+0.500.05
+0.800.10
+0.800.15
+1.250.15
+1.00
+0.05
+1.60
+0.10
+1.60
+0.15
+2.00
+0.15
+
+
+
+
+50V
+50/100V
+250V
+250V
+0402
+0603
+0.250.10
+0.300.20
+0.300.20
+0.500.20/0.30
+05
+10
+0805
+21
+U High Q and low ESR in high frequency range
+U Tight tolerance available
+U  High efficiency and low power consumption in RF circuit
+U  Can be applied to power amplifier module for base-station and 
+ GHz range communications
+U Base Station
+U Set Top Box
+U Wireless Equipment
+U GPS, Bluetooth
+Application
+Structure and Dimensions
+Feature
+Plating layer(Ni/Sn)
+Outer electrode(Cu)
+Inner electrode(Cu)
+Ceramic
+TC
+Capacitance (    )
+㎊
+Vr(V)
+Size(mm)
+50
+50
+100
+250
+250
+0402(1005)
+0603(1608)
+0805(2012)
+COG
+0.2       0.5        1          10       15         27        33        47        68       100      150      220
+Capacitance Table (High-Q capacitor)
+
+PAGE 36
+Medium-High Voltage
+Capacitors
+L
+T
+BW
+W
+Code
+EIA
+Code
+L                              W                              T                 Thickness Code              BW
+(mm)
+Dimension
+0.800.10
+1.250.10
+0.850.10
+0.650.10
+1.600.20
+1.250.15
+0.850.15
+2.500.20
+1.600.20
+1.250.20
+2.000.20
+1.600.20
+1.250.20
+2.500.20
+1.600.20
+1.250.20
+2.500.20
+1.600.20
+0.800.10
+1.250.10
+1.250.10
+1.250.10
+1.600.20
+1.600.15
+1.600.15
+2.500.20
+2.500.20
+2.500.20
+2.000.20
+2.000.20
+2.000.20
+3.200.30
+3.200.30
+3.200.30
+5.000.40
+5.000.40
+1.60
+0.10
+2.00
+0.10
+2.00
+0.10
+2.00
+0.10
+3.20
+0.20
+3.20
+0.15
+3.20
+0.15
+3.20
+0.30
+3.20
+0.30
+3.20
+0.30
+4.50
+0.40
+4.50
+0.40
+4.50
+0.40
+4.50
+0.40
+4.50
+0.40
+4.50
+0.40
+5.70
+0.40
+5.70
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0.40
+0603
+0805
+1206
+1210
+1808
+1812
+2220
+0.30.2
+0.50.2/0.3
+0.50.3
+0.60.3
+0.80.3
+0.80.3
+1.00.3
+10
+21
+31
+32
+42
+43
+55
+U Highly reliable performance
+U Operating at high voltage level
+U Wide voltage level: from 100V to 3000V
+U High withstanding voltage
+U Tape & reel surface mount assembly
+U Switching Power Circuit(SMPS)
+U Lighting Ballast, LCD back lighting inverter
+U DC-DC converter input filter, snubber circuit
+U Phone, Fax, Modem
+U Network(IEEE802.3)
+Application
+Structure and Dimensions
+Feature
+8
+F
+C
+A
+H
+F
+C
+J
+H
+F
+I
+H
+F
+J
+H
+F
+J
+H
+
+PAGE 37
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+36
+37
+Feature
+Medium-High Voltage capacitance Table (C0G)
+100V
+200V
+250V
+500V
+630V
+0603(1608)
+0805(2012)
+1206(3216)
+1210(3225)
+1812(4532)
+2220(5750)
+0603(1608)
+0805(2012)
+1206(3216)
+1210(3225)
+1812(4532)
+2220(5750)
+0603(1608)
+0805(2012)
+1206(3216)
+1210(3225)
+1812(4532)
+2220(5750)
+1206(3216)
+1210(3225)
+1812(4532)
+2220(5750)
+0805(2012)
+1206(3216)
+1210(3225)
+1812(4532)
+2220(5750)
+330 390 470 560 680 820  1  1.2   1.5   1.8 2.2 2.7  3.3  3.9  4.7  5.6 6.8  8.2  10  12  15  18 22 27  33  47  56   68
+(㎋)
+Size(mm)
+(㎊)
+Capacitance
+Vr(V)
+
+PAGE 38
+Medium-High Voltage capacitance Table (C0G)
+1KV
+2KV
+3KV
+1206(3216)
+1210(3225)
+1812(4532)
+2220(5750)
+1206(3216)
+1210(3225)
+1808(4520)
+1812(4532)
+2220(5750)
+1808(4520)
+1812(4532)
+2220(5750)
+47  56 68  82 100 120  150 180 220  270  330  390 470  560  680  820  1  1.2 1.5 1.8   2.2   2.7 3.3 3.9   4.7   5.6
+3.6㎋
+(㎋)
+Size(mm)
+(㎊)
+Capacitance
+Vr(V)
+
+PAGE 39
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+38
+39
+Medium-High Voltage capacitance Table (X7R)
+100V
+200V
+250V
+350V
+500V
+630V
+0603(1608)
+0805(2012)
+1206(3216)
+1210(3225)
+1812(4532)
+2220(5750)
+0805(2012)
+1206(3216)
+1210(3225)
+1812(4532)
+2220(5750)
+0805(2012)
+1206(3216)
+1210(3225)
+1812(4532)
+2220(5750)
+1206(3216)
+1206(3216)
+1210(3225)
+1812(4532)
+2220(5750)
+1206(3216)
+1210(3225)
+1812(4532)
+2220(5750)
+4.7     10      15     22   
+33    
+47   
+68       100    150      220 
+330      470      680    1000   1500    2200    4700
+(Tmax=1.0)
+(Tmax
+=1.8)
+(Tmax
+=1.25)
+(㎋)
+Size(mm)
+Capacitance
+Vr(V)
+
+PAGE 40
+Medium-High Voltage capacitance Table (X7R)
+1KV
+2KV
+3KV
+1206(3216)
+1210(3225)
+1812(4532)
+2220(5750)
+1206(3216)
+1210(3225)
+1808(4520)
+1812(4532)
+2220(5750)
+1808(4520)
+1      1.5     2.2     3.3     4.7     6.8     10      15       22      33      47      68    100     150    220    330
+(㎋)
+Size(mm)
+Capacitance
+Vr(V)
+
+PAGE 41
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+40
+41
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Medium-High Voltage Capacitors-C0G)
+CL10C100JC8NNN  
+CL10C150JC8NNN  
+CL10C330JC8NNN  
+CL10C390JC8NNN  
+CL10C470JC8NNN  
+CL10C560JC8NNN  
+CL10C101JC8NNN  
+CL10C121JC8NNN  
+CL10C151JC8NNN  
+CL10C331JC8NNN  
+CL10C331JD8NNN  
+CL10C331JE8NNN  
+CL10C391JD8NNN  
+CL10C391JE8NNN  
+CL10C471JC8NNN  
+CL10C471JD8NNN  
+CL10C471JE8NNN  
+CL10C561JD8NNN  
+CL10C561JE8NNN  
+CL10C681JC8NNN  
+CL10C681JD8NNN  
+CL10C681JE8NNN  
+CL10C821JC8NNN  
+CL10C102JC8NNN  
+CL10C122JC8NNN  
+CL21C100JCANNN  
+CL21C120JCANNN  
+CL21C150JCANNN
+CL21C150JDCNNN  
+CL21C180JCANNN  
+CL21C180JDCNNN  
+CL21C220JCANNN  
+CL21C270JCANNN  
+CL21C270JHFNNN
+CL21C330JCANNN  
+CL21C330JDCNNN  
+CL21C330JHFNNN
+CL21C390JDCNNN  
+CL21C470JCANNN  
+CL21C470JDCNNN  
+CL21C470JHFNNN
+CL21C560JCCNNN  
+CL21C560JDCNNN  
+CL21C680JCANNN  
+CL21C680JDCNNN  
+CL21C680JHFNNN
+CL21C820JCCNNN  
+CL21C101JCANNN
+CL21C101JDCNNN  
+CL21C101JECNNN
+10
+15
+33
+39
+47
+56
+100
+120
+150
+330
+330
+330
+390
+390
+470
+470
+470
+560
+560
+680
+680
+680
+820
+1
+1.2
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎋
+㎋
+10
+12
+15
+15
+18
+18
+22
+27
+27
+33
+33
+33
+39
+47
+47
+47
+56
+56
+68
+68
+68
+82
+100
+100
+100
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+200
+250
+200
+250
+100
+200
+250
+200
+250
+100
+200
+250
+100
+100
+100
+100
+100
+100
+200
+100
+200
+100
+100
+630
+100
+200
+630
+200
+100
+200
+630
+100
+200
+100
+200
+630
+100
+100
+200
+250
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.90 
+0.75 
+0.75 
+0.75 
+0.95 
+0.75 
+0.95 
+0.75 
+0.75 
+1.35
+0.75 
+0.95 
+1.35
+0.95 
+0.75 
+0.95 
+1.35
+0.95 
+0.95 
+0.75 
+0.95 
+1.35
+0.95 
+0.75
+0.95 
+0.95 
+1.600.80
+2.001.25
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+
+PAGE 42
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Medium-High Voltage Capacitors-C0G)
+CL21C121JDCNNN  
+CL21C151JCANNN  
+CL21C151JHFNNN
+CL21C221JCANNN  
+CL21C221JDCNNN
+CL21C331JCANNN  
+CL21C471JCCNNN  
+CL21C561JCCNNN  
+CL21C561JHFNNN
+CL21C681JCCNNN  
+CL21C102JCFNNN  
+CL21C102JDFNNN  
+CL21C272JDFNNN  
+CL21C272JEFNNN  
+CL21C472JCFNNN  
+CL31C150JGFNNN  
+CL31C180JGFNNN  
+CL31C220JGFNNN  
+CL31C220JJHNNN  
+CL31C270JGFNNN  
+CL31C330JGFNNN  
+CL31C390JGFNNN  
+CL31C470JGFNNN  
+CL31C470JHFNNN
+CL31C470JIFNNN  
+CL31C470JJHNNN  
+CL31C560JGFNNN  
+CL31C680JCCNNN  
+CL31C680JGFNNN  
+CL31C680JHFNNN  
+CL31C680JIFNNN  
+CL31C820JGFNCN  
+CL31C101JGFNNN  
+CL31C101JHFNNN  
+CL31C101JIFNNN  
+CL31C101JJHNNN  
+CL31C121JGFNNN  
+CL31C151JGFNNN  
+CL31C181JGFNNN  
+CL31C221JGFNNN  
+CL31C271JGFNNN  
+CL31C271JCCNNN  
+CL31C331JGFNNN  
+CL31C331JIHNNN  
+CL31C391JCCNNN  
+CL31C471JGFNNN
+CL31C471JHFNNN
+CL31C471JIFNNN  
+CL31C561JCCNNN  
+CL31C561JGFNNN  
+CL31C681JGFNNN  
+CL31C821JHHNNN
+120
+150
+150
+220
+220
+330
+470
+560
+560
+680
+1
+1
+2.7
+2.7
+4.7
+15
+18
+22
+22
+27
+33
+39
+47
+47
+47
+47
+56
+68
+68
+68
+68
+82
+100
+100
+100
+100
+120
+150
+180
+220
+270
+270
+330
+330
+390
+470
+470
+470
+560
+560
+680
+820
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎋
+㎋
+㎋
+㎋
+㎋
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎌
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+200
+100
+630
+100
+200
+100
+100
+100
+630
+100
+100
+200
+200
+250
+100
+500
+500
+500
+2000
+500
+500
+500
+500
+630
+1000
+2000
+500
+100
+500
+630
+1000
+500
+500
+630
+1000
+2000
+500
+500
+500
+500
+500
+100
+500
+1000
+100
+500
+630
+1000
+100
+500
+500
+630
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+0.95 
+0.75 
+1.35
+0.75 
+0.95 
+0.75 
+0.95 
+0.95 
+1.35
+0.95 
+1.35 
+1.35 
+1.35 
+1.35 
+1.35 
+1.40 
+1.40 
+1.40 
+1.80 
+1.40 
+1.40 
+1.40 
+1.40 
+1.40 
+1.40
+1.80 
+1.40 
+1.00 
+1.40 
+1.40 
+1.40 
+1.40 
+1.40 
+1.40 
+1.40 
+1.80 
+1.40 
+1.40 
+1.40 
+1.40 
+1.40 
+1.00 
+1.40 
+1.80 
+1.00 
+1.40 
+1.40
+1.40
+1.00 
+1.40 
+1.80
+1.80
+2.001.25
+3.201.60
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+
+PAGE 43
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+42
+43
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Medium-High Voltage Capacitors-C0G)
+CL31C102JCCNNN  
+CL31C102JGHNNN  
+CL31C152JCCNNN  
+CL31C222JCCNNN  
+CL31C332JGHNNN  
+CL31C332JHHNNN  
+CL31C392JCHNNN  
+CL31C822JDHNNN
+CL31C822JEHNNN  
+CL31C183JCHNNN  
+CL32C101JJFNNN  
+CL32C471JJJNNN  
+CL32C821JIJNNN  
+CL32C103JGJNNN  
+CL32C103JHJNNN  
+CL32C273JDJNNN  
+CL32C273JEJNNN  
+CL32C563JCJNNN  
+CL42C100JKFNNN  
+CL42C151JKINNN  
+CL42C221JJHNNN  
+CL43C391JKJNNN  
+CL43C102 J I HNNN
+CL43
+ 
+N
+N
+N
+ I I J
+2
+2
+1
+C
+CL43C182 J I J NNN  
+CL43C182JJJNNN  
+CL43C223JGJNNN  
+CL43C223JHJNNN  
+CL43C473JDJNNN  
+CL43C473JEJNNN  
+CL43C563JCJNNN  
+CL55C102JJJNNN  
+CL55C102JKJNNN  
+CL55C362JIJNNN  
+CL55C223JGJNNN  
+CL55C223JHJNNN  
+CL55C473JDJNNN  
+CL55C473JEJNNN  
+CL55C683JCJNNN 
+1㎋
+1㎋
+1.5㎋
+2.2㎋
+3.3㎋
+3.3㎋
+3.9㎋
+8.2㎋
+8.2㎋
+18㎋
+100㎊
+470㎊
+820㎊
+10㎋
+10㎋
+27㎋
+27㎋
+56㎋
+10㎊
+150㎊
+220㎊
+390㎊
+1㎋
+1.2㎋
+1.8㎋
+1.8㎋
+22㎋
+22㎋
+47㎋
+㎋
+47
+56㎋
+1㎋
+1㎋
+3.6㎋
+22㎋
+22㎋
+47㎋
+47㎋
+68㎋
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5%
+100
+500
+100
+100
+500
+630
+100
+200
+250
+100
+2000
+2000
+1000
+500
+630
+200
+250
+100
+3000
+3000
+2000
+3000
+1000
+1000
+1000
+2000
+500
+630
+200
+250
+100
+2000
+3000
+1000
+500
+630
+200
+250
+100
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+1
+2
+3
+4
+5
+6
+7
+8
+1
+2
+3
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+1
+2
+3
+4
+5
+6
+7
+8
+1.00 
+1.80 
+1.00 
+1.00 
+1.80 
+1.80 
+1.80 
+1.80 
+1.80 
+1.80 
+1.45 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+1.45 
+2.20 
+1.80 
+2.70 
+1.80 
+2.20 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+2.70 
+3.201.60
+3.202.50
+4.502.00
+4.503.20
+5.705.00
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+
+PAGE 44
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Medium-High Voltage Capacitors-X7R)
+CL10B102KC8NNN  
+CL10B472KC8NNN  
+CL10B103KC8NNN
+CL10B104KC8NNN  
+CL21B221KDCNNN  
+CL21B221KCANNN  
+CL21B331KDCNNN  
+CL21B471KCANNN  
+CL21B102KDCNNN  
+CL21B102KCANNN  
+CL21B222KDCNNN  
+CL21B222KCANNN  
+CL21B332KCANNN  
+CL21B472KDCNNN  
+CL21B472KCANNN  
+CL21B682KCANNN  
+CL21B103KDCNNN  
+CL21B103KCANNN  
+CL21B153KEFNNN  
+CL21B153KDFNNN  
+CL21B153KCCNNN  
+CL21B223KCFNNN  
+CL21B473KCFNNN  
+CL21B683KCFNNN  
+CL21B154KCFNNN  
+CL21B224KCFNNN  
+CL31B221KGFNNN  
+CL31B471KGFNNN  
+CL31B471KDCNNN  
+CL31B102KJHNNN  
+CL31B102KI FNNN  
+CL31B102KGFNNN  
+CL31B102KHFNNN  
+CL31B152KGFNNN  
+CL31B152KJHNNN  
+CL31B222KIFNNN  
+CL31B222KDCNNN  
+CL31B222KGFNNN  
+CL31B222KJHNNN  
+CL31B332KGFNNN  
+CL31B332KIFNNN  
+CL31B472KGFNNN
+1㎋
+4.7㎋
+10㎋
+100㎋
+220㎊
+220㎊
+330㎊
+470㎊
+1㎋
+1㎋
+2.2㎋
+2.2㎋
+3.3㎋
+4.7㎋
+4.7㎋
+6.8㎋
+10㎋
+10㎋
+15㎋
+㎋
+15
+15㎋
+22㎋
+47㎋
+68㎋
+150㎋
+220㎋
+220㎊
+470㎊
+470㎊
+1㎋
+1㎋
+1㎋
+1㎋
+1.5㎋
+1.5㎋
+2.2㎋
+2.2㎋
+2.2㎋
+2.2㎋
+3.3㎋
+3.3㎋
+4.7㎋
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10%
+100
+100
+100
+100
+200
+100
+200
+100
+200
+100
+200
+100
+100
+200
+100
+100
+200
+100
+250
+200
+100
+100
+100
+100
+100
+100
+500
+500
+200
+2000
+1000
+500
+630
+500
+2000
+1000
+200
+500
+2000
+500
+1000
+500
+1
+2
+3
+4
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+0.90 
+0.90 
+0.90
+0.90  
+0.95 
+0.75 
+0.95 
+0.75 
+0.95 
+0.75 
+0.95 
+0.75 
+0.75 
+0.95 
+0.75 
+0.75 
+0.95 
+0.75 
+1.35 
+1.35 
+0.95 
+1.35 
+1.35 
+1.35 
+1.35 
+1.35 
+1.40 
+1.40 
+1.00 
+1.80 
+1.40 
+1.40 
+1.40 
+1.40 
+1.80 
+1.40 
+1.00 
+1.40 
+1.80 
+1.40 
+1.40 
+1.40 
+1.60 x 0.80
+2.001.25
+3.201.60
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+
+PAGE 45
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+44
+45
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Medium-High Voltage Capacitors-X7R)
+CL31B472KDCNNN  
+CL31B682KGFNNN  
+CL31B103KHFNNN  
+CL31B103KGFNNN  
+CL31B103KFCSNN  
+CL31B153KDCNNN  
+CL31B153KFCSNN  
+CL31B153KCCNNN  
+CL31B153KGFNNN  
+CL31B153KHFNNN  
+CL31B223KDCNNN  
+CL31B223KCCNNN  
+CL31B223KFCSNN  
+CL31B223KGHNNN  
+CL31B223KHHNNN  
+CL31B333KDFNNN  
+CL31B333KFESNN  
+CL31B333KCCNNN  
+CL31B333KGHNNN  
+CL31B333KHHNNN  
+CL31B473KDFNNN  
+CL31B473KFHSNN  
+CL31B473KCCNNN  
+CL31B473KEHNNN  
+CL31B683KEHNNN  
+CL31B104KDHNNN  
+CL31B104KCFNNN  
+CL31B104KEHNNN  
+CL31B154KCHNNN  
+CL31B105KCHNNN  
+CL31B155KCHNNN  
+CL31B225KCHNNN  
+CL32B102KJFNNN  
+CL32B472KHFNNN  
+CL32B472KIFNNN  
+CL32B682KIFNNN  
+CL32B103KCFNNN  
+CL32B153KGFNNN  
+CL32B223KGFNNN  
+CL32B333KHHNNN  
+CL32B333KGHNNN  
+CL32B473KHHNNN
+4.7
+6.8
+10
+10
+10
+15
+15
+15
+15
+15
+22
+22
+22
+22
+22
+33
+33
+33
+33
+33
+47
+47
+47
+47
+68
+100
+100
+100
+150
+1
+1.5
+2.2
+1
+4.7
+4.7
+6.8
+10
+15
+22
+33
+33
+47
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎌
+㎌
+㎌
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10%
+200
+500
+630
+500
+350
+200
+350
+100
+500
+630
+200
+100
+350
+500
+630
+200
+350
+100
+500
+630
+200
+350
+100
+250
+250
+200
+100
+250
+100
+100
+100
+100
+2000
+630
+1000
+1000
+100
+500
+500
+630
+500
+630
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+1.00 
+1.40 
+1.40 
+1.40 
+1.00 
+1.00 
+1.00 
+1.00 
+1.40 
+1.40 
+1.00 
+1.00 
+1.00 
+1.80 
+1.80 
+1.40 
+1.25 
+1.00 
+1.80 
+1.80 
+1.40 
+1.80 
+1.00 
+1.80 
+1.80 
+1.80 
+1.40 
+1.80 
+1.80 
+1.80 
+1.80 
+1.80 
+1.45 
+1.45 
+1.45 
+1.45 
+1.45 
+1.45 
+1.45 
+1.80 
+1.80 
+1.80 
+3.201.60
+3.202.50
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+
+PAGE 46
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Medium-High Voltage Capacitors-X7R)
+CL32B473KDHNNN  
+CL32B473KGHNNN  
+CL32B683KDINNN  
+CL32B104KEJNNN
+CL32B104KDINNN  
+CL32B154KCFNNN  
+CL32B154KDJNNN  
+CL32B154KEJNNN  
+CL32B224KCHNNN  
+CL32B224KDJNNN  
+CL32B224KEJNNN  
+CL32B334KCHNNN  
+CL32B474KCINNN  
+CL32B105KCJNNN  
+CL32B155KCHNNN  
+CL32B225KCJNNN  
+CL43B102KJFNNN  
+CL43B152KJFNNN  
+CL43B222KIFNNN  
+CL43B222KJFNNN  
+CL43B332KJFNNN  
+CL43B103KIFNNN  
+CL43B333KIJNNN  
+CL43B473KGFNNN  
+CL43B473KHFNNN  
+CL43B104KGINNN  
+CL43B104KDFNNN  
+CL43B104KHINNN  
+CL43B224KCFNNN  
+CL43B334KCFNNN  
+CL43B474KEJNNN  
+CL43B474KCHNNN  
+CL43B474KDJNNN  
+CL43B105KCJNNN  
+CL55B103KJHNNN  
+CL55B473KIINNN  
+CL55B224KGJNNN  
+CL55B224KHJNNN  
+CL55B105KCHNNN  
+CL55B105KDJNNN  
+CL55B105KEJNNN  
+CL55B475KCJNNN
+47㎋
+47㎋
+68㎋
+100㎋
+100㎋
+150㎋
+150㎋
+150㎋
+220㎋
+220㎋
+220㎋
+330㎋
+470㎋
+1㎌
+1.5㎌
+2.2㎌
+1㎋
+1.5㎋
+2.2㎋
+2.2㎋
+3.3㎋
+10㎋
+33㎋
+47㎋
+47㎋
+100㎋
+100㎋
+100㎋
+220㎋
+330㎋
+470㎋
+470㎋
+470㎋
+1㎌
+10㎋
+47㎋
+220㎋
+220㎋
+1㎌
+1㎌
+1㎌
+4.7㎌
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10%
+200
+500
+200
+250
+200
+100
+200
+250
+100
+200
+250
+100
+100
+100
+100
+100
+2000
+2000
+1000
+2000
+2000
+1000
+1000
+500
+630
+500
+200
+630
+100
+100
+250
+100
+200
+100
+2000
+1000
+500
+630
+100
+200
+250
+100
+1.80 
+1.80 
+2.20 
+2.70 
+2.20 
+1.45 
+2.70 
+2.70 
+1.80 
+2.70 
+2.70 
+1.80 
+2.20 
+2.70 
+1.80 
+2.70 
+1.45 
+1.45 
+1.45 
+1.45 
+1.45 
+1.45 
+2.70 
+1.45 
+1.45  
+2.20 
+1.45 
+2.20 
+1.45 
+1.45 
+2.70 
+1.80 
+2.70 
+2.70 
+1.80 
+2.20 
+2.70 
+2.70 
+1.80 
+2.70 
+2.70 
+2.70 
+3.202.50
+4.503.20
+5.705.00
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+1
+2
+3
+4
+5
+6
+7
+8
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+
+PAGE 47
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+46
+47
+Array Type
+Capacitors
+■A : ARRAY(2-element)
+■B : ARRAY(4-element)
+L
+T
+SW
+BW
+P
+W
+Ceramic Body
+End Termination
+SW
+L
+W
+P
+BW
+T
+SW
+L
+W
+BW
+P
+T
+Ceramic Body
+End Termination
+0.350.05
+0.500.05
+0.600.06
+0.800.08
+0.850.1
+0.850.1
+0.850.15
+0.360.1
+0.50.2
+0.250.1
+0.40.2
+1.370.15
+2.00.15
+2.00.15
+3.20.15
+1.00.15
+1.250.15
+1.250.15
+1.60.15
+0.20.1
+0.250.15
+0.250.15
+0.30.15
+0.640.1
+1.00.1
+0.50.1
+0.80.2
+1410
+2012
+2012
+3216
+A
+A
+B
+B
+0.250.05
+0.900.05
+0.45
+0.600.05
+0.05
+0.150.1
+0.450.05
+0906
+Code
+Size
+(mm)
+L                         W                         T                        BW                      SW             
+P
+Dimension(mm)
+EIA
+Code
+0504
+0805
+0805
+1206
+0302
+A
+U Reduction in required space(more than 50%)
+U Reduction in cost and time for replacement of PCB
+U Reduction in amount of solder joints
+U Easier PCB design
+U Reduced waste from tape and reel packaging process
+U It protect EMI bypassing digital signal line nose
+U A bypass for digital and analog signal line noise generated by telecommunication equipment and other common 
+electronic circuits
+Feature
+Application
+Structure and Dimensions
+Structure and Control Code
+
+PAGE 48
+Array Type capacitance Table (C0G, X5R, X7R, Y5V)
+TC
+C0G
+Capacitance(㎊)
+Size(mm)
+0504(1410)
+1206(3216)
+Type
+2-element
+4-element
+Vr(V)
+25
+50
+0.88
+1.00
+Tmax
+(mm)
+Size(mm)
+Type
+Vr(V)
+Tmax
+(mm)
+TC
+X5R
+X7R
+Y5V
+2-element
+2-element
+2-element
+4-element
+4-element
+4-element
+0302(0906)
+0504(1410)
+0805(2012)
+0805(2012)
+1206(3216)
+1206(3216)
+4
+6.3
+10
+6.3
+10
+16
+25
+6.3
+10
+16
+10
+16
+16
+25
+50
+25
+50
+0.50
+0.88
+0.66
+0.55
+0.40
+0.88
+0.66
+0.55
+0.40
+0.88
+0.66
+0.55
+0.40
+0.88
+0.66
+0.55
+0.95
+0.95
+1.00
+1.00
+10               22                27                47               100              470
+Capacitance(㎋)
+1       2.2      4.7      10       22       47      100      220    470    1000   2200  
+
+PAGE 49
+48
+49
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Array Type Capacitors )
+CL14C270KA6NAN
+CL31C100JBCNBN
+CL31C150JBCNBN
+CL31C220JBCNBN
+CL31C270JBCNBN
+CL31C330KBCNBN
+CL31C390KBCNBN
+CL31C680JBCNBN
+CL31C820JBCNBN
+CL31C101JBCNBN
+CL31C151KBCNBN 
+CL31C181JBCNBN
+CL31C331JBCNBN
+CL31C471JBCNBN
+CL21B471KBCNBN
+CL21B104KOCNBN
+CL21B104MPCNBN
+CL31B102MBCNBN  
+CL31B103MBCNBN  
+CL31B153KBCNBN
+CL31B473KACNBN
+CL31B104KACNBN
+CL31B104KOCNBN
+CL09A104KP4SAN
+CL09A104KQ4SAN
+CL09A105MQ4NAN
+CL09A105MR4NAN
+CL14A104KA6NAN
+CL14A104KO6NAN 
+CL14A104KP6NAN
+CL14A105MA5NAN  
+CL14A105KP8NAN
+CL14A105MO3NAN  
+CL14A105MO8NAN  
+CL14A105MO5NAN
+CL14A105MP3NAN  
+CL14A105MP5NAN  
+CL14A225KP8NAN  
+CL14A225KQ8NAN  
+CL21A105KOCNAN  
+CL21A105MPCNAN  
+CL31F473ZBCNBN
+CL31F104ZACNBN  
+25
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+16
+10
+50
+50
+50
+25
+25
+16
+10
+6.3
+6.3
+4
+25
+16
+10
+25
+10
+16
+16
+16
+10
+10
+10
+6.3
+16
+10
+50
+25
+27㎊
+10㎊
+15㎊
+22㎊
+27㎊
+33㎊
+39㎊
+68㎊
+82㎊
+100㎊
+150㎊
+180㎊
+330㎊
+470㎊
+470㎊
+100㎋
+100㎋
+1㎋
+10㎋
+15㎋
+47㎋
+100㎋
+100㎋
+100㎋
+100㎋
+1㎌
+1㎌
+100㎋
+100㎋
+100㎋
+1㎌
+1㎌
+1㎌
+1㎌
+1㎌
+1㎌
+1㎌
+2.2㎌
+2.2㎌
+1㎌
+1㎌
+47㎋
+100㎋
+1
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+1
+2
+3
+1
+2
+3
+4
+5
+6
+1
+2
+3
+4
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+1
+2
+1
+2
+10%
+5%
+5%
+5%
+5%
+10%
+10%
+5%
+5%
+5%
+10%
+5%
+5%
+5%
+10%
+10%
+20%
+20%
+20%
+10%
+10%
+10%
+10%
+10%
+10%
+20%
+20%
+10%
+10%
+10%
+20%
+10%
+20%
+20%
+20%
+20%
+20%
+10%
+10%
+10%
+20%
+80/20%
+80/20%
+0.66
+1.00 
+1.00
+1.00
+1.00 
+1.00 
+1.00
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+0.95 
+0.95 
+0.95 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+0.50
+0.50
+0.50
+0.50
+0.66
+0.66
+0.66
+0.55
+0.88
+0.40 
+0.88
+0.55
+0.40 
+0.55
+0.88
+0.88
+0.95
+0.95
+1.00 
+1.00 
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+Element
+Type
+4-Array
+4-Array
+4-Array
+2-Array
+2-Array
+2-Array
+2-Array
+4-Array
+3.201.60
+2.001.25
+3.201.60
+0.900.60
+1.401.00
+1.401.00
+2.001.25
+3.201.60
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+
+PAGE 50
+Low ESL
+Capacitors
+Highly reliable tolerance and high speed automatic chip placement on PCBs
+Code
+Size
+(mm)
+Dimension(mm)
+EIA
+Code
+Code
+Size
+(mm)
+Dimension(mm)
+EIA
+Code
+L
+T
+BW
+W
+L                                 W                                   T                                  BW
+0.30.05
+0.50.05/0.1
+1.00.05
+1.60.2
+0.520.05
+0.80.15
+0204
+0306
+0510
+0816
+0.180.06
+0.250.15
+L5
+01
+U Low ESL, good for noise reduction for high frequency
+U
+U Highly reliable performance
+U Highly resistant termination metal
+U Tape & reel for surface mount assembly
+U High Speed Microprocessor 
+U High Frequency Digital Equipment
+Feature
+Application
+LICC(Low Inductance Ceramic Capacitors)
+SLIC(Super Low Inductance Capacitors)
+L                       W                       T                       BW                      SW                        P
+0.5/0.050.1
+0.5/0.050.1
+0.250.1
+0.250.150.1
+1.60.1
+2.00.1
+0.80.1
+1.250.1
+0.150.1
+0.20.150.1
+0.40.1
+0.50.1
+1608
+2012
+0603
+0805
+10
+21
+SW
+W
+BW
+P
+T
+W
+L
+
+PAGE 51
+50
+51
+Size(mm)
+Vr(V)
+Tmax(mm)
+(mm)
+(mm)
+TC
+Capacitance(㎌)
+Size(mm)
+Vr(V)
+Tmax
+TC
+Capacitance(㎌)
+Size(mm)
+Vr(V)
+Tmax
+TC
+Capacitance(㎌)
+Low ESL capacitance Table (LICC)
+X6S
+/X7S
+/X7T
+0204(0510)
+0306(0816)
+0.35
+0.55
+2.5
+4
+6.3
+4
+0.55
+6.3
+10
+16
+25
+50
+0.55
+0.55
+4
+4
+6.3
+16
+0306(0816)
+0.01   0.022   0.047     0.1       0.22     0.47       1         2.2       4.7       10
+X7R
+/X5R
+0.01   0.022   0.047      0.1      0.22     0.47       1         2.2       4.7       10
+Low ESL capacitance Table (SLIC)
+X7R
+/X7S
+/X7T
+0603(1608)
+0805(2012)
+0.1         0.47       0.68           1            2.2          4.7          10           22
+X6S
+X7S
+X7T
+X7S
+X7S
+X7S
+X7R
+X7S
+X7R
+X7R
+X7R
+X7R
+X7R
+X7R
+X7R
+X5R
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+
+PAGE 52
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+Product Lineup (Low ESL Capacitors-X7R, X6S, X7S, X7T)
+CL21B104MO5NJN
+CL21B684MO5NJN
+CL21B684MQ5NJN
+CLL5X224 MR3NLN  
+CLL5X474MR3NLN  
+CLL5X105MR3NLN
+CLL5Y104MQ3NLN  
+CL01Y105MR5NLN
+CL01Y225MR5NLN  
+CL10Y474MR5NJN
+CL10Y105MR5NJN
+CL10Y225MR5NJN
+CL21Y105MR5NJN
+CL21Y225MR5NJN
+CLL5Z105MS3NLN
+100㎋
+680㎋
+680㎋
+220㎋
+470㎋
+1㎌
+100㎋
+1㎌
+2.2㎌
+470㎋
+1㎌
+2.2㎌
+1㎌
+2.2㎌
+1㎌
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+20%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20%
+16 
+16 
+6.3 
+4 
+4 
+4
+6.3 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+2.5
+1
+2
+3
+1
+2
+3
+1
+1
+2
+1
+2
+3
+1
+2
+1
+0.55
+0.55
+0.55
+0.35
+0.35
+0.35
+0.35
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.35
+2.001.25
+0.501.00
+0.501.00
+0.801.60
+1.600.80
+2.001.25
+0.501.00
+
+PAGE 53
+52
+53
+Capacitors
+Reliability Test
+Apply the specified voltage* for 1~5 sec.
+Charge / Discharge current limit: 50mA max.
+*CLASSⅠ(Rated Voltage100V) : 300% of the rated Voltage
+CLASSⅡ(Rated Voltage100V) : 250% of the rated Voltage
+In the case of Vr 100V products, following condition should
+be applied.
+100VRated Voltage500V : 200% of the rated Voltage
+500VRated Voltage1000V :150% of the rated Voltage
+Rated Voltage1000V :120% of the rated Voltage
+Visual Inspection throughMicroscope (x10)
+Test Condition
+Tan
+Q
+Withstanding Voltage
+Insulation Resistance
+Appearance
+Item
+Within the specified tolerance
+Within the specified tolerance
+No dielectric breakdown or mechanical breakdown
+No abnormal exterior appearance
+Performance
+1
+2
+3
+4
+5
+No
+CLASSⅠ
+CLASSⅡ
+CLASSⅡ
+Capacitance
+1,000㎊
+1,000㎊
+Capacitance
+10㎌
+10㎌
+*
+Frequency
+1MHz10%
+1KHz10%
+Frequency
+1KHz10%
+120Hz20%
+1KHz10%
+Voltage
+0.5 ~ 5 Vrms
+Voltage
+1.00.2Vrms
+0.50.1Vrms
+0.50.1Vrms
+Voltage
+0.5 ~ 5 Vrms
+Voltage
+1.00.2Vrms
+0.50.1Vrms
+0.50.1Vrms
+Capacitance
+1,000㎊
+1,000㎊
+Capacitance
+10㎌
+10㎌
+*
+Frequency
+1MHz10%
+1KHz10%
+Frequency
+1KHz10%
+120Hz20%
+1KHz10%
+Rated Voltage
+50V /35V
+25V
+16V
+10V
+1. Characteristic : A(X5R)
+Spec
+0.025 max / 0.05 max*
+0.025 max / 
+0.05 max* / 0.10 max*
+0.035 max / 
+0.05 max* / 0.10 max*
+0.05 max /0.10 max*
+Rated Voltage
+50V/ 35V / 25V
+16V
+10V
+2. Characteristic : B(X7R), X(X6S), Y(X7S)
+Spec
+0.025 max / 
+0.05 max* / 0.10 max*
+0.035 max / 0.10 max*
+0.05 max /0.10 max*
+Rated Voltage
+50V / 35V / 25V
+16V
+10V
+6.3V
+3. Characteristic : F(Y5V)
+Spec
+0.05 max / 
+0.07 max* / 0.09 max*
+0.07 max / 
+0.09 max* / 0.125 max*
+0.125 max /0.16 max*
+0.16 max
+Capaci
+tance
+10,000㏁min. or 500 ㏁ · ㎌min.(or*100㏁㎌)
+product whichever is smaller
+(Rated voltage16V:10,000㏁min. or100㏁㎌
+min. product whichever is smaller)
+Apply the rated voltage for 60~120 sec.
+Ratedvoltage500V: InsulationResistance shall be 
+measured with 50050Vdc
+Capacitance 30㎊: Q 1,000
+30㎊: Q400 20C
+(C : Capacitance)
+CLASSⅠ
+You can check the specification at the web site or contact sales 
+people for each product with mark*
+* A capacitor prior to measuring the capacitance is heat 
+   treated at 150℃0/10℃ and maintained in ambient 
+   air for 242 hours.
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+※ The conditions of measurement may be altered upon request.
+
+PAGE 54
+6
+(1) CLASS
+Temperature Coefficient shall be calculated from the formula as below
+Temp. Coefficient =
+C1: Capacitance at step 3
+C2: Capacitance at 125℃
+T: 100℃(=125℃25℃)
+106[ppm/℃]
+C2C1
+C1T
+(2) CLASS
+Capacitance Change shall be calculated from the formula as below
+C=
+C1: Capacitance at step 3
+C2: Capacitance at step 2 or 4
+100(%)
+C2C1
+C1
+CLASSⅠ
+CLASSⅡ
+Capacitance shall be measured by the steps shown in the following table.
+Step
+Temperature(℃)
+25 2
+Min. Operating Temp. 2
+25 2
+Max. Operating Temp. 2
+25 2
+1
+2
+3
+4
+5
+Temperature
+Characteristics 
+of Capacitance
+Characteristic
+C
+Temp.Coefficient(PPM/℃)
+0 30
+Characteristic
+A(X5R)/ B(X7R)
+X(X6S), Y(X7S)
+Z(X7T)
+F(Y5V)
+15%
+22%
+22%~33%
+22%~82%
+Capacitance Change(%)
+with No bias
+Appearance
+Capacitance
+500g.f
+Test Condition
+Bending
+Strength
+Adhesive Strength of
+Termination
+Item
+No indication of peeling shall occur
+No indication of peeling shall occur on the terminal
+electrode
+Performance
+7
+8
+9
+No
+Apply 500g.f* pressure for 101 sec. *200g.f for 0201
+*100g.f for 01005
+30.3 sec.
+Sn3Ag0.5Cu
+2455℃
+RMA Type
+at 80~120℃for 10~30 sec.
+Solder 
+Solder Temp.
+Flux
+Dip time
+Pre-heating
+Bending Limit: 1mm  Test Speed: 1.0mm/sec. 
+Keep the test board at the limit point in 5 sec.
+Then Measure Capacitance
+A(X5R), B(X7R),
+X(X6S), Y(X7S)
+Z(X7T)
+12.5%
+30%
+F(Y5V)
+A(X5R), B(X7R),
+X(X6S), Y(X7S)
+Z(X7T)
+F(Y5V)
+CLASSⅡ
+Characteristic
+CLASSⅠ
+5% or  0.5 pF 
+whichever is  larger
+Capacitance Change
+20
+50
+451
+451
+Bending limit
+R=230
+Solderability
+More than 75% of the terminal surface is to be soldered
+newly, so metal part does not come out or dissolve
+No mechanical damage shall occur
+10
+7.5%
+20%
+CLASSⅡ
+Characteristic
+CLASSⅠ
+2.5% or  0.25 pF
+whichever is  larger
+Capacitance Change
+Leave the capacitor in ambient condition for specified time* before
+measurement
+*24  2 hours(CLASSⅠ
+24  2 hours(CLASSⅡ)
+Solder temperature: 2705℃DIP TIME:101 sec.
+Each termination shall be fully immersed and preheated as below:
+Capacitance
+Q
+(CLASSⅠ
+Tan
+(CLASSⅡ)
+Within the specified initial value
+Within the specified initial value
+Within the specified initial value
+Insulation
+resistance
+Step
+1
+2
+Temperature(℃)
+80~100
+150~180
+Time (sec.)
+60
+60
+Appearance
+Resistance 
+to Soldering
+Heat
+Within the specified initial value
+Withstanding
+voltage
+
+PAGE 55
+54
+55
+Test Condition
+Item
+Performance
+No
+11
+A(X5R), B(X7R)
+F(Y5V)
+5%
+20%
+X(X6S), Y(X7S)
+Z(X7T)
+10%
+Q
+(CLASS)
+Tan
+(CLASSⅡ)
+Within the specified initial value
+Within the specified initial value
+Insulation
+resistance
+No mechanical damage shall occur
+Characteristic
+CLASSⅡ
+CLASSⅠ
+2.5% or  0.25 pF
+whichever is  larger
+Capacitance Change
+Capacitance
+Appearance
+The capacitor shall be subjected to a harmonic motion having a total
+amplitude of 1.5mm changing frequency from 10Hz to 55Hz and
+back to 10Hz in about 1 min.
+Repeat this for 2hours each in 3 mutually perpendicular directions.
+Vibration 
+Test
+Within the specified initial value
+Capacitance
+Moisture
+Resistance
+12
+Applied Voltage: rated voltage
+Temperature: 402℃
+Humidity: 90~95% RH
+Duration Time: 50012/0 Hr.
+Charge/Discharge Current: 50㎃max.
+Perform the initial measurement according to Note1.
+Perform the final measurement according to Note2.
+Characteristic
+12.5%
+30%
+CLASSⅡ
+CLASSⅠ
+7.5% or  0.75pF
+whichever is  larger
+Capacitance Change
+Q
+(CLASSⅠ
+Tan
+(CLASSⅡ)
+Capacitance30㎊: Q200
+30㎊: Q100+10/3C(C: Capacitance)
+1.Capacitance: A(X5R)
+0.05 max / 0.075 max* (35V / 50V)
+0.05 max / 0.075 max* / 0.125 max*(16V / 25V)
+0.075 max / 0.125 max* (10V)
+2.Capacitance: B(X7R), X(X6S)
+0.05 max / 0.125 max* (16V / 25V / 35V / 50V)
+0.075 max / 0.125 max* (10V)
+3.Capacitance: F(Y5V)
+0.09 max (50V)
+0.09 max / 0.125 max* (25V / 35V)
+0.09 max / 0.125 max* / 0.16 max* (16V)
+0.16 max / 0.195 max* (10V)
+0.195 max (4V / 6.3V)
+500㏁min. or 25㏁·㎌min. 
+product whichever is smaller / 12.5㏁·㎌or over*
+Insulation
+resistance
+Appearance
+No mechanical damage shall occur
+A(X5R), B(X7R),
+X(X6S), Y(X7S)
+Z(X7T)
+A(X5R), B(X7R),
+X(X6S), Y(X7S)
+Z(X7T)
+F(Y5V)
+This test is only applied to Vr500V products.
+You can check the specification at the web site or contact sales people
+for each product with mark*
+You can check the specification at the web site or contact sales people
+for each product with mark*
+Capacitance
+13
+Characteristic
+12.5%
+30%
+CLASSⅡ
+CLASSⅠ
+3% or  0.3 pF
+whichever is  larger
+Capacitance Change
+Q
+(CLASSⅠ
+Tan
+(CLASSⅡ)
+Capacitance30㎊: Q350
+10Capacitance30㎊: Q2752.5C
+Capacitance10㎊: Q200+10C (C: Capacitance)
+1.Capacitance : A(X5R)
+0.05 max / 0.075 max* (35V / 50V)
+0.05 max / 0.075 max* / 0.125 max*(16V / 25V)
+0.075 max / 0.125 max* (10V)
+2.Capacitance : B(X7R), X(X6S)
+0.05 max / 0.125 max* (16V / 25V / 35V / 50V)
+0.075 max / 0.125 max* (10V)
+3.Capacitance : F(Y5V)
+0.09 max (50V)
+0.09 max / 0.125 max* (25V / 35V)
+0.09 max / 0.125 max* / 0.16 max* (16V)
+0.16 max / 0.195 max* (10V)
+0.195 max (4V / 6.3V)
+1,000㏁min. or 50㏁·㎌min.
+product whichever is smaller / 25㏁·㎌or over*
+Insulation
+resistance
+Appearance
+No mechanical damage shall occur
+F(Y5V)
+Temperature : max. operating temperature
+Duration Time: 100048/0 Hr.
+Charge/Discharge Current: 50㎃max.
+Vr200V : 200% of the rated Voltage
+250VVr500V: 150% of the rated Voltage
+Vr630V : 120% of the rated Voltage
+1000VVr3000V: 100% of the rated Voltage
+* :150%  or 100% of the rated Voltage
+Perform the initial measurement according to Note1 for classⅡ
+Perform the final measurement according to Note2.
+High Temperature Resistance
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+
+PAGE 56
+Test Condition
+Item
+Performance
+No
+Temperature Cycle
+14
+Capacitor shall be subjected to 5 cycles.
+Condition for 1 cycle:
+Leave the capacitor in ambient condition for specified time*before
+measurenment
+*24 2 hours(CLASSⅠ)
+24 2 hours(CLASSⅡ)
+Capacitance
+Characteristic
+7.5%
+20%
+15%
+CLASSⅡ
+CLASSⅠ
+2.5% or 0.25pF
+whichever is  larger
+Capacitance Change
+Appearance No mechanical damage shall occur
+Q
+(CLASSⅠ
+Tan
+(CLASSⅡ)
+Within the specified initial value
+Insulation
+resistance
+Within the specified initial value
+Within the specified initial value
+Temperature(℃)
+min. operating
+temperature 0/3
+25
+max. operating
+temperature 0/3
+25
+Time(min.)
+30
+2~3
+30
+2~3
+Step
+1
+2
+3
+4
+A(X5R), B(X7R)
+F(Y5V)
+X(X6S), Y(X7S)
+Z(X7T)
+Recommended Soldering Method 
+By Size & Capacitance
+15
+No
+Size
+inch(mm)
+
+Class Ⅰ
+Class Ⅱ
+Class Ⅰ
+Class Ⅱ
+Array
+Class Ⅰ
+Class Ⅱ
+Array
+
+
+
+C 1㎌
+C 1㎌
+
+C 4.7㎌
+C 4.7㎌
+
+
+C 10㎌
+C 10㎌
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Temperature
+Characteristic
+Capacitance
+Condition
+Flow
+Reflow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recommended Soldering Method
+01005(0402)
+0201 (0603)
+0402 (1005)
+0603(1608)
+0805 (2012)
+1206 (3216)
+1210 (3225)
+1808 (4520)
+1812 (4532)
+2220 (5750)
+Note 1. Initial Measurement For ClassⅡ
+Perform the heat treatment at 150℃0/10℃for 1 hour. Then Leave the capacitor in ambient condition for 242 hours before measurement. 
+Then perform the measurement.
+Note 2. Latter Measurement
+1. CLASSⅠ
+Leave the capacitor in ambient condition for 242 hours before measurement. Then perform the measurement.
+2. CLASSⅡ
+Perform the heat treatment at 150℃0/10℃for 1 hour. Then Leave the capacitor in ambient condition for 242 hours before measurement. 
+Then perform the measurement.
+Note 3. All Size in Reliability Test Condition Section is “inch”
+Note 4. Camera Strobe Circuit Capacitors Should be Following a Special Reliability Test Condition.
+ Please check with our sales representatives or product engineers.
+
+PAGE 57
+Premium Capacitors for Automotive Applications
+
+PAGE 58
+CL     10       B     104      K       B       8        W       P        N       C
+1      2       3       4       5      6       7      8       9     10     11
+1. SERIES CODE
+CL = Multi layer Ceramic Capacitors
+4. CAPACITANCE CODE
+Capacitance expressed in ㎊. 2 significant digits plus number of zeros.
+example) 106 =10106=10000000㎊
+For Values 10㎊, Letter R denotes decimal point
+example) 1R5 = 1.5㎊
+★
+★★
+★★★
+This code has only typical specifications. Please refer to individual specifications.
+inch(㎜)
+2. SIZE CODE
+05 = 1005(0402)       10 = 1608(0603)       21 = 2012(0805)
+31 = 3216(1206)       32 = 3225(1210)   
+3. DIELECTRIC CODE
+C = C0G (ClassⅠ)                B = X7R (ClassⅡ)        
+5. TOLERANCE CODE
+C =0.25㎊D =0.5㎊
+F =1㎊, 1%*   G =2%
+J =5%         K =10%     M = 20% 
+*For  Values 10㎊, F =1㎊, Values    10㎊, F =1%
+6.RATED VOLTAGE CODE
+P = 10V     O = 16V
+A = 25V      B = 50V     C = 100V    
+7.THICKNESS CODE
+5 = 0.50㎜
+6 = 0.60㎜
+8 = 0.80㎜
+C = 0.85㎜
+P = 1.15㎜
+F,Q = 1.25㎜
+H = 1.60㎜
+J = 2.50㎜
+8. DESIGN CODE
+1 = Ni / Cu / Ni Barrier / Sn 100% / Standard
+V = Ni / Cu+Soft termination / Ni Barrier / Sn 100% / Standard
+W = Ni / Cu+Soft termination / Ni Barrier / Sn 100% / Open Mode
+9. PRODUCT CODE
+P = Automotive product meet AEC-Q-200. 
+10. GRADE CODE
+N = Standard
+Part Numbering System (Automotive Capacitors)
+Premium Capacitors for 
+Automotive Applications
+This code has only typical specifications. Please refer to individual specifications.
+This code has only typical specifications. Please refer to individual specifications.
+If orders are placed without returned specification, please allow us to judge that specification is accepted by your side.
+11. PACKAGING CODE
+B = Bulk                                          O = Cardboard Tape, 10”Reel                               E = Embossed Type, 7”Reel                     
+P = Bulk Case                                  D = Cardboard Tape, 13”Reel(10,000ea)             G = Embossed Type, 7”Reel(3,000ea)      
+C = Cardboard Tape, 7”Reel           L = Cardboard Tape, 13”Reel(15,000ea)              F = Embossed Type, 13”Reel
+H = Cardboard Tape,7”Reel(15,000ea)                                                                        S = Embossed Type, 10”Reel   
+
+
+
+
+
+
+
+PAGE 59
+58
+59
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+Class I
+Symbol                             EIA Code
+Operation Temperature Range(℃)
+Symbol                             EIA Code
+Operation Temperature Range(℃)
+Temperature Coefficient Range(ppm/℃)
+C0G
+C
+E-3
+E-6
+E-12
+E-24
+1.0
+1.2
+1.5
+1.8
+2.2
+2.7
+3.3
+3.9
+4.7
+5.6
+6.8
+8.2
+1.0
+1.1
+1.2
+1.3
+2.2
+2.4
+2.7
+3.0
+4.7
+5.1
+5.6
+6.2
+1.5
+1.6
+1.8
+2.0
+3.3
+3.6
+3.9
+4.3
+6.8
+7.5
+8.2
+9.1
+55~125
+55~125
+0 30
+Class II
+Capacitance Change(△℃%)
+X7R
+B
+0 15
+Series
+Capacitance Step
+0402(1005)
+0603(1608)
+0805(2012)
+1206(3216)
+1210(3225)
+5
+8
+6
+C
+F
+Q
+C
+P
+H
+0.50
+0.80
+0.60
+0.85
+1.25
+1.25
+0.85
+1.15
+1.60
+0.05
+0.10
+0.10
+0.10
+0.10
+0.15
+0.15
+0.10
+0.20
+I
+J
+2.00
+2.50
+0.20
+0.20
+Code
+Size
+★
+★★★
+C
+D
+J
+K
+M
+0.25
+0.5
+5%
+10%
+20%
+C0G
+C0G
+C0G
+X7R
+X7R
+E-12 series ★
+E-12 series ★
+E-12 series 
+E-3 series 
+E-6 series 
+E-3 series 
+E-6 series 
+Under 5
+6.0 to 9.0
+Over 10
+Under 0.01
+Over 0.01
+Under 0.01
+Over 0.01
+Code                   Capacitance Tolerance
+Capacitance Tolerance
+Capacitance  Step
+TC
+Rated Capacitance
+★★
+★
+★E-24 series is also available
+1.0
+1.0
+1.5
+2.2
+3.3
+4.7
+6.8
+7.4
+2.2
+Thickness(mm)
+Spec(mm)
+㎊
+㎊
+㎊
+㎊
+㎊
+㎌
+㎌
+㎌
+㎌
+
+PAGE 60
+L
+BW
+W
+0.500.05
+0.800.10
+1.250.10
+1.250.15
+1.600.20
+0.500.05)
+0.800.10)
+0.600.10)
+0.850.10)
+1.250.10)
+1.250.15)
+0.850.15)
+1.150.10)
+1.600.20)
+1.000.05
+1.600.10
+2.000.10
+2.000.15
+3.200.20
+0402
+0603
+0805
+1206
+0.250.10
+0.300.20
+0.600.30
+0.500.30
+0.50.2/0.3
+05
+10
+21  
+31
+2.500.20
+2.000.20)
+2.500.20)
+3.200.30
+1210
+32
+U Automotive products are manufactured in state of the art facilities  
+recommended for registration to ISO/TS 16949:2002.
+U Automotive products meet AEC-Q-200 requirements.
+U Automotive products are RoHS compliant.
+U Samsung terminations are suitable for all flow and reflow soldering 
+systems. (10/21/31 size type only)
+U Automotive products meet JEDEC-020-D requirements.
+U C0G dielectric components contain BME and  copper 
+terminations with a Ni/Sn plated overcoat.
+U X7R dielectric components have BME and soft 
+terminations with a Ni/Sn plated overcoat.
+ Automotive Electronic Equipment
+(Powertrain, Safety, Body & Chassis, Convenience, Infortainment)
+Feature
+Structure and Dimensions
+Application
+T
+Code
+EIA
+Code
+L                                   W                                  T                                  BW
+Dimension(mm)
+Premium Capacitors for 
+Automotive Applications
+
+PAGE 61
+60
+61
+Automotive Capacitors Table (C0G, X7R)
+COG
+Capacitance
+Capacitance
+0402(1005)
+0603(1608)
+0805(2012)
+0.50
+0.80
+0.60
+0.85
+1.25
+50
+100
+50
+100
+50
+100
+0.50
+0.80
+1.25
+0.85
+1.25
+0.60
+0.85
+1.25
+0.60
+0.85
+1.25
+0.60
+0.85
+1.25
+1.60
+1.15
+1.60
+0.85
+1.15
+1.60
+0.85
+1.15
+1.60
+2.70
+10
+16
+25
+50
+10
+16
+25
+50
+100
+10
+16
+25
+50
+100
+10
+16
+25
+50
+16
+100     220      470        1        2.2       4.7       10        22        47
+100
+X7R
+TC
+Thickness 
+(mm)
+(mm)
+Vr
+Size
+TC
+Thickness 
+(mm)
+(mm)
+Vr
+Size
+0402(1005)
+0603(1608)
+0805(2012)
+1206(3216)
+3225(1210)
+10        22       47     100     220     470       1       2.2       4.7      10       22
+271
+(㎊)
+(㎋)
+Capacitance
+Capacitance(㎌)
+(㎋)
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+
+PAGE 62
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Automotive Capacitors-COG)
+CL05C4R7CB51PN 
+CL05C4R7CC51PN
+CL05C6R8DB51PN 
+CL05C6R8DC51PN 
+CL05C100JB51PN 
+CL05C100JC51PN 
+CL05C120JB51PN 
+CL05C120JC51PN 
+CL05C150JB51PN 
+CL05C150JC51PN 
+CL05C180JB51PN 
+CL05C180JC51PN 
+CL05C220JB51PN 
+CL05C220JC51PN 
+CL05C270JB51PN 
+CL05C270JC51PN 
+CL05C330JB51PN 
+CL05C330JC51PN 
+CL05C390JB51PN 
+CL05C390JC51PN 
+CL05C470JB51PN 
+CL05C470JC51PN 
+CL05C560JB51PN 
+CL05C560JC51PN 
+CL05C680JB51PN 
+CL05C680JC51PN 
+CL05C820JB51PN 
+CL05C820JC51PN 
+CL05C101JB51PN 
+CL05C101JC51PN 
+CL05C121JB51PN 
+CL05C151JB51PN 
+CL05C221JB51PN 
+CL10C4R7CB81PN 
+CL10C4R7CC81PN 
+CL10C6R8DB81PN 
+CL10C6R8DC81PN 
+CL10C100JB81PN 
+CL10C100JC81PN 
+CL10C120JB81PN 
+CL10C120JC81PN 
+CL10C150JB81PN 
+CL10C150JC81PN 
+CL10C180JB81PN 
+CL10C180JC81PN 
+CL10C220JB81PN 
+CL10C220JC81PN 
+CL10C270JB81PN 
+CL10C270JC81PN
+CL10C330JB81PN
+4.7
+4.7
+6.8
+6.8
+10
+10
+12
+12
+15
+15
+18
+18
+22
+22
+27
+27
+33
+33
+39
+39
+47
+47
+56
+56
+68
+68
+82
+82
+100
+100
+120
+150
+220
+4.7
+4.7
+6.8
+6.8
+10
+10
+12
+12
+15
+15
+18
+18
+22
+22
+27
+27
+33
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+1.000.50
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+50
+50
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+0.25㎊
+0.25㎊
+0.5㎊
+0.5㎊
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+0.25㎊
+0.25㎊
+0.5㎊
+0.5㎊
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5%
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+1.600.80
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+
+PAGE 63
+62
+63
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Automotive Capacitors-COG)
+CL10C330JC81PN 
+CL10C390JB81PN
+CL10C390JC81PN 
+CL10C470JB81PN 
+CL10C470JC81PN 
+CL10C560JB81PN 
+CL10C560JC81PN 
+CL10C680JB81PN 
+CL10C680JC81PN 
+CL10C820JB81PN 
+CL10C820JC81PN 
+CL10C101JB81PN 
+CL10C101JC81PN 
+CL10C121JB81PN 
+CL10C151JB81PN 
+CL10C221JB81PN 
+CL10C221JC81PN 
+CL10C271JB81PN 
+CL10C331JB81PN 
+CL10C391JB81PN 
+CL10C471JB81PN 
+CL10C561JB81PN 
+CL10C681JB81PN 
+CL10C821JB81PN 
+CL10C102JB81PN 
+CL21C100JB61PN 
+CL21C100JC61PN 
+CL21C120JB61PN 
+CL21C120JC61PN 
+CL21C150JB61PN 
+CL21C150JC61PN 
+CL21C180JB61PN 
+CL21C180JC61PN 
+CL21C220JB61PN 
+CL21C220JC61PN 
+CL21C270JC61PN 
+CL21C330JB61PN 
+CL21C330JC61PN 
+CL21C390JB61PN 
+CL21C390JC61PN 
+CL21C470JB61PN 
+CL21C470JC61PN 
+CL21C560JB61PN 
+CL21C560JC61PN 
+CL21C680JB61PN 
+CL21C680JC61PN 
+CL21C820JB61PN 
+CL21C820JC61PN 
+CL21C101JB61PN
+CL21C101JC61PN 
+33㎊
+39㎊
+39㎊
+47㎊
+47㎊
+56㎊
+56㎊
+68㎊
+68㎊
+82㎊
+82㎊
+100㎊
+100㎊
+120㎊
+150㎊
+220㎊
+220㎊
+270㎊
+330㎊
+390㎊
+470㎊
+560㎊
+680㎊
+820㎊
+1.0㎋
+10㎊
+10㎊
+12㎊
+12㎊
+15㎊
+15㎊
+18㎊
+18㎊
+22㎊
+22㎊
+27㎊
+33㎊
+33㎊
+39㎊
+39㎊
+47㎊
+47㎊
+56㎊
+56㎊
+68㎊
+68㎊
+82㎊
+82㎊
+100㎊
+100㎊
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+1.600.80
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+50
+50
+100
+50
+50
+50
+50
+50
+50
+50
+50
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5%
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+2.001.25
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+
+PAGE 64
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Automotive Capacitors-COG)
+CL21C121JB61PN 
+CL21C121JC61PN
+CL21C151JB61PN 
+CL21C151JC61PN 
+CL21C221JB61PN 
+CL21C221JC61PN 
+CL21C271JB61PN 
+CL21C271JC61PN 
+CL21C331JB61PN 
+CL21C331JC61PN 
+CL21C471JBC1PN 
+CL21C471JCC1PN 
+CL21C561JBC1PN 
+CL21C561JCC1PN 
+CL21C681JBC1PN 
+CL21C681JCC1PN 
+CL21C821JBC1PN 
+CL21C821JCC1PN 
+CL21C102JBF1PN 
+CL21C102JBC1PN 
+CL21C102JCF1PN 
+CL21C102JCC1PN 
+CL21C122JBF1PN 
+CL21C122JBC1PN 
+CL21C152JBF1PN 
+CL21C152JBC1PN 
+CL21C182JBF1PN 
+CL21C182JBC1PN 
+CL21C222JBF1PN 
+CL21C222JBC1PN 
+CL21C272JBF1PN 
+CL21C272JBC1PN 
+CL21C332JBF1PN 
+CL21C332JBC1PN 
+CL21C392JBF1PN 
+CL21C392JBC1PN 
+CL21C472JBF1PN 
+CL21C472JBC1PN 
+CL21C562JBF1PN 
+CL21C562JBC1PN 
+CL21C682JBF1PN 
+CL21C822JBF1PN 
+CL21C103JBF1PN 
+120
+120
+150
+150
+220
+220
+270
+270
+330
+330
+470
+470
+560
+560
+680
+680
+820
+820
+1.0
+1.0
+1.0
+1.0
+1.2
+1.2
+1.5
+1.5
+1.8
+1.8
+2.2
+2.2
+2.7
+2.7
+3.3
+3.3
+3.9
+3.9
+4.7
+4.7
+5.6
+5.6
+6.8
+8.2
+10
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎊
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+2.001.25
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+50
+100
+100
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+50
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+5%
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.95
+0.95
+0.95
+0.95
+0.95
+0.95
+0.95
+0.95
+1.35
+0.95
+1.35
+0.95
+1.35
+0.95
+1.35
+0.95
+1.35
+0.95
+1.35
+0.95
+1.35
+0.95
+1.35
+0.95
+1.35
+0.95
+1.35
+0.95
+1.35
+0.95
+1.35
+1.35
+1.35
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+
+PAGE 65
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+64
+65
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+Product Lineup (Automotive Capacitors-X7R)
+CL05B331KB5VPN 
+CL05B471KB5VPN
+CL05B681KB5VPN 
+CL05B102KA5VPN 
+CL05B102KB5VPN 
+CL05B152KA5VPN 
+CL05B152KB5VPN 
+CL05B222KA5VPN 
+CL05B222KB5VPN 
+CL05B332KA5VPN 
+CL05B332KB5VPN 
+CL05B472KA5VPN 
+CL05B472KB5VPN 
+CL05B682KA5VPN 
+CL05B682KB5VPN 
+CL05B103KA5VPN 
+CL05B103KB5VPN 
+CL05B153KA5VPN 
+CL05B153KB5VPN 
+CL05B223KA5VPN 
+CL05B223KB5VPN 
+CL05B333KO5VPN 
+CL05B473KO5VPN 
+CL05B683KO5VPN 
+CL05B104KO5VPN
+330㎊
+470㎊
+680㎊
+1.0㎋
+1.0㎋
+1.5㎋
+1.5㎋
+2.2㎋
+2.2㎋
+3.3㎋
+3.3㎋
+4.7㎋
+4.7㎋
+6.8㎋
+6.8㎋
+10㎋
+10㎋
+15㎋
+15㎋
+22㎋
+22㎋
+33㎋
+47㎋
+68㎋
+100㎋
+1.000.50
+50
+50
+50
+25
+50
+25
+50
+25
+50
+25
+50
+25
+50
+25
+50
+25
+50
+25
+50
+25
+50
+16
+16
+16
+16
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+0.55
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+
+PAGE 66
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+Product Lineup (Automotive Capacitors-X7R)
+CL10B221KC8WPN 
+CL10B331KC8WPN 
+CL10B471KC8WPN 
+CL10B681KC8WPN 
+CL10B102KB8WPN 
+CL10B102KC8WPN 
+CL10B152KB8WPN 
+CL10B152KC8WPN 
+CL10B222KB8WPN 
+CL10B222KC8WPN 
+CL10B332KB8WPN 
+CL10B332KC8WPN 
+CL10B472KB8WPN 
+CL10B472KC8WPN 
+CL10B682KB8WPN 
+CL10B682KC8WPN 
+CL10B103KB8WPN 
+CL10B103KC8WPN 
+CL10B153KB8WPN 
+CL10B223KB8WPN 
+CL10B333KA8WPN 
+CL10B333KB8WPN 
+CL10B473KA8WPN 
+CL10B473KB8WPN
+CL10B683KA8WPN 
+CL10B683KB8WPN 
+CL10B104KA8WPN 
+CL10B104KB8WPN 
+CL10B154KO8VPN 
+CL10B154KA8VPN 
+CL10B224KO8VPN 
+CL10B224KA8VPN
+CL10B334KO8VPN 
+CL10B334KA8VPN
+CL10B474KO8VPN 
+CL10B474KA8VPN 
+CL10B684KO8VPN 
+CL10B105KO8VPN
+220
+330
+470
+680
+1.0
+1.0
+1.5
+1.5
+2.2
+2.2
+3.3
+3.3
+4.7
+4.7
+6.8
+6.8
+10
+10
+15
+22
+33
+33
+47
+47
+68
+68
+100
+100
+150
+150
+220
+220
+330
+330
+470
+470
+680
+1.0
+㎊
+㎊
+㎊
+㎊
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎌
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+1.600.80
+100
+100
+100
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+100
+50
+50
+25
+50
+25
+50
+25
+50
+25
+50
+16
+25
+16
+25
+16
+25
+16
+25
+16
+16
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+0.90
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10%
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+
+PAGE 67
+66
+67
+Product Lineup (Automotive Capacitors-X7R)
+CL21B102KC6WPN 
+CL21B152KC6WPN 
+CL21B222KC6WPN 
+CL21B332KC6WPN 
+CL21B472KC6WPN 
+CL21B682KC6WPN 
+CL21B103KC6WPN 
+CL21B153KC6WPN 
+CL21B223KC6WPN 
+CL21B333KCCWPN 
+CL21B473KCCWPN 
+CL21B683KCCWPN 
+CL21B104KBFWPN 
+CL21B104KBCWPN 
+CL21B104KCFWPN 
+CL21B104KCCWPN 
+CL21B154KAFVPN 
+CL21B154KBFVPN 
+CL21B224KAFVPN 
+CL21B224KBFVPN 
+CL21B334KAFVPN 
+CL21B334KBFVPN 
+CL21B474KOFVPN 
+CL21B474KAFVPN 
+CL21B474KBFVPN 
+CL21B684KOFVPN 
+CL21B684KAFVPN
+CL21B105KOFVPN 
+CL21B105KAFVPN 
+CL21B225KPFVPN 
+CL21B225KOFVPN 
+CL21B335KPQVPN 
+CL21B475KPQVPN 
+CL31B104KBPWPN 
+CL31B104KBCVPN 
+CL31B154KBPWPN 
+CL31B224KBPWPN 
+CL31B334KBHWPN 
+CL31B474KBHWPN 
+CL31B684KBHWPN 
+CL31B105KAPWPN 
+CL31B105KBHWPN 
+CL31B155KAHVPN
+CL31B155KBHVPN 
+CL31B225KOHVPN 
+CL31B225KAHVPN 
+CL31B225KBHVPN 
+CL31B335KOHVPN 
+CL31B335KAHVPN 
+CL31B475KOHVPN 
+CL31B475KAHVPN 
+1.0
+1.5
+2.2
+3.3
+4.7
+6.8
+10
+15
+22
+33
+47
+68
+100
+100
+100
+100
+150
+150
+220
+220
+330
+330
+470
+470
+470
+680
+680
+1.0
+1.0
+2.2
+2.2
+3.3
+4.7
+100
+100
+150
+220
+330
+470
+680
+1.0
+1.0
+1.5
+1.5
+2.2
+2.2
+2.2
+3.3
+3.3
+4.7
+4.7
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎋
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+㎌
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+1
+2.001.25
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+50
+50
+100
+100
+25
+50
+25
+50
+25
+50
+16
+25
+50
+16
+25
+16
+25
+10
+16
+10
+10
+50
+50
+50
+50
+50
+50
+50
+25
+50
+25
+50
+16
+25
+50
+16
+25
+16
+25
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.70
+0.95
+0.95
+0.95
+1.35
+0.95
+1.35
+0.95
+1.35
+1.35
+1.35
+1.35
+1.35
+1.35
+1.35
+1.35
+1.35
+1.35
+1.35
+1.35
+1.35
+1.35
+1.35
+1.40
+1.40
+1.25
+1.00
+1.25
+1.25
+1.80
+1.80
+1.80
+1.25
+1.80
+1.80
+1.80
+1.80
+1.80
+1.80
+1.80
+1.80
+1.80
+1.80
+3.201.60
+3.202.50
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+10%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10%
+※
+mark means packaging code. If you want to learn the code or quantity in detail, please see p74.
+CL31B685KOHVPN
+CL31B106KOHVPN
+6.8
+22
+10.0
+16
+16
+16
+1.80
+1.80
+2.70
+10%
+10%
+10%
+Part Number
+Thickness 
+Max.(mm)
+Rated
+Voltage
+(Vdc)
+Capacitance
+Tolerance
+Capacitance
+Size L x W
+(mm)
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+CL32B226KOJVPN
+
+PAGE 68
+※*1) : Indicates typical specification. Please refer to individual specifications.
+Reliability Test Condition (Automotive Capacitors)
+Test Condition
+Q
+Tan
+High Temperature
+Exposure
+Appearance
+Capacitance
+Change
+Pre-and Post-Stress
+Electrical Test
+Destructive Physical
+Analysis
+Item
+No abnormal exterior appearance
+No defects or abnormalities
+Within 10%
+Within 2.5% or 0.25    , 
+(Whichever is larger)
+More than 10,000
+or 500
+(Whichever is smaller)
+
+Performance
+1
+2
+4
+No
+CLASSⅡ
+CLASSⅡ
+Unpowered, 1000hrs@T=125℃
+Measurement at 242hrs after test conclusion
+Capacitance 30㎊
+㎊
+: Q 1,000
+30㎊: Q 400 20
+
+C
+( C : Capacitance)
+Rated Voltage  25V : 0.03 max
+16V : 0.05 max
+10V : 0.075 max
+CLASSⅠ
+CLASSⅠ
+IR
+Q
+Tan
+Temperature 
+Cycling
+Appearance
+Capacitance
+Change
+No abnormal exterior appearance
+Within 10%
+Within 2.5% or 0.25pF, 
+(Whichever is larger)
+More than 10,000
+or 500
+(Whichever is smaller)
+3
+CLASSⅡ
+CLASSⅡ
+1000Cycles
+Measurement at 242hrs after test conclusion
+10Cycles, t=24hrs/cycle
+Heat (25~65℃) and humidity (80~98%), Unpowered
+measurement at 242hrs after test conclusion
+Capacitance 30㎊: Q 1,000
+30㎊: Q 400 20C
+( C : Capacitance)
+Rated Voltage 25V : 0.03 max
+16V : 0.05 max
+10V : 0.075max
+CLASSⅠ
+CLASSⅠ
+IR
+Q
+Tan
+Moisture Resistance
+Appearance
+Capacitance
+Change
+No abnormal exterior appearance
+Within 12.5%
+Within2.5% or 0.25pF, 
+(Whichever is larger)
+More than 10,000
+or 500
+(Whichever is smaller)
+5
+CLASSⅡ
+CLASSⅡ
+Capacitance  30㎊: Q 350
+10Capacitance30㎊: Q275(5/2)C
+Capacitance10㎊: Q 20010C
+( C : Capacitance)
+Rated Voltage  25V : 0.03 max
+ 16V : 0.05 max
+ 10V : 0.075max
+CLASSⅠ
+CLASSⅠ
+IR
+Per EIA 469
+Time[Hours]
+Temperature(℃)
+Min. operating
+Temp.2
+252
+Max. operating
+Temp. 2
+252
+Time(min.)
+153
+1
+153
+1
+Step
+1
+2
+3
+4
+90~100%
+RH
+90~100%
+RH
+90~100%
+RH
+80~100%
+RH
+80
+75
+70
+65
+60
+55
+50
+45
+40
+35
+30
+25
+20
+15
+10
+5
+0 0   1    2    3    4   5    6    7   8   9  10  1112  13  14  15  16 17 18  19  20  21  22  23  24  
+*1)
+*1)
+*1)
+*1)
+*1)
+*1)
+㏁
+㏁
+㎌
+
+㏁
+㏁
+㎌
+
+㏁
+㏁
+㎌
+Initial Measurement
+Perform a heat treatment at 1500/10℃ for 1hr after 
+soldering process. And then let sit for 242hrs at room 
+temperature. Perform the initial measurement.
+Final Measurement 
+Let sit for 242hrs at room temperature after test conclusion, 
+then measure.
+Initial Measurement
+Perform a heat treatment at 1500/10℃  for 1hr after 
+soldering process. And then let sit for 242hrs at room 
+temperature. Perform the initial measurement. 
+Final Measurement
+Let sit for 242hrs at room temperature after test conclusion, 
+then measure.  
+
+PAGE 69
+68
+69
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+※*1) : Indicates typical specification. Please refer to individual specifications.
+*2) : Some of the parts are applicable in rated voltagex150%, Please refer to individual specifications. 
+*1)
+*1)
+*1)
+*1)
+*1)
+*1)
+Test Condition
+Item
+Performance
+No
+Q
+Tan
+Biased Humidity
+Appearance
+Capacitance
+Change
+No abnormal exterior appearance
+Within 12.5%
+Within 2.5% or 0.25pF, 
+(Whichever is larger)
+More than 500
+or 25
+(Whichever is Smaller)
+6
+CLASSⅡ
+CLASSⅡ
+Capacitance 30㎊: Q 200
+30㎊: Q 100(10/3)C
+( C : Capacitance)
+Rated Voltage  25V : 0.035 max
+ 16V : 0.05 max
+ 10V : 0.075max
+CLASSⅠ
+CLASSⅠ
+IR
+Q
+Tan
+Mechanical Shock
+Appearance
+Capacitance
+Change
+No abnormal exterior appearance
+Within 10%
+Within 2.5% or 0.25pF, 
+(Whichever is larger)
+More than 10,000
+or 500
+(Whichever is smaller)
+10
+CLASSⅡ
+CLASSⅡ
+Three shocks in each direction should be applied along
+3 mutually perpendicular axes of the test specimen (18 shocks)
+Capacitance 30㎊: Q 1,000
+30㎊: Q 400 20C
+( C : Capacitance)
+Rated Voltage  25V : 0.025 max
+ 16V : 0.035 max
+ 10V : 0.05 max
+CLASSⅠ
+CLASSⅠ
+IR
+Q
+Tan
+High Temperature
+Operating Life
+External Visual
+Physical Dimensions
+Appearance
+Capacitance
+Change
+No abnormal exterior appearance
+No abnormal exterior appearance
+Microscope (x10)
+Within the specified dimensions
+Using the calipers
+Within 12.5%
+Within 3.0% or 0.3pF, 
+(Whichever is larger)
+More than 1,000
+or 50
+(Whichever is smaller)
+7
+8
+9
+CLASSⅡ
+CLASSⅡ
+Capacitance 30㎊: Q 350
+10㎊: Q275(5/2)C
+10㎊: Q20010C
+( C : Capacitance)
+Rated Voltage 25V : 0.035 max
+16V : 0.05 max
+10V : 0.075max
+CLASSⅠ
+CLASSⅠ
+IR 
+Peakvalue
+1,500G
+Duration
+0.5ms
+Wave
+Half sine
+1000hrs @ TA=125℃, 200% Rated Voltage,*2)
+
+㏁
+㏁
+㎌
+
+㏁
+㏁
+㎌
+
+㏁
+㏁
+㎌
+1000hrs 85℃/85%RH, Rated Voltate and 1.3~1.5V,
+(add 100kohm resistor)
+Initial Measurement
+Perform a heat treatment at 1500/10℃ for 1hr after 
+soldering process. And then let sit for 242hrs at room 
+temperature. Perform the initial measurement.
+Final measurement
+Perform a heat treatment at 1500/10℃ for 1hr 
+after soldering process. And then let sit for 242hrs at room 
+temperature. Perform the initial measurement.
+Perform the initial measurement.
+Measurement at 242hrs after test conclusion
+The charge/discharge current is less than 50mA
+Initial Measurement
+Perform a heat treatment at 1500/10℃ for 1hr after 
+soldering process. And then let sit for 242hrs at room 
+temperature. Perform the initial measurement.
+Final measurement 
+Perform a heat treatment at 1500/10℃ for 1hr after 
+soldering process. And then let sit for 242hrs at room 
+temperature. Perform the initial measurement.
+Perform the initial measurement.
+Measurement at 242hrs after test conclusion
+The charge/discharge current is less than 50mA.
+Initial Measurement
+Perform a heat treatment at 1500/10℃ for 1hr after 
+soldering process. And then let sit for 242hrs at room 
+temperature. Perform the initial measurement.
+Final measurement 
+Let measure within 24hrs at room temperature after 
+test conclusion.
+
+PAGE 70
+Test Condition
+Item
+Performance
+No
+Q
+Tanδ
+Vibration
+Appearance
+Capacitance
+Change
+No abnormal exterior appearance
+Within ±10%
+Within±2.5% or 0.25pF, 
+(Whichever is larger)
+More than 10,000
+or 500
+(Whichever is smaller)
+11
+CLASSⅡ
+CLASSⅡ
+5g's for 20min., 12cycles each of 3 orientations, 
+Use 8" 5" PCB 0.031" Thick 7 secure points on one long side
+and 2 secure points at corners of opposite sides. Parts mounted
+within 2" from any secure point. Test from 10~2000
+.
+Solder pot : 260±5℃, 10±1sec.
+Capacitance ≥30㎊: Q ≥1,000
+＜30㎊: Q ≥400+20×
+×
+C
+( C : Capacitance)
+Rated Voltage ≥25V : 0.025 max
+≥16V : 0.035 max
+≥
+㎐
+×㎌
+㏁
+㏁
+×㎌
+㏁
+㏁
+×㎌
+㏁
+㏁
+×㎌
+㏁
+㏁
+10V : 0.05max
+CLASSⅠ
+CLASSⅠ
+IR
+Q
+Tanδ
+Resistance to 
+Solder Heat
+Appearance
+Capacitance
+Change
+No abnormal exterior appearance
+Within ±10%
+Within ±2.5% or 0.25pF, 
+(Whichever is larger)
+More than 10,000
+or 500
+(Whichever is smaller)
+12
+CLASSⅡ
+CLASSⅡ
+Capacitance ≥30㎊: Q ≥1,000
+＜30㎊: Q ≥400+20×C
+(C : Capacitance)
+Rated Voltage ≥25V : 0.025 max
+≥16V : 0.035 max
+≥10V : 0.05max
+CLASSⅠ
+CLASSⅠ
+IR
+Q
+Tanδ
+Thermal Shock
+Appearance
+Capacitance
+Change
+No abnormal exterior appearance
+Within ±10%
+Within ±2.5% or 0.25pF, 
+(Whichever is larger)
+More than 10,000
+or 500
+(Whichever is smaller)
+13
+CLASSⅡ
+CLASSⅡ
+-55℃/+125℃
+Note: Number of cycles required-300, 
+Maximum transfer time-20 sec,
+Dwell time-15min. Air-Air
+AEC-Q200-002
+Capacitance ≥30㎊: Q ≥1,000
+＜30㎊: Q ≥400+20×C
+(C : Capacitance)
+Rated Voltage ≥25V : 0.025 max
+≥16V : 0.035 max
+≥10V : 0.05max
+CLASSⅠ
+CLASSⅠ
+IR
+Q
+Tanδ
+ESD
+Appearance
+Capacitance
+Change
+No abnormal exterior appearance
+Within ±10%
+Within±2.5% or 0.25pF, 
+(Whichever is larger)
+More than 10,000
+or 500
+(Whichever is smaller)
+14
+CLASSⅡ
+CLASSⅡ
+Capacitance ≥30㎊: Q ≥1,000
+＜30㎊: Q ≥400+20×C
+(C : Capacitance)
+Rated Voltage ≥25V : 0.025 max
+≥16V : 0.035 max
+≥10V : 0.05max
+CLASSⅠ
+CLASSⅠ
+IR
+※*1) : Indicates typical specification. Please refer to individual specifications.
+*1)
+*1)
+*1)
+*1)
+*1)
+*1)
+*1)
+*1)
+Initial Measurement
+Perform a heat treatment at 150+0/-10℃ for 1hr after 
+soldering process. And then let sit for 24±2hrs at room 
+temperature. Perform the initial measurement.
+Final measurement
+Let measure within 24hrs at room temperature after 
+test conclusion.
+Initial Measurement
+Perform a heat treatment at 150+0/-10℃ for 1hr after 
+soldering process. And then let sit for 24±2hrs at room 
+temperature. Perform the initial measurement.
+Final Measurement
+Let sit for 24±2hrs at room temperature after test conclusion, 
+then measure.
+Initial Measurement
+Perform a heat treatment at 150+0/-10℃  for 1hr after 
+soldering process. And then let sit for 24±2hrs at room 
+temperature. Perform the initial measurement.
+Final measurement
+Perform a heat treatment at 150+0/-10℃ for 1hr after 
+soldering process. And then let sit for 24±2hrs at room 
+temperature. Perform the initial measurement. 
+Perform the initial measurement.
+
+PAGE 71
+70
+71
+×㎌
+㏁
+㏁
+×㎌
+㏁
+㏁
+×㎌
+㏁
+㏁
+×㎌
+㏁
+㏁
+Test Condition
+Q
+Tanδ
+Electrical
+Characterization
+Capacitance
+Solderability
+Item
+Within specified tolerance
+No abnormal exterior appearance
+No dielectric breakdown or mechanical 
+breakdown
+No abnormal exterior appearance
+More than 100,000
+or 1,000
+(Whichever is smaller)
+More than 10,000
+or 500
+(Whichever is smaller)
+More than 10,000
+or 100
+(Whichever is smaller)
+More than 1,000
+or 10
+(Whichever is smaller)
+I.R. should be measured with a DC voltage not exceeding
+Rated Voltage @25℃, @125℃for  60~120 sec.
+Dielectric Strength : 250% of the rated voltage for 1~5 seconds
+The charge/discharge current is less than 50mA.
+a) Preheat at 155℃for 4 hrs, Immerse in solder for 5s at 235±5℃
+b) Steam aging for 8 hrs, Immerse in solder for 5s at 235±5℃
+c) Steam aging for 8 hrs, Immerse in solder for 120s at 260±
+±
+±
+±
+±
+±
+㎒
+↓
+↓
+↑
+↑
+㎑
+㎑
+㎌
+㎌
+㎐
+±
+±
+5℃
+solder : a solution ethanol and rosin
+Beam speed
+Chip Length 
+2.5
+, 0.5±0.05
+/sec
+Chip Length ≥3.2
+, 2.5±0.25
+/sec
+Bending to the limit for 60 seconds
+Limit : ClassⅠ-3mm
+18N, for 60±1 sec.
+* 0603(1608) -10N,
+Performance
+15
+16
+18
+No
+CLASSⅡ
+CLASSⅡ
+95% of the terminations is to be soldered
+evenly and continuously
+Capacitance ≥30㎊: Q ≥1,000
+＜30㎊: Q ≥400+20×C
+( C: Capacitance)
+Rated Voltage≥25V : 0.025 max
+≥16V : 0.035 max
+≥10V : 0.05max
+CLASSⅠ
+CLASSⅠ
+CLASSⅡ
+CLASSⅠ
+CLASSⅡ
+CLASSⅠ
+CLASSⅡ
+CLASSⅠ
+CLASSⅡ
+CLASSⅠ
+CLASSⅠ
+CLASSⅠ
+Board Flex
+Terminal  
+Strength(SMD)
+IR@25℃
+IR@125℃
+17
+Dielectric Strength
+Appearance
+Appearance
+Beam Load
+Capacitance
+Temperature
+Characteristics
+19
+20
+Destruction value should be exceed 
+Chip Length 
+2.5
+a) Chip Thickness   0.5
+: 20N
+b) Chip Thickness
+0.5
+: 8N
+Chip Length ≥
+≤
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+㎜
+≤
+≤
+＜
+3.2
+a) Chip Thickness ≥1.25
+: 54.5N
+b) Chip Thickness＜1.25
+: 15N
+Capacitance
+Change
+Capacitance
+Change
+Capacitance
+Change
+Capacitance
+Drift
+Temperature
+Coefficient
+Within ±5.0% or 0.5pF, 
+(Whichever is larger)
+Within ±2.5% or 0.25pF, 
+(Whichever is larger)
+Within  ±0.2% or 0.05pF, 
+(Whichever is larger)
+Within ±10%
+Within ±10%
+Within ±15%
+0±30 ppm/℃
+0±30 ppm/℃
+Class
+ClassⅠ
+ClassⅡ
+Capacitance
+1000pF
+1000pF
+10
+10
+Frequency
+1
+10%
+1
+10%
+1
+10%
+120
+20%
+Vrms
+0.5~5Vrms
+1.0
+0.2Vrms
+1.0
+0.2Vrms
+0.5
+0.1Vrms
+Step
+Temperature(℃)
+25 ± 2
+Min. Operating Temp. ±2
+25 ± 2
+Max. Operating Temp. ±2
+25 ± 2
+1
+2
+3
+4
+5
+※*1) : Indicates typical specification. Please refer to individual specifications.
+*1)
+*If you want more detaiedl imformation, Please Visit Samsung Electro-mechanics website ( www.semlcr.com )
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+The Capacitance /D.F. should be measured at 25℃,
+*A capacitor prior to measuring the capacitance is heat 
+  treated at 150+0/-10℃ and maintained in ambient air for 
+  24±2hrs.
+Initial measurement 
+Perform a heat treatment at 150+0/-10℃ for one hour after 
+soldering process. And then let sit for 24±2hrs at room 
+temperature. Perform the initial measurement.
+The figure indicates typical specification. 
+Please refer to individual specifications
+Initial Measurement
+Perform a heat treatment at 150+0/-10℃ for 1hr after 
+soldering process. And then let sit for 24±2hrs at room 
+temperature. Perform the initial measurement.
+Final measurement
+Let measure within 24hrs at room temperature after test 
+conclusion.
+Initial Measurement
+Perform a heat treatment at 150+0/-10℃ for 1hr after 
+soldering process. And then let sit for 24±2hrs at room 
+temperature. Perform the initial measurement.
+Final measurement
+Let measure within 24hrs at room temperature after test 
+conclusion.
+Class Ⅱ- 3mm   
+ 0402(1005) -2N  
+
+PAGE 72
+2.0
+±0.05
+1.3
+±0.2
+1.1
+±0.2
+1.6
+±0.2
+2.0
+±0.2
+1.7
+±0.2
+1.9
+±0.2
+2.4
+±0.2
+3.6
+±0.2
+8.0
+±0.3
+3.5
+±0.05
+1.75
+±0.1
+4.0
+±0.1
+Ø1.5
++0.1/-0
+1.1
+Below
+4.0
+±0.1
+Feeding Hole
+Chip inserting Hole
+P2
+P0
+t
+Unit: inch(mm)
+0603    0306
+(1608)  (0816)
+0504
+(1410)
+0805    0508
+(2012)  (1220)
+1206    0612 
+(3216)  (1632)
+Type
+Dimension
+Symbol
+A                 B               W               F                 E                P1               P2                P0                D                 t  
+Unit: inch(mm)
+01005
+(0402)
+0.45
+±0.02
+0.25
+±0.02
+Type
+Dimension
+Symbol
+A                 B                 W                 F                 E                  P1                P2               P0                 D                 t  
+E
+F W
+P1
+D
+2.0
+±0.05
+0.37
+±0.03
+0.37
+±0.05
+0.60
+±0.05
+0.37
+±0.03
+8.0
+±0.3
+3.5
+±0.05
+1.75
+±0.1
+4.0
+±0.1
+Ø1.5
++0.1
+0.03
+2.0
+±0.05
+Feeding Hole
+Chip inserting Hole
+P2
+P0
+t
+E
+F
+W
+A
+B
+P1
+D
+Cardboard Paper Tape(4mm)
+Cardboard Paper Tape(2mm)
+Packaging
+Specifications
+0201
+(0603)
+0402
+(1005)
+0204
+(0510)
+0.25
+±0.02
+0.38
+±0.03
+0.62
+±0.05
+0.62
++0.05
+0.10
+0.68
+±0.03
+1.12
+±0.05
+1.12
++0.05
+/-
+/-
+/-
+0.10
+B
+A
+
+PAGE 73
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+72
+73
+Peeling off of Cover Tape
+Embossed Plastic Tape
+Unit: inch(mm)
+01005
+(0402)
+0603
+(1608)
+0805
+(2012)
+1206
+(3216)
+1210
+(3225)
+1808
+(4520)
+1812
+(4532)
+2220
+(5750)
+0204
+(5010)
+0306
+(0816)
+0508 
+(1220)
+0612
+(1632)
+1.05
+±0.15
+1.45
+±0.2
+1.9
+±0.2
+2.8
+±0.2
+2.3
+±0.2
+3.6
+±0.2
+5.5
+±0.2
+0.62
++0.05
+/- 0.10
+1.1
+±0.2
+1.45
+±0.2
+2.0
+±0.2
+0.25
+±0.02
+0.45
+±0.02
+4.0
+±0.05
+1.8
+±0.02
+0.9
+±0.05
+1.0
+±0.02
+1.0
+±0.02
+2.0
+±0.04
+Ø0.8
+±0.04
+0.25
+±0.02
+0.5
+max
+1.9
+±0.15
+2.3
+±0.2
+3.5
+±0.2
+3.6
+±0.2
+4.9
+±0.2
+4.9
+±0.2
+6.2
+±0.2
+1.12
++0.05
+- /0.10
+1.9
+±0.2
+2.3
+±0.2
+3.6
+±0.2
+Type
+Dimension
+Symbol
+A         
+B         
+W         
+F         
+E         
+P1         
+P2         
+P0         
+D         
+t1         
+t0      
+12.0
+±0.3
+8.0
+±0.3
+5.60
+±0.05
+3.5
+±0.05
+1.75
+±0.1
+8.0
+±0.1
+0.8
+±0.3
+3.5
+±0.05
+4.0
+±0.1
+4.0
+±0.1
+2.0
+±0.05
+4.0
+±0.1
+Ø1.5
++0.1/
+- 0.03
+3.8
+max
+2.5
+max
+2.9
+max
+0.6
+Below
+Feeding Hole
+Chip Inserting Hole
+P2
+P0
+t0
+E
+F W
+A
+t1
+B
+P1
+D
+Cover Tape
+Cover Tape’s  Pulling Strength
+300mm / min
+Paper or Plastic Tape
+Unreeling Direetion
+165~180。
+•10 g.f≤Peel off force ≤70 g.f
+
+PAGE 74
+Taping Size
+Empty Section 200mm
+Empty Section 280mm
+Loading Section 
+240mm
+Start
+END
+Packed Part
+•The chip is only use for identifying the label and packaged products.
+Please don’t use the chip.
+2
+3
+3
+5
+8
+5
+8
+D
+A, C
+E, F, Q
+C
+E, F, P
+H
+9, D, C, O
+E, F, M
+H, T
+I, U
+J, V
+S
+F
+F, H, I
+L, J
+H, I, J
+20
+10
+10
+10
+4
+4
+4
+-
+4
+-
+4
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+100
+50
+50
+50
+10
+10
+10
+-
+10
+-
+10
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+50
+-
+-
+40
+15
+-
+15
+-
+15
+-
+15
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+50
+-
+-
+-
+-
+-
+3
+3
+-
+2
+-
+2
+2
+2
+2
+2
+2
+1
+2
+2
+1
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+3
+-
+3
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+10
+-
+10
+-
+10
+8
+10
+10
+8
+4
+4
+8
+-
+4
+2
+2
+-
+-
+-
+-
+-
+-
+-
+6
+-
+6
+-
+6
+4
+-
+-
+4
+-
+-
+-
+-
+-
+-
+-
+-
+30
+30
+30
+10
+10
+10
+-
+10
+-
+10
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+15
+15
+15
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+01005(0402)
+0201(0603)
+0402(1005)
+0504(1410)
+0603(1608)
+0604(1610)
+0805(2012)
+1206(3216)
+1210(3225)
+1808(4520)
+1812(4532)
+2220(5750)
+Cardboard Paper Type
+Embossed Plastic Type
+C
+(7”reel)
+-
+-
+-
+8
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+8
+(7”reel)
+H
+(7”reel)
+O
+(10”reel)
+D
+(13”reel)
+L
+(13”reel)
+E
+(7”reel)
+G
+(7”reel)
+F
+(13”reel)
+S
+(10”reel)
+Size
+T code
+Quantity & Packing Code
+Unit: kpcs
+
+PAGE 75
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+74
+75
+•QUANTITY
+0805(2012)
+T≥1.0mm
+T≤0.85mm
+0603(1608)
+0402(1005)
+5,000 
+10,000
+10,000 or 15,000
+50,000
+Quantity
+Size
+L
+F
+H
+W
+G
+T
+B
+A
+C
+D
+E
+I
+•Bulk case packaging can reduce the stock space and transportation costs.
+•The bulk feeding system can increase the productivity.
+•It can eliminate the components loss.
+A        
+B        
+T        
+C        
+D        
+E  
+Dimension
+6.8±0.1
+3.0+0.2/-0
+2+0/- 0.1
+1.5+0.1/- 0
+12±0.1
+8.8±0.1
+Symbol
+Unit: inch(mm) and pcs
+Unit: mm
+F        
+W        
+G        
+H        
+L        
+I  
+Dimension
+31.5+0.2/- 0
+5±0.35
+110±0.7
+7±0.35
+19±0.35
+36+0/- 0.2
+Symbol
+E
+C
+C B
+A
+D
+W
+t
+Unit: mm
+Tape Width               A               
+B               
+C               
+D        
+Symbol
+7" Reel
+10" Reel
+13" Reel
+8mm
+12mm
+8mm
+12mm
+8mm
+12mm
+Ø180+0/-3
+Ø180+0/-3
+Ø258+0/-3
+Ø258+0/-3
+Ø330±2.0
+Ø330±2.0
+Ø60±1.0
+Ø60+1/-0
+Ø80+1/-0
+Ø80+1/-0
+Ø80±1.0
+Ø80±1.0
+Ø13±0.3
+Ø13±0.3
+Ø13±0.3
+Ø13±0.3
+Ø13±0.3
+Ø13±0.3
+4±0.2
+4±0.2
+4±0.2
+4±0.2
+4±0.2
+4±0.2
+Tape Width                     E                     
+W                      
+t 
+Symbol
+7" Reel
+10" Reel
+13" Reel
+8mm
+12mm
+8mm
+12mm
+8mm
+12mm
+2.0±0.5
+2.0±0.5
+2.0±0.5
+2.0±0.5
+2.0±0.5
+2.0±0.5
+9±0.5
+13±0.5
+9±0.5
+13±0.5
+9±0.5
+13±0.5
+1.2±0.2
+1.2±0.2
+1.8±0.2
+1.8±0.2
+2.2±0.2
+2.2±0.2
+Reel Dimensions
+Bulk Case Packaging
+
+PAGE 76
+1-1. Storage Environment
+Tape packing materials are designed to withstand long-term storage, but they will degrade more rapidly in the presence of high
+temperature or high humidity, Therefore, the products must be stored in an ambient 5~40℃with a relative humidity of 20~70%.
+Allowable storage period is within 6 months from the outgoing date of delivery. 
+1-2. Corrosive Gases
+Since sulfur and chlorine may degrade the solderability of the end termination, it is important to store the capacitors in an
+environment free of these gases
+1-3. Temperature Fluctuations
+Since dew condensation may occur by the differences in temperature when the products are taken out of storage, it is
+important to maintain a temperature-controlled environment.
+When designing printed circuit boards, the shape and size of the solder lands must allow for the proper amount of solder on 
+the capacitor. The amount of solder at the end terminations has a direct effect on the
+probability that the chip will crack. The greater amount of solder, the larger amount of stress on the chip, and the more likely 
+that it will break. Use the following illustrations as guidelines for proper Solder land design.
+MLCCs generally require the use of an adhesive to position the chips to the circuit board prior to soldering.
+3-1. Requirements for Adhesives
+They must have enough adhesion so that the chips will not fall off or move during the handling of the circuit board.
+They must maintain their adhesive strength when exposed to soldering temperatures.
+They should not spread or run when applied to the circuit board.
+They should have a long pot life.
+They should harden quickly.
+They should not corrode the circuit board or chip material.
+They should be a good insulator.
+They should be non-toxic, and not produce harmful gases, nor be harmful when touched. 
+3-2. Application Method
+It is important to use the proper amount of adhesive. Too little will cause poor adhesion to the circuit board, and too much may 
+strain theconductor pattern, thereby causing defective soldering. The following illustrations show the proper quantity of adhesive.
+Recommendation of solder Land Shape and Size
+Type
+a
+b
+c
+0.2min
+70~100μm
+>0
+0.2min
+70~100μm
+>0
+21
+31
+Unit: mm
+w
+b
+Solder Resist
+2 / 3W < b < W
+a
+Solder
+Land
+Solder Resist
+2 / 3T < a < T
+T
+b
+a
+a
+c
+c
+Land
+PCB
+Solder Resist
+1.Storage of products
+2.Design of Solder Land Pattern
+3.Adhesives
+3-3. Adhesive hardening Characteristics
+To prevent oxidation of the terminations, the adhesive must harden at 160℃ or less, within 2 minutes or less.
+Application Manual for 
+Surface Mounting
+
+PAGE 77
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+76
+77
+Since a multilayer ceramic chip capacitor comes into direct contact with melted solder during soldering, it is exposed to potentially mechanical
+stress caused by the sudden temperature change. The capacitor may also be subject to silver migration, and to contamination by the flux.
+Because of these factors, soldering technique is critical.
+6-1. Soldering Methods
+4-1. Mounting Head Pressure
+Excessive pressure will cause chip capacitors to crack. The pressure between nozzle and chip capacitor will be 300g maximum during mounting. 
+4-2. Bending Stress
+Bending of printed circuit board by mounting head when double-sided circuit boards are used, chip capacitors first are mounted and soldered onto 
+one side of the board. When the capacitors are mounted onto the other side, it is important to support the board as shown in the illustration. 
+If the circuit board is not supported, it may bend, causing the already-installed capacitors to crack.
+Although highly-activated flux gives better solderability, substances which increase activity may also degrade the insulation of the chip
+capactiors, To avoid such degradation, it is recommended that a mildly activated rosin flux ( less than 0.2% chlorine ) be used
+.
+Method
+Reflow slodering
+· Overall heating
+· Infrared rays
+· Hot plate
+· VPS (Vapor phase)
+· Air heater
+· Laser
+· Light beam
+· Local heating
+· Single wave
+· Double wave 
+Flow slodering
+Classification
+nozzle
+force
+support pin
+6-2. Soldering Profile
+To avoid the crack problem by sudden temperature change, follow the temperature profile in the adjacent graph.
+4. Mounting
+5. Flux
+6. Soldering
+
+PAGE 78
+6-2-1 Pb-Free (Sn 100%) Plating
+FLOW SOLDERING
+Pre-heating
+Time(sec.)
+Soldering
+Temp.(℃)
+Pre-heating
+Temp.(℃
+℃
+℃
+℃
+℃
+)
+Gradual Cooling 
+in the air
+260±3℃
+5 sec. max.
+△T
+REFLOW SOLDERING
+Pre-heating
+Soldering
+Temp.(℃)
+217℃
+200℃
+150℃
+Gradual Cooling 
+in the air
+260+0/-5℃
+10 sec. max.
+Time(sec.)
+260+
++
+0/-5℃
+℃
+SolderingTemp.
+(
+)
+150
+~
+60
+0
+2
+1
+~
+0
+6
+Pre-heating Time
+(
+, sec.)
+Soldering Time
+(
+, sec.)
+≤150
+(1206 and below size)
+△T (
+)
+≥120
+≤5 
+Pre-heatingTime
+(
+, sec.)
+SolderingTime
+(
+, sec.)
+260±3
+Soldering Temp.
+(
+)
+△T≤130
+Variation of
+Temp.(
+)
+300±10℃max.
+Soldering
+Temp(
+)
+≥60 sec.
+≤4 sec.
+-             20W max.
+3mm max.
+4 sec max.
+Pre-heating
+Time(sec.)
+Soldering
+Time(sec.)
+Cooling
+Time(sec.)
+Condition of Iron Facilities
+Wattage
+Tip 
+Diameter
+Soldering 
+Time
+SOLDER IRON(Hand Soldering)
+Caution - Iron tip should not contact with ceramic body directly 
+①
+①
+②
+①
+②
+①
+②
+③
+③
+②
+※
+
+PAGE 79
+Part Numbering
+System
+Standard & 
+High Capacitors
+Super Small Size 
+Capacitors
+High-Q
+Capacitors
+Medium-High 
+Voltage Capacitors
+Array Type 
+Capacitors
+Low ESL
+Capacitors
+Application Manual 
+for Surface Mounting
+Packaging 
+Specification
+Premium Capacitors
+for Automotive
+Applications
+Reliability Test 
+Condition
+78
+79
+6-3. Manual Soldering
+Manual soldering can pose a great risk of creating thermal cracks in chip capacitors. The hot soldering iron tip comes into direct contact with the end
+terminations, and operator’ s carelessness may cause the tip of the soldering iron to come into direct contact with the ceramic body of the capacitor.
+Therefore the soldering iron must be handled carefully, and close attention must be paid to the selection of the soldering iron tip and to temperature
+control of the tip.
+6-5. Cooling
+Natural cooling using air is recommended. If the chips are dipped into solvent for cleaning, the temperature difference (△T) must be less than 100℃
+6-6. Cleaning
+If rosin flux is used, cleaning usually is unnecessary. When strongly activated flux is used, chlorine in the flux may dissolve into some types of cleaning
+fluids, thereby affecting the chip capacitors. This means that the cleaning fluid must be carefully selected, and should always be new.
+A multi-PC board is separated into many individual circuit boards after soldering has been completed. If the board is bent or distorted 
+at the time of separation, cracks may occur in the chip capacitors. Carefully choose a separation method that minimizes the bending 
+of the circuit board.
+6-4. Amount of Solder
+Too much Solder
+Not enough solder
+Cracks tend to occur
+due to large stress.
+Weak holding force may cause
+bad connections or
+detaching of the capacitor
+7. Notes for Separating Multiple, Shared PC Boards
+
+PAGE 80
+Attention
+1. This catalogue is valid only to the products purchased either from us or through our official distri-
+butors. 
+2. Product specifications included in this catalogue are effective as of Nov 1, 2015. 
+Please be advised that they are standard product specifications for reference only. 
+We may change, modify or discontinue the product specifications without notice at any time.
+So, you need to approve the product specifications before placing an order. Should you have any    
+question regarding our product specifications, please contact our sales personnel or application
+engineers. 
+3. We may modify or cease to produce the products listed in this catalogue without notice. Should 
+you have any question, please contact our sales personnel or application engineers. 
+4. Without obtaining our permission, you should not be allowed to reproduce, copy, use or transfer 
+any content or information contained this catalogue in any manner whatsoever for any purpose.    
+5. In no event, will we be responsible for any claim, dispute, damage or liability whatsoever arising 
+from, relating to or in connection with your misuse of the products or/and information included in 
+this catalogue. 
+We will also not assume any responsibilities whatsoever for any claim, dispute, damage or liability 
+with regards to the intellectual property rights or other related rights of ours or any third party as- 
+sociated with your use of our products and/or information contained in this catalogue. Weexpres-
+sly disclaim that no license is granted regarding the aforementioned rights.     
+6. Please note that the products in this catalogue are not designed or intended to use for the appoli-   
+cations set forth below. So, if you intend to use the products in this catalogue for the applications 
+listed below,you should contact our sales personnel or application engineers before using.
+Please be aware that any misuse of the products deviating from product specifications or informa-      
+tion provided in this catalogue may cause a serious property damage or a personal injury.
+①Aerospace/Aviation equipment
+②Transportation equipment (vehicles, trains, ships, etc)
+③Medical equipment 
+④Military equipment 
+⑤Disaster prevention/crime prevention equipment
+⑥Any other applications with the same as or similar complexity or reliability to the applications set 
+forth above.
+
+PAGE 81
+Sony Green Partner
+QC 080000 IECQ HSPM
+ISO/TS 16949
+ISO 14001
+OHSAS18001
+80
+81
+Certifications 
+
+PAGE 82
+ISO / TS 16949
+ISO 14001
+OHSAS 18001
+Sony Green Partner
+QC 080000
+Quality System Certification status for each factory site
+BSI
+TS 91430 - 000
+2013-10-25
+~2016-10-24
+BSI
+TS 91430 - 001
+2013-08-08
+~2016-08-07
+2012-06-01
+~2014-05-31
+BSI
+TS 91430 - 005
+2012-08-03
+~2015-08-02
+BSI
+EMS 585363
+2012-04-17
+~2015-04-16
+BSI
+OHS 585364
+2012-04-17
+~2015-04-16
+BSI
+EMS 77354
+2012-07-13
+~2015-07-12
+BSI
+OHS 568723
+2013-10-14
+~2016-10-13
+BSI
+EMS 599427
+2013-06-25
+~2016-06-24
+BSI
+OHS 599428
+2013-06-25
+~2016-06-24
+BSI
+EMS 599427
+2013-06-25
+~2016-06-24
+BSI
+OHS 599428
+2013-06-25
+~2016-06-24
+UL
+KR-HSPM-1012
+2013-06-27
+~2016-07-19
+UL
+PI-HSPM-1001
+2013-06-27
+~2016-07-04
+UL
+PRC-HSPM-1767
+2013-07-08
+~2016-07-26
+UL
+PRC-HSPM-1767-2
+2013-07-08
+~2016-07-26
+UL
+KR-HSPM-1011
+2013-06-17
+~2016-07-01
+BSI
+TS 91430 - 007
+2011-11-29
+~2014-11-28
+Suwon
+(Korea)
+Certification
+Busan
+(Korea)
+Calamba
+(Philippines)
+Tianjin
+(China)
+BSI
+TS 91430 - 007
+2011-11-29
+~2014-11-28
+Binhai
+(China)
+BSI
+EMS 585363
+2012-04-17
+~2015-04-16
+BSI
+OHS 585364
+2012-04-17
+~2015-04-16
+2012-06-01
+~2014-05-31
+2012-06-01
+~2014-05-31
+2012-06-01
+~2014-05-31
+2012-06-01
+~2014-05-31
+Date
+Validity
+Date
+Validity
+Date
+Validity
+Date
+Validity
+Date
+Validity
+
+PAGE 83
+Note
+82
+83
+
+PAGE 84
+All information indicated in this catalog is as of November. 2015 
+●Head office
+●Manufacturing sites
+●Asia sales offices
+●America sales office
+●Europe sales offices
+●Domestic Distributors
+Passive components sales offices
+150,Meayoungro(Maetan-dong)
+Yeongtong-gu, Suwon-city,
+Gyeonggi province, Korea,443-743
+Tel : +82-31-210-5114
+Europe
+Tel : +82-31-210 -6328
+E-mail : james.pyun@samsung.com
+America
+Tel : +82-31-210 -6803
+E-mail : wesley.roh@samsung.com
+China
+Tel : +82-31-210-3476 
+E-mail : james.h.lee@samsung.com
+Japan 
+Tel : +82-31-210-6304
+E-mail : jdkim1@samsung.com  
+Domestic 
+Tel : +82-31-210-3692
+E-mail : jeongki.um@samsung.com 
+Irvine office 
+3333 Michelson Drive, Suite 500, Irvine, CA 
+92612, USA 
+Tel : +1-949-797-8016 
+E-mail : andrew.skelly@samsung.com 
+San Jose office 
+601, McCarthy Blvd.,  San Jose, CA 95035, USA
+Tel : +1-408-544-4552 
+E-mail : jay.pauer@samsung.com 
+Chicago office 
+1870 West Winchester Rd, Suite 247, 
+Libertyville IL 60048, USA
+Tel : +1-847-549-9424 
+E-mail : sweety@samsung.com 
+Frankfurt office 
+Samsung, Haus, Am Kronberger Hang 6,
+D-65824 Schwalbach/Ts. Germany
+Tel : +49-6196-66-7255
+E-mail : frank.goebel@samsung.com 
+London office 
+KT130NY 2nd floor, No 5. No 5. The Heights, 
+Brooklands,  Weybridge Surrey, England
+Tel : +44-1932-826-811 
+E-mail : river.lee@samsung.com 
+Helsinki office
+ 02600, Lars Sonckin Kaari 14, Espoo, Finland 
+Tel : +358-9-853-1132
+ E-mail : jouni.riuttanen@samsung.com
+Korchip Corporation
+359, Manan-ro, Manan-gu, Anyang-si, 
+Gyeonggi-do, Korea
+Tel :+82-31-361-8100
+E-mail : parts@korchip.com
+SAMT
+315, Yeongdong-daero, Gangnam-gu, Seoul, 
+Korea
+Tel : +82-2-3458-9000
+E-mail : info@isamt.com
+CHUNGMAC
+40-3, Gokseon-ro 49beon-gil, Gwonseon-gu, 
+Suwon-si, Gyeonggi-do, Korea
+Tel : +82-31-234-2367
+E-mail : webmaster@chungmac.co.kr
+YOUNGDUK
+632, Seobusaet-gil, Geumcheon-gu, Seoul, 
+Korea 
+Tel : +82-2-2107-7860
+E-mail : dryblood@hanmail.net
+Shenzhen office
+46 F, New World Center, Yitian Road, Futian 
+District,Shenzhen, China 518026 
+Tel : +86-755-8608-5579 
+E-mail : andy.li@samsung.com 
+Shanghai office
+Rm. 1211, Shanghai International Trade 
+CenterNo.2201 Yan An(W) Rd., Shanghai, China 
+200335 
+Tel : +86-21-2231-4341 
+E-mail : koogi@samsung.com 
+Beijing office
+'12/F China Merchants Tower No. 118, Jian Guo 
+Lu, Chao Yang District, Beijing, China
+Tel : +86-10-6566-8100-6606 
+E-mail : kiko.wang@samsung.com
+Qingdao Office
+Rm 1201. Growne Plaza Qingdao 76,
+Xiang Gang Zhong Rd, Qingdao,
+266071 China
+Tel : +86-532-85779102
+E-mail : zhengguo.cui@samsung.com
+Taipei Office
+9F-1, Np. 399 Ruey Kuang Rd., Neihu
+District, Taipei City, Taiwan, 114
+Tel : +886-2-2656-8350
+E-mail : kevin0130.wang@samsung.com
+Singapore office 
+Samsung Electro-Mechanics Private LimitedÞ
+3 Church Street Samsung Hub #23-01 
+Singapore 049483  
+Tel : +65-6933-2630 
+E-mail : alvin.koh@samsung.com
+ 
+Bangkok office
+24180 Wellgrow Industrial Estate, 93 Moo 5, 
+Bangsamak A. Bangpakong, Chachoensao, 
+Thailand
+Tel : +66-38-562-110 
+E-mail : kyunghoon1.lee@samsung.com
+ 
+Japan office
+108-0075 Minato-ku Tokyo Kounan 2-16-4 
+Shinagawa Grand Cnetral Tower 9F, Japan
+Tel : +81-3-6369-6452 
+E-mail : hikota.suga@samsung.com 
+Suwon Plant(Korea)
+150,Meayoungro(Maetan-dong)
+Yeongtong-gu, Suwon-city,
+Gyeonggi province, Korea,443-743
+Tel : +82-31-210-5114
+Busan Plant (Korea)
+333,Noksan Sanupjoongro(Songjeong-
+dong,)Gangseo-gu, Busan, Korea,
+618-270
+Tel : +82-51-970-7114
+Tianjin Plant (China)
+27, Heiniucheng-Road,Tianjin, 
+China 300210
+Tel : +86-22-2830-3333 
+Binhai Plant(China)
+No 80 xiaqing road, 
+TEDA west District, China 
+Tel : +86-22-6686-3333
+Philippines Plant (Philippines)
+Block 5 Calamba Premiere Industrial Park 
+Calamba City, Philippines 
+Tel : +63-49-508-8311
+ * The specifications and designs contained herein may be subject to change without notice.

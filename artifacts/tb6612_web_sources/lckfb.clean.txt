@@ -1,0 +1,330 @@
+
+  
+    
+    
+    TB6612电机驱动模块 | 立创开发板技术文档中心
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+    Skip to content搜索文档⌘CtrlK Main Navigation 首页训练营项目资料【立创·天猛星MSPM0G3507开发板】电赛TI-简易PID项目训练营资料【立创·泰山派RK3566开发板】第一期训练营资料【立创·地文星CW32开发板】电压电流表训练营项目资料实训项目资料【立创·地奇星】电压电流表实训项目资料【立创·地文星】电压电流表实训项目资料在线工具天空星调试助手天空星在线刷写工具MicroPython IDE天空星引脚分配速查TI MSPM0 串口烧录工具CanMV Web IDE（庐山派）购买开发板相关网站嘉立创嘉立创EDA立创商城立创开源硬件平台立创开发板官网联系我们简体中文English简体中文English外观菜单返回顶部 Sidebar Navigation 立创·衡山派D133EBS开发板开发板简介资料下载中心文档使用指南屏幕选购与适配说明晶尚7寸LVDS屏适配指南快速入门【必看】衡山派介绍衡山派介绍衡山派Soc介绍衡山派接口说明SDK编译衡山派环境搭建衡山派SDK获取衡山派SDK编译镜像烧录驱动编程GPIO框架使用UART框架使用外设框架示例串口调试LVGL设计RTOS-SDKSDK编译代码准备WindowsVSCodeEclipseUbuntuVMWare使用指南设计框架代码结构命令详解SConstruct编译解析分区设置烧录镜像GDB调试引脚配置添加驱动添加应用helloworld烤机测试应用场景挂载U盘挂载SD卡系统更新方式术语流程平台统计USB线串口线SD卡U盘烧录器OTA方案模块介绍参数配置调试指南测试指南设计说明XIP方案模块介绍参数配置测试详细适配说明分散加载方案Dynamic-Module方案安全方案固件加密使用说明(SPIENC)硬件授权认证文件系统镜像制作客制化启动方案内置NOR烧录方案外设移植CTP调试指南无线网络按键矩阵BringUP准备工作SOC内存配置存储配置调试配置屏幕配置示例程序启动引导Boot介绍参数配置调试指南测试指南设计说明常见问题系统Memory使用指南参数配置常见问题Interrupt使用指南参数配置常见问题CMU使用指南模块介绍CMU配置调试指南测试指南设计说明常见问题DMA使用指南模块介绍参数配置调试指南测试指南设计说明常见问题HRTimer使用指南模块介绍参数配置调试指南测试指南设计说明常见问题MTOP使用指南模块介绍参数配置测试指南设计说明常见问题RTC使用指南模块介绍参数配置调试指南测试指南设计说明常见问题TSensor使用指南模块介绍参数配置调试指南测试指南设计说明常见问题Watchdog使用指南模块介绍参数配置调试指南测试指南设计说明常见问题存储SDMC使用指南模块介绍参数配置调试指南测试指南设计说明常见问题PSRAM使用指南模块介绍参数配置调试指南测试指南设计说明常见问题SPI-NAND使用指南模块介绍参数配置调试指南测试指南设计说明常见问题SPI-NOR使用指南模块介绍参数配置调试指南测试指南设计说明常见问题多媒体Audio使用指南模块介绍参数配置调试指南测试指南设计指南常见问题Display使用指南系统介绍参数配置调试指南测试指南设计说明屏幕适配指南竖屏横用|横屏竖用色彩调整烧录进度条Blending常见问题DVP使用指南模块介绍参数配置调试指南测试指南设计说明常见问题MDI使用指南模块介绍参数配置调试指南测试指南设计说明常见问题GE使用指南模块介绍参数配置调试指南测试指南设计说明常见问题I2S使用指南模块介绍参数配置调试指南测试指南设计说明常见问题VE使用指南模块介绍参数配置调试指南测试指南设计说明常见问题MPP使用指南模块介绍参数配置调试指南测试指南设计说明常见问题MPP播放器使用指南模块介绍参数配置调试指南测试指南设计说明常见问题MPP录像使用指南模块介绍参数配置调试指南测试指南设计说明常见问题LVGL使用指南模块介绍参数配置调试指南测试指南设计说明添加应用特殊用法常见问题MPP音频播放器使用指南模块介绍参数配置调试指南测试指南设计说明常见问题外设接口CAN使用指南模块介绍配置指南调试指南测试指南设计说明常见问题CAP使用指南模块介绍参数配置调试指南测试指南设计说明常见问题CIR使用指南模块介绍参数配置调试指南测试指南设计说明常见问题GPAI使用指南模块介绍参数配置调试指南测试指南设计说明常见问题GPIO使用指南模块介绍参数配置调试指南测试指南设计说明常见问题I2C使用指南模块介绍参数配置调试指南测试指南设计说明常见问题PSADC使用指南模块介绍参数配置调试指南测试指南设计说明常见问题PWM使用指南模块介绍参数配置调试指南测试指南设计说明常见问题RTP使用指南模块介绍参数配置调试指南测试指南设计说明常见问题QSPI使用指南模块介绍参数配置调试指南测试指南设计说明常见问题UART使用指南模块介绍参数配置调试指南测试指南设计说明常见问题MAC使用指南模块介绍参数配置调试指南测试指南设计说明常见问题USB使用指南USB简介USB设备枚举简介配置指南调试指南测试指南设计说明常见问题安全eFuse使用指南模块介绍参数配置调试指南测试指南设计说明常见问题SPI-ENC使用指南模块介绍参数配置调试指南测试指南设计说明常见问题CE使用指南模块介绍参数配置调试指南测试指南设计说明常见问题硬件设计说明介绍原理图设计布线设计设计自查模块移植手册手册介绍模块框架显示类0.96寸彩屏1.47寸彩屏1.69寸彩屏0.96寸SPI单色屏0.96寸IIC单色屏1.3寸彩屏0.91寸彩屏1.28寸圆屏LCD彩色显示屏1.3寸单色OLED显示屏传感器类DHT11温湿度传感器EC11旋转编码器光敏电阻光照传感器红外测距传感器MQ-2烟雾检测传感器红外循迹传感器指纹识别传感器TTP224触摸传感器ADS1115多路模数转换器SR04超声波测距传感器SHT30温湿度传感器MLX90614测温传感器MPU6050六轴传感器DS18B20温度传感器火焰传感器雨滴传感器US-016超声波测距传感器HX711称重传感器微波多普勒无线雷达传感器AHT10温湿度传感器MS5611气压传感器BMP180气压传感器SHT20温湿度传感器人体红外传感器SGP30气体传感器BH1750光照强度传感器TCS34725颜色识别传感器AGS10有害气体传感器MS1100气体传感器S12SD紫外线传感器MQ-3酒精检测传感器MQ-4甲烷检测传感器MQ-5液化气检测传感器MQ-6丙烷检测传感器MQ-7一氧化碳检测传感器MQ-8氢气检测传感器MQ-9可燃气体检测传感器MQ-135空气质量传感器灰度传感器GP2Y1014AU粉尘传感器土壤湿度传感器无线通信类红外解码编码模块HC05蓝牙模块RC522射频IC卡识别模块红外接收模块控制类继电器模块WS2812彩灯TB6612电机驱动模块SG90舵机双轴按键摇杆模块16路舵机驱动模块语音合成播报模块AT24C02-EEPROM存储器JQ8900语音播报模块扩展文档LVGLLVGL简介使用指南使用示例SquareLine Studiolvgl-uiKconfigSCons常见问题与解决办法页面导航 ​  该模块相对于传统的L298N效率上提高很多,体积上也大幅度减少，在额定范围内，芯片基本不发热，当然也就显得更加娇贵,所以我们建议有一定动手能力的朋友使用,接线的时候务必细心细心再细心，注意正负极性。模块来源 ​采购链接：TB6612FNG电机驱动模块 小体积高性能超L298N 自平衡驱动小车模块规格参数 ​VM电机电压：< 12VVCC芯片电压：2.7~5.5V输出电流：1A控制方式：PWM以上信息见厂家资料文件移植过程 ​我们的目标是将例程移植至开发板上【能够控制电机旋转速度的功能】。首先要获取资料，查看数据手册应如何实现读取数据，再移植至我们的工程。查看资料 ​  STBY口接单片机的IO口，STBY置0电机全部停止，置1才能工作。STBY置1后通过AIN1、AIN2、BIN1、BIN2 来控制正反转。这里将STBY接入3.3V，让其一直为高电平，后续的电机停止控制通过IN1与IN2进行控制。  其中A端（AIN1与AIN2）只能控制AO1与AO2端。B端（BIN1与BIN2）只能控制BO1与BO2端。因此是双路电机驱动。引脚选择 ​  PWMA为控制A端电机速度的引脚，通过PWM的占空比大小控制电机速度。这里选择PA6，其有复用功能TIMER3_CH1，意为定时器3的PWM通道1。  这里将STBY接入3.3V，让其一直为高电平，后续的电机停止控制通过IN1与IN2进行控制。这里选择的引脚见引脚接线表代码移植 ​下载为大家准备的驱动代码文件夹，复制到自己工程中\luban-lite\application\rt-thread\helloworld\user-bsp文件夹下驱动代码文件夹下载📌 资料下载中心（点击跳转）📌 在 资料下载中心->模块移植资料下载 里面的该章节压缩包中。提示如果未找到 user-bsp 这个文件夹，说明你未进行模块移植的前置操作。请转移到手册使用必要操作（点击跳转）中进行必要的配置操作！！！接下来打开自己的工程，开始修改Kconfig文件。1、在 VSCode 中打开 application\rt-thread\helloworld\Kconfig 文件2、在该文件的 #endif 前面添加该模块的 Kconfig路径语句shell# TB6612电机驱动模块
+source "application/rt-thread/helloworld/user-bsp/tb6612-motor-drive-module/Kconfig"12menuconfig操作 ​1、我们 双击 luban-lite 文件夹下的 win_env.bat 脚本打开env工具：2、输入以下命令列出所有可用的默认配置：shellscons --list-def123、选择 d13x_JLC_rt-thread_helloworld 这个配置！这个是我们衡山派开发板的默认配置！输入以下命令即可：shellscons --apply-def=712或者shellscons --apply-def=d13x_JLC_rt-thread_helloworld_defconfig12这两个命令作用是一样的，一个是 文件名 ，一个是 编号 ！！！4、输入以下命令进入menuconfig菜单shellscons --menuconfig12进入以下界面：5、选中 Porting code using the LCKFB module按 Y 选中按 N 取消选中方向键 左右 调整 最下面菜单的选项方向键 上下 调整 列表的选项回车 执行最下面菜单的选项6、回车进入 Porting code using the LCKFB module 菜单7、按方向键 上下 选中 Using TB6612 Motor drive module 后按 Y 键，看到前面括号中出现一个 * 号，就可以下一步了。8、按方向键 左右 选中 <Save> 然后一路回车，然后 退出 即可编译 ​我们 保存并退出menuconfig菜单 之后，输入以下命令进行编译：shellscons1或shellscons -j161-j 用来选择参与编译的核心数: 我这里是选择16大家可以根据自己的电脑来选择核心越多编译越快如果写的数量高于电脑本身，那么就自动按照最高可用的来运行！镜像烧录 ​编译完成之后会在 \luban-lite\output\d13x_JLC_rt-thread_helloworld\images 文件夹下生成一个 d13x_JLC_v1.0.0.img 镜像文件！然后我们烧录镜像，具体的教程请查看：镜像烧录（点击跳转🚀）到这里完成了，请移步到 最后一节 进行移植验证。工程代码解析 ​bsp_tb6612.c ​c/*
+ * 立创开发板软硬件资料与相关扩展板软硬件资料官网全部开源
+ * 开发板官网：www.lckfb.com
+ * 文档网站：wiki.lckfb.com
+ * 技术支持常驻论坛，任何技术问题欢迎随时交流学习
+ * 嘉立创社区问答：https://www.jlc-bbs.com/lckfb
+ * 关注bilibili账号：【立创开发板】，掌握我们的最新动态！
+ * 不靠卖板赚钱，以培养中国工程师为己任
+ */
+
+#include <stdlib.h>
+#include <string.h>
+#include <getopt.h>
+#include <sys/time.h>
+#include <rtthread.h>
+#include "hal_adcim.h"
+#include "rtdevice.h"
+#include "aic_core.h"
+#include "aic_log.h"
+#include "hal_gpai.h"
+#include <stdio.h>
+#include "aic_hal_gpio.h"
+#include "bsp_tb6612.h"
+
+#define TB6612_DEV_NAME             "pwm"
+#define PWM1                        1
+#define TB6612_PWMA_CHANNEL         PWM1
+
+#define TB6612_AIN1_PIN             rt_pin_get("PE.14")
+#define TB6612_AIN2_PIN             rt_pin_get("PE.12")
+
+#define TB6612_AIN1_SET_LEVEL(x)    rt_pin_write(TB6612_AIN1_PIN, x ? PIN_HIGH : PIN_LOW)
+#define TB6612_AIN2_SET_LEVEL(x)    rt_pin_write(TB6612_AIN2_PIN, x ? PIN_HIGH : PIN_LOW)
+
+static struct rt_device_pwm *pwm_dev = RT_NULL;
+
+static uint32_t tb6612_period = 0;
+static uint32_t tb6612_pulse  = 0;
+
+/**********************************************************
+ * 函 数 名 称：TB6612_GPIO_Init
+ * 函 数 功 能：AIN-GPIO进行初始化
+ * 传 入 参 数：无
+ * 函 数 返 回：无
+ * 作       者：LCKFB
+ * 备       注：LP
+**********************************************************/
+static void TB6612_GPIO_Init()
+{
+    rt_pin_mode(TB6612_AIN1_PIN, PIN_MODE_OUTPUT);
+    rt_pin_mode(TB6612_AIN2_PIN, PIN_MODE_OUTPUT);
+
+    TB6612_AIN1_SET_LEVEL(0);
+    TB6612_AIN2_SET_LEVEL(0);
+}
+
+
+/**********************************************************
+ * 函 数 名 称：TB6612_Init
+ * 函 数 功 能：配置tb6612进行初始化
+ * 传 入 参 数：periodPWM - 周期时间 (单位纳秒 ns)
+ *             pulse - PWM 脉冲宽度时间 (单位纳秒 ns)
+ * 函 数 返 回：RT_EOK成功  -RT_ERROR失败
+ * 作       者：LCKFB
+ * 备       注：LP
+**********************************************************/
+int TB6612_Init(uint32_t period, uint32_t pulse)
+{
+    int ret = 0;
+
+    /* 查找设备 */
+    pwm_dev = (struct rt_device_pwm *)rt_device_find(TB6612_DEV_NAME);
+    if (pwm_dev == NULL)
+    {
+        LOG_E("can't find %s device!",TB6612_DEV_NAME);
+        return -RT_ERROR;
+    }
+
+    /* 不大于周期时间 */
+    if(pulse >= period)
+    {
+        pulse = period - 1;
+    }
+
+    /* 保存初始化数值 */
+    tb6612_period = period;
+    tb6612_pulse = pulse;
+
+    /* 设置PWM的周期和脉冲宽度 */
+    ret = rt_pwm_set(pwm_dev, TB6612_PWMA_CHANNEL, period, pulse);
+    if(ret != RT_EOK)
+    {
+        LOG_E("%s--->rt_pwm_set failed !!",__FUNCTION__);
+        return -RT_ERROR;
+    }
+
+    /* 使能设备 */
+    ret = rt_pwm_enable(pwm_dev, TB6612_PWMA_CHANNEL);
+    if(ret != RT_EOK)
+    {
+        LOG_E("%s--->rt_pwm_enable failed !!",__FUNCTION__);
+        return -RT_ERROR;
+    }
+
+    TB6612_GPIO_Init();
+
+    return RT_EOK;
+}
+
+/**********************************************************
+ * 函 数 名 称：TB6612_DeInit
+ * 函 数 功 能：清除tb6612初始化
+ * 传 入 参 数：无
+ * 函 数 返 回：RT_EOK成功  -RT_ERROR失败
+ * 作       者：LCKFB
+ * 备       注：LP
+**********************************************************/
+int TB6612_DeInit(void)
+{
+    if(RT_EOK != rt_pwm_disable(pwm_dev, TB6612_PWMA_CHANNEL))
+    {
+        LOG_E("%s--->rt_pwm_disable failed !!",__FUNCTION__);
+        return -RT_ERROR;
+    }
+
+    return RT_EOK;
+}
+
+/**********************************************************
+ * 函 数 名 称：AO_Control
+ * 函 数 功 能：A端口电机控制
+ * 传 入 参 数：dir旋转方向 1正转 0反转
+ *             speed旋转速度，范围（0 ~ tb6612_period-1）
+ * 函 数 返 回：RT_EOK成功  -RT_ERROR失败
+ * 作       者：LCKFB
+ * 备       注：LP
+**********************************************************/
+int AO_Control(uint8_t dir, uint32_t speed)
+{
+    if(speed >= tb6612_period)
+    {
+        speed = tb6612_period - 1;
+    }
+
+    if( dir == 1 )
+    {
+        TB6612_AIN1_SET_LEVEL(0);
+        TB6612_AIN2_SET_LEVEL(1);
+    }
+    else
+    {
+        TB6612_AIN1_SET_LEVEL(1);
+        TB6612_AIN2_SET_LEVEL(0);
+    }
+
+    /* 设置PWM的周期和脉冲宽度 */
+    if(RT_EOK != rt_pwm_set(pwm_dev, TB6612_PWMA_CHANNEL, tb6612_period, speed))
+    {
+        LOG_E("%s--->rt_pwm_set failed !!",__FUNCTION__);
+        return -RT_ERROR;
+    }
+
+    return RT_EOK;
+}123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118119120121122123124125126127128129130131132133134135136137138139140141142143144145146147148149150151152153154155156157158159160161162163164165166bsp_tb6612.h ​c/*
+ * 立创开发板软硬件资料与相关扩展板软硬件资料官网全部开源
+ * 开发板官网：www.lckfb.com
+ * 文档网站：wiki.lckfb.com
+ * 技术支持常驻论坛，任何技术问题欢迎随时交流学习
+ * 嘉立创社区问答：https://www.jlc-bbs.com/lckfb
+ * 关注bilibili账号：【立创开发板】，掌握我们的最新动态！
+ * 不靠卖板赚钱，以培养中国工程师为己任
+ */
+#ifndef __BSP_TB6612_H__
+#define __BSP_TB6612_H__
+
+#include "stdio.h"
+
+int TB6612_Init(uint32_t period, uint32_t pulse);
+int TB6612_DeInit(void);
+
+int AO_Control(uint8_t dir, uint32_t speed);
+
+#endif12345678910111213141516171819202122Kconfig ​这个是一个menuconfig中的选项，如果在菜单中选中该选项，就会在rtconfig.h中定义一个语句，用来if判断条件编译之类的。iniconfig LCKFB_TB6612_MOTOR_DRIVE_MODULE
+    bool "Using TB6612 Motor drive module"
+    select AIC_USING_PWM1
+    default n
+    help
+        More information is available at: https://wiki.lckfb.com/1234567SConscript ​自动化构建文件，如果定义了 LCKFB_TB6612_MOTOR_DRIVE_MODULE 和 USING_LCKFB_TRANSPLANT_CODE 就自动编译当前目录下的文件！！cImport('RTT_ROOT')
+Import('rtconfig')
+import rtconfig
+from building import *
+
+cwd = GetCurrentDir()
+CPPPATH = [cwd]
+src = []
+
+
+if GetDepend('LCKFB_TB6612_MOTOR_DRIVE_MODULE') and GetDepend('USING_LCKFB_TRANSPLANT_CODE'):
+    src = Glob(os.path.join(cwd, '*.c'))
+
+group = DefineGroup('lckfb-tb6612-motor-drive-module', src, depend = [''], CPPPATH = CPPPATH)
+
+Return('group')12345678910111213141516test_tb6612_motor_drive_module.c ​这个文件定义了一个处理TB6612电机驱动模块的线程，初始化了TB6612模块的板级支持包（BSP），并设置了线程的优先级、栈大小和时间片。线程的主要任务是控制TB6612模块输出PWM信号，以控制电机转速和方向。以下是代码中的关键点：THREAD_PRIORITY、THREAD_STACK_SIZE 和 THREAD_TIMESLICE 分别定义了线程的优先级、栈大小和时间片。tb6612_thread 是线程控制块的指针，初始为 RT_NULL。tb6612_thread_entry 是线程的入口函数，它执行TB6612模块的初始化、PWM信号输出控制，并在循环中提示用户如何退出线程。TB6612_Init 函数用于初始化TB6612电机驱动模块，设置PWM信号的周期和脉冲宽度。AO_Control 函数用于控制TB6612模块输出PWM信号，参数flag用于控制电机的方向，i用于控制电机的速度。aicos_mdelay 函数用于实现毫秒级的延时。LOG_E 宏用于打印错误信息。test_tb6612_module 函数用于创建并启动线程。MSH_CMD_EXPORT 宏用于将函数导出为命令行接口，使得用户可以在命令行中直接调用这些函数。在 tb6612_thread_entry 函数中，首先调用 TB6612_Init 初始化模块，然后进入一个无限循环，循环中通过 AO_Control 函数输出PWM信号，并通过 flag 变量切换电机的方向。循环中还会检查是否需要提示用户退出命令。test_tb6612_module 函数用于创建并启动 tb6612_thread 线程。用户可以通过在命令行中输入 test_tb6612_module 来启动TB6612电机驱动模块的测试线程。这个线程会执行上述的操作，并在控制台上打印退出命令的提示。test_exit_tb6612_module 函数用于退出TB6612电机驱动模块的测试线程。它首先尝试删除线程，然后调用 TB6612_DeInit 反初始化模块，并打印退出成功的消息。用户可以通过在命令行中输入 test_exit_tb6612_module 来退出TB6612电机驱动模块的测试线程。如果退出成功，控制台上会显示相应的成功消息。如果退出失败，会打印错误信息。c
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <getopt.h>
+#include <sys/time.h>
+#include <rtthread.h>
+#include "rtdevice.h"
+#include "aic_core.h"
+#include "aic_hal_gpio.h"
+#include "bsp_tb6612.h"
+
+#define THREAD_PRIORITY         25      // 线程优先级
+#define THREAD_STACK_SIZE       4096    // 线程大小
+#define THREAD_TIMESLICE        25      // 时间片
+
+static rt_thread_t tb6612_thread = RT_NULL; // 线程控制块
+
+// 线程入口函数
+static void tb6612_thread_entry(void *param)
+{
+    int while_count = 1;
+
+    uint32_t i   = 0;
+    uint8_t flag = 0;
+
+    uint32_t period = 1000000;  // 单位ns
+    uint32_t pulse  = 0;        // 单位ns
+
+    /* TB6612初始化 */
+    if(RT_EOK != TB6612_Init(period, pulse))
+    {
+        LOG_E("Failed to TB6612_Init!!");
+    }
+
+    while(while_count++)
+    {
+        i += 10000;
+        if(i >= period)
+        {
+            i = 0;
+            flag ^= 1;  // 切换flag状态
+        }
+
+        if(RT_EOK != AO_Control(flag, i))
+        {
+            LOG_E("Failed to AO_Control!!");
+        }
+
+        // 循环提示
+        if (while_count >= 1000)
+        {
+            while_count = 1;
+
+            rt_kprintf("\nType [test_exit_tb6612_module] command to exit \n");
+            rt_kprintf("Note: Pressing [TAB] as you type will autocomplete the command\n");
+        }
+
+        rt_thread_mdelay(100);
+    }
+}
+
+
+
+
+static void test_tb6612_module(int argc, char **argv)
+{
+    /* 创建线程，名称是 tb6612_thread，入口是 tb6612_thread_entry */
+    tb6612_thread = rt_thread_create("tb6612_thread",
+                            tb6612_thread_entry, RT_NULL,
+                            THREAD_STACK_SIZE,
+                            THREAD_PRIORITY, THREAD_TIMESLICE);
+
+    /* 如果获得线程控制块，启动这个线程 */
+    if (tb6612_thread != RT_NULL)
+        rt_thread_startup(tb6612_thread);
+}
+// 导出函数为命令
+MSH_CMD_EXPORT(test_tb6612_module, tb6612 module test);
+
+
+/* 退出函数 */
+void test_exit_tb6612_module(void)
+{
+    int ret = rt_thread_delete(tb6612_thread);
+    if(ret != RT_EOK)
+    {
+        LOG_E("failed to rt_thread_delete !!");
+        return;
+    }
+
+    ret = TB6612_DeInit();
+    if(ret != RT_EOK)
+    {
+        LOG_E("failed to TB6612_DeInit !!");
+        return;
+    }
+
+    rt_kprintf("\n========tb6612 module exit successful !!========\n");
+}
+// 导出函数为命令
+MSH_CMD_EXPORT(test_exit_tb6612_module, exit tb6612 module test);123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104移植验证 ​我们使用串口调试，将 USB转TTL模块 连接到衡山派开发板上面！！具体的教程查看：串口调试（点击跳转🚀）串口波特率默认为115200我们在输入下面的命令运行该模块的线程：输入的时候按下TAB键会进行命令补全！！shelltest_tb6612_module1模块上电效果：电机速度由慢变快的正反转。模块代码下载 ​链接：下载中心->模块移植代码下载（点击跳转🚀）本页面更新于: / 粤ICP备11084592号 / 粤公网安备44030402005718号 / 增值电信业务经营许可证粤B2-20201198 / ISO/IEC /© 2026 深圳嘉立创科技集团股份有限公司 版权所有
+    
+    
+  

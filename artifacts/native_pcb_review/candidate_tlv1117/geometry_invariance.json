@@ -1,0 +1,9 @@
+{
+  "unchanged_footprint_placement_and_pad_geometry": true,
+  "unchanged_tracks_and_vias_including_net_names": true,
+  "unchanged_edge_cuts": true,
+  "footprint_count": 48,
+  "tracks_vias_count": 2814,
+  "source_sha256": "29df3f594cd038360cc74968939208af985f017956cf4b7ee4c024da882f28c0",
+  "scope": "Filled zones intentionally regenerated natively with full pad connection; pad NC names and fields intentionally synchronized."
+}

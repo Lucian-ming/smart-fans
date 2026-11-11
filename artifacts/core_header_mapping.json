@@ -1,0 +1,460 @@
+{
+  "source": "E:\\桌面\\原理图\\1-STM32F103C8T6核心板\\PCB工程文件\\STM32F103C8T6核心板.PcbDoc",
+  "matrix_mm_per_mil": [
+    [
+      0.0,
+      -0.0254
+    ],
+    [
+      -0.0254,
+      0.0
+    ]
+  ],
+  "determinant": -0.00064516,
+  "rows": [
+    {
+      "source": "P4",
+      "pin": 1,
+      "signal": "VCC3V3",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 64.13,
+      "dx": 0.0,
+      "dy": 24.13,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P4",
+      "pin": 2,
+      "signal": "GND",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 61.59,
+      "dx": 0.0,
+      "dy": 21.59,
+      "snapshot_net": "GND"
+    },
+    {
+      "source": "P4",
+      "pin": 3,
+      "signal": "5V",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 59.05,
+      "dx": 0.0,
+      "dy": 19.05,
+      "snapshot_net": "+5V_MCU"
+    },
+    {
+      "source": "P4",
+      "pin": 4,
+      "signal": "PB9",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 56.51,
+      "dx": 0.0,
+      "dy": 16.51,
+      "snapshot_net": "DHT11_DATA"
+    },
+    {
+      "source": "P4",
+      "pin": 5,
+      "signal": "PB8",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 53.97,
+      "dx": 0.0,
+      "dy": 13.97,
+      "snapshot_net": "SERVO_PWM"
+    },
+    {
+      "source": "P4",
+      "pin": 6,
+      "signal": "PB7",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 51.43,
+      "dx": 0.0,
+      "dy": 11.43,
+      "snapshot_net": "I2C1_SDA"
+    },
+    {
+      "source": "P4",
+      "pin": 7,
+      "signal": "PB6",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 48.89,
+      "dx": 0.0,
+      "dy": 8.89,
+      "snapshot_net": "I2C1_SCL"
+    },
+    {
+      "source": "P4",
+      "pin": 8,
+      "signal": "PB5",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 46.35,
+      "dx": 0.0,
+      "dy": 6.35,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P4",
+      "pin": 9,
+      "signal": "PB4",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 43.81,
+      "dx": 0.0,
+      "dy": 3.81,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P4",
+      "pin": 10,
+      "signal": "PB3",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 41.27,
+      "dx": 0.0,
+      "dy": 1.27,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P4",
+      "pin": 11,
+      "signal": "PA15",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 38.73,
+      "dx": 0.0,
+      "dy": -1.27,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P4",
+      "pin": 12,
+      "signal": "PA12",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 36.19,
+      "dx": 0.0,
+      "dy": -3.81,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P4",
+      "pin": 13,
+      "signal": "PA11",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 33.65,
+      "dx": 0.0,
+      "dy": -6.35,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P4",
+      "pin": 14,
+      "signal": "PA10",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 31.11,
+      "dx": 0.0,
+      "dy": -8.89,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P4",
+      "pin": 15,
+      "signal": "PA9",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 28.57,
+      "dx": 0.0,
+      "dy": -11.43,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P4",
+      "pin": 16,
+      "signal": "PA8",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 26.03,
+      "dx": 0.0,
+      "dy": -13.97,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P4",
+      "pin": 17,
+      "signal": "PB15",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 23.49,
+      "dx": 0.0,
+      "dy": -16.51,
+      "snapshot_net": "BUZZER_CTRL"
+    },
+    {
+      "source": "P4",
+      "pin": 18,
+      "signal": "PB14",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 20.95,
+      "dx": 0.0,
+      "dy": -19.05,
+      "snapshot_net": "KEY2_SIG"
+    },
+    {
+      "source": "P4",
+      "pin": 19,
+      "signal": "PB13",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 18.41,
+      "dx": 0.0,
+      "dy": -21.59,
+      "snapshot_net": "KEY1_SIG"
+    },
+    {
+      "source": "P4",
+      "pin": 20,
+      "signal": "PB12",
+      "motherboard": "J_MCU_L",
+      "x": 39.88,
+      "y": 15.87,
+      "dx": 0.0,
+      "dy": -24.13,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P3",
+      "pin": 1,
+      "signal": "VBAT",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 64.13,
+      "dx": 0.0,
+      "dy": 24.13,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P3",
+      "pin": 2,
+      "signal": "PC13",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 61.59,
+      "dx": 0.0,
+      "dy": 21.59,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P3",
+      "pin": 3,
+      "signal": "PC14",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 59.05,
+      "dx": 0.0,
+      "dy": 19.05,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P3",
+      "pin": 4,
+      "signal": "PC15",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 56.51,
+      "dx": 0.0,
+      "dy": 16.51,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P3",
+      "pin": 5,
+      "signal": "PA0",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 53.97,
+      "dx": 0.0,
+      "dy": 13.97,
+      "snapshot_net": "TB_PWMA"
+    },
+    {
+      "source": "P3",
+      "pin": 6,
+      "signal": "PA1",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 51.43,
+      "dx": 0.0,
+      "dy": 11.43,
+      "snapshot_net": "TB_AIN1"
+    },
+    {
+      "source": "P3",
+      "pin": 7,
+      "signal": "PA2",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 48.89,
+      "dx": 0.0,
+      "dy": 8.89,
+      "snapshot_net": "VOICE_TX"
+    },
+    {
+      "source": "P3",
+      "pin": 8,
+      "signal": "PA3",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 46.35,
+      "dx": 0.0,
+      "dy": 6.35,
+      "snapshot_net": "VOICE_RX"
+    },
+    {
+      "source": "P3",
+      "pin": 9,
+      "signal": "PA4",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 43.81,
+      "dx": 0.0,
+      "dy": 3.81,
+      "snapshot_net": "GEST_INT"
+    },
+    {
+      "source": "P3",
+      "pin": 10,
+      "signal": "PA5",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 41.27,
+      "dx": 0.0,
+      "dy": 1.27,
+      "snapshot_net": "TB_AIN2"
+    },
+    {
+      "source": "P3",
+      "pin": 11,
+      "signal": "PA6",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 38.73,
+      "dx": 0.0,
+      "dy": -1.27,
+      "snapshot_net": "ENC_A"
+    },
+    {
+      "source": "P3",
+      "pin": 12,
+      "signal": "PA7",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 36.19,
+      "dx": 0.0,
+      "dy": -3.81,
+      "snapshot_net": "ENC_B"
+    },
+    {
+      "source": "P3",
+      "pin": 13,
+      "signal": "PB0",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 33.65,
+      "dx": 0.0,
+      "dy": -6.35,
+      "snapshot_net": "TB_STBY"
+    },
+    {
+      "source": "P3",
+      "pin": 14,
+      "signal": "PB1",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 31.11,
+      "dx": 0.0,
+      "dy": -8.89,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P3",
+      "pin": 15,
+      "signal": "PB10",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 28.57,
+      "dx": 0.0,
+      "dy": -11.43,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P3",
+      "pin": 16,
+      "signal": "PB11",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 26.03,
+      "dx": 0.0,
+      "dy": -13.97,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P3",
+      "pin": 17,
+      "signal": "NRST",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 23.49,
+      "dx": 0.0,
+      "dy": -16.51,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P3",
+      "pin": 18,
+      "signal": "VCC3V3",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 20.95,
+      "dx": 0.0,
+      "dy": -19.05,
+      "snapshot_net": "NC"
+    },
+    {
+      "source": "P3",
+      "pin": 19,
+      "signal": "GND",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 18.41,
+      "dx": 0.0,
+      "dy": -21.59,
+      "snapshot_net": "GND"
+    },
+    {
+      "source": "P3",
+      "pin": 20,
+      "signal": "GND",
+      "motherboard": "J_MCU_R",
+      "x": 55.12,
+      "y": 15.87,
+      "dx": 0.0,
+      "dy": -24.13,
+      "snapshot_net": "GND"
+    }
+  ],
+  "mapping_test_pass": true,
+  "old_mirror_negative_control_rejected": true,
+  "production_snapshot_position_mismatches": [],
+  "limitation": "PcbDoc Nets6 empty; logical labels independently transcribed from local schematic PDF, not extracted native netlist."
+}

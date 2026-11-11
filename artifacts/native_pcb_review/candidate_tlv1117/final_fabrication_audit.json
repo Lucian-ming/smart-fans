@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "errors": [],
+  "metrics": {
+    "board_bounds_gerber": [
+      100.0,
+      -195.0,
+      195.0,
+      -100.0
+    ],
+    "F.Cu": {
+      "objects": 2006,
+      "regions": 10,
+      "min_board_edge_mm": 0.9999708710133542,
+      "zone_net": "GND"
+    },
+    "B.Cu": {
+      "objects": 1204,
+      "regions": 2,
+      "min_board_edge_mm": 0.9999708710133542,
+      "zone_net": "GND"
+    },
+    "PTH": {
+      "drill_hits": 211
+    },
+    "NPTH": {
+      "drill_hits": 0
+    },
+    "min_drill_web_mm": 0.30827625302984346,
+    "F.Mask": {
+      "openings": 173,
+      "min_bridge_mm": 0.5699999999999932,
+      "silk_gap_mm": 0.1599999999999966
+    },
+    "B.Mask": {
+      "openings": 127,
+      "min_bridge_mm": 0.7017140000000097,
+      "silk_gap_mm": null
+    },
+    "F.Paste": {
+      "objects": 46,
+      "area_mm2": 71.82299999999978
+    },
+    "B.Paste": {
+      "objects": 0,
+      "area_mm2": 0.0
+    }
+  },
+  "coordinate_contract": "Gerber X=KiCad X; Gerber Y=-KiCad Y; no fitted offset/mirror",
+  "thresholds_mm": {
+    "copper_clearance": 0.25,
+    "copper_edge": 0.25,
+    "drill_web": 0.25,
+    "hole_copper": 0.25,
+    "mask_bridge": 0.1,
+    "silk_mask": 0.1,
+    "silk_edge": 0.1,
+    "numerical_tolerance": 0.003
+  },
+  "file_sha256": {
+    "artifacts\\native_pcb_review\\candidate_tlv1117\\fan_ctrl_revB.kicad_pcb": "3341183e1b76a875c8ae71b7134a121bded68481aa67c9ad78303b58f91eaf3a",
+    "artifacts\\native_pcb_review\\candidate_tlv1117\\native_manufacturing\\fan_ctrl_revB-F_Cu.gtl": "88286fa010e76ead5c5fc68223a5b5639f854e5ec3caa4411a3b0a4d14887f15",
+    "artifacts\\native_pcb_review\\candidate_tlv1117\\native_manufacturing\\fan_ctrl_revB-B_Cu.gbl": "97b8c0284c27899574ca6ce4e3e59e381909d46a3b42d584d92cc81a7ac085cc",
+    "artifacts\\native_pcb_review\\candidate_tlv1117\\native_manufacturing\\fan_ctrl_revB-F_Paste.gtp": "dcfb1649659a883f2697b66acb0e8318f4fc1d082e005136eb6e6e60ac97ad2d",
+    "artifacts\\native_pcb_review\\candidate_tlv1117\\native_manufacturing\\fan_ctrl_revB-B_Paste.gbp": "b62d5280293b9dab88ff4da62ce3b177ada142766a9d55489df32a21ce599f73",
+    "artifacts\\native_pcb_review\\candidate_tlv1117\\native_manufacturing\\fan_ctrl_revB-F_Mask.gts": "2f7113e1e134991171e637d8dc5cbcd8fd42892a0f8623dce7877cb4bac316ff",
+    "artifacts\\native_pcb_review\\candidate_tlv1117\\native_manufacturing\\fan_ctrl_revB-B_Mask.gbs": "29ba72a3cd8ae2fe1d6d016304383181daa3e83655a2c366bf7dad0c2a2205a2",
+    "artifacts\\native_pcb_review\\candidate_tlv1117\\native_manufacturing\\fan_ctrl_revB-F_Silkscreen.gto": "05500f99268df5a703dbaa0bf9cbda4b956997be342012ee2f614cd849d93283",
+    "artifacts\\native_pcb_review\\candidate_tlv1117\\native_manufacturing\\fan_ctrl_revB-B_Silkscreen.gbo": "390e4b59b7ceedb349fe0a95e612911fdb7b1fb9c49239448f672a7fa5681309",
+    "artifacts\\native_pcb_review\\candidate_tlv1117\\native_manufacturing\\fan_ctrl_revB-Edge_Cuts.gm1": "692e22b0500919d0346e9d890ae41427bbb45af475395f30475db766025a67c0",
+    "artifacts\\native_pcb_review\\candidate_tlv1117\\native_manufacturing\\fan_ctrl_revB-PTH.drl": "834ff2995b6cee3debcff631be9f7f1c4d7c6b0a03e8340634f99257f049f763",
+    "artifacts\\native_pcb_review\\candidate_tlv1117\\native_manufacturing\\fan_ctrl_revB-NPTH.drl": "77e54d461beba3ea5c06a6b2568597a52d445a9dbdcb52b0a5424401048ac290"
+  },
+  "limitations": [
+    "Supported rect/circle pads and circular drills only; unsupported geometry fails closed.",
+    "Region topology interpreted by strict Ucamco parser, no buffer(0)/make_valid.",
+    "Not a full PCB fill equivalence proof: plane-to-conductor distances checked independently; native DRC/netlist parity also required.",
+    "Nominal geometry not plating, registration, thermal or complete module fit certification."
+  ]
+}

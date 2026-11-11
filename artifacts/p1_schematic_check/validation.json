@@ -1,0 +1,2451 @@
+{
+  "file": "artifacts\\p1_schematic_check\\fan_ctrl_revB.kicad_sch",
+  "symbols": 43,
+  "pins": 166,
+  "connected_pins": 141,
+  "nc_pins": 25,
+  "wire_segments": 141,
+  "errors": [],
+  "pin_results": [
+    {
+      "ref": "DC1",
+      "pin": "1",
+      "xy": [
+        107.62,
+        42.46
+      ],
+      "expected": "+12V_RAW",
+      "actual": [
+        "+12V_RAW"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "DC1",
+      "pin": "2",
+      "xy": [
+        107.62,
+        47.54
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "DC1",
+      "pin": "3",
+      "xy": [
+        92.38,
+        45.0
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D2",
+      "pin": "1",
+      "xy": [
+        162.46,
+        45.0
+      ],
+      "expected": "+12V_RAW",
+      "actual": [
+        "+12V_RAW"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D2",
+      "pin": "2",
+      "xy": [
+        167.54,
+        45.0
+      ],
+      "expected": "+12V_IN",
+      "actual": [
+        "+12V_IN"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C1",
+      "pin": "1",
+      "xy": [
+        230.0,
+        42.46
+      ],
+      "expected": "+12V_IN",
+      "actual": [
+        "+12V_IN"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C1",
+      "pin": "2",
+      "xy": [
+        230.0,
+        47.54
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C2",
+      "pin": "1",
+      "xy": [
+        295.0,
+        42.46
+      ],
+      "expected": "+12V_IN",
+      "actual": [
+        "+12V_IN"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C2",
+      "pin": "2",
+      "xy": [
+        295.0,
+        47.54
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "1",
+      "xy": [
+        349.84,
+        41.19
+      ],
+      "expected": "+12V_IN",
+      "actual": [
+        "+12V_IN"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "2",
+      "xy": [
+        370.16,
+        41.19
+      ],
+      "expected": "XL1509_SW",
+      "actual": [
+        "XL1509_SW"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "3",
+      "xy": [
+        370.16,
+        48.81
+      ],
+      "expected": "+5V",
+      "actual": [
+        "+5V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "4",
+      "xy": [
+        349.84,
+        48.81
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "5",
+      "xy": [
+        360.0,
+        53.89
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "6",
+      "xy": [
+        360.0,
+        53.89
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "7",
+      "xy": [
+        360.0,
+        53.89
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "8",
+      "xy": [
+        360.0,
+        53.89
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D1",
+      "pin": "1",
+      "xy": [
+        422.46,
+        45.0
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D1",
+      "pin": "2",
+      "xy": [
+        427.54,
+        45.0
+      ],
+      "expected": "XL1509_SW",
+      "actual": [
+        "XL1509_SW"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "L1",
+      "pin": "1",
+      "xy": [
+        490.0,
+        41.19
+      ],
+      "expected": "XL1509_SW",
+      "actual": [
+        "XL1509_SW"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "L1",
+      "pin": "2",
+      "xy": [
+        490.0,
+        48.81
+      ],
+      "expected": "+5V",
+      "actual": [
+        "+5V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C3",
+      "pin": "1",
+      "xy": [
+        35.0,
+        107.46
+      ],
+      "expected": "+5V",
+      "actual": [
+        "+5V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C3",
+      "pin": "2",
+      "xy": [
+        35.0,
+        112.54
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C4",
+      "pin": "1",
+      "xy": [
+        100.0,
+        107.46
+      ],
+      "expected": "+5V",
+      "actual": [
+        "+5V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C4",
+      "pin": "2",
+      "xy": [
+        100.0,
+        112.54
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "1",
+      "xy": [
+        165.0,
+        117.62
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "2",
+      "xy": [
+        173.89,
+        110.0
+      ],
+      "expected": "+3.3V",
+      "actual": [
+        "+3.3V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "3",
+      "xy": [
+        156.11,
+        110.0
+      ],
+      "expected": "+5V",
+      "actual": [
+        "+5V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "4",
+      "xy": [
+        173.89,
+        107.46
+      ],
+      "expected": "+3.3V",
+      "actual": [
+        "+3.3V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C5",
+      "pin": "1",
+      "xy": [
+        230.0,
+        107.46
+      ],
+      "expected": "+5V",
+      "actual": [
+        "+5V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C5",
+      "pin": "2",
+      "xy": [
+        230.0,
+        112.54
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C6",
+      "pin": "1",
+      "xy": [
+        295.0,
+        107.46
+      ],
+      "expected": "+3.3V",
+      "actual": [
+        "+3.3V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C6",
+      "pin": "2",
+      "xy": [
+        295.0,
+        112.54
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C7",
+      "pin": "1",
+      "xy": [
+        360.0,
+        107.46
+      ],
+      "expected": "+3.3V",
+      "actual": [
+        "+3.3V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C7",
+      "pin": "2",
+      "xy": [
+        360.0,
+        112.54
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D4",
+      "pin": "1",
+      "xy": [
+        422.46,
+        110.0
+      ],
+      "expected": "+5V",
+      "actual": [
+        "+5V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D4",
+      "pin": "2",
+      "xy": [
+        427.54,
+        110.0
+      ],
+      "expected": "LED_5V_K",
+      "actual": [
+        "LED_5V_K"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R1",
+      "pin": "1",
+      "xy": [
+        490.0,
+        106.19
+      ],
+      "expected": "LED_5V_K",
+      "actual": [
+        "LED_5V_K"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R1",
+      "pin": "2",
+      "xy": [
+        490.0,
+        113.81
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D5",
+      "pin": "1",
+      "xy": [
+        32.46,
+        175.0
+      ],
+      "expected": "+3.3V",
+      "actual": [
+        "+3.3V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D5",
+      "pin": "2",
+      "xy": [
+        37.54,
+        175.0
+      ],
+      "expected": "LED_3V3_K",
+      "actual": [
+        "LED_3V3_K"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R2",
+      "pin": "1",
+      "xy": [
+        100.0,
+        171.19
+      ],
+      "expected": "LED_3V3_K",
+      "actual": [
+        "LED_3V3_K"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R2",
+      "pin": "2",
+      "xy": [
+        100.0,
+        178.81
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "MOTO1",
+      "pin": "1",
+      "xy": [
+        171.35,
+        173.73
+      ],
+      "expected": "TB_AO1",
+      "actual": [
+        "TB_AO1"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "MOTO1",
+      "pin": "2",
+      "xy": [
+        171.35,
+        176.27
+      ],
+      "expected": "TB_AO2",
+      "actual": [
+        "TB_AO2"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "SERVO1",
+      "pin": "1",
+      "xy": [
+        236.35,
+        172.46
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "SERVO1",
+      "pin": "2",
+      "xy": [
+        236.35,
+        175.0
+      ],
+      "expected": "+5V",
+      "actual": [
+        "+5V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "SERVO1",
+      "pin": "3",
+      "xy": [
+        236.35,
+        177.54
+      ],
+      "expected": "SERVO_PWM",
+      "actual": [
+        "SERVO_PWM"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "BZ1",
+      "pin": "1",
+      "xy": [
+        295.0,
+        169.92
+      ],
+      "expected": "+5V",
+      "actual": [
+        "+5V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "BZ1",
+      "pin": "2",
+      "xy": [
+        295.0,
+        180.08
+      ],
+      "expected": "BUZ_DRV",
+      "actual": [
+        "BUZ_DRV"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "Q1",
+      "pin": "1",
+      "xy": [
+        362.54,
+        180.08
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "Q1",
+      "pin": "2",
+      "xy": [
+        354.92,
+        175.0
+      ],
+      "expected": "BUZ_BASE",
+      "actual": [
+        "BUZ_BASE"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "Q1",
+      "pin": "3",
+      "xy": [
+        362.54,
+        169.92
+      ],
+      "expected": "BUZ_DRV",
+      "actual": [
+        "BUZ_DRV"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D3",
+      "pin": "1",
+      "xy": [
+        422.46,
+        175.0
+      ],
+      "expected": "BUZ_DRV",
+      "actual": [
+        "BUZ_DRV"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D3",
+      "pin": "2",
+      "xy": [
+        427.54,
+        175.0
+      ],
+      "expected": "+5V",
+      "actual": [
+        "+5V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R10",
+      "pin": "1",
+      "xy": [
+        490.0,
+        171.19
+      ],
+      "expected": "BUZZER_CTRL",
+      "actual": [
+        "BUZZER_CTRL"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R10",
+      "pin": "2",
+      "xy": [
+        490.0,
+        178.81
+      ],
+      "expected": "BUZ_BASE",
+      "actual": [
+        "BUZ_BASE"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_TB_L",
+      "pin": "1",
+      "xy": [
+        41.35,
+        231.11
+      ],
+      "expected": "TB_PWMA",
+      "actual": [
+        "TB_PWMA"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_TB_L",
+      "pin": "2",
+      "xy": [
+        41.35,
+        233.65
+      ],
+      "expected": "TB_AIN2",
+      "actual": [
+        "TB_AIN2"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_TB_L",
+      "pin": "3",
+      "xy": [
+        41.35,
+        236.19
+      ],
+      "expected": "TB_AIN1",
+      "actual": [
+        "TB_AIN1"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_TB_L",
+      "pin": "4",
+      "xy": [
+        41.35,
+        238.73
+      ],
+      "expected": "TB_STBY",
+      "actual": [
+        "TB_STBY"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_TB_L",
+      "pin": "5",
+      "xy": [
+        41.35,
+        241.27
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_TB_L",
+      "pin": "6",
+      "xy": [
+        41.35,
+        243.81
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_TB_L",
+      "pin": "7",
+      "xy": [
+        41.35,
+        246.35
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_TB_L",
+      "pin": "8",
+      "xy": [
+        41.35,
+        248.89
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_TB_R",
+      "pin": "1",
+      "xy": [
+        106.35,
+        231.11
+      ],
+      "expected": "+5V",
+      "actual": [
+        "+5V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_TB_R",
+      "pin": "2",
+      "xy": [
+        106.35,
+        233.65
+      ],
+      "expected": "+3.3V",
+      "actual": [
+        "+3.3V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_TB_R",
+      "pin": "3",
+      "xy": [
+        106.35,
+        236.19
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_TB_R",
+      "pin": "4",
+      "xy": [
+        106.35,
+        238.73
+      ],
+      "expected": "TB_AO1",
+      "actual": [
+        "TB_AO1"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_TB_R",
+      "pin": "5",
+      "xy": [
+        106.35,
+        241.27
+      ],
+      "expected": "TB_AO2",
+      "actual": [
+        "TB_AO2"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_TB_R",
+      "pin": "6",
+      "xy": [
+        106.35,
+        243.81
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_TB_R",
+      "pin": "7",
+      "xy": [
+        106.35,
+        246.35
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_TB_R",
+      "pin": "8",
+      "xy": [
+        106.35,
+        248.89
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C_VM",
+      "pin": "1",
+      "xy": [
+        165.0,
+        237.46
+      ],
+      "expected": "+5V",
+      "actual": [
+        "+5V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C_VM",
+      "pin": "2",
+      "xy": [
+        165.0,
+        242.54
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C_VM_MLCC",
+      "pin": "1",
+      "xy": [
+        230.0,
+        237.46
+      ],
+      "expected": "+5V",
+      "actual": [
+        "+5V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C_VM_MLCC",
+      "pin": "2",
+      "xy": [
+        230.0,
+        242.54
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R_STBY",
+      "pin": "1",
+      "xy": [
+        295.0,
+        236.19
+      ],
+      "expected": "TB_STBY",
+      "actual": [
+        "TB_STBY"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R_STBY",
+      "pin": "2",
+      "xy": [
+        295.0,
+        243.81
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_DHT11",
+      "pin": "1",
+      "xy": [
+        366.35,
+        237.46
+      ],
+      "expected": "+3.3V",
+      "actual": [
+        "+3.3V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_DHT11",
+      "pin": "2",
+      "xy": [
+        366.35,
+        240.0
+      ],
+      "expected": "DHT11_DATA",
+      "actual": [
+        "DHT11_DATA"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_DHT11",
+      "pin": "3",
+      "xy": [
+        366.35,
+        242.54
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R_DHT",
+      "pin": "1",
+      "xy": [
+        425.0,
+        236.19
+      ],
+      "expected": "+3.3V",
+      "actual": [
+        "+3.3V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R_DHT",
+      "pin": "2",
+      "xy": [
+        425.0,
+        243.81
+      ],
+      "expected": "DHT11_DATA",
+      "actual": [
+        "DHT11_DATA"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "1",
+      "xy": [
+        496.35,
+        215.87
+      ],
+      "expected": "+3.3V",
+      "actual": [
+        "+3.3V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "2",
+      "xy": [
+        496.35,
+        218.41
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "3",
+      "xy": [
+        496.35,
+        220.95
+      ],
+      "expected": "+5V",
+      "actual": [
+        "+5V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "4",
+      "xy": [
+        496.35,
+        223.49
+      ],
+      "expected": "DHT11_DATA",
+      "actual": [
+        "DHT11_DATA"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "5",
+      "xy": [
+        496.35,
+        226.03
+      ],
+      "expected": "SERVO_PWM",
+      "actual": [
+        "SERVO_PWM"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "6",
+      "xy": [
+        496.35,
+        228.57
+      ],
+      "expected": "I2C1_SDA",
+      "actual": [
+        "I2C1_SDA"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "7",
+      "xy": [
+        496.35,
+        231.11
+      ],
+      "expected": "I2C1_SCL",
+      "actual": [
+        "I2C1_SCL"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "8",
+      "xy": [
+        496.35,
+        233.65
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "9",
+      "xy": [
+        496.35,
+        236.19
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "10",
+      "xy": [
+        496.35,
+        238.73
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "11",
+      "xy": [
+        496.35,
+        241.27
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "12",
+      "xy": [
+        496.35,
+        243.81
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "13",
+      "xy": [
+        496.35,
+        246.35
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "14",
+      "xy": [
+        496.35,
+        248.89
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "15",
+      "xy": [
+        496.35,
+        251.43
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "16",
+      "xy": [
+        496.35,
+        253.97
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "17",
+      "xy": [
+        496.35,
+        256.51
+      ],
+      "expected": "BUZZER_CTRL",
+      "actual": [
+        "BUZZER_CTRL"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "18",
+      "xy": [
+        496.35,
+        259.05
+      ],
+      "expected": "KEY2_SIG",
+      "actual": [
+        "KEY2_SIG"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "19",
+      "xy": [
+        496.35,
+        261.59
+      ],
+      "expected": "KEY1_SIG",
+      "actual": [
+        "KEY1_SIG"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_L",
+      "pin": "20",
+      "xy": [
+        496.35,
+        264.13
+      ],
+      "expected": "ENC_SW",
+      "actual": [
+        "ENC_SW"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "1",
+      "xy": [
+        41.35,
+        280.87
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "2",
+      "xy": [
+        41.35,
+        283.41
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "3",
+      "xy": [
+        41.35,
+        285.95
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "4",
+      "xy": [
+        41.35,
+        288.49
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "5",
+      "xy": [
+        41.35,
+        291.03
+      ],
+      "expected": "TB_PWMA",
+      "actual": [
+        "TB_PWMA"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "6",
+      "xy": [
+        41.35,
+        293.57
+      ],
+      "expected": "TB_AIN1",
+      "actual": [
+        "TB_AIN1"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "7",
+      "xy": [
+        41.35,
+        296.11
+      ],
+      "expected": "VOICE_TX",
+      "actual": [
+        "VOICE_TX"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "8",
+      "xy": [
+        41.35,
+        298.65
+      ],
+      "expected": "VOICE_RX",
+      "actual": [
+        "VOICE_RX"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "9",
+      "xy": [
+        41.35,
+        301.19
+      ],
+      "expected": "GEST_INT",
+      "actual": [
+        "GEST_INT"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "10",
+      "xy": [
+        41.35,
+        303.73
+      ],
+      "expected": "TB_AIN2",
+      "actual": [
+        "TB_AIN2"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "11",
+      "xy": [
+        41.35,
+        306.27
+      ],
+      "expected": "ENC_A",
+      "actual": [
+        "ENC_A"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "12",
+      "xy": [
+        41.35,
+        308.81
+      ],
+      "expected": "ENC_B",
+      "actual": [
+        "ENC_B"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "13",
+      "xy": [
+        41.35,
+        311.35
+      ],
+      "expected": "TB_STBY",
+      "actual": [
+        "TB_STBY"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "14",
+      "xy": [
+        41.35,
+        313.89
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "15",
+      "xy": [
+        41.35,
+        316.43
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "16",
+      "xy": [
+        41.35,
+        318.97
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "17",
+      "xy": [
+        41.35,
+        321.51
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "18",
+      "xy": [
+        41.35,
+        324.05
+      ],
+      "expected": "+3.3V",
+      "actual": [
+        "+3.3V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "19",
+      "xy": [
+        41.35,
+        326.59
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_MCU_R",
+      "pin": "20",
+      "xy": [
+        41.35,
+        329.13
+      ],
+      "expected": "+5V",
+      "actual": [
+        "+5V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R_SCL",
+      "pin": "1",
+      "xy": [
+        100.0,
+        301.19
+      ],
+      "expected": "+3.3V",
+      "actual": [
+        "+3.3V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R_SCL",
+      "pin": "2",
+      "xy": [
+        100.0,
+        308.81
+      ],
+      "expected": "I2C1_SCL",
+      "actual": [
+        "I2C1_SCL"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R_SDA",
+      "pin": "1",
+      "xy": [
+        165.0,
+        301.19
+      ],
+      "expected": "+3.3V",
+      "actual": [
+        "+3.3V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R_SDA",
+      "pin": "2",
+      "xy": [
+        165.0,
+        308.81
+      ],
+      "expected": "I2C1_SDA",
+      "actual": [
+        "I2C1_SDA"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_VOICE_L",
+      "pin": "1",
+      "xy": [
+        236.35,
+        297.38
+      ],
+      "expected": "+5V",
+      "actual": [
+        "+5V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_VOICE_L",
+      "pin": "2",
+      "xy": [
+        236.35,
+        299.92
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_VOICE_L",
+      "pin": "3",
+      "xy": [
+        236.35,
+        302.46
+      ],
+      "expected": "VOICE_TX",
+      "actual": [
+        "VOICE_TX"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_VOICE_L",
+      "pin": "4",
+      "xy": [
+        236.35,
+        305.0
+      ],
+      "expected": "VOICE_RX",
+      "actual": [
+        "VOICE_RX"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_VOICE_L",
+      "pin": "5",
+      "xy": [
+        236.35,
+        307.54
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_VOICE_L",
+      "pin": "6",
+      "xy": [
+        236.35,
+        310.08
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_VOICE_L",
+      "pin": "7",
+      "xy": [
+        236.35,
+        312.62
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_VOICE_R",
+      "pin": "1",
+      "xy": [
+        301.35,
+        297.38
+      ],
+      "expected": "VOICE_SPK_P",
+      "actual": [
+        "VOICE_SPK_P"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_VOICE_R",
+      "pin": "2",
+      "xy": [
+        301.35,
+        299.92
+      ],
+      "expected": "VOICE_SPK_N",
+      "actual": [
+        "VOICE_SPK_N"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_VOICE_R",
+      "pin": "3",
+      "xy": [
+        301.35,
+        302.46
+      ],
+      "expected": "VOICE_MIC_P",
+      "actual": [
+        "VOICE_MIC_P"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_VOICE_R",
+      "pin": "4",
+      "xy": [
+        301.35,
+        305.0
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_VOICE_R",
+      "pin": "5",
+      "xy": [
+        301.35,
+        307.54
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_VOICE_R",
+      "pin": "6",
+      "xy": [
+        301.35,
+        310.08
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J_VOICE_R",
+      "pin": "7",
+      "xy": [
+        301.35,
+        312.62
+      ],
+      "expected": "NC",
+      "actual": [],
+      "wired": false,
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "SPK1",
+      "pin": "1",
+      "xy": [
+        366.35,
+        303.73
+      ],
+      "expected": "VOICE_SPK_P",
+      "actual": [
+        "VOICE_SPK_P"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "SPK1",
+      "pin": "2",
+      "xy": [
+        366.35,
+        306.27
+      ],
+      "expected": "VOICE_SPK_N",
+      "actual": [
+        "VOICE_SPK_N"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "MIC1",
+      "pin": "1",
+      "xy": [
+        431.35,
+        303.73
+      ],
+      "expected": "VOICE_MIC_P",
+      "actual": [
+        "VOICE_MIC_P"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "MIC1",
+      "pin": "2",
+      "xy": [
+        431.35,
+        306.27
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_OLED",
+      "pin": "1",
+      "xy": [
+        496.35,
+        301.19
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_OLED",
+      "pin": "2",
+      "xy": [
+        496.35,
+        303.73
+      ],
+      "expected": "+3.3V",
+      "actual": [
+        "+3.3V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_OLED",
+      "pin": "3",
+      "xy": [
+        496.35,
+        306.27
+      ],
+      "expected": "I2C1_SCL",
+      "actual": [
+        "I2C1_SCL"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_OLED",
+      "pin": "4",
+      "xy": [
+        496.35,
+        308.81
+      ],
+      "expected": "I2C1_SDA",
+      "actual": [
+        "I2C1_SDA"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_GESTURE",
+      "pin": "1",
+      "xy": [
+        41.35,
+        364.92
+      ],
+      "expected": "+3.3V",
+      "actual": [
+        "+3.3V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_GESTURE",
+      "pin": "2",
+      "xy": [
+        41.35,
+        367.46
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_GESTURE",
+      "pin": "3",
+      "xy": [
+        41.35,
+        370.0
+      ],
+      "expected": "I2C1_SCL",
+      "actual": [
+        "I2C1_SCL"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_GESTURE",
+      "pin": "4",
+      "xy": [
+        41.35,
+        372.54
+      ],
+      "expected": "I2C1_SDA",
+      "actual": [
+        "I2C1_SDA"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_GESTURE",
+      "pin": "5",
+      "xy": [
+        41.35,
+        375.08
+      ],
+      "expected": "GEST_INT",
+      "actual": [
+        "GEST_INT"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_KEY1",
+      "pin": "1",
+      "xy": [
+        106.35,
+        367.46
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_KEY1",
+      "pin": "2",
+      "xy": [
+        106.35,
+        370.0
+      ],
+      "expected": "KEY1_SIG",
+      "actual": [
+        "KEY1_SIG"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_KEY1",
+      "pin": "3",
+      "xy": [
+        106.35,
+        372.54
+      ],
+      "expected": "+3.3V",
+      "actual": [
+        "+3.3V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_KEY2",
+      "pin": "1",
+      "xy": [
+        171.35,
+        367.46
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_KEY2",
+      "pin": "2",
+      "xy": [
+        171.35,
+        370.0
+      ],
+      "expected": "KEY2_SIG",
+      "actual": [
+        "KEY2_SIG"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_KEY2",
+      "pin": "3",
+      "xy": [
+        171.35,
+        372.54
+      ],
+      "expected": "+3.3V",
+      "actual": [
+        "+3.3V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_ENC",
+      "pin": "1",
+      "xy": [
+        236.35,
+        364.92
+      ],
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_ENC",
+      "pin": "2",
+      "xy": [
+        236.35,
+        367.46
+      ],
+      "expected": "+3.3V",
+      "actual": [
+        "+3.3V"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_ENC",
+      "pin": "3",
+      "xy": [
+        236.35,
+        370.0
+      ],
+      "expected": "ENC_SW",
+      "actual": [
+        "ENC_SW"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_ENC",
+      "pin": "4",
+      "xy": [
+        236.35,
+        372.54
+      ],
+      "expected": "ENC_B",
+      "actual": [
+        "ENC_B"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J_ENC",
+      "pin": "5",
+      "xy": [
+        236.35,
+        375.08
+      ],
+      "expected": "ENC_A",
+      "actual": [
+        "ENC_A"
+      ],
+      "wired": true,
+      "no_connect": false,
+      "pass": true
+    }
+  ]
+}

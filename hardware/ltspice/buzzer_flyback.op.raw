@@ -1,0 +1,70 @@
+Title: D:\smart_fans\hardware\ltspice\buzzer_flyback.cir
+Date: Tue Nov  3 18:34:13 2026
+Plotname: Operating Point
+Flags: real
+No. Variables: 30
+No. Points:            1
+Offset:    0.0000000000000000e+00
+Command: Linear Technology Corporation LTspice
+Variables:
+	0	V(5v)	voltage
+	1	V(base1)	voltage
+	2	V(base2)	voltage
+	3	V(coll_prot)	voltage
+	4	V(coll_unprot)	voltage
+	5	V(n_buz1)	voltage
+	6	V(n_buz2)	voltage
+	7	V(pb14)	voltage
+	8	I(CPAR2)	device_current
+	9	I(D_CLAMP)	device_current
+	10	I(LBUZ1)	device_current
+	11	I(LBUZ2)	device_current
+	12	I(RB1)	device_current
+	13	I(RB2)	device_current
+	14	I(RBUZ1)	device_current
+	15	I(RBUZ2)	device_current
+	16	I(RPD1)	device_current
+	17	I(RPD2)	device_current
+	18	I(VCC)	device_current
+	19	I(VPB14)	device_current
+	20	Ib(Q1)	device_current
+	21	Ib(Q2)	device_current
+	22	Ic(Q1)	device_current
+	23	Ic(Q2)	device_current
+	24	Ie(Q1)	device_current
+	25	Ie(Q2)	device_current
+	26	Is(Q1)	device_current
+	27	Is(Q2)	device_current
+	28	LBUZ1:flux	voltage
+	29	LBUZ2:flux	voltage
+Values:
+0		5.000000000000000e+00
+	4.547727157432456e-09
+	4.547727157431121e-09
+	4.999999999500115e+00
+	4.999999999498645e+00
+	4.999999999500119e+00
+	4.999999999498650e+00
+	0.000000000000000e+00
+	1.749999999824526e-22
+	-1.407324960792452e-14
+	4.440892098501514e-12
+	5.329070518201817e-12
+	-4.547727157432457e-12
+	-4.547727157431121e-12
+	4.998810254619457e-12
+	5.013500725681297e-12
+	4.547727157432457e-13
+	4.547727157431122e-13
+	-1.002661518330314e-11
+	9.095454314863579e-12
+	-5.002499873175703e-12
+	-5.002499873174232e-12
+	5.013499996885462e-12
+	5.013499996883991e-12
+	-1.100012370975950e-14
+	-1.100012370975921e-14
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.220446049250313e-14
+	2.664535259100376e-14

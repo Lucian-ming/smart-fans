@@ -1,0 +1,10 @@
+{
+  "passed": false,
+  "errors": [
+    {
+      "kind": "exception",
+      "message": "'ExcellonFile' object has no attribute 'unit'",
+      "type": "AttributeError"
+    }
+  ]
+}

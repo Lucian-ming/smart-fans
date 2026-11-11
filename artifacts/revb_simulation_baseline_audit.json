@@ -1,0 +1,1135 @@
+{
+  "baseline_sha256": {
+    "pcb": "c9cb106cdc48e9b3e44ff9b6d379062e31b24f2d6fec1b29f22d64fc3b3264a1",
+    "sch": "ae4bb467b5398b3d5482221e21dfbe591e0b5d7721703dc5707e78e901f56ada"
+  },
+  "checked_unique_schematic_pins": 168,
+  "pcb_only_pins": [
+    [
+      "H1",
+      "1"
+    ],
+    [
+      "H2",
+      "1"
+    ],
+    [
+      "H3",
+      "1"
+    ],
+    [
+      "H4",
+      "1"
+    ]
+  ],
+  "errors": [],
+  "publisher_rejects_paused_review": true,
+  "components": {
+    "DC1": {
+      "value": "5V_ONLY_MKDSN_1,5/2-5.08",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V_RAW",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "F1": {
+      "value": "3A_FAST_NOT_CURRENT_LIMIT",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V_RAW",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "2",
+          "net": "+5V_FUSED",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "C1": {
+      "value": "100uF/25V",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "C2": {
+      "value": "100nF",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "Q_PWR": {
+      "value": "AO4409_REVERSE_POLARITY",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "2",
+          "net": "+5V",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "3",
+          "net": "+5V",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "4",
+          "net": "GND",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "5",
+          "net": "+5V_FUSED",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "6",
+          "net": "+5V_FUSED",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "7",
+          "net": "+5V_FUSED",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "8",
+          "net": "+5V_FUSED",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "JP_USB": {
+      "value": "REMOVE_BEFORE_USB",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "+5V_MCU",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "C3": {
+      "value": "220uF/16V",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "C4": {
+      "value": "100nF",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "U3": {
+      "value": "AMS1117-3.3",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "2",
+          "net": "+3.3V",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "3",
+          "net": "+5V",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "2",
+          "net": "+3.3V",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "C5": {
+      "value": "10uF",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "C6": {
+      "value": "10uF",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+3.3V",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "C7": {
+      "value": "100nF",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+3.3V",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "D4": {
+      "value": "LED_GREEN",
+      "pads": [
+        {
+          "pin": "2",
+          "net": "+5V",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "1",
+          "net": "LED_5V_K",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "R1": {
+      "value": "1k",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "LED_5V_K",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "D5": {
+      "value": "LED_BLUE",
+      "pads": [
+        {
+          "pin": "2",
+          "net": "+3.3V",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "1",
+          "net": "LED_3V3_K",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "R2": {
+      "value": "1k",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "LED_3V3_K",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "MOTO1": {
+      "value": "130_MOTOR",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "TB_AO1",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "TB_AO2",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "SERVO1": {
+      "value": "MG90S_SERVO",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "+5V",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "3",
+          "net": "SERVO_PWM",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "BZ1": {
+      "value": "5V_BUZZER",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "BUZ_DRV",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "Q1": {
+      "value": "2N3904-TA(RANGE:200-300)",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "BUZ_BASE",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "3",
+          "net": "BUZ_DRV",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "D3": {
+      "value": "1N4148W",
+      "pads": [
+        {
+          "pin": "2",
+          "net": "BUZ_DRV",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "R10": {
+      "value": "1k",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "BUZZER_CTRL",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "2",
+          "net": "BUZ_BASE",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "J_TB_L": {
+      "value": "TB6612_CTRL",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "TB_PWMA",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "TB_AIN2",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "3",
+          "net": "TB_AIN1",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "4",
+          "net": "TB_STBY",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "5",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "6",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "7",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "8",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "J_TB_R": {
+      "value": "TB6612_PWR",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "+3.3V",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "3",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "4",
+          "net": "TB_AO1",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "5",
+          "net": "TB_AO2",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "6",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "7",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "8",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "C_VM": {
+      "value": "220uF/16V",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "C_VM_MLCC": {
+      "value": "100nF",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "R_STBY": {
+      "value": "10k",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "TB_STBY",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "J_DHT11": {
+      "value": "DHT11_SOCK",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+3.3V",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "DHT11_DATA",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "3",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "R_DHT": {
+      "value": "4.7k",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+3.3V",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "2",
+          "net": "DHT11_DATA",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "J_MCU_L": {
+      "value": "BLUEPILL_L",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "3",
+          "net": "+5V_MCU",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "4",
+          "net": "DHT11_DATA",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "5",
+          "net": "SERVO_PWM",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "6",
+          "net": "I2C1_SDA",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "7",
+          "net": "I2C1_SCL",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "8",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "9",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "10",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "11",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "12",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "13",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "14",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "15",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "16",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "17",
+          "net": "BUZZER_CTRL",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "18",
+          "net": "KEY2_SIG",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "19",
+          "net": "KEY1_SIG",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "20",
+          "net": "",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "J_MCU_R": {
+      "value": "BLUEPILL_R",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "3",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "4",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "5",
+          "net": "TB_PWMA",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "6",
+          "net": "TB_AIN1",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "7",
+          "net": "VOICE_TX",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "8",
+          "net": "VOICE_RX",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "9",
+          "net": "GEST_INT",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "10",
+          "net": "TB_AIN2",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "11",
+          "net": "ENC_A",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "12",
+          "net": "ENC_B",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "13",
+          "net": "TB_STBY",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "14",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "15",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "16",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "17",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "18",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "19",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "20",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "R_SCL": {
+      "value": "4.7k",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+3.3V",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "2",
+          "net": "I2C1_SCL",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "R_SDA": {
+      "value": "4.7k",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+3.3V",
+          "pad_type": "smd"
+        },
+        {
+          "pin": "2",
+          "net": "I2C1_SDA",
+          "pad_type": "smd"
+        }
+      ]
+    },
+    "J_VOICE_L": {
+      "value": "ASR_PRO_L_8P",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "+5V_ASR",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "3",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "4",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "5",
+          "net": "ASR_TX1",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "6",
+          "net": "ASR_RX1",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "7",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "8",
+          "net": "",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "J_VOICE_R": {
+      "value": "ASR_PRO_R_8P",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "3",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "4",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "5",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "6",
+          "net": "",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "7",
+          "net": "VOICE_SPK_N",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "8",
+          "net": "VOICE_SPK_P",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "JP_ASR": {
+      "value": "REMOVE_BEFORE_ASR_USB",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+5V",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "+5V_ASR",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "JP_ASR_TX": {
+      "value": "REMOVE_BEFORE_ASR_USB",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VOICE_TX",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "ASR_RX1",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "JP_ASR_RX": {
+      "value": "REMOVE_BEFORE_ASR_USB",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VOICE_RX",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "ASR_TX1",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "SPK1": {
+      "value": "SPEAKER",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VOICE_SPK_P",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "VOICE_SPK_N",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "J_OLED": {
+      "value": "OLED_12864",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "+3.3V",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "3",
+          "net": "I2C1_SCL",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "4",
+          "net": "I2C1_SDA",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "J_GESTURE": {
+      "value": "PAJ7620_GEST",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+3.3V",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "3",
+          "net": "I2C1_SCL",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "4",
+          "net": "I2C1_SDA",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "5",
+          "net": "GEST_INT",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "J_KEY1": {
+      "value": "KEY1_POWER",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "KEY1_SIG",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "3",
+          "net": "+3.3V",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "J_KEY2": {
+      "value": "KEY2_SWING",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "KEY2_SIG",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "3",
+          "net": "+3.3V",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "J_ENC": {
+      "value": "EC11_ENCODER_2P_3P",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "+3.3V",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "3",
+          "net": "ENC_A",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "4",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        },
+        {
+          "pin": "5",
+          "net": "ENC_B",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "H1": {
+      "value": "MountingHole_M3",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "H2": {
+      "value": "MountingHole_M3",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "H3": {
+      "value": "MountingHole_M3",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        }
+      ]
+    },
+    "H4": {
+      "value": "MountingHole_M3",
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "pad_type": "thru_hole"
+        }
+      ]
+    }
+  },
+  "scope": "static_cross_document_audit_not_circuit_simulation"
+}

@@ -1,0 +1,4575 @@
+(export
+	(version "E")
+	(design
+		(source "D:\\smart_fans\\artifacts\\native_pcb_review\\candidate_tlv1117\\fan_ctrl_revB.kicad_sch")
+		(date "2026-11-04T20:14:35")
+		(tool "Eeschema 10.0.7")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "Desktop Smart Fan Controller Rev B4")
+				(company "Antigravity Engineering")
+				(rev "B4")
+				(date "2026-11-04")
+				(source "fan_ctrl_revB.kicad_sch")
+				(comment
+					(number "1")
+					(value "95x95mm | Rev B4 | Procurement verification required")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "BZ1")
+			(value "5V_BUZZER")
+			(footprint "RevB_Snapshot:Board_BZ1")
+			(description "5V 有源提示蜂鸣器")
+			(fields
+				(field
+					(name "LCSC") "C96093")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_BZ1")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "5V 有源提示蜂鸣器")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__Buzzer")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C96093")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e146766d-72a6-57ff-bfa2-f4843f62a258")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "100uF/25V")
+			(footprint "RevB_Snapshot:Board_C1")
+			(description "受保护5V储能电解")
+			(fields
+				(field
+					(name "LCSC") "C134665")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_C1")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "受保护5V储能电解")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__C_Polarized")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C134665")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6ad5e4fe-2289-5f10-898a-bfcc10016697")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "100nF")
+			(footprint "RevB_Snapshot:Board_C2")
+			(description "受保护5V 高频去耦电容")
+			(fields
+				(field
+					(name "LCSC") "C49678")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_C2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "受保护5V 高频去耦电容")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__C")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7d02ca19-ebf5-51db-8dab-889a8d448e99")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "220uF/16V")
+			(footprint "RevB_Snapshot:Board_C3")
+			(description "5V 输出滤波电解")
+			(fields
+				(field
+					(name "LCSC") "C338177")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_C3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "5V 输出滤波电解")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__C_Polarized")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C338177")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1a50c871-4e55-5f23-9284-fa8d5a434c47")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "100nF")
+			(footprint "RevB_Snapshot:Board_C4")
+			(description "5V 输出高频去耦")
+			(fields
+				(field
+					(name "LCSC") "C49678")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_C4")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "5V 输出高频去耦")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__C")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fd88582f-a4fe-5c30-b95d-18b61284d1d9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "10uF")
+			(footprint "RevB_Snapshot:Board_C5")
+			(description "3.3V 输入去耦 (直连5V)")
+			(fields
+				(field
+					(name "LCSC") "C15849")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_C5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3.3V 输入去耦 (直连5V)")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__C")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C15849")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5e0ea9a7-2f4a-53a7-b8fa-1cafc6467aaf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "10uF")
+			(footprint "RevB_Snapshot:Board_C6")
+			(description "3.3V 输出滤波")
+			(fields
+				(field
+					(name "LCSC") "C15849")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_C6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3.3V 输出滤波")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__C")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C15849")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e76ffe09-0948-5ab4-9e7c-fb09ba3ca607")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "100nF")
+			(footprint "RevB_Snapshot:Board_C7")
+			(description "3.3V 输出高频去耦")
+			(fields
+				(field
+					(name "LCSC") "C49678")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_C7")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3.3V 输出高频去耦")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__C")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c4ab824a-5817-5c2e-a4b0-9f661b4c3cd0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_VM")
+			(value "220uF/16V")
+			(footprint "RevB_Snapshot:Board_C_VM")
+			(description "TB6612 VM电机就近储能电解")
+			(fields
+				(field
+					(name "LCSC") "C338177")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_C_VM")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "TB6612 VM电机就近储能电解")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__C_Polarized")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C338177")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8c5a4019-945d-56b7-92a9-9e35aa149bab")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_VM_MLCC")
+			(value "100nF")
+			(footprint "RevB_Snapshot:Board_C_VM_MLCC")
+			(description "TB6612 VM就近去耦")
+			(fields
+				(field
+					(name "LCSC") "C49678")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_C_VM_MLCC")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "TB6612 VM就近去耦")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__C")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fd437292-b04d-5368-b9c6-c805c180f175")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D3")
+			(value "1N4148W")
+			(footprint "RevB_Snapshot:Board_D3")
+			(description "蜂鸣器反向钳位二极管")
+			(fields
+				(field
+					(name "LCSC") "C81598")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_D3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "蜂鸣器反向钳位二极管")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__D")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C81598")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "aaa1dc6f-c5d9-56f3-a694-b905f6521606")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D4")
+			(value "LED_GREEN")
+			(footprint "RevB_Snapshot:Board_D4")
+			(description "5V 供电指示灯")
+			(fields
+				(field
+					(name "LCSC") "C2292")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_D4")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "5V 供电指示灯")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__LED")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C2292")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "391ce089-60a1-5989-be7d-17a7a34e326d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D5")
+			(value "LED_BLUE")
+			(footprint "RevB_Snapshot:Board_D5")
+			(description "3.3V 逻辑指示灯")
+			(fields
+				(field
+					(name "LCSC") "C2293")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_D5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3.3V 逻辑指示灯")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__LED")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C2293")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d3a9b168-7123-5554-812c-3760865b933a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "DC1")
+			(value "5V_ONLY_MKDSN_1,5/2-5.08")
+			(footprint "RevB_Snapshot:Board_DC1")
+			(description "唯一稳压5V输入; 1=+5V 2=GND; 禁接12V; 1729128 MKDSN 1,5/2-5,08; 壳10.16x8.15板上高10mm; 壳相对针排偏置待核; 库存未核")
+			(fields
+				(field
+					(name "LCSC") "-")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_DC1")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "唯一稳压5V输入; 1=+5V 2=GND; 禁接12V; 1729128 MKDSN 1,5/2-5,08; 壳10.16x8.15板上高10mm; 壳相对针排偏置待核; 库存未核")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x02")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "-")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ca958ab1-d955-5c44-8b41-a862ecf42565")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "F1")
+			(value "3A_FAST_NOT_CURRENT_LIMIT")
+			(footprint "RevB_Snapshot:Board_F1")
+			(description "3A快断保险; 不是3A硬限流; 整板连续目标<=2A须热测/启动I2t验证; 库存未核")
+			(fields
+				(field
+					(name "LCSC") "-")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_F1")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3A快断保险; 不是3A硬限流; 整板连续目标<=2A须热测/启动I2t验证; 库存未核")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__Fuse")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "-")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b96f927a-252d-5b36-bc94-cf8f429c2f35")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP_ASR")
+			(value "REMOVE_BEFORE_ASR_USB")
+			(footprint "RevB_Snapshot:Board_JP_ASR")
+			(description "ASR供电隔离跳帽; USB前与TX/RX三帽一起拔掉; 非自动电源隔离")
+			(fields
+				(field
+					(name "LCSC") "-")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_JP_ASR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "ASR供电隔离跳帽; USB前与TX/RX三帽一起拔掉; 非自动电源隔离")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x02")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "-")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "edab3584-967e-5247-8bd6-a6101cf44f1a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP_ASR_RX")
+			(value "REMOVE_BEFORE_ASR_USB")
+			(footprint "RevB_Snapshot:Board_JP_ASR_RX")
+			(description "ASR TX1(PA2)到MCU RX隔离; USB前拔帽")
+			(fields
+				(field
+					(name "LCSC") "-")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_JP_ASR_RX")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "ASR TX1(PA2)到MCU RX隔离; USB前拔帽")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x02")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "-")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4e768bb2-e57a-5450-9545-39d65eb98051")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP_ASR_TX")
+			(value "REMOVE_BEFORE_ASR_USB")
+			(footprint "RevB_Snapshot:Board_JP_ASR_TX")
+			(description "MCU TX到ASR RX1(PA3)隔离; USB前拔帽")
+			(fields
+				(field
+					(name "LCSC") "-")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_JP_ASR_TX")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "MCU TX到ASR RX1(PA3)隔离; USB前拔帽")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x02")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "-")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2d5d3d6f-b932-55bd-8bf8-918fe16735f4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP_USB")
+			(value "REMOVE_BEFORE_USB")
+			(footprint "RevB_Snapshot:Board_JP_USB")
+			(description "2.54跳帽供蓝板; 任何USB插入前必须拔帽; USB不能供母板; 两边电源独立开启后才接信号; 不允许单侧带电")
+			(fields
+				(field
+					(name "LCSC") "-")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_JP_USB")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "2.54跳帽供蓝板; 任何USB插入前必须拔帽; USB不能供母板; 两边电源独立开启后才接信号; 不允许单侧带电")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x02")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "-")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6ee35eab-8c74-5b32-bbff-a2c1768fb0a6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_DHT11")
+			(value "DHT11_SOCK")
+			(footprint "RevB_Snapshot:Board_J_DHT11")
+			(description "DHT11 温湿度传感器母座")
+			(fields
+				(field
+					(name "LCSC") "C2718487")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_J_DHT11")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "DHT11 温湿度传感器母座")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x03")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C2718487")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3b5aa2ff-9dce-5ff6-b0a2-bfc3018eaa35")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_ENC")
+			(value "EC11_ENCODER_2P_3P")
+			(footprint "RevB_Snapshot:Board_J_ENC")
+			(description "用户实测2+3编码器: 上1=3V3/2=GND, 下3=A/4=C(GND)/5=B; 组距21mm; 无SW")
+			(fields
+				(field
+					(name "LCSC") "-")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_J_ENC")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "用户实测2+3编码器: 上1=3V3/2=GND, 下3=A/4=C(GND)/5=B; 组距21mm; 无SW")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x05")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "-")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e33e9c77-d781-5ab9-a079-cd18e262b72f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_GESTURE")
+			(value "PAJ7620_GEST")
+			(footprint "RevB_Snapshot:Board_J_GESTURE")
+			(description "PAJ7620 手势识别母座")
+			(fields
+				(field
+					(name "LCSC") "C50950")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_J_GESTURE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "PAJ7620 手势识别母座")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x05")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C50950")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a135c615-0c3e-5951-aed0-5af99ec16310")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_KEY1")
+			(value "KEY1_POWER")
+			(footprint "RevB_Snapshot:Board_J_KEY1")
+			(description "按键1【电源开关】直插母座")
+			(fields
+				(field
+					(name "LCSC") "C2718487")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_J_KEY1")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "按键1【电源开关】直插母座")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x03")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C2718487")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e7c19705-4c9d-5aca-837a-70338920d979")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_KEY2")
+			(value "KEY2_SWING")
+			(footprint "RevB_Snapshot:Board_J_KEY2")
+			(description "按键2【摇头模式】直插母座")
+			(fields
+				(field
+					(name "LCSC") "C2718487")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_J_KEY2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "按键2【摇头模式】直插母座")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x03")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C2718487")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dec43889-f968-553a-8df9-fc2efd55b1d6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_MCU_L")
+			(value "BLUEPILL_L")
+			(footprint "RevB_Snapshot:Board_J_MCU_L")
+			(description "STM32 核心板P4左排母 (本地PcbDoc/PDF核验; 1=3V3隔离, 2=GND, 3=5V; pin20端朝低Y)")
+			(fields
+				(field
+					(name "LCSC") "C50984")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_J_MCU_L")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "STM32 核心板P4左排母 (本地PcbDoc/PDF核验; 1=3V3隔离, 2=GND, 3=5V; pin20端朝低Y)")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x20")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C50984")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2928e19d-6f98-5563-80d3-058d5502892d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_MCU_R")
+			(value "BLUEPILL_R")
+			(footprint "RevB_Snapshot:Board_J_MCU_R")
+			(description "STM32 核心板P3右排母 (本地PcbDoc/PDF核验; 1=VBAT, 18=3V3隔离, 19/20=GND; pin20端朝低Y)")
+			(fields
+				(field
+					(name "LCSC") "C50984")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_J_MCU_R")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "STM32 核心板P3右排母 (本地PcbDoc/PDF核验; 1=VBAT, 18=3V3隔离, 19/20=GND; pin20端朝低Y)")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x20")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C50984")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d2a6cc6d-709b-5c01-a6f4-78444986f2fe")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_OLED")
+			(value "OLED_12864")
+			(footprint "RevB_Snapshot:Board_J_OLED")
+			(description "OLED安装要求:屏体朝-Y; 顶视左到右SDA/SCL/VCC/GND; 实物核序前禁止上电")
+			(fields
+				(field
+					(name "LCSC") "C2718488")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_J_OLED")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "OLED安装要求:屏体朝-Y; 顶视左到右SDA/SCL/VCC/GND; 实物核序前禁止上电")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x04")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C2718488")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c18a8829-0dcc-5ee6-b2a1-d67e025e884b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_TB_L")
+			(value "TB6612_CTRL")
+			(footprint "RevB_Snapshot:Board_J_TB_L")
+			(description "TB6612 控制排母")
+			(fields
+				(field
+					(name "LCSC") "C27438")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_J_TB_L")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "TB6612 控制排母")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x08")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C27438")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c6b90a12-a99a-55a5-b028-1d4f5314f086")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_TB_R")
+			(value "TB6612_PWR")
+			(footprint "RevB_Snapshot:Board_J_TB_R")
+			(description "TB6612 动力排母")
+			(fields
+				(field
+					(name "LCSC") "C27438")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_J_TB_R")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "TB6612 动力排母")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x08")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C27438")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "98db7b57-fa2e-5be7-b42b-77612178bbf4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_VOICE_L")
+			(value "ASR_PRO_L_8P")
+			(footprint "RevB_Snapshot:Board_J_VOICE_L")
+			(description "ASR左8P母座; 顶=GND; 用户确认排距25.40; UART1固件必配; 料号待采购核验")
+			(fields
+				(field
+					(name "LCSC") "-")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_J_VOICE_L")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "ASR左8P母座; 顶=GND; 用户确认排距25.40; UART1固件必配; 料号待采购核验")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x08")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "-")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "74ca0e97-c308-5635-a2f3-17c8bdfd197b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_VOICE_R")
+			(value "ASR_PRO_R_8P")
+			(footprint "RevB_Snapshot:Board_J_VOICE_R")
+			(description "ASR右8P母座; 顶=PA4/底=SPK+; 3V3输出隔离; 料号待采购核验")
+			(fields
+				(field
+					(name "LCSC") "-")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_J_VOICE_R")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "ASR右8P母座; 顶=PA4/底=SPK+; 3V3输出隔离; 料号待采购核验")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x08")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "-")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b338eef1-3800-5aef-bc19-a7ed50f2c1c1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "MOTO1")
+			(value "130_MOTOR")
+			(footprint "RevB_Snapshot:Board_MOTO1")
+			(description "直流电机接口 XH-2PA P2.50; 1.0mm孔为设计选取非厂家推荐; 针0.6+/-0.02mm")
+			(fields
+				(field
+					(name "LCSC") "C5258883")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_MOTO1")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "直流电机接口 XH-2PA P2.50; 1.0mm孔为设计选取非厂家推荐; 针0.6+/-0.02mm")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__R")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C5258883")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d810af37-d276-574f-a1e4-e3a5f6d5cf46")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "2N3904-TA(RANGE:200-300)")
+			(footprint "RevB_Snapshot:Board_Q1")
+			(description "NPN蜂鸣器驱动; 1=E 2=B 3=C; 宽脚成形P2.54mm非原厂直脚间距; 安装前核成形与方向")
+			(fields
+				(field
+					(name "LCSC") "C2081")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_Q1")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "NPN蜂鸣器驱动; 1=E 2=B 3=C; 宽脚成形P2.54mm非原厂直脚间距; 安装前核成形与方向")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__Q_NPN_BCE")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C2081")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d0a2b700-3807-5344-816c-9ab5d9ce7c44")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q_PWR")
+			(value "AO4409_REVERSE_POLARITY")
+			(footprint "RevB_Snapshot:Board_Q_PWR")
+			(description "P-MOS反接保护: D=熔断后输入 S=5V负载 G=GND; 不隔离反向供电; 库存未核")
+			(fields
+				(field
+					(name "LCSC") "-")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_Q_PWR")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "P-MOS反接保护: D=熔断后输入 S=5V负载 G=GND; 不隔离反向供电; 库存未核")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "SmartFan__AO4409")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "-")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "883eefc7-1193-5933-a901-f9ea844f28af")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "1k")
+			(footprint "RevB_Snapshot:Board_R1")
+			(description "5V LED 限流电阻")
+			(fields
+				(field
+					(name "LCSC") "C17513")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_R1")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "5V LED 限流电阻")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__R")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C17513")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1cbc7251-d94e-5c8a-8c52-b3a1a41af9ed")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "1k")
+			(footprint "RevB_Snapshot:Board_R2")
+			(description "3.3V LED 限流电阻")
+			(fields
+				(field
+					(name "LCSC") "C17513")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_R2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3.3V LED 限流电阻")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__R")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C17513")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9c795394-74df-5c58-a09e-ae0c3fde64fe")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "1k")
+			(footprint "RevB_Snapshot:Board_R10")
+			(description "蜂鸣器基极限流电阻")
+			(fields
+				(field
+					(name "LCSC") "C17513")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_R10")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "蜂鸣器基极限流电阻")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__R")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C17513")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dd126553-80d3-58b5-ac06-b88aa9cb8f7f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_DHT")
+			(value "4.7k")
+			(footprint "RevB_Snapshot:Board_R_DHT")
+			(description "DHT11 单总线上拉电阻")
+			(fields
+				(field
+					(name "LCSC") "C17673")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_R_DHT")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "DHT11 单总线上拉电阻")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__R")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C17673")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e186b0c6-8bbd-5292-bd5d-e2ce17c0f78d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_SCL")
+			(value "4.7k")
+			(footprint "RevB_Snapshot:Board_R_SCL")
+			(description "I2C1 SCL 上拉电阻")
+			(fields
+				(field
+					(name "LCSC") "C17673")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_R_SCL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "I2C1 SCL 上拉电阻")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__R")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C17673")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d1978fb0-90c4-5491-85f5-a560956cb4fc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_SDA")
+			(value "4.7k")
+			(footprint "RevB_Snapshot:Board_R_SDA")
+			(description "I2C1 SDA 上拉电阻")
+			(fields
+				(field
+					(name "LCSC") "C17673")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_R_SDA")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "I2C1 SDA 上拉电阻")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__R")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C17673")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9ee99f55-eea7-5ac1-8073-cb3571844f4d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_STBY")
+			(value "10k")
+			(footprint "RevB_Snapshot:Board_R_STBY")
+			(description "TB6612 STBY下拉电阻")
+			(fields
+				(field
+					(name "LCSC") "C17414")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_R_STBY")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "TB6612 STBY下拉电阻")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__R")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f630a47d-707b-5140-96e3-7587e836d086")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SERVO1")
+			(value "MG90S_SERVO")
+			(footprint "RevB_Snapshot:Board_SERVO1")
+			(description "MG90S 舵机插针 (GND, 5V, PWM)")
+			(fields
+				(field
+					(name "LCSC") "C2718487")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_SERVO1")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "MG90S 舵机插针 (GND, 5V, PWM)")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Connector_Generic__Conn_01x03")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C2718487")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7a06a458-b5a4-5c64-b738-36aaa732d4cf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SPK1")
+			(value "SPEAKER")
+			(footprint "RevB_Snapshot:Board_SPK1")
+			(description "喇叭接口 XH-2PA P2.50; 1.0mm孔为设计选取非厂家推荐; 针0.6+/-0.02mm")
+			(fields
+				(field
+					(name "LCSC") "C5258883")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_SPK1")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "喇叭接口 XH-2PA P2.50; 1.0mm孔为设计选取非厂家推荐; 针0.6+/-0.02mm")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Device__R")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C5258883")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2879eba8-0695-5363-91c1-94b3067e0297")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "TLV1117LV33DCYR")
+			(footprint "RevB_Snapshot:Board_U3")
+			(description "TI 3.3V LDO 1A; DCY rectangular land envelope, stock unverified")
+			(fields
+				(field
+					(name "LCSC") "C15578")
+				(field
+					(name "Footprint") "RevB_Snapshot:Board_U3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "TI 3.3V LDO 1A; DCY rectangular land envelope, stock unverified")
+			)
+			(libsource
+				(lib "RevB_Symbols")
+				(part "Regulator_Linear__TLV1117LV33DCYR")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C15578")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "artifacts/native_pcb_review/candidate_tlv1117/fan_ctrl_revB.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f4646f8d-5a24-5e3c-9b66-fe63fc91bd66")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "RevB_Symbols")
+			(part "Connector_Generic__Conn_01x02")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x02")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RevB_Symbols")
+			(part "Connector_Generic__Conn_01x03")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x03")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RevB_Symbols")
+			(part "Connector_Generic__Conn_01x04")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x04")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RevB_Symbols")
+			(part "Connector_Generic__Conn_01x05")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x05")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RevB_Symbols")
+			(part "Connector_Generic__Conn_01x08")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x08")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RevB_Symbols")
+			(part "Connector_Generic__Conn_01x20")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x20")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "Pin_9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "Pin_10")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "Pin_11")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "Pin_12")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "Pin_13")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "Pin_14")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "Pin_15")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "Pin_16")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "Pin_17")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "Pin_18")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "Pin_19")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "Pin_20")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RevB_Symbols")
+			(part "Device__Buzzer")
+			(fields
+				(field
+					(name "Reference") "BZ")
+				(field
+					(name "Value") "Buzzer")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RevB_Symbols")
+			(part "Device__C")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RevB_Symbols")
+			(part "Device__C_Polarized")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "CP")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RevB_Symbols")
+			(part "Device__D")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "1N4148W")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RevB_Symbols")
+			(part "Device__Fuse")
+			(fields
+				(field
+					(name "Reference") "F")
+				(field
+					(name "Value") "Fuse")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RevB_Symbols")
+			(part "Device__LED")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RevB_Symbols")
+			(part "Device__Q_NPN_BCE")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "2N3904")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "E")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "C")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RevB_Symbols")
+			(part "Device__R")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RevB_Symbols")
+			(part "Regulator_Linear__TLV1117LV33DCYR")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TLV1117LV33DCYR")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "VOUT")
+					(type "power_out")
+				)
+				(pin
+					(num "3")
+					(name "VIN")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "RevB_Symbols")
+			(part "SmartFan__AO4409")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "AO4409 P-MOS")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "G")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "D")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "D")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "D")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries)
+	(nets
+		(net
+			(code "1")
+			(name "+3.3V")
+			(class "Default")
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D5")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_DHT11")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_ENC")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_GESTURE")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_KEY1")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_KEY2")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_OLED")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_TB_R")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_DHT")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_SCL")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_SDA")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "VOUT_2")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "2")
+			(name "+5V")
+			(class "Default")
+			(node
+				(ref "BZ1")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C1")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_VM")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_VM_MLCC")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D4")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP_ASR")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP_USB")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_TB_R")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q_PWR")
+				(pin "1")
+				(pinfunction "S_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q_PWR")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q_PWR")
+				(pin "3")
+				(pinfunction "S_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "SERVO1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "VIN_3")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "3")
+			(name "+5V_ASR")
+			(class "Default")
+			(node
+				(ref "JP_ASR")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_VOICE_L")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "+5V_FUSED")
+			(class "Default")
+			(node
+				(ref "F1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q_PWR")
+				(pin "5")
+				(pinfunction "D_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q_PWR")
+				(pin "6")
+				(pinfunction "D_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q_PWR")
+				(pin "7")
+				(pinfunction "D_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q_PWR")
+				(pin "8")
+				(pinfunction "D_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "+5V_MCU")
+			(class "Default")
+			(node
+				(ref "JP_USB")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_L")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "+5V_RAW")
+			(class "Default")
+			(node
+				(ref "DC1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "F1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "ASR_RX1")
+			(class "Default")
+			(node
+				(ref "JP_ASR_TX")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_VOICE_L")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "ASR_TX1")
+			(class "Default")
+			(node
+				(ref "JP_ASR_RX")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_VOICE_L")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "BUZZER_CTRL")
+			(class "Default")
+			(node
+				(ref "J_MCU_L")
+				(pin "17")
+				(pinfunction "Pin_17_17")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "BUZ_BASE")
+			(class "Default")
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "input")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "BUZ_DRV")
+			(class "Default")
+			(node
+				(ref "BZ1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "C_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "DHT11_DATA")
+			(class "Default")
+			(node
+				(ref "J_DHT11")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_L")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_DHT")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "ENC_A")
+			(class "Default")
+			(node
+				(ref "J_ENC")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_R")
+				(pin "11")
+				(pinfunction "Pin_11_11")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "ENC_B")
+			(class "Default")
+			(node
+				(ref "J_ENC")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_R")
+				(pin "12")
+				(pinfunction "Pin_12_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "GEST_INT")
+			(class "Default")
+			(node
+				(ref "J_GESTURE")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_R")
+				(pin "9")
+				(pinfunction "Pin_9_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_VM")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_VM_MLCC")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "DC1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_DHT11")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_ENC")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_ENC")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_GESTURE")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_KEY1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_KEY2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_L")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_R")
+				(pin "19")
+				(pinfunction "Pin_19_19")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_R")
+				(pin "20")
+				(pinfunction "Pin_20_20")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_OLED")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_TB_L")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_TB_L")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_TB_L")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_TB_L")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_TB_R")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_TB_R")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_VOICE_L")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_VOICE_R")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "E_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q_PWR")
+				(pin "4")
+				(pinfunction "G_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_STBY")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SERVO1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "17")
+			(name "I2C1_SCL")
+			(class "Default")
+			(node
+				(ref "J_GESTURE")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_L")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_OLED")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_SCL")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "I2C1_SDA")
+			(class "Default")
+			(node
+				(ref "J_GESTURE")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_L")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_OLED")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_SDA")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "KEY1_SIG")
+			(class "Default")
+			(node
+				(ref "J_KEY1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_L")
+				(pin "19")
+				(pinfunction "Pin_19_19")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "KEY2_SIG")
+			(class "Default")
+			(node
+				(ref "J_KEY2")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_L")
+				(pin "18")
+				(pinfunction "Pin_18_18")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "LED_3V3_K")
+			(class "Default")
+			(node
+				(ref "D5")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "LED_5V_K")
+			(class "Default")
+			(node
+				(ref "D4")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "SERVO_PWM")
+			(class "Default")
+			(node
+				(ref "J_MCU_L")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "SERVO1")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "TB_AIN1")
+			(class "Default")
+			(node
+				(ref "J_MCU_R")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_TB_L")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "TB_AIN2")
+			(class "Default")
+			(node
+				(ref "J_MCU_R")
+				(pin "10")
+				(pinfunction "Pin_10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_TB_L")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "TB_AO1")
+			(class "Default")
+			(node
+				(ref "J_TB_R")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "MOTO1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "TB_AO2")
+			(class "Default")
+			(node
+				(ref "J_TB_R")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "MOTO1")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "TB_PWMA")
+			(class "Default")
+			(node
+				(ref "J_MCU_R")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_TB_L")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "TB_STBY")
+			(class "Default")
+			(node
+				(ref "J_MCU_R")
+				(pin "13")
+				(pinfunction "Pin_13_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_TB_L")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_STBY")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "VOICE_RX")
+			(class "Default")
+			(node
+				(ref "JP_ASR_RX")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_R")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "VOICE_SPK_N")
+			(class "Default")
+			(node
+				(ref "J_VOICE_R")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "SPK1")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "VOICE_SPK_P")
+			(class "Default")
+			(node
+				(ref "J_VOICE_R")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "SPK1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
+			(name "VOICE_TX")
+			(class "Default")
+			(node
+				(ref "JP_ASR_TX")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_MCU_R")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "34")
+			(name "unconnected-(J_MCU_L-Pin_1-Pad1)")
+			(class "Default")
+			(node
+				(ref "J_MCU_L")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "35")
+			(name "unconnected-(J_MCU_L-Pin_8-Pad8)")
+			(class "Default")
+			(node
+				(ref "J_MCU_L")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "36")
+			(name "unconnected-(J_MCU_L-Pin_9-Pad9)")
+			(class "Default")
+			(node
+				(ref "J_MCU_L")
+				(pin "9")
+				(pinfunction "Pin_9_9")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "37")
+			(name "unconnected-(J_MCU_L-Pin_10-Pad10)")
+			(class "Default")
+			(node
+				(ref "J_MCU_L")
+				(pin "10")
+				(pinfunction "Pin_10_10")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "38")
+			(name "unconnected-(J_MCU_L-Pin_11-Pad11)")
+			(class "Default")
+			(node
+				(ref "J_MCU_L")
+				(pin "11")
+				(pinfunction "Pin_11_11")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "39")
+			(name "unconnected-(J_MCU_L-Pin_12-Pad12)")
+			(class "Default")
+			(node
+				(ref "J_MCU_L")
+				(pin "12")
+				(pinfunction "Pin_12_12")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "40")
+			(name "unconnected-(J_MCU_L-Pin_13-Pad13)")
+			(class "Default")
+			(node
+				(ref "J_MCU_L")
+				(pin "13")
+				(pinfunction "Pin_13_13")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "41")
+			(name "unconnected-(J_MCU_L-Pin_14-Pad14)")
+			(class "Default")
+			(node
+				(ref "J_MCU_L")
+				(pin "14")
+				(pinfunction "Pin_14_14")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "42")
+			(name "unconnected-(J_MCU_L-Pin_15-Pad15)")
+			(class "Default")
+			(node
+				(ref "J_MCU_L")
+				(pin "15")
+				(pinfunction "Pin_15_15")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "43")
+			(name "unconnected-(J_MCU_L-Pin_16-Pad16)")
+			(class "Default")
+			(node
+				(ref "J_MCU_L")
+				(pin "16")
+				(pinfunction "Pin_16_16")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "44")
+			(name "unconnected-(J_MCU_L-Pin_20-Pad20)")
+			(class "Default")
+			(node
+				(ref "J_MCU_L")
+				(pin "20")
+				(pinfunction "Pin_20_20")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "45")
+			(name "unconnected-(J_MCU_R-Pin_1-Pad1)")
+			(class "Default")
+			(node
+				(ref "J_MCU_R")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "46")
+			(name "unconnected-(J_MCU_R-Pin_2-Pad2)")
+			(class "Default")
+			(node
+				(ref "J_MCU_R")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "47")
+			(name "unconnected-(J_MCU_R-Pin_3-Pad3)")
+			(class "Default")
+			(node
+				(ref "J_MCU_R")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "48")
+			(name "unconnected-(J_MCU_R-Pin_4-Pad4)")
+			(class "Default")
+			(node
+				(ref "J_MCU_R")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "49")
+			(name "unconnected-(J_MCU_R-Pin_14-Pad14)")
+			(class "Default")
+			(node
+				(ref "J_MCU_R")
+				(pin "14")
+				(pinfunction "Pin_14_14")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "50")
+			(name "unconnected-(J_MCU_R-Pin_15-Pad15)")
+			(class "Default")
+			(node
+				(ref "J_MCU_R")
+				(pin "15")
+				(pinfunction "Pin_15_15")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "51")
+			(name "unconnected-(J_MCU_R-Pin_16-Pad16)")
+			(class "Default")
+			(node
+				(ref "J_MCU_R")
+				(pin "16")
+				(pinfunction "Pin_16_16")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "52")
+			(name "unconnected-(J_MCU_R-Pin_17-Pad17)")
+			(class "Default")
+			(node
+				(ref "J_MCU_R")
+				(pin "17")
+				(pinfunction "Pin_17_17")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "53")
+			(name "unconnected-(J_MCU_R-Pin_18-Pad18)")
+			(class "Default")
+			(node
+				(ref "J_MCU_R")
+				(pin "18")
+				(pinfunction "Pin_18_18")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "54")
+			(name "unconnected-(J_TB_R-Pin_6-Pad6)")
+			(class "Default")
+			(node
+				(ref "J_TB_R")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "55")
+			(name "unconnected-(J_TB_R-Pin_7-Pad7)")
+			(class "Default")
+			(node
+				(ref "J_TB_R")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "56")
+			(name "unconnected-(J_VOICE_L-Pin_3-Pad3)")
+			(class "Default")
+			(node
+				(ref "J_VOICE_L")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "57")
+			(name "unconnected-(J_VOICE_L-Pin_4-Pad4)")
+			(class "Default")
+			(node
+				(ref "J_VOICE_L")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "58")
+			(name "unconnected-(J_VOICE_L-Pin_7-Pad7)")
+			(class "Default")
+			(node
+				(ref "J_VOICE_L")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "59")
+			(name "unconnected-(J_VOICE_L-Pin_8-Pad8)")
+			(class "Default")
+			(node
+				(ref "J_VOICE_L")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "60")
+			(name "unconnected-(J_VOICE_R-Pin_1-Pad1)")
+			(class "Default")
+			(node
+				(ref "J_VOICE_R")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "61")
+			(name "unconnected-(J_VOICE_R-Pin_3-Pad3)")
+			(class "Default")
+			(node
+				(ref "J_VOICE_R")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "62")
+			(name "unconnected-(J_VOICE_R-Pin_4-Pad4)")
+			(class "Default")
+			(node
+				(ref "J_VOICE_R")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "63")
+			(name "unconnected-(J_VOICE_R-Pin_5-Pad5)")
+			(class "Default")
+			(node
+				(ref "J_VOICE_R")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "64")
+			(name "unconnected-(J_VOICE_R-Pin_6-Pad6)")
+			(class "Default")
+			(node
+				(ref "J_VOICE_R")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive+no_connect")
+			)
+		)
+	)
+)

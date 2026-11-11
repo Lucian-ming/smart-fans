@@ -1,0 +1,48 @@
+{
+  "status": "CONCEPT_ONLY_NOT_FOR_FINAL_PRINT",
+  "angle_deg": 25,
+  "outer_mm": [
+    107,
+    107,
+    42
+  ],
+  "pcb_origin_mm": [
+    6,
+    6,
+    7
+  ],
+  "unverified": [
+    "all module installed heights",
+    "OLED active area offset",
+    "encoder shaft offset",
+    "keycap centres and travel",
+    "terminal opening and wire bend",
+    "lid fasteners and retention",
+    "whole assembly collisions"
+  ],
+  "Base_CONCEPT": {
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "bad_edge_count": 0,
+    "volume_cm3": 31.794032655106562,
+    "extents_mm": [
+      107.0,
+      107.0,
+      12.0
+    ]
+  },
+  "Lid_CONCEPT": {
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "bad_edge_count": 0,
+    "volume_cm3": 31.015475107855544,
+    "extents_mm": [
+      107.0,
+      107.0,
+      32.0
+    ]
+  },
+  "total_volume_cm3": 62.809507762962106
+}

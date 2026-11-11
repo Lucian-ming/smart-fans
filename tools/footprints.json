@@ -1,0 +1,2489 @@
+[
+ {
+  "ref": "BZ1",
+  "val": "5V_BUZZER",
+  "layer": "F.Cu",
+  "x": 126.0,
+  "y": 123.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": -3.8,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "3",
+    "netname": "+5V",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 3.8,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "21",
+    "netname": "BUZ_DRV",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 120.0,
+   "x1": 132.0,
+   "y0": 117.0,
+   "y1": 129.0
+  }
+ },
+ {
+  "ref": "C1",
+  "val": "100uF 25V",
+  "layer": "F.Cu",
+  "x": 130.0,
+  "y": 110.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": -1.75,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "2",
+    "netname": "+12V_IN",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 1.75,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 127.5,
+   "x1": 132.5,
+   "y0": 107.5,
+   "y1": 112.5
+  }
+ },
+ {
+  "ref": "C2",
+  "val": "100nF",
+  "layer": "F.Cu",
+  "x": 135.0,
+  "y": 110.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "smd",
+    "shape": "rect",
+    "x": -0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "2",
+    "netname": "+12V_IN",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "2",
+    "type": "smd",
+    "shape": "circle",
+    "x": 0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.2,
+    "h": 1.4
+   }
+  ],
+  "body": {
+   "x0": 134.0,
+   "x1": 136.0,
+   "y0": 109.38,
+   "y1": 110.62
+  }
+ },
+ {
+  "ref": "C3",
+  "val": "220uF 16V",
+  "layer": "F.Cu",
+  "x": 162.0,
+  "y": 110.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": -1.75,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "3",
+    "netname": "+5V",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 1.75,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 158.85,
+   "x1": 165.15,
+   "y0": 106.85,
+   "y1": 113.15
+  }
+ },
+ {
+  "ref": "C4",
+  "val": "100nF",
+  "layer": "F.Cu",
+  "x": 167.5,
+  "y": 110.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "smd",
+    "shape": "rect",
+    "x": -0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "3",
+    "netname": "+5V",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "2",
+    "type": "smd",
+    "shape": "circle",
+    "x": 0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.2,
+    "h": 1.4
+   }
+  ],
+  "body": {
+   "x0": 166.5,
+   "x1": 168.5,
+   "y0": 109.38,
+   "y1": 110.62
+  }
+ },
+ {
+  "ref": "C5",
+  "val": "10uF",
+  "layer": "F.Cu",
+  "x": 179.0,
+  "y": 108.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "smd",
+    "shape": "rect",
+    "x": -0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "3",
+    "netname": "+5V",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "2",
+    "type": "smd",
+    "shape": "circle",
+    "x": 0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.2,
+    "h": 1.4
+   }
+  ],
+  "body": {
+   "x0": 178.0,
+   "x1": 180.0,
+   "y0": 107.38,
+   "y1": 108.62
+  }
+ },
+ {
+  "ref": "C6",
+  "val": "10uF",
+  "layer": "F.Cu",
+  "x": 179.0,
+  "y": 112.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "smd",
+    "shape": "rect",
+    "x": -0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "4",
+    "netname": "+3.3V",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "2",
+    "type": "smd",
+    "shape": "circle",
+    "x": 0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.2,
+    "h": 1.4
+   }
+  ],
+  "body": {
+   "x0": 178.0,
+   "x1": 180.0,
+   "y0": 111.38,
+   "y1": 112.62
+  }
+ },
+ {
+  "ref": "D1",
+  "val": "SS24",
+  "layer": "F.Cu",
+  "x": 148.0,
+  "y": 110.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "smd",
+    "shape": "rect",
+    "x": -1.8,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "2",
+    "type": "smd",
+    "shape": "circle",
+    "x": 1.8,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "5",
+    "netname": "XL1509_SW",
+    "w": 1.2,
+    "h": 1.4
+   }
+  ],
+  "body": {
+   "x0": 145.75,
+   "x1": 150.25,
+   "y0": 108.75,
+   "y1": 111.25
+  }
+ },
+ {
+  "ref": "D2",
+  "val": "SS24",
+  "layer": "F.Cu",
+  "x": 124.0,
+  "y": 110.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "smd",
+    "shape": "rect",
+    "x": -1.8,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "1",
+    "netname": "+12V_RAW",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "2",
+    "type": "smd",
+    "shape": "circle",
+    "x": 1.8,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "2",
+    "netname": "+12V_IN",
+    "w": 1.2,
+    "h": 1.4
+   }
+  ],
+  "body": {
+   "x0": 121.75,
+   "x1": 126.25,
+   "y0": 108.75,
+   "y1": 111.25
+  }
+ },
+ {
+  "ref": "D3",
+  "val": "1N4148W",
+  "layer": "F.Cu",
+  "x": 136.0,
+  "y": 127.5,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "smd",
+    "shape": "rect",
+    "x": -1.2,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "21",
+    "netname": "BUZ_DRV",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "2",
+    "type": "smd",
+    "shape": "circle",
+    "x": 1.2,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "3",
+    "netname": "+5V",
+    "w": 1.2,
+    "h": 1.4
+   }
+  ],
+  "body": {
+   "x0": 134.75,
+   "x1": 137.25,
+   "y0": 126.75,
+   "y1": 128.25
+  }
+ },
+ {
+  "ref": "D4",
+  "val": "LED_GREEN",
+  "layer": "F.Cu",
+  "x": 172.0,
+  "y": 122.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "smd",
+    "shape": "rect",
+    "x": -0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "3",
+    "netname": "+5V",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "2",
+    "type": "smd",
+    "shape": "circle",
+    "x": 0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "7",
+    "netname": "LED_5V_K",
+    "w": 1.2,
+    "h": 1.4
+   }
+  ],
+  "body": {
+   "x0": 171.0,
+   "x1": 173.0,
+   "y0": 121.38,
+   "y1": 122.62
+  }
+ },
+ {
+  "ref": "D5",
+  "val": "LED_BLUE",
+  "layer": "F.Cu",
+  "x": 182.0,
+  "y": 122.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "smd",
+    "shape": "rect",
+    "x": -0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "4",
+    "netname": "+3.3V",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "2",
+    "type": "smd",
+    "shape": "circle",
+    "x": 0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "8",
+    "netname": "LED_3V3_K",
+    "w": 1.2,
+    "h": 1.4
+   }
+  ],
+  "body": {
+   "x0": 181.0,
+   "x1": 183.0,
+   "y0": 121.38,
+   "y1": 122.62
+  }
+ },
+ {
+  "ref": "DC1",
+  "val": "DC-005_12V",
+  "layer": "F.Cu",
+  "x": 116.0,
+  "y": 110.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": 0.0,
+    "y": -3.0,
+    "rot": 0.0,
+    "net": "1",
+    "netname": "+12V_RAW",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 3.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "3",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": -4.5,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 111.5,
+   "x1": 120.5,
+   "y0": 103.0,
+   "y1": 117.0
+  }
+ },
+ {
+  "ref": "H1",
+  "val": "M3",
+  "layer": "F.Cu",
+  "x": 105.0,
+  "y": 105.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 6.0,
+    "h": 6.0
+   }
+  ]
+ },
+ {
+  "ref": "H2",
+  "val": "M3",
+  "layer": "F.Cu",
+  "x": 193.0,
+  "y": 105.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 6.0,
+    "h": 6.0
+   }
+  ]
+ },
+ {
+  "ref": "H3",
+  "val": "M3",
+  "layer": "F.Cu",
+  "x": 105.0,
+  "y": 193.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 6.0,
+    "h": 6.0
+   }
+  ]
+ },
+ {
+  "ref": "H4",
+  "val": "M3",
+  "layer": "F.Cu",
+  "x": 193.0,
+  "y": 193.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 6.0,
+    "h": 6.0
+   }
+  ]
+ },
+ {
+  "ref": "J_DHT11",
+  "val": "DHT11_SOCK",
+  "layer": "F.Cu",
+  "x": 118.0,
+  "y": 156.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": -2.54,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "4",
+    "netname": "+3.3V",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "28",
+    "netname": "DHT11_DATA",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "3",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 2.54,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 114.19,
+   "x1": 121.81,
+   "y0": 154.73,
+   "y1": 157.27
+  }
+ },
+ {
+  "ref": "J_ENC",
+  "val": "EC11_ENCODER",
+  "layer": "F.Cu",
+  "x": 153.0,
+  "y": 187.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": -5.08,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": -2.54,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "4",
+    "netname": "+3.3V",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "3",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "36",
+    "netname": "ENC_SW",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "4",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 2.54,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "35",
+    "netname": "ENC_DT",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "5",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 5.08,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "34",
+    "netname": "ENC_CLK",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 146.65,
+   "x1": 159.35,
+   "y0": 185.73,
+   "y1": 188.27
+  }
+ },
+ {
+  "ref": "J_GESTURE",
+  "val": "PAJ7620_GEST",
+  "layer": "F.Cu",
+  "x": 124.0,
+  "y": 172.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": -5.08,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "4",
+    "netname": "+3.3V",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": -2.54,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "3",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "29",
+    "netname": "I2C_SCL",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "4",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 2.54,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "30",
+    "netname": "I2C_SDA",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "5",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 5.08,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "31",
+    "netname": "GEST_INT",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 117.65,
+   "x1": 130.35,
+   "y0": 170.73,
+   "y1": 173.27
+  }
+ },
+ {
+  "ref": "J_KEY1",
+  "val": "KEY1_POWER",
+  "layer": "F.Cu",
+  "x": 117.5,
+  "y": 188.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": -2.54,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "32",
+    "netname": "KEY1_SIG",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "3",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 2.54,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "4",
+    "netname": "+3.3V",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 113.69,
+   "x1": 121.31,
+   "y0": 186.73,
+   "y1": 189.27
+  }
+ },
+ {
+  "ref": "J_KEY2",
+  "val": "KEY2_SWING",
+  "layer": "F.Cu",
+  "x": 134.0,
+  "y": 188.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": -2.54,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "33",
+    "netname": "KEY2_SIG",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "3",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 2.54,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "4",
+    "netname": "+3.3V",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 130.19,
+   "x1": 137.81,
+   "y0": 186.73,
+   "y1": 189.27
+  }
+ },
+ {
+  "ref": "J_MCU_L",
+  "val": "BLUEPILL_L",
+  "layer": "F.Cu",
+  "x": 140.38,
+  "y": 146.5,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": 0.0,
+    "y": -24.13,
+    "rot": 0.0,
+    "net": "32",
+    "netname": "KEY1_SIG",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -21.59,
+    "rot": 0.0,
+    "net": "33",
+    "netname": "KEY2_SIG",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "3",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -19.05,
+    "rot": 0.0,
+    "net": "20",
+    "netname": "BUZZER_CTRL",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "4",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -16.51,
+    "rot": 0.0,
+    "net": "44",
+    "netname": "MCU_L4",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "5",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -13.97,
+    "rot": 0.0,
+    "net": "46",
+    "netname": "MCU_L5",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "6",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -11.43,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "DEBUG_TX",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "7",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -8.89,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "DEBUG_RX",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "8",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -6.35,
+    "rot": 0.0,
+    "net": "52",
+    "netname": "MCU_L8",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "9",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -3.81,
+    "rot": 0.0,
+    "net": "54",
+    "netname": "MCU_L9",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "10",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -1.27,
+    "rot": 0.0,
+    "net": "56",
+    "netname": "MCU_L10",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "11",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 1.27,
+    "rot": 0.0,
+    "net": "58",
+    "netname": "MCU_L11",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "12",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 3.81,
+    "rot": 0.0,
+    "net": "60",
+    "netname": "MCU_L12",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "13",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 6.35,
+    "rot": 0.0,
+    "net": "62",
+    "netname": "MCU_L13",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "14",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 8.89,
+    "rot": 0.0,
+    "net": "29",
+    "netname": "I2C_SCL",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "15",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 11.43,
+    "rot": 0.0,
+    "net": "30",
+    "netname": "I2C_SDA",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "16",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 13.97,
+    "rot": 0.0,
+    "net": "31",
+    "netname": "GEST_INT",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "17",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 16.51,
+    "rot": 0.0,
+    "net": "28",
+    "netname": "DHT11_DATA",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "18",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 19.05,
+    "rot": 0.0,
+    "net": "3",
+    "netname": "+5V",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "19",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 21.59,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "20",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 24.13,
+    "rot": 0.0,
+    "net": "4",
+    "netname": "+3.3V",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 139.10999999999999,
+   "x1": 141.65,
+   "y0": 121.1,
+   "y1": 171.9
+  }
+ },
+ {
+  "ref": "J_MCU_R",
+  "val": "BLUEPILL_R",
+  "layer": "F.Cu",
+  "x": 155.62,
+  "y": 146.5,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": 0.0,
+    "y": -24.13,
+    "rot": 0.0,
+    "net": "39",
+    "netname": "MCU_R1",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -21.59,
+    "rot": 0.0,
+    "net": "36",
+    "netname": "ENC_SW",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "3",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -19.05,
+    "rot": 0.0,
+    "net": "35",
+    "netname": "ENC_DT",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "4",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -16.51,
+    "rot": 0.0,
+    "net": "34",
+    "netname": "ENC_CLK",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "5",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -13.97,
+    "rot": 0.0,
+    "net": "47",
+    "netname": "MCU_R5",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "6",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -11.43,
+    "rot": 0.0,
+    "net": "19",
+    "netname": "SERVO_PWM",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "7",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -8.89,
+    "rot": 0.0,
+    "net": "14",
+    "netname": "TB_STBY",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "8",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -6.35,
+    "rot": 0.0,
+    "net": "10",
+    "netname": "TB_AIN2",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "9",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -3.81,
+    "rot": 0.0,
+    "net": "24",
+    "netname": "VOICE_RX",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "10",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -1.27,
+    "rot": 0.0,
+    "net": "23",
+    "netname": "VOICE_TX",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "11",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 1.27,
+    "rot": 0.0,
+    "net": "9",
+    "netname": "TB_AIN1",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "12",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 3.81,
+    "rot": 0.0,
+    "net": "11",
+    "netname": "TB_PWMA",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "13",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 6.35,
+    "rot": 0.0,
+    "net": "63",
+    "netname": "MCU_R13",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "14",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 8.89,
+    "rot": 0.0,
+    "net": "65",
+    "netname": "MCU_R14",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "15",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 11.43,
+    "rot": 0.0,
+    "net": "67",
+    "netname": "MCU_R15",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "16",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 13.97,
+    "rot": 0.0,
+    "net": "69",
+    "netname": "MCU_R16",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "17",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 16.51,
+    "rot": 0.0,
+    "net": "71",
+    "netname": "MCU_R17",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "18",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 19.05,
+    "rot": 0.0,
+    "net": "4",
+    "netname": "+3.3V",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "19",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 21.59,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "20",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 24.13,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 154.35,
+   "x1": 156.89000000000001,
+   "y0": 121.1,
+   "y1": 171.9
+  }
+ },
+ {
+  "ref": "J_OLED",
+  "val": "OLED_12864",
+  "layer": "F.Cu",
+  "x": 180.0,
+  "y": 172.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": -3.81,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": -1.27,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "4",
+    "netname": "+3.3V",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "3",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 1.27,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "29",
+    "netname": "I2C_SCL",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "4",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 3.81,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "30",
+    "netname": "I2C_SDA",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 174.92,
+   "x1": 185.08,
+   "y0": 170.73,
+   "y1": 173.27
+  }
+ },
+ {
+  "ref": "J_TB_L",
+  "val": "TB6612_CTRL",
+  "layer": "F.Cu",
+  "x": 110.38,
+  "y": 138.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": 0.0,
+    "y": -8.89,
+    "rot": 0.0,
+    "net": "3",
+    "netname": "+5V",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -6.35,
+    "rot": 0.0,
+    "net": "4",
+    "netname": "+3.3V",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "3",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -3.81,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "4",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -1.27,
+    "rot": 0.0,
+    "net": "9",
+    "netname": "TB_AIN1",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "5",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 1.27,
+    "rot": 0.0,
+    "net": "10",
+    "netname": "TB_AIN2",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "6",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 3.81,
+    "rot": 0.0,
+    "net": "11",
+    "netname": "TB_PWMA",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "7",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 6.35,
+    "rot": 0.0,
+    "net": "13",
+    "netname": "TB_BIN2",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "8",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 8.89,
+    "rot": 0.0,
+    "net": "12",
+    "netname": "TB_BIN1",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 109.11,
+   "x1": 111.64999999999999,
+   "y0": 127.84,
+   "y1": 148.16
+  }
+ },
+ {
+  "ref": "J_TB_R",
+  "val": "TB6612_PWR",
+  "layer": "F.Cu",
+  "x": 125.62,
+  "y": 138.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": 0.0,
+    "y": -8.89,
+    "rot": 0.0,
+    "net": "3",
+    "netname": "+5V",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -6.35,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "3",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -3.81,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "4",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -1.27,
+    "rot": 0.0,
+    "net": "15",
+    "netname": "TB_AO1",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "5",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 1.27,
+    "rot": 0.0,
+    "net": "16",
+    "netname": "TB_AO2",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "6",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 3.81,
+    "rot": 0.0,
+    "net": "17",
+    "netname": "TB_BO1",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "7",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 6.35,
+    "rot": 0.0,
+    "net": "18",
+    "netname": "TB_BO2",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "8",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 8.89,
+    "rot": 0.0,
+    "net": "14",
+    "netname": "TB_STBY",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 124.35000000000001,
+   "x1": 126.89,
+   "y0": 127.84,
+   "y1": 148.16
+  }
+ },
+ {
+  "ref": "J_VOICE_L",
+  "val": "ASR_PRO_L",
+  "layer": "F.Cu",
+  "x": 172.38,
+  "y": 140.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": 0.0,
+    "y": -7.62,
+    "rot": 0.0,
+    "net": "3",
+    "netname": "+5V",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -5.08,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "3",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -2.54,
+    "rot": 0.0,
+    "net": "23",
+    "netname": "VOICE_TX",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "4",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "24",
+    "netname": "VOICE_RX",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "5",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 2.54,
+    "rot": 0.0,
+    "net": "37",
+    "netname": "NC",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "6",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 5.08,
+    "rot": 0.0,
+    "net": "37",
+    "netname": "NC",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "7",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 7.62,
+    "rot": 0.0,
+    "net": "37",
+    "netname": "NC",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 171.10999999999999,
+   "x1": 173.65,
+   "y0": 131.11,
+   "y1": 148.89
+  }
+ },
+ {
+  "ref": "J_VOICE_R",
+  "val": "ASR_PRO_R",
+  "layer": "F.Cu",
+  "x": 187.62,
+  "y": 140.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": 0.0,
+    "y": -7.62,
+    "rot": 0.0,
+    "net": "25",
+    "netname": "VOICE_SPK_P",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -5.08,
+    "rot": 0.0,
+    "net": "26",
+    "netname": "VOICE_SPK_N",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "3",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -2.54,
+    "rot": 0.0,
+    "net": "27",
+    "netname": "VOICE_MIC_P",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "4",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "5",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 2.54,
+    "rot": 0.0,
+    "net": "37",
+    "netname": "NC",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "6",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 5.08,
+    "rot": 0.0,
+    "net": "37",
+    "netname": "NC",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "7",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 7.62,
+    "rot": 0.0,
+    "net": "37",
+    "netname": "NC",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 186.35,
+   "x1": 188.89000000000001,
+   "y0": 131.11,
+   "y1": 148.89
+  }
+ },
+ {
+  "ref": "L1",
+  "val": "47uH",
+  "layer": "F.Cu",
+  "x": 155.0,
+  "y": 110.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "smd",
+    "shape": "rect",
+    "x": -2.5,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "5",
+    "netname": "XL1509_SW",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "2",
+    "type": "smd",
+    "shape": "circle",
+    "x": 2.5,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "3",
+    "netname": "+5V",
+    "w": 1.2,
+    "h": 1.4
+   }
+  ],
+  "body": {
+   "x0": 152.1,
+   "x1": 157.9,
+   "y0": 107.4,
+   "y1": 112.6
+  }
+ },
+ {
+  "ref": "MOTO1",
+  "val": "130_MOTOR",
+  "layer": "F.Cu",
+  "x": 110.0,
+  "y": 123.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": 0.0,
+    "y": -1.27,
+    "rot": 0.0,
+    "net": "15",
+    "netname": "TB_AO1",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 1.27,
+    "rot": 0.0,
+    "net": "16",
+    "netname": "TB_AO2",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 107.5,
+   "x1": 112.5,
+   "y0": 120.5,
+   "y1": 125.5
+  }
+ },
+ {
+  "ref": "Q1",
+  "val": "2N3904",
+  "layer": "F.Cu",
+  "x": 136.0,
+  "y": 123.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": -1.27,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "22",
+    "netname": "BUZ_BASE",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "3",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 1.27,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "21",
+    "netname": "BUZ_DRV",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 133.75,
+   "x1": 138.25,
+   "y0": 121.25,
+   "y1": 124.75
+  }
+ },
+ {
+  "ref": "R1",
+  "val": "1k",
+  "layer": "F.Cu",
+  "x": 176.0,
+  "y": 122.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "smd",
+    "shape": "rect",
+    "x": -0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "7",
+    "netname": "LED_5V_K",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "2",
+    "type": "smd",
+    "shape": "circle",
+    "x": 0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.2,
+    "h": 1.4
+   }
+  ],
+  "body": {
+   "x0": 175.0,
+   "x1": 177.0,
+   "y0": 121.38,
+   "y1": 122.62
+  }
+ },
+ {
+  "ref": "R10",
+  "val": "1k",
+  "layer": "F.Cu",
+  "x": 136.0,
+  "y": 118.5,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "smd",
+    "shape": "rect",
+    "x": -0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "20",
+    "netname": "BUZZER_CTRL",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "2",
+    "type": "smd",
+    "shape": "circle",
+    "x": 0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "22",
+    "netname": "BUZ_BASE",
+    "w": 1.2,
+    "h": 1.4
+   }
+  ],
+  "body": {
+   "x0": 135.0,
+   "x1": 137.0,
+   "y0": 117.88,
+   "y1": 119.12
+  }
+ },
+ {
+  "ref": "R2",
+  "val": "1k",
+  "layer": "F.Cu",
+  "x": 186.0,
+  "y": 122.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "smd",
+    "shape": "rect",
+    "x": -0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "8",
+    "netname": "LED_3V3_K",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "2",
+    "type": "smd",
+    "shape": "circle",
+    "x": 0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.2,
+    "h": 1.4
+   }
+  ],
+  "body": {
+   "x0": 185.0,
+   "x1": 187.0,
+   "y0": 121.38,
+   "y1": 122.62
+  }
+ },
+ {
+  "ref": "R_DHT",
+  "val": "4.7k",
+  "layer": "F.Cu",
+  "x": 125.0,
+  "y": 156.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "smd",
+    "shape": "rect",
+    "x": -0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "4",
+    "netname": "+3.3V",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "2",
+    "type": "smd",
+    "shape": "circle",
+    "x": 0.9,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "28",
+    "netname": "DHT11_DATA",
+    "w": 1.2,
+    "h": 1.4
+   }
+  ],
+  "body": {
+   "x0": 124.0,
+   "x1": 126.0,
+   "y0": 155.38,
+   "y1": 156.62
+  }
+ },
+ {
+  "ref": "SERVO1",
+  "val": "MG90S_360",
+  "layer": "F.Cu",
+  "x": 186.0,
+  "y": 110.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "thru_hole",
+    "shape": "rect",
+    "x": -2.54,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "19",
+    "netname": "SERVO_PWM",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "2",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "3",
+    "netname": "+5V",
+    "w": 1.8,
+    "h": 1.8
+   },
+   {
+    "num": "3",
+    "type": "thru_hole",
+    "shape": "circle",
+    "x": 2.54,
+    "y": 0.0,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.8,
+    "h": 1.8
+   }
+  ],
+  "body": {
+   "x0": 182.2,
+   "x1": 189.8,
+   "y0": 108.73,
+   "y1": 111.27
+  }
+ },
+ {
+  "ref": "U2",
+  "val": "XL1509-5.0",
+  "layer": "F.Cu",
+  "x": 142.0,
+  "y": 110.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "smd",
+    "shape": "rect",
+    "x": -1.9,
+    "y": -1.9,
+    "rot": 0.0,
+    "net": "2",
+    "netname": "+12V_IN",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "2",
+    "type": "smd",
+    "shape": "circle",
+    "x": -1.9,
+    "y": -0.63,
+    "rot": 0.0,
+    "net": "5",
+    "netname": "XL1509_SW",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "3",
+    "type": "smd",
+    "shape": "circle",
+    "x": -1.9,
+    "y": 0.63,
+    "rot": 0.0,
+    "net": "6",
+    "netname": "XL1509_FB",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "4",
+    "type": "smd",
+    "shape": "circle",
+    "x": -1.9,
+    "y": 1.9,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "5",
+    "type": "smd",
+    "shape": "circle",
+    "x": 1.9,
+    "y": 1.9,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "6",
+    "type": "smd",
+    "shape": "circle",
+    "x": 1.9,
+    "y": 0.63,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "7",
+    "type": "smd",
+    "shape": "circle",
+    "x": 1.9,
+    "y": -0.63,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "8",
+    "type": "smd",
+    "shape": "circle",
+    "x": 1.9,
+    "y": -1.9,
+    "rot": 0.0,
+    "net": "2",
+    "netname": "+12V_IN",
+    "w": 1.2,
+    "h": 1.4
+   }
+  ],
+  "body": {
+   "x0": 139.5,
+   "x1": 144.5,
+   "y0": 108.0,
+   "y1": 112.0
+  }
+ },
+ {
+  "ref": "U3",
+  "val": "AMS1117-3.3",
+  "layer": "F.Cu",
+  "x": 173.0,
+  "y": 110.0,
+  "rot": 0.0,
+  "desc": "",
+  "pads": [
+   {
+    "num": "1",
+    "type": "smd",
+    "shape": "rect",
+    "x": -2.3,
+    "y": 1.8,
+    "rot": 0.0,
+    "net": "0",
+    "netname": "GND",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "2",
+    "type": "smd",
+    "shape": "circle",
+    "x": 0.0,
+    "y": 1.8,
+    "rot": 0.0,
+    "net": "4",
+    "netname": "+3.3V",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "3",
+    "type": "smd",
+    "shape": "circle",
+    "x": 2.3,
+    "y": 1.8,
+    "rot": 0.0,
+    "net": "3",
+    "netname": "+5V",
+    "w": 1.2,
+    "h": 1.4
+   },
+   {
+    "num": "4",
+    "type": "smd",
+    "shape": "circle",
+    "x": 0.0,
+    "y": -1.8,
+    "rot": 0.0,
+    "net": "4",
+    "netname": "+3.3V",
+    "w": 1.2,
+    "h": 1.4
+   }
+  ],
+  "body": {
+   "x0": 169.75,
+   "x1": 176.25,
+   "y0": 108.25,
+   "y1": 111.75
+  }
+ }
+]

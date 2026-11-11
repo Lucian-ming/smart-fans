@@ -1,0 +1,106 @@
+===== PAGE 6 =====
+杭州天问五幺科技有限公司  ASRPRO-CORE 规格书 V1.1 
+6 
+ 
+图 1 模组外观图（渲染图仅供参考，以实物为准） 
+ 
+ 
+图 2 模组尺寸图 
+ 
+4. 管脚定义 
+表 4 管脚定义表 
+ 
+管脚号 管脚名称 类型 IO 5V 耐压 IO 上电默认
+状态 功能定义 
+1 3V3 P - - 
+芯片内部 3.3V LDO 输
+出管脚， 电 流 不 超 过
+10mA，外接 4.7uF 电
+容 
+2 PA6 IO √ IN，T+D 
+1. GPIO PA6（上电默认
+状态） 
+2. IIS0_MCLK 
+3. PDM_CLK 
+4. UART2_RX 
+5. PWM4 
+3 PA5 IO √ IN，T+D 1. GPIO PA5（上电默认
+
+===== PAGE 7 =====
+杭州天问五幺科技有限公司  ASRPRO-CORE 规格书 V1.1 
+7 
+ 
+状态） 
+2. IIS0_SCLK 
+3. PDM_DAT 
+4. UART2_TX 
+5. PWM3 
+4 PA3 IO √ IN，T+D 
+1. GPIO PA3（上电默认
+状态） 
+2. IIS0_LRCLK 
+3. IIC0_SCL 
+4. UART1_RX 
+5. PWM1 
+5 PA2 IO √ IN，T+D 
+1. GPIO PA2（上电默认
+状态） 
+2. IIS0_SDI 
+3. IIC0_SDA 
+4. UART1_TX 
+5. PWM0 
+6.RC_CLK_V 
+6 PA1 IO √ - 
+1. 外 部 晶 振 管 脚  
+XOUT（上电默认状态） 
+（正常应用无需外接晶
+振） 
+2. GPIO PA1 
+7 PA0 IO √ - 
+1. 外 部 晶 振 管 脚 XIN
+（上电默认状态） 
+（正 
+常应用无需外接晶振） 
+2. GPIO PA0 
+3. PWM5 
+8 SPKL- - - - 喇叭输出 
+9 SPKL+ - - - 喇叭输出 
+10 MIC- - - - 麦克风负极 
+11 MIC+ - - - 麦克风正极 
+12 MUTE IO √ IN，T+D 8002A 功放芯片使能，
+低电平有效 
+13 PA4 IO √ IN，T+U 
+1. GPIO PA4（上电默认
+状态） 
+/PG_EN（根 
+据上电时电平状态判断
+是否进行编程，高 
+电平时启动编程功能） 
+2. IIS0_SDO 
+3. PWM2 
+14 PC4 IO - IN，T+U 1. GPIO PC4（上电默认
+===== PAGE 8 =====
+杭州天问五幺科技有限公司  ASRPRO-CORE 规格书 V1.1 
+8 
+ 
+状态） 
+2. IIC0_SCL 
+3. PWM0 
+4 PDM_CLK 
+15 PB6 IO √ IN，T+U UART0_RX 
+16 PB5 IO √ IN，T+U UART0_TX 
+17 5V P - - 5V 电源 
+18 GND P - - 地信号 
+ 
+上表中的标注符号释义如下： 
+I input 
+O output 
+IO bidirectional 
+P power or ground 
+T+D tristate plus pull-down 
+T+U tristate plus pull-up 
+OUT power-on defaults to output mode 
+5. 原理图 
+ 
+图 3 模块原理图 
+ 

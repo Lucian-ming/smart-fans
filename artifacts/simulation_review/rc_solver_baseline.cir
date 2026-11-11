@@ -1,0 +1,9 @@
+* Independent solver smoke test; not fan_ctrl_revB validation
+V1 in 0 PWL(0 0 1n 1)
+R1 in out 1k
+C1 out 0 1u IC=0
+.tran 0 5m 0 1u UIC
+.options plotwinsize=0
+.meas TRAN rc_at_tau FIND V(out) AT=1m
+.meas TRAN rc_at_5tau FIND V(out) AT=5m
+.end

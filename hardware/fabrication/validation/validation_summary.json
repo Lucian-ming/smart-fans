@@ -1,0 +1,139 @@
+{
+  "created_at": "2026-11-04T18:55:39.721230+08:00",
+  "scope": "pcb_prototype_only",
+  "automatic_checks_pass": true,
+  "checks": [
+    {
+      "name": "单5V供电与核心板电气语义",
+      "exit_code": 0,
+      "log": "hardware\\fabrication\\validation\\check_1.log"
+    },
+    {
+      "name": "MCU非镜像40针映射",
+      "exit_code": 0,
+      "log": "hardware\\fabrication\\validation\\check_2.log"
+    },
+    {
+      "name": "ASR16针及三跳帽隔离",
+      "exit_code": 0,
+      "log": "hardware\\fabrication\\validation\\check_3.log"
+    },
+    {
+      "name": "实测TB6612直插针序",
+      "exit_code": 0,
+      "log": "hardware\\fabrication\\validation\\check_4.log"
+    },
+    {
+      "name": "实测2+3编码器接口",
+      "exit_code": 0,
+      "log": "hardware\\fabrication\\validation\\check_5.log"
+    },
+    {
+      "name": "连接器与准确物料回归",
+      "exit_code": 0,
+      "log": "hardware\\fabrication\\validation\\check_6.log"
+    },
+    {
+      "name": "OLED安装方向与针序",
+      "exit_code": 0,
+      "log": "hardware\\fabrication\\validation\\check_7.log"
+    },
+    {
+      "name": "过孔盖油正反例",
+      "exit_code": 0,
+      "log": "hardware\\fabrication\\validation\\check_8.log"
+    },
+    {
+      "name": "宽功率线覆铜切削精度",
+      "exit_code": 0,
+      "log": "hardware\\fabrication\\validation\\check_9.log"
+    },
+    {
+      "name": "PCB铜间距与网络连通性",
+      "exit_code": 0,
+      "log": "hardware\\fabrication\\validation\\check_10.log"
+    },
+    {
+      "name": "供电主干宽度及受限逃逸连通",
+      "exit_code": 0,
+      "log": "hardware\\fabrication\\validation\\check_11.log"
+    },
+    {
+      "name": "原理图引脚与顶层丝印",
+      "exit_code": 0,
+      "log": "hardware\\fabrication\\validation\\check_12.log"
+    },
+    {
+      "name": "Gerber及Excellon几何一致性",
+      "exit_code": 0,
+      "log": "hardware\\fabrication\\validation\\check_13.log"
+    },
+    {
+      "name": "板边、钻孔、阻焊及丝印制造检查",
+      "exit_code": 0,
+      "log": "hardware\\fabrication\\validation\\check_14.log"
+    }
+  ],
+  "sha256": {
+    "tools\\audit_revb2.py": "0906120832a53b7a1545baa30d23204d71d5e8d68a9f60efdd325549ed8a4397",
+    "tools\\audit_revb4.py": "cdb56f867144ec52b9d65e1a6015274b210d6f65043e14d5910da4efb38fa216",
+    "tools\\build_perfect_revB_pcb.py": "379429f62fd5ed0a4f6a973e5702ae4269489ffbc3175ab0358a4b9ae4f45b0c",
+    "tools\\build_perfect_revB_v2.py": "5d946741ad51b7a529b1a3d84bc841bf656ec70dfda041acb0645e993f55555f",
+    "tools\\build_perfect_revB_v3.py": "8bce20fa0c6e6bbbbae99b7b7a50762cb00cb0f6f68dd86c8f60fa3623c6c2c2",
+    "tools\\generate_fan_ctrl_revB_pcb.py": "e951e7828322c116dd959f9f87086a39c21e5b9b6127c7cf2caaee5b7726e0ca",
+    "tools\\generate_fan_ctrl_revB_v2.py": "e4ebffa2c9d43d57345ac492b428d1fe0efd4ef9d79d11357dc48ba23a716953",
+    "tools\\optimize_fan_ctrl_revB_layout.py": "51724226a41b6f772eb27599e11abfa462c9d79ce9b747c5d47ab0cd8e5dbf1e",
+    "tools\\probe_revb_full_route.py": "09e665f496f04400c8deb1dc790eeba3adbba4ee4e593f2483275e095e9b3b6b",
+    "tools\\probe_revb_power_layout.py": "c4bc00b9a64662b13c561a87c90e069906a9a10035a84a0219b15d0a68c05824",
+    "tools\\publish_revb_delivery.py": "a8a2fdf5b92a2943e2b7b7954b5a4747b098290e68a058fd04527b7b470e0e97",
+    "tools\\publish_revb_pcb_prototype.py": "4d336d78b599e7a9aa9e437898c4f0ec71025232e93453cee2ced406669164a6",
+    "tools\\report_revb2.py": "b4ee21778bf8987681bde4bd3633c4d58398df8ec9149f247bc687d133a7b474",
+    "tools\\test_revb_electrical_semantics.py": "d97ac676de591d7ba3cf571446259c167aaf084ece48b1029391ae899c43c9c9",
+    "tools\\test_revb_exact_parts_ast.py": "0db81bd4b6d7ac8cca0052fbbb678166deeb488c92530a76e6bd6b8b0dc6f84b",
+    "tools\\test_revb_manufacturing_geometry.py": "14413fab78d90f6a1b8445b0ef660851913342b3be6923d6bb0d2d4e2dc415d3",
+    "tools\\test_revb_prototype_publisher.py": "b23fa79553a2c89d0a760dc7d8e936e889522f8612a01b46c068b54d852f6723",
+    "tools\\test_revB_serializers.py": "3bb0b06c80dbde3997bafb61dfdb4bdc9e9f5ca806fffcad433a5318d94a8e54",
+    "tools\\test_revb_silkscreen.py": "36d5427a64d7d14e53bdbbc4439fe871e572ffab3b163013218eaf0492edb561",
+    "tools\\test_revb_track_cutout.py": "599907b9f48b57f80a5e049756a7b2a5d18d9297703342848a71cdd56d36eec8",
+    "tools\\test_revb_via_tenting.py": "e84010eacee90f79b94662af5b03bdbd7a4b92d02863fd8a571d800be2e6af6f",
+    "tools\\validate_revb_all.py": "5befa4522171ee2ef37b0a42511336553b3abd8991e0eea793aedea7e24e58ca",
+    "tools\\validate_revB_gerber_geometry.py": "53e274a080e3d08894e836454cb5fbbcfeefe9d67ba876acb3175d61a996a8cf",
+    "tools\\validate_revB_schematic.py": "75df6551eced68ba93b1d47ba27db44067eda6b25b84231eea50e0024d875887",
+    "tools\\verify_all_revB3.py": "f5ae8bf724265aba9dcfdca6f09196a6c22980513efd7d200abc69abb6b420b6",
+    "tools\\verify_all_revB4.py": "30ceb64d05e943ffc2e3838df22790f1831c65c3ae4333144f2e68725f954eb9",
+    "tools\\verify_revb_connectivity.py": "8e06571665edf6dab25839bbca7d1b2c33b99d2d7717338aa289cb3f8ad5357a",
+    "tools\\verify_revb_copper.py": "caea96fa8053afd845a5f603a77b98cf007b703483e510e0d3813bcb73b4de07",
+    "tools\\verify_revb_manufacturing.py": "f054ebf27cb4ad98477051fcc8a5d3f5523e8de15d9541196dde2e2f6b491c31",
+    "tools\\verify_revb_power.py": "00b38394909077d747ec7012db10d72f9f87aa56288eded832bb1d41681ec983",
+    "tools\\build_authentic_smartfan_cad.py": "95e975d809179dea8bb60789859afba802271d510398a72fc12fa12725335462",
+    "tools\\build_disguised_smartfan_stls.py": "835558aefd6d7d791ebe4844656a9ae31e3e1f3ae5b7ec7cccf0a53a5658dc36",
+    "tools\\verify_smartfan_mechanical.py": "8aece51c32c68cf98f88b80312354bd2e7bca3311ff0f2b4167a4d587a7eb5b0",
+    "tools\\verify_smartfan_p2_assembly.py": "baeea232a7a87f433e78ade0c546d4f477ca79c0ad26a5f45495e69d8390a93c",
+    "tools\\obstacle_router.py": "b96a9b1a20a0ee64ee1f6526facc1643513bc801995a5108701e5b9f656fe76f",
+    "tools\\test_router_drill_clearance.py": "808b002a5a92e32601667f5c1c03e02b1bf357567e7d779347f9474f303a02cf",
+    "tools\\test_router_power.py": "915e646013c4080779a5aa31c0da96ac29ed2afa6b406c9534279f4524d8c9cc",
+    "tools\\test_router_prep.py": "c22c2771d45f85d1f14d52f2bfdb64023ca115d25d042aad4b6c63059ec8f949",
+    "tools\\test_asr_interface_ast.py": "1470d9d80ccaa1621320c98296cc335f0e5e65f28e423294f8158fb2a1b789c0",
+    "tools\\test_ec23_interface_ast.py": "4cb7f49dcec6fec65d40f049c5b04612380a4a9df8e3be8c2ffc69686637fb2e",
+    "tools\\test_tb6612_interface_ast.py": "86cb99b817eaa728013deef48676c62c9402dbde1498a8e319657677095a4825",
+    "tools\\test_oled_installation_ast.py": "f03fd2efd94d382af517b842efc52de429fbffb31b4319df4d70fe7152971099",
+    "tools\\test_core_header_mapping.py": "9c8aae3adaffd0f1fcdfc0235f453dfa5f035526ee1f04bf193acaec9dcd322c",
+    "hardware\\fabrication\\BOM_SmartFan_RevB.xlsx": "beb336a0bd23cbf78b15d52a3d50ee0c32064ab45a30c17ac1f7c231a55212ea",
+    "hardware\\kicad\\fan_ctrl_revB.kicad_pcb": "c9cb106cdc48e9b3e44ff9b6d379062e31b24f2d6fec1b29f22d64fc3b3264a1",
+    "hardware\\kicad\\fan_ctrl_revB.kicad_sch": "ae4bb467b5398b3d5482221e21dfbe591e0b5d7721703dc5707e78e901f56ada",
+    "hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.DRL": "8c9361591725512c6ce99e4892a7e7d502856090ffe5add96af233008740fae0",
+    "hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GBL": "324c13779ecb0888437a37c9c915988ad53ab23b5106f9418260997ee9a5f3c0",
+    "hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GBO": "9a6d0c2d9f310e19e12169d726814fbede9c5e9505d98cf9c6566c56ba7563fe",
+    "hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GBS": "4ef07010f1a814a7e6b2e4b5d94dbff0ad0b70a9b4c7cc6c1c02333f8cbfa022",
+    "hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GKO": "be9c68ff43a9a51f760ef78b243e4cd249474053850a9085e984ba4a65ccd163",
+    "hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GTL": "a256e3e3277a3714e85c60f0abb31cf3641b4fe4f1ffb2e401cce3944292f985",
+    "hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GTO": "db4494f93ce9ca0ab77e4ea97b1f6fa7fd0d0fbf32478343dcec933777bbaa3c",
+    "hardware\\fabrication\\gerber_revB\\fan_ctrl_revB.GTS": "dc8036f4720ffdee172992a25ffb37d40d98a8beb964d89a3371fdd843bcf5e5"
+  },
+  "limitations": [
+    "未执行KiCad原生DRC/ERC/网表导出。",
+    "未确认供应商实时库存；真实料号不等于现货承诺。",
+    "模块直插以说明书中的实测及安装条件为边界；未完成整机实体装配，旧外壳未随本次PCB改版验证。",
+    "样机仍需验证供电压降、纹波、温升和电机启动/堵转工况；几何合格不等于电气或整机生产签核。"
+  ]
+}

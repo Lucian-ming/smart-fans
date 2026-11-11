@@ -1,0 +1,7 @@
+{
+  "original_pin_count": 168,
+  "candidate_pin_count": 168,
+  "identical_connection_sets": true,
+  "differences": [],
+  "normalization": "Strip root sheet / prefix only; NC normalized by ref+pin; no merged nets accepted"
+}

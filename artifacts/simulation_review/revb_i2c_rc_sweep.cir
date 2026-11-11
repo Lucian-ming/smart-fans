@@ -1,0 +1,19 @@
+* RevB I2C conditional RC sweep; NOT a vendor IO model or protocol proof
+.param VDD=3.3
+.param Rpull=4700
+.param Cbus=100p
+Vrail rail 0 {VDD}
+Rpullup rail bus {Rpull}
+Ctotal bus 0 {Cbus}
+Vgate gate 0 PULSE(1 0 1u 1n 1n 30u 60u)
+Ssink bus 0 gate 0 IDEAL_OD
+.model IDEAL_OD SW(Ron=1 Roff=1e12 Vt=0.5 Vh=0)
+.step param Rpull list 4700 2350 1566.666667
+.step param Cbus list 50p 100p 200p 250p 400p 800p
+.tran 0 25u 0 5n
+.options plotwinsize=0
+.meas tran tr_30_70 TRIG V(bus) VAL={0.3*VDD} RISE=1 TARG V(bus) VAL={0.7*VDD} RISE=1
+.meas tran vol FIND V(bus) AT=0.5u
+.meas tran sink_low FIND I(Rpullup) AT=0.5u
+.meas tran final_high FIND V(bus) AT=24u
+.end

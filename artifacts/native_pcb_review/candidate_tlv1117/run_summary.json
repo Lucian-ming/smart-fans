@@ -1,0 +1,254 @@
+{
+  "steps": [
+    {
+      "step": "baseline_netlist",
+      "command": [
+        "C:\\Users\\Lucian\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "sch",
+        "export",
+        "netlist",
+        "-o",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\candidate_tlv1117\\baseline.net",
+        "D:\\smart_fans\\artifacts\\tlv1117_rebuild_input_v2\\hardware\\kicad\\fan_ctrl_revB.kicad_sch"
+      ],
+      "exit_code": 0
+    },
+    {
+      "step": "convert_sch",
+      "command": [
+        "D:/dev_tools/Python/python",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\convert_candidate_sch.py",
+        "--sch",
+        "D:\\smart_fans\\artifacts\\tlv1117_rebuild_input_v2\\hardware\\kicad\\fan_ctrl_revB.kicad_sch",
+        "--out",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\candidate_tlv1117"
+      ],
+      "exit_code": 0
+    },
+    {
+      "step": "netlist",
+      "command": [
+        "C:\\Users\\Lucian\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "sch",
+        "export",
+        "netlist",
+        "-o",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\candidate_tlv1117\\native.net",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\candidate_tlv1117\\fan_ctrl_revB.kicad_sch"
+      ],
+      "exit_code": 0
+    },
+    {
+      "step": "connections",
+      "command": [
+        "D:/dev_tools/Python/python",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\compare_candidate_connections.py",
+        "--before",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\candidate_tlv1117\\baseline.net",
+        "--out",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\candidate_tlv1117"
+      ],
+      "exit_code": 0
+    },
+    {
+      "step": "convert_pcb",
+      "command": [
+        "C:\\Users\\Lucian\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\python.exe",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\convert_candidate_pcb.py",
+        "--pcb",
+        "D:\\smart_fans\\artifacts\\tlv1117_rebuild_input_v2\\hardware\\kicad\\fan_ctrl_revB.kicad_pcb",
+        "--out",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\candidate_tlv1117"
+      ],
+      "exit_code": 0
+    },
+    {
+      "step": "erc",
+      "command": [
+        "C:\\Users\\Lucian\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "sch",
+        "erc",
+        "--format",
+        "json",
+        "--severity-all",
+        "--exit-code-violations",
+        "-o",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\candidate_tlv1117\\erc.json",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\candidate_tlv1117\\fan_ctrl_revB.kicad_sch"
+      ],
+      "exit_code": 0
+    },
+    {
+      "step": "drc_parity",
+      "command": [
+        "C:\\Users\\Lucian\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "pcb",
+        "drc",
+        "--format",
+        "json",
+        "--all-track-errors",
+        "--severity-all",
+        "--exit-code-violations",
+        "--schematic-parity",
+        "--refill-zones",
+        "--save-board",
+        "-o",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\candidate_tlv1117\\drc_parity.json",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\candidate_tlv1117\\fan_ctrl_revB.kicad_pcb"
+      ],
+      "exit_code": 0
+    },
+    {
+      "step": "invariance",
+      "command": [
+        "C:\\Users\\Lucian\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\python.exe",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\verify_candidate_invariance.py",
+        "--pcb",
+        "D:\\smart_fans\\artifacts\\tlv1117_rebuild_input_v2\\hardware\\kicad\\fan_ctrl_revB.kicad_pcb",
+        "--out",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\candidate_tlv1117"
+      ],
+      "exit_code": 0
+    },
+    {
+      "step": "native_gerbers",
+      "command": [
+        "C:\\Users\\Lucian\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "pcb",
+        "export",
+        "gerbers",
+        "--layers",
+        "F.Cu,B.Cu,F.Paste,B.Paste,F.Mask,B.Mask,F.Silkscreen,B.Silkscreen,Edge.Cuts",
+        "--disable-aperture-macros",
+        "--output",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\candidate_tlv1117\\native_manufacturing/",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\candidate_tlv1117\\fan_ctrl_revB.kicad_pcb"
+      ],
+      "exit_code": 0
+    },
+    {
+      "step": "native_drill",
+      "command": [
+        "C:\\Users\\Lucian\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "pcb",
+        "export",
+        "drill",
+        "--format",
+        "excellon",
+        "--excellon-units",
+        "mm",
+        "--excellon-zeros-format",
+        "decimal",
+        "--excellon-separate-th",
+        "--generate-report",
+        "--output",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\candidate_tlv1117\\native_manufacturing/",
+        "D:\\smart_fans\\artifacts\\native_pcb_review\\candidate_tlv1117\\fan_ctrl_revB.kicad_pcb"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "production_and_inputs_unchanged": true,
+  "baseline_hashes": {
+    "D:\\smart_fans\\artifacts\\tlv1117_rebuild_input_v2\\hardware\\kicad\\fan_ctrl_revB.kicad_sch": "131a63e2b7ea98007af32e8ed9dc3ddafef1d7ed979714e55a0b331697670910",
+    "D:\\smart_fans\\hardware\\kicad\\fan_ctrl_revB.kicad_sch": "ae4bb467b5398b3d5482221e21dfbe591e0b5d7721703dc5707e78e901f56ada",
+    "D:\\smart_fans\\hardware\\kicad\\fan_ctrl_revB.kicad_pcb": "c9cb106cdc48e9b3e44ff9b6d379062e31b24f2d6fec1b29f22d64fc3b3264a1",
+    "D:\\smart_fans\\artifacts\\tlv1117_rebuild_input_v2\\hardware\\kicad\\fan_ctrl_revB.kicad_pcb": "29df3f594cd038360cc74968939208af985f017956cf4b7ee4c024da882f28c0"
+  },
+  "all_steps_pass": true,
+  "output_sha256": {
+    "baseline.net": "79d3adb36f02079c2fb595276fd4d02ea8be33c7b4704ffa9d09213efa2d9917",
+    "baseline_netlist.log": "f1849a6a4719709b4638c4c4c59635c892e8993df80fad1be3e4aa30bc9fcdd4",
+    "connections.log": "db852b3816b2f1b9f3ea705b73a225cb2d4392eef76a9ddfd82bc0f3fb965458",
+    "connectivity_comparison.json": "f7f4cc0ad58a0550ac50aac18a0132117ebe0296770e1279872b96c54cea80f0",
+    "convert_pcb.log": "4d738977c4ce4c4d0678afa959bc07abc6647a00bdd5d3807e97a03183f6e46d",
+    "convert_sch.log": "87ec475e7321afe274696df0c6a4f0a464350648d49b37a23e570e595a392511",
+    "drc_parity.json": "baef2d55f8cbce2ccd1be9db1fc7a7b2ad79ec2d3ce9222501df747421423891",
+    "drc_parity.log": "0ca9a47e95bf79d0409bca3d6e17475e132282b33dc364ba87b8c0727f2bf948",
+    "erc.json": "2db5335d816e392b13ccec11bff2d1975ea863853f92e54d2cbe0164c5701d5b",
+    "erc.log": "233ff78da2ae1649a8dc87db84cad260a67ad0cfd120ac71acac1b7bcb6593ae",
+    "fan_ctrl_revB.kicad_pcb": "3341183e1b76a875c8ae71b7134a121bded68481aa67c9ad78303b58f91eaf3a",
+    "fan_ctrl_revB.kicad_prl": "9764f6c7d646d82141034f260aec447b15fa57900339e09b3ed7bfbe3d3d9edf",
+    "fan_ctrl_revB.kicad_pro": "c3aefa28a72857e499bbe652438d58456ccc364adb9c81710dd6ee8529cd24cc",
+    "fan_ctrl_revB.kicad_sch": "019b01f84e4af9f25e716732588d9496ce41d7d4babb9c3f6771b74ae7cf9af7",
+    "fp-lib-table": "26ad7399c3bd87c9d3bc82bcb37f84a157f7d74c06f62ea17c7387362cab07aa",
+    "geometry_invariance.json": "88cdfbdae56ce40ee74c76bb6a10565da817a54d603d15fb92cf73e347bd03fa",
+    "invariance.log": "b72630a0192b43c1687ecf71818eaf009f88950d4012e9e22033623112aa2cb4",
+    "native.net": "2dc18edc4dd9c76c449d4d43a5115adb24fc639bae96875fe74b284ea5cb69b1",
+    "native_drill.log": "8fc9de0be6567de2475c7360ba10bee794bc90d6d83cbd8287fc5e3809802dcc",
+    "native_gerbers.log": "eab7df616dd9826a8c4c28c4b0a66e878d5cf3d2e881620ba4919d0f9f61b934",
+    "native_pin_nets.json": "b519397233677b362922d2a9e656d10c5dcdeee8ad74c61c306250105d1d4970",
+    "netlist.log": "f1849a6a4719709b4638c4c4c59635c892e8993df80fad1be3e4aa30bc9fcdd4",
+    "precision_change.json": "943db9089a6837d51c0c4d32f83e93c3b12500953dcdeb1d32f8ad983043c5ef",
+    "RevB_Symbols.kicad_sym": "b103a9211a3683aaee69699e310d65326713dba4b1c6d068fb6db22018672042",
+    "semantic_manifest.json": "56b2256ce49b5d363c2e8bf2c55a79291fb689d7dcfae25084ad624a238d3c6e",
+    "sym-lib-table": "ecd70332952f30e8e15f45e66d3041a1d6927a8697d48da2e40a1b590728c3af",
+    "native_manufacturing\\fan_ctrl_revB-B_Cu.gbl": "97b8c0284c27899574ca6ce4e3e59e381909d46a3b42d584d92cc81a7ac085cc",
+    "native_manufacturing\\fan_ctrl_revB-B_Mask.gbs": "29ba72a3cd8ae2fe1d6d016304383181daa3e83655a2c366bf7dad0c2a2205a2",
+    "native_manufacturing\\fan_ctrl_revB-B_Paste.gbp": "b62d5280293b9dab88ff4da62ce3b177ada142766a9d55489df32a21ce599f73",
+    "native_manufacturing\\fan_ctrl_revB-B_Silkscreen.gbo": "390e4b59b7ceedb349fe0a95e612911fdb7b1fb9c49239448f672a7fa5681309",
+    "native_manufacturing\\fan_ctrl_revB-drill.rpt": "e520dfab543895055dcdd5f50d1d3c7b6028b866d55892bbf50a378fca1264cd",
+    "native_manufacturing\\fan_ctrl_revB-Edge_Cuts.gm1": "692e22b0500919d0346e9d890ae41427bbb45af475395f30475db766025a67c0",
+    "native_manufacturing\\fan_ctrl_revB-F_Cu.gtl": "88286fa010e76ead5c5fc68223a5b5639f854e5ec3caa4411a3b0a4d14887f15",
+    "native_manufacturing\\fan_ctrl_revB-F_Mask.gts": "2f7113e1e134991171e637d8dc5cbcd8fd42892a0f8623dce7877cb4bac316ff",
+    "native_manufacturing\\fan_ctrl_revB-F_Paste.gtp": "dcfb1649659a883f2697b66acb0e8318f4fc1d082e005136eb6e6e60ac97ad2d",
+    "native_manufacturing\\fan_ctrl_revB-F_Silkscreen.gto": "05500f99268df5a703dbaa0bf9cbda4b956997be342012ee2f614cd849d93283",
+    "native_manufacturing\\fan_ctrl_revB-job.gbrjob": "e5017654d79d646b185c6f24c640b6d4ce5d5db158c4eadfce3924e326b8b0a4",
+    "native_manufacturing\\fan_ctrl_revB-NPTH.drl": "77e54d461beba3ea5c06a6b2568597a52d445a9dbdcb52b0a5424401048ac290",
+    "native_manufacturing\\fan_ctrl_revB-PTH.drl": "834ff2995b6cee3debcff631be9f7f1c4d7c6b0a03e8340634f99257f049f763",
+    "RevB_Snapshot.pretty\\Board_BZ1.kicad_mod": "1884b04ddd802948ce874c660e805aabe5c92dcee635206b9335da1e75657868",
+    "RevB_Snapshot.pretty\\Board_C1.kicad_mod": "296a7d898ca84effafbe583a0e1e4a02c2bde88f7b17239ee9aef16943bd29d8",
+    "RevB_Snapshot.pretty\\Board_C2.kicad_mod": "aa42cda9f4dc0e6652e025bc36b20c025324fb53ccc2770c1403dba1ca4ddd97",
+    "RevB_Snapshot.pretty\\Board_C3.kicad_mod": "4fcb85da386f3583397d4221b88bf446916ec6dca536ac95bb2fd7694270d65c",
+    "RevB_Snapshot.pretty\\Board_C4.kicad_mod": "c4b7941391a4201742bbb9e960df551e046346c1655c69921d57b2cf461cad88",
+    "RevB_Snapshot.pretty\\Board_C5.kicad_mod": "e6a6e38b078acc763101277ff810a4ca023445fea9dd85921d8e7edae3ff7d41",
+    "RevB_Snapshot.pretty\\Board_C6.kicad_mod": "3ee7ebaf26b88fe79d8944c75cf0bacf406425991c654d021879f812b57c5ac0",
+    "RevB_Snapshot.pretty\\Board_C7.kicad_mod": "772e760093533c2578a98a1b423262aef3941f4fb166ad7c54acee7fc8d6efbd",
+    "RevB_Snapshot.pretty\\Board_C_VM.kicad_mod": "67392a0542bc632ae50bea4629fe35077b5d4acbc83ba8d80a7418bb088b035d",
+    "RevB_Snapshot.pretty\\Board_C_VM_MLCC.kicad_mod": "49afff0f91b9d36bf01c9696ea209c04f0c5b4be3896b8cd06cd965029e7123c",
+    "RevB_Snapshot.pretty\\Board_D3.kicad_mod": "63d2b33204addccf1fe36c19df04af566ea3f37c8b91b8402fe87c9dc62acc0a",
+    "RevB_Snapshot.pretty\\Board_D4.kicad_mod": "c9160fc836e3c4bce21b37e43224680f0455ef514367fe67f69dd25a030fd542",
+    "RevB_Snapshot.pretty\\Board_D5.kicad_mod": "b4b5e0375388250f625c2b308471b57007453532cdef40fc49df9222b398637e",
+    "RevB_Snapshot.pretty\\Board_DC1.kicad_mod": "b5075f49df56a1c506d2140fc1187824f7572fe99eb8b0c6388a7ddc024f4eb2",
+    "RevB_Snapshot.pretty\\Board_F1.kicad_mod": "4458e5c447afa759195f25d6b4c2408f18197708a17d15b24f05f2542e19ad64",
+    "RevB_Snapshot.pretty\\Board_H1.kicad_mod": "6007cc210656df30e004455885b822f10f321e19c88d3e362b6a816cb75e33df",
+    "RevB_Snapshot.pretty\\Board_H2.kicad_mod": "c04b69470be83b8121ee5b03bf8f80cab0b70753d601c680b6c14f7ad09cffa7",
+    "RevB_Snapshot.pretty\\Board_H3.kicad_mod": "ddc4ae3ba99a10300f90dddb9cba6f1327c8ed39664bc2e57048dffdaa72555e",
+    "RevB_Snapshot.pretty\\Board_H4.kicad_mod": "ff47a05ca5be8338727c0f1952f4bfdbd4e5482bb895a456bc1998d9a837f17b",
+    "RevB_Snapshot.pretty\\Board_JP_ASR.kicad_mod": "551911bdecaac7f302ea4277b3b116b9cfe5f169fda7e9e809a475b776e26c91",
+    "RevB_Snapshot.pretty\\Board_JP_ASR_RX.kicad_mod": "4424ff4e4749bae0188910696c2014c3bbb6a87076b56cbe7fb5da8557f88299",
+    "RevB_Snapshot.pretty\\Board_JP_ASR_TX.kicad_mod": "2fd83893d36f9fa8670954bd1e918771560f63991ca5e542a5fa9b36d66404ad",
+    "RevB_Snapshot.pretty\\Board_JP_USB.kicad_mod": "58b1487740f12dc3054c70a9a338bafa5ad4ea1acbcd5e170f76a3f907d6754a",
+    "RevB_Snapshot.pretty\\Board_J_DHT11.kicad_mod": "8a2af70713d8f72c09611b357083bbbea1e5ffb6d1274196f3895afdb9e71b33",
+    "RevB_Snapshot.pretty\\Board_J_ENC.kicad_mod": "148cf66bf69d18995fd936d7e9be1e24026e02fc43c4dcb27d0c3fb7b271173e",
+    "RevB_Snapshot.pretty\\Board_J_GESTURE.kicad_mod": "9625ce4feb050ce8f57786fc2d8eb193fa5c627575ee02b2f61e00e7cfa1b7fe",
+    "RevB_Snapshot.pretty\\Board_J_KEY1.kicad_mod": "068dfd632122b9631ea7e4b56f939c315b9e5325d4527b1888ffdd457b0c1191",
+    "RevB_Snapshot.pretty\\Board_J_KEY2.kicad_mod": "b3500301614552fc35a1289de8d2bbf25fc1cbb9d421db17a413f419ef47c6c2",
+    "RevB_Snapshot.pretty\\Board_J_MCU_L.kicad_mod": "e6903858b89f10c04d87ad41454cf92c39d7267b0ec11c42ed76d1433a3f4ca2",
+    "RevB_Snapshot.pretty\\Board_J_MCU_R.kicad_mod": "f75343e9f08199a556f197c1e4fd5cd475c4a0daaec60ce4dc2a393237254383",
+    "RevB_Snapshot.pretty\\Board_J_OLED.kicad_mod": "520df44237e4e38078f60fd090e3bc53a5d03aa6abf7bae61a888bbc0155c187",
+    "RevB_Snapshot.pretty\\Board_J_TB_L.kicad_mod": "63446b5cc36dd36b5aa45e321da638153aeadbf72aa266d364a4881cfffa3818",
+    "RevB_Snapshot.pretty\\Board_J_TB_R.kicad_mod": "0a4ed5ed6a2136f2a04e12607cf265d743129024e2bfe2d6e493acc6e2e1a946",
+    "RevB_Snapshot.pretty\\Board_J_VOICE_L.kicad_mod": "e968c69ee16e2264392a8e3f9ce8901e7ba25c9482e7c4555780f96c4069d895",
+    "RevB_Snapshot.pretty\\Board_J_VOICE_R.kicad_mod": "1c0c0f6db7f84e42bc5924c0655b47eec8ca6aadccdf75b600277a7687eb8c6c",
+    "RevB_Snapshot.pretty\\Board_MOTO1.kicad_mod": "89ff4579c5d682302bfe8f144cafbc0c03e2b7d8b676913ab41259817b96c5e9",
+    "RevB_Snapshot.pretty\\Board_Q1.kicad_mod": "f97d44d80a94c15c03c036c06323eb8d508bda23c32a9b86f4e7ff3d9fee6b4a",
+    "RevB_Snapshot.pretty\\Board_Q_PWR.kicad_mod": "5d2424369bbc858b4f3f033e94aa8a2df95ead33d1cbc1923959f0cb90a2fa2b",
+    "RevB_Snapshot.pretty\\Board_R1.kicad_mod": "3bc42a18af14346d2e8228e53a5c6420da204ab6de15a2302493a8847ab49f4c",
+    "RevB_Snapshot.pretty\\Board_R10.kicad_mod": "98d38d3bbac68fa12beea60ed1e2f11a88aa4485ac7180c9558bc0bb482a7470",
+    "RevB_Snapshot.pretty\\Board_R2.kicad_mod": "6d701fe01e97dce83b51aabf2f6825fb67e2f94599a7c226aafa6fd531f6e5b9",
+    "RevB_Snapshot.pretty\\Board_R_DHT.kicad_mod": "48c61831044dcad4ba4956c10735337458b17b3301e1357fe9be105aace34aca",
+    "RevB_Snapshot.pretty\\Board_R_SCL.kicad_mod": "19dbdbfbf0207239c6e33c104603a0f949857833c75e3284380088e049cbfd30",
+    "RevB_Snapshot.pretty\\Board_R_SDA.kicad_mod": "9346bc0dd79593e7194a67dae52af3898b48ab07a0cb2a8686bffcff0a091ce2",
+    "RevB_Snapshot.pretty\\Board_R_STBY.kicad_mod": "995782b9b13dcdabbdd7c1c1e1c2355f2190fe6aff758127a58b49bdf37e8295",
+    "RevB_Snapshot.pretty\\Board_SERVO1.kicad_mod": "d4ee183b7b191edd79eef9e096e14d125c6a913c5fba8add2bb0f22789b6c99d",
+    "RevB_Snapshot.pretty\\Board_SPK1.kicad_mod": "25690cd9e9bc7112d71adfd84c096d5bfa10722562f7e61987d46ae7dc5cfb04",
+    "RevB_Snapshot.pretty\\Board_U3.kicad_mod": "4a9444c7f9f93ee679a41eb14f3cb481f124356774f9ee7012d8cbe57603ea3a"
+  },
+  "release_authorized": false,
+  "limitations": [
+    "Native ERC/DRC success is not physical assembly or thermal validation.",
+    "Snapshot libraries preserve source geometry; not independent package certification.",
+    "Solid ground connection increases soldering thermal load."
+  ]
+}

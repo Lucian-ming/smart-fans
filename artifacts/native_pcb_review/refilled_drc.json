@@ -1,0 +1,850 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-04T19:18:10",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "refilled.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "缓释热焊盘 (花焊盘) 与填充区的连接不完整 (层 B.Cu; 4 条引线与死铜相连)",
+            "items": [
+                {
+                    "description": "填充区[GND]在 B.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 2 [GND]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 161.59
+                    },
+                    "uuid": "10d6e309-6e7d-48c7-a986-2548cbbce4db"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "缓释热焊盘 (花焊盘) 与填充区的连接不完整 (层 B.Cu; 填充区 最小引线数量 2; 实际 1)",
+            "items": [
+                {
+                    "description": "填充区[GND]在 B.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "description": "J_MCU_R 的PTH 焊盘 20 [GND]",
+                    "pos": {
+                        "x": 155.12,
+                        "y": 115.87
+                    },
+                    "uuid": "3305d150-62b2-46c5-994a-c795d5dcfa69"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "缓释热焊盘 (花焊盘) 与填充区的连接不完整 (层 F.Cu; 填充区 最小引线数量 2; 实际 1)",
+            "items": [
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "description": "J_MCU_R 的PTH 焊盘 20 [GND]",
+                    "pos": {
+                        "x": 155.12,
+                        "y": 115.87
+                    },
+                    "uuid": "3305d150-62b2-46c5-994a-c795d5dcfa69"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "缓释热焊盘 (花焊盘) 与填充区的连接不完整 (层 F.Cu; 3 条引线与死铜相连)",
+            "items": [
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "description": "J_GESTURE 的PTH 焊盘 2 [GND]",
+                    "pos": {
+                        "x": 113.46,
+                        "y": 174.0
+                    },
+                    "uuid": "4468e066-c082-4a32-bcd2-21463f746674"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "当前配置中不包含封装库 'SmartFan'",
+            "items": [
+                {
+                    "description": "封装 DC1",
+                    "pos": {
+                        "x": 112.46,
+                        "y": 108.0
+                    },
+                    "uuid": "aa27ad00-c1f7-4020-810f-eae10c7ae37d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Fuse'",
+            "items": [
+                {
+                    "description": "封装 F1",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 107.0
+                    },
+                    "uuid": "6e415afd-1983-4c4c-bbbd-77b10e37cf77"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "封装 C1",
+                    "pos": {
+                        "x": 129.5,
+                        "y": 107.0
+                    },
+                    "uuid": "8034fefc-285a-4b5d-92de-8e525bfd773e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "封装 C2",
+                    "pos": {
+                        "x": 129.5,
+                        "y": 112.0
+                    },
+                    "uuid": "5d71feba-3d44-4833-ae76-36390f76fde7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Package_SO'",
+            "items": [
+                {
+                    "description": "封装 Q_PWR",
+                    "pos": {
+                        "x": 136.0,
+                        "y": 107.0
+                    },
+                    "uuid": "800d69fc-acb6-4b6a-9e37-06f9aef54022"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 JP_USB",
+                    "pos": {
+                        "x": 147.0,
+                        "y": 107.0
+                    },
+                    "uuid": "f5b6b12e-78a0-459f-847e-797b2049348b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "封装 C3",
+                    "pos": {
+                        "x": 156.5,
+                        "y": 107.0
+                    },
+                    "uuid": "11d21e30-a190-4dfa-a48f-7082fa40de50"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "封装 C4",
+                    "pos": {
+                        "x": 156.5,
+                        "y": 112.0
+                    },
+                    "uuid": "b075f6d8-fbed-4b2b-88ff-2a23f7ff25ed"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'SmartFan'",
+            "items": [
+                {
+                    "description": "封装 U3",
+                    "pos": {
+                        "x": 164.0,
+                        "y": 107.0
+                    },
+                    "uuid": "9dad446a-518a-437a-ac8a-47f9eb061d39"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "封装 C5",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 107.0
+                    },
+                    "uuid": "3d1d83a6-a49f-45ad-9957-7aab579e7f4b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "封装 C6",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 109.5
+                    },
+                    "uuid": "cd55c6d0-6889-446c-887a-69119a86b32e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "封装 C7",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 112.0
+                    },
+                    "uuid": "82e0d20c-0157-42f2-9753-8ddc7d1913e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'LED_SMD'",
+            "items": [
+                {
+                    "description": "封装 D4",
+                    "pos": {
+                        "x": 175.0,
+                        "y": 114.5
+                    },
+                    "uuid": "d0bcdadf-0a59-42f9-a8de-8543e16dc5e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "封装 R1",
+                    "pos": {
+                        "x": 179.0,
+                        "y": 114.5
+                    },
+                    "uuid": "50bf319d-8e14-4cb0-a355-d003ff469bef"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'LED_SMD'",
+            "items": [
+                {
+                    "description": "封装 D5",
+                    "pos": {
+                        "x": 175.0,
+                        "y": 117.5
+                    },
+                    "uuid": "ef290f93-d577-42aa-b85e-93a7a594d096"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "封装 R2",
+                    "pos": {
+                        "x": 179.0,
+                        "y": 117.5
+                    },
+                    "uuid": "07634980-61f6-4e51-94b6-5ffa3ba81ea9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'SmartFan'",
+            "items": [
+                {
+                    "description": "封装 MOTO1",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 119.5
+                    },
+                    "uuid": "d8ff98d6-d91d-48a1-a7d0-58f9ef0284b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 SERVO1",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 119.5
+                    },
+                    "uuid": "915fff23-c3b0-4d9c-aec9-31d9d423ba05"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Buzzer_Beeper'",
+            "items": [
+                {
+                    "description": "封装 BZ1",
+                    "pos": {
+                        "x": 127.5,
+                        "y": 119.5
+                    },
+                    "uuid": "b1df8ec0-ad35-4321-856c-8c4c27a701a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'SmartFan'",
+            "items": [
+                {
+                    "description": "封装 Q1",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 119.5
+                    },
+                    "uuid": "eb3f38e4-02b9-4abd-99af-054a8801d88b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'SmartFan'",
+            "items": [
+                {
+                    "description": "封装 D3",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 124.0
+                    },
+                    "uuid": "6ecf0d75-a79f-48ae-b5d8-d73cac49d2d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "封装 R10",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 115.0
+                    },
+                    "uuid": "2911852e-89d8-4ad6-9235-6714f7ca4d1b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_TB_L",
+                    "pos": {
+                        "x": 107.88,
+                        "y": 136.0
+                    },
+                    "uuid": "1b461bc1-5c07-479d-9397-87da20c36d3c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_TB_R",
+                    "pos": {
+                        "x": 122.88,
+                        "y": 136.0
+                    },
+                    "uuid": "7858a752-f25c-46ef-b729-a254eca9a436"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "封装 C_VM",
+                    "pos": {
+                        "x": 123.5,
+                        "y": 123.5
+                    },
+                    "uuid": "943415b1-f43c-4e8d-9aa4-7846cd317cae"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "封装 C_VM_MLCC",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 125.5
+                    },
+                    "uuid": "453786be-d956-471c-ab73-5376e4c6f491"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "封装 R_STBY",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 134.73
+                    },
+                    "uuid": "80e361e2-ced0-41ce-a678-5768344c3b7d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_DHT11",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 155.0
+                    },
+                    "uuid": "965ccec6-3b98-4e86-99a5-27568187ecfb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "封装 R_DHT",
+                    "pos": {
+                        "x": 122.5,
+                        "y": 155.0
+                    },
+                    "uuid": "4f8d8127-e6cd-444e-9cf0-3c3d02b71ad2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_MCU_L",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 140.0
+                    },
+                    "uuid": "264491a1-1ce1-43f4-b5f4-c0737b122f8b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_MCU_R",
+                    "pos": {
+                        "x": 155.12,
+                        "y": 140.0
+                    },
+                    "uuid": "683a5ff5-2aad-4c81-9cc3-7237479d36a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "封装 R_SCL",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 131.0
+                    },
+                    "uuid": "faac246d-bc9c-472e-a55b-f7b2184bac89"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "封装 R_SDA",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 128.5
+                    },
+                    "uuid": "056d4dc6-9de1-4305-a203-2ced2c06da92"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_VOICE_L",
+                    "pos": {
+                        "x": 165.8,
+                        "y": 144.0
+                    },
+                    "uuid": "ddc01b58-e517-4a38-9458-36fd0d0258d1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_VOICE_R",
+                    "pos": {
+                        "x": 191.2,
+                        "y": 144.0
+                    },
+                    "uuid": "05e29559-d88c-493e-9136-cae9a04e0634"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 JP_ASR",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 150.8
+                    },
+                    "uuid": "91738535-3b52-4b67-8ed8-8d2238fa01dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 JP_ASR_TX",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 159.0
+                    },
+                    "uuid": "c2dd6239-4421-4b93-b947-1ee14b97afa9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 JP_ASR_RX",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 167.2
+                    },
+                    "uuid": "b11a0089-3804-47c5-a7e9-b4f2cc22d545"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'SmartFan'",
+            "items": [
+                {
+                    "description": "封装 SPK1",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 114.5
+                    },
+                    "uuid": "75ca6170-6d8b-4864-82f6-a5854b70ac45"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_OLED",
+                    "pos": {
+                        "x": 178.5,
+                        "y": 126.5
+                    },
+                    "uuid": "88790688-b458-462c-b3b6-26dcf3e2e610"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_GESTURE",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 174.0
+                    },
+                    "uuid": "087fd8be-5b0f-4da8-81ff-e0d6b9bc5412"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_KEY1",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 182.5
+                    },
+                    "uuid": "3d80a36f-6d52-4775-83fc-b27ebf54bc6b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_KEY2",
+                    "pos": {
+                        "x": 149.5,
+                        "y": 182.5
+                    },
+                    "uuid": "02b7e3d9-ff92-4044-8e41-aee4531ead72"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'SmartFan'",
+            "items": [
+                {
+                    "description": "封装 J_ENC",
+                    "pos": {
+                        "x": 171.0,
+                        "y": 182.5
+                    },
+                    "uuid": "dece62c1-55df-48e4-95d0-d7f4df7daf99"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MountingHole'",
+            "items": [
+                {
+                    "description": "封装 H1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 105.0
+                    },
+                    "uuid": "87c8e8b4-44bb-4780-922d-b08967489558"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MountingHole'",
+            "items": [
+                {
+                    "description": "封装 H2",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 105.0
+                    },
+                    "uuid": "385c5b63-2bf7-4e0f-974a-f802488a34a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MountingHole'",
+            "items": [
+                {
+                    "description": "封装 H3",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 190.0
+                    },
+                    "uuid": "6ef2a4e1-1edd-4da9-8ecc-57dd5a82862c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MountingHole'",
+            "items": [
+                {
+                    "description": "封装 H4",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 190.0
+                    },
+                    "uuid": "f26091a4-5c36-46c2-92b3-2d3a5239eee6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        }
+    ]
+}

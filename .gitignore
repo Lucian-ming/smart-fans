@@ -59,3 +59,13 @@ references/**/node_modules/
 *.log
 tmp/
 out/
+
+# ---------- 第三方安装包 / 超大二进制（不入库） ----------
+# 天问Block IDE 安装包约 778MB，远超 GitHub 单文件 100MB 上限
+/twenBlock/
+/twenBlock.zip
+# KiCad 官方安装包，属于本机工具，不是项目产物
+/artifacts/kicad-10.0.7-x86_64.exe
+
+# ---------- 固件构建产物（可本地重新生成） ----------
+/firmware/build/

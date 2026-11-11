@@ -1,0 +1,66 @@
+[
+  {
+    "command": [
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "artifacts\\native_pcb_review\\candidate_precision_001\\erc_precision.json",
+      "artifacts\\native_pcb_review\\candidate_precision_001\\fan_ctrl_revB.kicad_sch"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--all-track-errors",
+      "--severity-all",
+      "--exit-code-violations",
+      "--schematic-parity",
+      "--refill-zones",
+      "--save-board",
+      "-o",
+      "artifacts\\native_pcb_review\\candidate_precision_001\\drc_precision.json",
+      "artifacts\\native_pcb_review\\candidate_precision_001\\fan_ctrl_revB.kicad_pcb"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "pcb",
+      "export",
+      "gerbers",
+      "--layers",
+      "F.Cu,B.Cu,F.Paste,B.Paste,F.Mask,B.Mask,F.Silkscreen,B.Silkscreen,Edge.Cuts",
+      "--disable-aperture-macros",
+      "--output",
+      "artifacts\\native_pcb_review\\candidate_precision_001\\native_manufacturing/",
+      "artifacts\\native_pcb_review\\candidate_precision_001\\fan_ctrl_revB.kicad_pcb"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "pcb",
+      "export",
+      "drill",
+      "--format",
+      "excellon",
+      "--excellon-units",
+      "mm",
+      "--excellon-zeros-format",
+      "decimal",
+      "--excellon-separate-th",
+      "--output",
+      "artifacts\\native_pcb_review\\candidate_precision_001\\native_manufacturing/",
+      "artifacts\\native_pcb_review\\candidate_precision_001\\fan_ctrl_revB.kicad_pcb"
+    ],
+    "exit_code": 0
+  }
+]

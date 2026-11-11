@@ -1,0 +1,69 @@
+{
+  "scope": "pcb_prototype_only",
+  "qualification": "Not full assembly or production qualification",
+  "files": [
+    {
+      "source": "D:\\smart_fans\\hardware\\kicad\\fan_ctrl_revB.kicad_pcb",
+      "target": "D:\\下载\\RevB_5V_Prototype_20261104_1856\\fan_ctrl_revB_5V.kicad_pcb",
+      "sha256": "c9cb106cdc48e9b3e44ff9b6d379062e31b24f2d6fec1b29f22d64fc3b3264a1",
+      "bytes": 1810419
+    },
+    {
+      "source": "D:\\smart_fans\\hardware\\kicad\\fan_ctrl_revB.kicad_sch",
+      "target": "D:\\下载\\RevB_5V_Prototype_20261104_1856\\fan_ctrl_revB_5V.kicad_sch",
+      "sha256": "ae4bb467b5398b3d5482221e21dfbe591e0b5d7721703dc5707e78e901f56ada",
+      "bytes": 120847
+    },
+    {
+      "source": "D:\\smart_fans\\hardware\\fabrication\\Gerber_fan_ctrl_revB_2026-11-04.zip",
+      "target": "D:\\下载\\RevB_5V_Prototype_20261104_1856\\Gerber_fan_ctrl_revB_5V.zip",
+      "sha256": "bfe54baff2aaf7d90db28aa0dba88814a05361955bbd1b8c00cc8a2489d96da5",
+      "bytes": 192974
+    },
+    {
+      "source": "D:\\smart_fans\\hardware\\fabrication\\BOM_SmartFan_RevB.xlsx",
+      "target": "D:\\下载\\RevB_5V_Prototype_20261104_1856\\BOM_SmartFan_RevB_5V.xlsx",
+      "sha256": "beb336a0bd23cbf78b15d52a3d50ee0c32064ab45a30c17ac1f7c231a55212ea",
+      "bytes": 9898
+    },
+    {
+      "source": "D:\\smart_fans\\hardware\\fabrication\\RevB_5V_Validation_Report.md",
+      "target": "D:\\下载\\RevB_5V_Prototype_20261104_1856\\RevB_5V_Validation_Report.md",
+      "sha256": "459f4c70539d821c18ab0ec1a3c55924008a9a7b50d1ce6637c568a38b99d007",
+      "bytes": 4406
+    },
+    {
+      "source": "D:\\smart_fans\\hardware\\fabrication\\RevB_5V_Prototype_Notes.md",
+      "target": "D:\\下载\\RevB_5V_Prototype_20261104_1856\\RevB_5V_Prototype_Notes.md",
+      "sha256": "3e54c9ae633ec6b5bad769d52316931bbbd1e0c09dae347fde41317eadfcf578",
+      "bytes": 3130
+    }
+  ],
+  "file_count": 6,
+  "all_hashes_match": true,
+  "review": {
+    "status": "reviewed_prototype_only",
+    "scope": "pcb_prototype_only",
+    "validation_summary_sha256": "3c1d064490453981ba7c45d7ad66307f2ddb22cda44774fc9173b4765f1da48c",
+    "unresolved_limits": [
+      "仅少量裸板首轮打样，不是整机适配或量产放行；未执行KiCad原生DRC/ERC。",
+      "TB6612排距15mm及编码器组距21mm来自用户粗测，仍须试插；OLED板框和针排到边距离未核实，必须满足安装说明，否则需改板。",
+      "实际2A载流、温升、压降、启动堵转电流及保险分断能力未实测；首次限流上电不接电机舵机。",
+      "USB调试与ASR烧录必须按说明断开对应跳帽，避免并联电源和GPIO反供。",
+      "库存未实时核验，旧外壳未重验，连续旋转MG90S限角控制及固件功能不在本次制造检查范围。"
+    ],
+    "source_sha256": {
+      "hardware/kicad/fan_ctrl_revB.kicad_pcb": "c9cb106cdc48e9b3e44ff9b6d379062e31b24f2d6fec1b29f22d64fc3b3264a1",
+      "hardware/kicad/fan_ctrl_revB.kicad_sch": "ae4bb467b5398b3d5482221e21dfbe591e0b5d7721703dc5707e78e901f56ada",
+      "hardware/fabrication/Gerber_fan_ctrl_revB_2026-11-04.zip": "bfe54baff2aaf7d90db28aa0dba88814a05361955bbd1b8c00cc8a2489d96da5",
+      "hardware/fabrication/BOM_SmartFan_RevB.xlsx": "beb336a0bd23cbf78b15d52a3d50ee0c32064ab45a30c17ac1f7c231a55212ea",
+      "hardware/fabrication/RevB_5V_Validation_Report.md": "459f4c70539d821c18ab0ec1a3c55924008a9a7b50d1ce6637c568a38b99d007",
+      "hardware/fabrication/RevB_5V_Prototype_Notes.md": "3e54c9ae633ec6b5bad769d52316931bbbd1e0c09dae347fde41317eadfcf578"
+    },
+    "destination": "D:/下载/RevB_5V_Prototype_20261104_1856"
+  },
+  "additional_evidence_files": [
+    "pcb_prototype_delivery_manifest.json"
+  ],
+  "evidence_note": "Manifest is a seventh evidence file, not a seventh primary deliverable; no self-hash."
+}

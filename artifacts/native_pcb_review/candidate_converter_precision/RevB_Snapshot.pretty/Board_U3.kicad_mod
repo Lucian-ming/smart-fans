@@ -1,0 +1,102 @@
+(footprint "Board_U3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "3.3V 稳压芯片 (1A)")
+	(property "Reference" "U3"
+		(at 0 -2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2897d329-59e7-4d39-8a5a-82db42a0b0f1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AMS1117-3.3"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "471a20cf-5bd6-489b-bbe0-a0a6b14a8aa8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d212ff29-da79-44e5-9dc5-ebba23843bf0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "3.3V 稳压芯片 (1A)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c130069-d614-45a6-ad79-6ac4e333c958")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C6186"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "e53e7e29-8c9d-4f70-94b5-25707bc5540e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" smd rect
+		(at -2.3 3.15)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2ea75c0c-dd4d-4afc-9081-9c1b908042ca")
+	)
+	(pad "2" smd rect
+		(at 0 -3.15)
+		(size 3.8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "36f666a4-3e65-473b-aaa6-12013ac9ea34")
+	)
+	(pad "2" smd rect
+		(at 0 3.15)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0cd8e899-a177-4d63-877b-80751bd65ebf")
+	)
+	(pad "3" smd rect
+		(at 2.3 3.15)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b5a0ebdf-67b8-4752-bfca-693205ed5b5a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-223.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

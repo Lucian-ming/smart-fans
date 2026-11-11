@@ -1,0 +1,1747 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-04T19:14:19",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "fan_ctrl_revB.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.2329 mm)",
+            "items": [
+                {
+                    "description": "过孔 [BUZZER_CTRL] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 156.2,
+                        "y": 109.9
+                    },
+                    "uuid": "318371ab-3081-46c7-af56-c3b69c8159a2"
+                },
+                {
+                    "description": "填充区[GND]在 B.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000002"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [BUZ_BASE] (F.Cu), 长度: 0.2000 mm",
+                    "pos": {
+                        "x": 135.0,
+                        "y": 117.7
+                    },
+                    "uuid": "6cfd9951-5a49-49e0-9d08-a211c56192d4"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [BUZ_BASE] (F.Cu), 长度: 0.1000 mm",
+                    "pos": {
+                        "x": 135.1,
+                        "y": 117.3
+                    },
+                    "uuid": "66c5eec8-35b0-4da0-9f5e-a53c15452ea9"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [BUZ_BASE] (F.Cu), 长度: 0.1000 mm",
+                    "pos": {
+                        "x": 135.0,
+                        "y": 117.5
+                    },
+                    "uuid": "797236e7-da7a-4695-884f-ac9d994fe565"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [BUZ_BASE] (F.Cu), 长度: 0.1000 mm",
+                    "pos": {
+                        "x": 134.9,
+                        "y": 117.8
+                    },
+                    "uuid": "15737de4-1b5e-46c0-883c-738bc4f51ee2"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [BUZ_BASE] (F.Cu), 长度: 0.2000 mm",
+                    "pos": {
+                        "x": 135.1,
+                        "y": 117.5
+                    },
+                    "uuid": "32d50524-7bf8-47d1-8673-5d7789298963"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [BUZ_BASE] (F.Cu), 长度: 0.1000 mm",
+                    "pos": {
+                        "x": 134.8,
+                        "y": 117.8
+                    },
+                    "uuid": "ca55c481-c459-46bf-93ba-a4c097686231"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [BUZ_BASE] (F.Cu), 长度: 2.3000 mm",
+                    "pos": {
+                        "x": 135.2,
+                        "y": 117.3
+                    },
+                    "uuid": "74ce12c9-3b5f-4804-9246-204fdb45a4b4"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [BUZ_BASE] (F.Cu), 长度: 0.8000 mm",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 118.1
+                    },
+                    "uuid": "1325ff1a-0290-4f40-a201-5e2fd5acd850"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [BUZ_BASE] (F.Cu), 长度: 0.1000 mm",
+                    "pos": {
+                        "x": 134.9,
+                        "y": 117.7
+                    },
+                    "uuid": "c32d3329-c53a-448a-88c6-ef78f69bdd7f"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [BUZ_BASE] (F.Cu), 长度: 0.3000 mm",
+                    "pos": {
+                        "x": 134.8,
+                        "y": 118.1
+                    },
+                    "uuid": "e28e1af4-fbaf-4061-a09f-a44db351067a"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [BUZ_BASE] (F.Cu), 长度: 0.3500 mm",
+                    "pos": {
+                        "x": 135.2,
+                        "y": 115.0
+                    },
+                    "uuid": "bbf79698-569a-4024-899d-f2040476d569"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "走线 [BUZ_BASE] (F.Cu), 长度: 1.4000 mm",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 119.5
+                    },
+                    "uuid": "4a047c17-2e01-473b-a03e-09e4cf7d9e74"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Q1 的PTH 焊盘 2 [BUZ_BASE]",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 119.5
+                    },
+                    "uuid": "a7b9d838-e403-40b2-a998-60449bfc4118"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Q1 的PTH 焊盘 2 [BUZ_BASE]",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 119.5
+                    },
+                    "uuid": "a7b9d838-e403-40b2-a998-60449bfc4118"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "F.Cu 上 R10 的焊盘 2 [BUZ_BASE]",
+                    "pos": {
+                        "x": 134.85,
+                        "y": 115.0
+                    },
+                    "uuid": "f0e62646-c942-48c6-a638-5739b1a6b14d"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 8 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 146.35
+                    },
+                    "uuid": "965c595b-85df-4f0d-9f9a-2357f2b3273a"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 8 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 146.35
+                    },
+                    "uuid": "965c595b-85df-4f0d-9f9a-2357f2b3273a"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 9 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 143.81
+                    },
+                    "uuid": "a9341b65-a399-4c6a-bad1-179f84f719b5"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 9 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 143.81
+                    },
+                    "uuid": "a9341b65-a399-4c6a-bad1-179f84f719b5"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 10 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 141.27
+                    },
+                    "uuid": "d719d53a-2a0d-4deb-a255-cfa22d89fe97"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 10 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 141.27
+                    },
+                    "uuid": "d719d53a-2a0d-4deb-a255-cfa22d89fe97"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 11 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 138.73
+                    },
+                    "uuid": "ea59283a-1d6b-4519-9314-05a9fa262565"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 11 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 138.73
+                    },
+                    "uuid": "ea59283a-1d6b-4519-9314-05a9fa262565"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 12 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 136.19
+                    },
+                    "uuid": "745f501d-bb2a-49f1-a415-5e3f4b0da0d6"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 12 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 136.19
+                    },
+                    "uuid": "745f501d-bb2a-49f1-a415-5e3f4b0da0d6"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 13 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 133.65
+                    },
+                    "uuid": "7349d420-63e5-4023-a735-1ef45f67696a"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 13 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 133.65
+                    },
+                    "uuid": "7349d420-63e5-4023-a735-1ef45f67696a"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 14 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 131.11
+                    },
+                    "uuid": "2184aca2-c504-4f7e-8373-18d449402ed0"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 14 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 131.11
+                    },
+                    "uuid": "2184aca2-c504-4f7e-8373-18d449402ed0"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "间距违规 (填充区 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 15 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 128.57
+                    },
+                    "uuid": "64ac7005-d0b6-4d36-912a-a08bc1cd3245"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2500 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 15 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 128.57
+                    },
+                    "uuid": "64ac7005-d0b6-4d36-912a-a08bc1cd3245"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "缓释热焊盘 (花焊盘) 与填充区的连接不完整 (层 F.Cu; 填充区 最小引线数量 2; 实际 1)",
+            "items": [
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "description": "Q1 的PTH 焊盘 1 [GND]",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 116.96
+                    },
+                    "uuid": "06a281eb-29cd-48ce-a5a8-66a3f44d1877"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "Q1 的PTH 焊盘 2 [BUZ_BASE]",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 119.5
+                    },
+                    "uuid": "a7b9d838-e403-40b2-a998-60449bfc4118"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "F.Cu 上 R10 的焊盘 2 [BUZ_BASE]",
+                    "pos": {
+                        "x": 134.85,
+                        "y": 115.0
+                    },
+                    "uuid": "f0e62646-c942-48c6-a638-5739b1a6b14d"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 8 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 146.35
+                    },
+                    "uuid": "965c595b-85df-4f0d-9f9a-2357f2b3273a"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 9 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 143.81
+                    },
+                    "uuid": "a9341b65-a399-4c6a-bad1-179f84f719b5"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 10 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 141.27
+                    },
+                    "uuid": "d719d53a-2a0d-4deb-a255-cfa22d89fe97"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 11 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 138.73
+                    },
+                    "uuid": "ea59283a-1d6b-4519-9314-05a9fa262565"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 12 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 136.19
+                    },
+                    "uuid": "745f501d-bb2a-49f1-a415-5e3f4b0da0d6"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 13 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 133.65
+                    },
+                    "uuid": "7349d420-63e5-4023-a735-1ef45f67696a"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 14 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 131.11
+                    },
+                    "uuid": "2184aca2-c504-4f7e-8373-18d449402ed0"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J_MCU_L 的PTH 焊盘 15 [<no net>]",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 128.57
+                    },
+                    "uuid": "64ac7005-d0b6-4d36-912a-a08bc1cd3245"
+                },
+                {
+                    "description": "填充区[GND]在 F.Cu 上, 优先级 0",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 101.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "当前配置中不包含封装库 'SmartFan'",
+            "items": [
+                {
+                    "description": "封装 DC1",
+                    "pos": {
+                        "x": 112.46,
+                        "y": 108.0
+                    },
+                    "uuid": "79ae2323-9374-4b9b-97bb-8ac89b69ad23"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Fuse'",
+            "items": [
+                {
+                    "description": "封装 F1",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 107.0
+                    },
+                    "uuid": "96bebcf8-2474-45f5-9fc0-b8898bb4605c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "封装 C1",
+                    "pos": {
+                        "x": 129.5,
+                        "y": 107.0
+                    },
+                    "uuid": "10e50d70-ec4d-47c3-a86b-b8b74f2a61a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "封装 C2",
+                    "pos": {
+                        "x": 129.5,
+                        "y": 112.0
+                    },
+                    "uuid": "6a047b09-0861-4ba6-9937-d54c59633b11"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Package_SO'",
+            "items": [
+                {
+                    "description": "封装 Q_PWR",
+                    "pos": {
+                        "x": 136.0,
+                        "y": 107.0
+                    },
+                    "uuid": "fb0f82e2-7669-4490-a580-4679117f5bbf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 JP_USB",
+                    "pos": {
+                        "x": 147.0,
+                        "y": 107.0
+                    },
+                    "uuid": "15273a80-9eab-4a5e-9e26-ddef411d3ea2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "封装 C3",
+                    "pos": {
+                        "x": 156.5,
+                        "y": 107.0
+                    },
+                    "uuid": "832a30c9-1ac1-4508-bb42-29002654cbd3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "封装 C4",
+                    "pos": {
+                        "x": 156.5,
+                        "y": 112.0
+                    },
+                    "uuid": "b0328e5b-f1df-435a-9131-dfc4c9674920"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'SmartFan'",
+            "items": [
+                {
+                    "description": "封装 U3",
+                    "pos": {
+                        "x": 164.0,
+                        "y": 107.0
+                    },
+                    "uuid": "3c6e81eb-4695-4a24-a3dd-650e0c165577"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "封装 C5",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 107.0
+                    },
+                    "uuid": "903121f2-830c-48bc-a266-46e55f63278a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "封装 C6",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 109.5
+                    },
+                    "uuid": "b8c94e44-adf2-4fc8-80fa-0c47fcb0491c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "封装 C7",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 112.0
+                    },
+                    "uuid": "b8149995-2dd9-4f8e-a4cc-be9e49174c75"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'LED_SMD'",
+            "items": [
+                {
+                    "description": "封装 D4",
+                    "pos": {
+                        "x": 175.0,
+                        "y": 114.5
+                    },
+                    "uuid": "8c6cea42-6768-43ba-8ba5-5632b90a84f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "封装 R1",
+                    "pos": {
+                        "x": 179.0,
+                        "y": 114.5
+                    },
+                    "uuid": "0f6a123b-f8c0-47e5-b363-9ba672eaf289"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'LED_SMD'",
+            "items": [
+                {
+                    "description": "封装 D5",
+                    "pos": {
+                        "x": 175.0,
+                        "y": 117.5
+                    },
+                    "uuid": "2f7430ce-5fb5-4293-8565-aad64aab44e5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "封装 R2",
+                    "pos": {
+                        "x": 179.0,
+                        "y": 117.5
+                    },
+                    "uuid": "f30e84ff-7690-4727-bfb9-a4dcdab15b1e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'SmartFan'",
+            "items": [
+                {
+                    "description": "封装 MOTO1",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 119.5
+                    },
+                    "uuid": "193fd7f7-23ce-4c4e-87f4-e4837a3dc37f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 SERVO1",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 119.5
+                    },
+                    "uuid": "59aedb80-be51-473e-a168-33bc720adc19"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Buzzer_Beeper'",
+            "items": [
+                {
+                    "description": "封装 BZ1",
+                    "pos": {
+                        "x": 127.5,
+                        "y": 119.5
+                    },
+                    "uuid": "a3d47dc7-a6de-4cd0-8971-bf0d1a87e0f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'SmartFan'",
+            "items": [
+                {
+                    "description": "封装 Q1",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 119.5
+                    },
+                    "uuid": "cef0c962-3a0a-4174-a8c7-4c039f60add7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'SmartFan'",
+            "items": [
+                {
+                    "description": "封装 D3",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 124.0
+                    },
+                    "uuid": "21ff7ce7-cf86-4ccf-80cd-61b0e8b9d78e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "封装 R10",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 115.0
+                    },
+                    "uuid": "7bd0e572-9daf-45ca-84a6-368658dc9d04"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_TB_L",
+                    "pos": {
+                        "x": 107.88,
+                        "y": 136.0
+                    },
+                    "uuid": "80998de5-16cf-4920-afac-3e94558e4e24"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_TB_R",
+                    "pos": {
+                        "x": 122.88,
+                        "y": 136.0
+                    },
+                    "uuid": "71f32cc1-acee-4ea0-a16f-5408b55130c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "封装 C_VM",
+                    "pos": {
+                        "x": 123.5,
+                        "y": 123.5
+                    },
+                    "uuid": "6b665f06-7dee-4cf5-a2de-89b5493c4a04"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "封装 C_VM_MLCC",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 125.5
+                    },
+                    "uuid": "474887ee-a704-4406-9a92-e8ab4a424966"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "封装 R_STBY",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 134.73
+                    },
+                    "uuid": "2c2dd550-6405-409f-a02d-1662dc530978"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_DHT11",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 155.0
+                    },
+                    "uuid": "3b19d134-d896-4674-a6be-3c1c2376941d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "封装 R_DHT",
+                    "pos": {
+                        "x": 122.5,
+                        "y": 155.0
+                    },
+                    "uuid": "c0d38d44-ef76-4706-bf82-ca7019264bb2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_MCU_L",
+                    "pos": {
+                        "x": 139.88,
+                        "y": 140.0
+                    },
+                    "uuid": "832d8536-32ee-4752-b702-576422dc284b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_MCU_R",
+                    "pos": {
+                        "x": 155.12,
+                        "y": 140.0
+                    },
+                    "uuid": "d2ae01b7-a506-4767-8580-156a3af844c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "封装 R_SCL",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 131.0
+                    },
+                    "uuid": "bfdcdbb6-b0e5-42b8-bff2-11db9ba45640"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "封装 R_SDA",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 128.5
+                    },
+                    "uuid": "451e859c-2872-4361-bbc1-5c9e43a48641"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_VOICE_L",
+                    "pos": {
+                        "x": 165.8,
+                        "y": 144.0
+                    },
+                    "uuid": "e6bdc673-6b03-432e-a60f-43ad4f17629b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_VOICE_R",
+                    "pos": {
+                        "x": 191.2,
+                        "y": 144.0
+                    },
+                    "uuid": "2fe13286-e000-4bae-9f72-996f7f69cbce"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 JP_ASR",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 150.8
+                    },
+                    "uuid": "27b7a9a2-eb47-4165-9ed5-f765733f48d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 JP_ASR_TX",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 159.0
+                    },
+                    "uuid": "d2c52dee-cb74-47fb-8c7a-a265f391ceff"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 JP_ASR_RX",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 167.2
+                    },
+                    "uuid": "e2ec2a31-24b4-405c-b056-66343565cd2f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'SmartFan'",
+            "items": [
+                {
+                    "description": "封装 SPK1",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 114.5
+                    },
+                    "uuid": "bd4fb68e-324d-4db3-b5f2-94e687bc9c06"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_OLED",
+                    "pos": {
+                        "x": 178.5,
+                        "y": 126.5
+                    },
+                    "uuid": "fa311df1-a0dc-40dd-8cdf-e77035751028"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_GESTURE",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 174.0
+                    },
+                    "uuid": "9eaa137c-6d08-45d0-8ef5-8e8c4deffd35"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_KEY1",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 182.5
+                    },
+                    "uuid": "d7eebbc6-3753-4bd9-b6c8-6e5d3a11f6f0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "封装 J_KEY2",
+                    "pos": {
+                        "x": 149.5,
+                        "y": 182.5
+                    },
+                    "uuid": "0185f32b-a5df-4e06-8da9-5b327b15958e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'SmartFan'",
+            "items": [
+                {
+                    "description": "封装 J_ENC",
+                    "pos": {
+                        "x": 171.0,
+                        "y": 182.5
+                    },
+                    "uuid": "952d62b8-7bbe-4407-9f83-3b0b4e279c71"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MountingHole'",
+            "items": [
+                {
+                    "description": "封装 H1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 105.0
+                    },
+                    "uuid": "f881051a-a368-4822-8fb7-ff3034bce187"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MountingHole'",
+            "items": [
+                {
+                    "description": "封装 H2",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 105.0
+                    },
+                    "uuid": "ddb0a82b-42a2-4681-9de1-b95bc57bd38f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MountingHole'",
+            "items": [
+                {
+                    "description": "封装 H3",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 190.0
+                    },
+                    "uuid": "1ffd5408-17ca-462a-945a-0451f1e52e25"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MountingHole'",
+            "items": [
+                {
+                    "description": "封装 H4",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 190.0
+                    },
+                    "uuid": "7fcb7f4a-0d22-4bcf-b3bd-398811a14dfd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "passed": false,
+  "geometry_interpretation_pass": false,
+  "failures": [
+    "ambiguous_geometry"
+  ],
+  "errors": [
+    {
+      "kind": "unsupported_or_ambiguous_geometry",
+      "source": "GTL Region[0]",
+      "reason": "Contour interior changes winding sign"
+    }
+  ],
+  "note": "No buffer(0), make_valid, or guessed winding repair was applied; this rejection is not by itself proof of an electrical short."
+}

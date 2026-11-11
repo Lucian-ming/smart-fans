@@ -1,0 +1,320 @@
+{
+  "sha": "5e53ddaa07e1763de6c1b17a82aafa2cb1476d4b",
+  "url": "https://api.github.com/repos/hyl64/jlcmcp/git/trees/5e53ddaa07e1763de6c1b17a82aafa2cb1476d4b",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a2fa0036c8d562bb26e27b83b1c576d34a9c63",
+      "size": 234,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/d0a2fa0036c8d562bb26e27b83b1c576d34a9c63"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b77bf2ab726c6e7cb5a81a9d3b7dc38266ebfd3d",
+      "size": 1056,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/b77bf2ab726c6e7cb5a81a9d3b7dc38266ebfd3d"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43d81cca2cdd9102a05f5322ea2a57ef2ca5281a",
+      "size": 8720,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/43d81cca2cdd9102a05f5322ea2a57ef2ca5281a"
+    },
+    {
+      "path": "legacy-jlc-bridge",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "509e09f1ba85d9ddf7e24963bded404a997d5b78",
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/trees/509e09f1ba85d9ddf7e24963bded404a997d5b78"
+    },
+    {
+      "path": "legacy-jlc-bridge/.edaignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0adb3279266f9cb3d0b36061c4867d997be233e3",
+      "size": 46,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/0adb3279266f9cb3d0b36061c4867d997be233e3"
+    },
+    {
+      "path": "legacy-jlc-bridge/build",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f05ed78fea0844116b57bd28ed697c1795109cb",
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/trees/0f05ed78fea0844116b57bd28ed697c1795109cb"
+    },
+    {
+      "path": "legacy-jlc-bridge/build/pack.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ea603495896584960187944751089c074ad5d9b",
+      "size": 3577,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/8ea603495896584960187944751089c074ad5d9b"
+    },
+    {
+      "path": "legacy-jlc-bridge/extension.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e118c927ccddf96f31481415296240f44ff29e3",
+      "size": 1046,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/1e118c927ccddf96f31481415296240f44ff29e3"
+    },
+    {
+      "path": "legacy-jlc-bridge/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "247043b9f8befd87c829df527f5564cd190dd93f",
+      "size": 751,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/247043b9f8befd87c829df527f5564cd190dd93f"
+    },
+    {
+      "path": "legacy-jlc-bridge/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "17f7acef286543d16b866fcb249a9ffb7c1efe88",
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/trees/17f7acef286543d16b866fcb249a9ffb7c1efe88"
+    },
+    {
+      "path": "legacy-jlc-bridge/src/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3601811dc216c54af9b5ed81fa4414bc5291da1f",
+      "size": 87165,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/3601811dc216c54af9b5ed81fa4414bc5291da1f"
+    },
+    {
+      "path": "legacy-jlc-bridge/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74bfdeab3d12e0c258f4b1942dfdf1981686cf21",
+      "size": 387,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/74bfdeab3d12e0c258f4b1942dfdf1981686cf21"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f45398cd2e3abea0798ce23343230bdcef44d85c",
+      "size": 68751,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/f45398cd2e3abea0798ce23343230bdcef44d85c"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d968c441da15770bbc0dce2c641a2820c01f2e8b",
+      "size": 646,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/d968c441da15770bbc0dce2c641a2820c01f2e8b"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fbca72a0756ea5c9dad9eebc77537f5c681ab0fc",
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/trees/fbca72a0756ea5c9dad9eebc77537f5c681ab0fc"
+    },
+    {
+      "path": "scripts/bridge-server.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "390f6c320ed049c12fc362f83044a39eb289323d",
+      "size": 18803,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/390f6c320ed049c12fc362f83044a39eb289323d"
+    },
+    {
+      "path": "scripts/port-plugin.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aee3667f502a0324836e75f77e36461def5a4b8d",
+      "size": 7730,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/aee3667f502a0324836e75f77e36461def5a4b8d"
+    },
+    {
+      "path": "scripts/smoke-bridge.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "685b1c5feee84136981e9d939ca785ee4f17832d",
+      "size": 19142,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/685b1c5feee84136981e9d939ca785ee4f17832d"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5d30372a21ee1436cb71e2e702872296a72e23ca",
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/trees/5d30372a21ee1436cb71e2e702872296a72e23ca"
+    },
+    {
+      "path": "src/agent.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "928998391e810dd85d2883b1f30ee68511d1957e",
+      "size": 19817,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/928998391e810dd85d2883b1f30ee68511d1957e"
+    },
+    {
+      "path": "src/bridge-client.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "982036fda806cf41717056eef1c8b8389b639810",
+      "size": 2281,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/982036fda806cf41717056eef1c8b8389b639810"
+    },
+    {
+      "path": "src/calculators.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22c6e02b2b4054ae3cacf5ef503f52845f1b6cb7",
+      "size": 4313,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/22c6e02b2b4054ae3cacf5ef503f52845f1b6cb7"
+    },
+    {
+      "path": "src/codegen.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "688b2e31f6af210f6293c5aec42d53843ee2f623",
+      "size": 1933,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/688b2e31f6af210f6293c5aec42d53843ee2f623"
+    },
+    {
+      "path": "src/codegen",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d606a8b6d8b714e54de544aaadcdd7eac29e81e8",
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/trees/d606a8b6d8b714e54de544aaadcdd7eac29e81e8"
+    },
+    {
+      "path": "src/codegen/generated.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fa69eefef37483db4415a4286946a25a91d9d1e",
+      "size": 105054,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/0fa69eefef37483db4415a4286946a25a91d9d1e"
+    },
+    {
+      "path": "src/gateway-client.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82c5221f9fa0f90c52ea0a63588c7214a9f6487a",
+      "size": 8056,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/82c5221f9fa0f90c52ea0a63588c7214a9f6487a"
+    },
+    {
+      "path": "src/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d1e11d6009fdb8ac814940506693bed3acc910b",
+      "size": 2015,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/2d1e11d6009fdb8ac814940506693bed3acc910b"
+    },
+    {
+      "path": "src/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec038dc5c6bb6eb8b5c865b9ebf77a9fa5b1a2ef",
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/trees/ec038dc5c6bb6eb8b5c865b9ebf77a9fa5b1a2ef"
+    },
+    {
+      "path": "src/tools/advanced.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "521dc5c23f5034efba094463d63a0eaaffbbba0f",
+      "size": 2306,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/521dc5c23f5034efba094463d63a0eaaffbbba0f"
+    },
+    {
+      "path": "src/tools/agent.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3441896e496d88dc0d3e83de190713b399f7b76c",
+      "size": 1545,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/3441896e496d88dc0d3e83de190713b399f7b76c"
+    },
+    {
+      "path": "src/tools/calculators.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50328c43ab42280a4314de79b174726afee74dbb",
+      "size": 4343,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/50328c43ab42280a4314de79b174726afee74dbb"
+    },
+    {
+      "path": "src/tools/components.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c41beed0c6f0f31cd04f811cfac94b9772de0f17",
+      "size": 4175,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/c41beed0c6f0f31cd04f811cfac94b9772de0f17"
+    },
+    {
+      "path": "src/tools/copper-keepout.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8209f2630db84004babac669b23a7fd3700f849a",
+      "size": 2367,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/8209f2630db84004babac669b23a7fd3700f849a"
+    },
+    {
+      "path": "src/tools/gateway.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4561f4bbec56940ca570b83bf7b12e45cd4ba79c",
+      "size": 2292,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/4561f4bbec56940ca570b83bf7b12e45cd4ba79c"
+    },
+    {
+      "path": "src/tools/pro.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3711d79671d5cde8f1c01e95f79f1464a0918b8",
+      "size": 41716,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/e3711d79671d5cde8f1c01e95f79f1464a0918b8"
+    },
+    {
+      "path": "src/tools/routing.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e1121eece668f77a5bb0fc3ad1df9997cd34d2e",
+      "size": 2172,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/1e1121eece668f77a5bb0fc3ad1df9997cd34d2e"
+    },
+    {
+      "path": "src/tools/schematic.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d84d12b8553ff47225d86e57ef17ebb11a88a843",
+      "size": 1576,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/d84d12b8553ff47225d86e57ef17ebb11a88a843"
+    },
+    {
+      "path": "src/tools/silkscreen.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "246d0781ccd249d347ba970fe1d6ae60bfab1126",
+      "size": 1370,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/246d0781ccd249d347ba970fe1d6ae60bfab1126"
+    },
+    {
+      "path": "src/tools/state.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d75bdc18b68fbfab47ddda1d7bf3a69973888d0",
+      "size": 3271,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/7d75bdc18b68fbfab47ddda1d7bf3a69973888d0"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26bb94656b5d6522858632f11092cf2d814c261b",
+      "size": 446,
+      "url": "https://api.github.com/repos/hyl64/jlcmcp/git/blobs/26bb94656b5d6522858632f11092cf2d814c261b"
+    }
+  ],
+  "truncated": false
+}
